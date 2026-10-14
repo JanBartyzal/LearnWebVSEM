@@ -62,6 +62,192 @@ Stav: ⬜ čeká na doplnění · 🟡 v obsahu je opatrná formulace, stačí p
 | 🟡 | **Zákaz platby na předváděcí akci / při podomním prodeji** | `04-jednani-se-zakazniky` | Není jisté, zda v ČR platí obecný zákaz, proto vynecháno | |
 | 🟡 | **Odpovědnost za vadný výrobek — nová směrnice** | `06-odpovednost-za-skodu` → `{#vadny-vyrobek}` | Česká transpozice směrnice EU 2024/2853 (lhůta do 12/2026) neověřena; karta popisuje dosavadní úpravu | |
 
+## Řízení lidských zdrojů
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| ⬜ | **Učebnice předmětu** | celý předmět | Ze které učebnice kurz vychází (Armstrong, Koubek, Dvořáková…)? | |
+| 🟡 | **„SRC (Social Responsible Company)"** | `04-talent-management` → `{#csr}` | Zkratka není ustálená, vyložena jako společensky odpovědná firma (CSR, tři pilíře, ISO 26000). Myslí přednáška totéž? | |
+| 🟡 | **„Oblasti s potenciálem růstu či odstranění limitů"** | `01-teoreticka-vychodiska…` → `{#oblasti-rustu-a-limitu}` | Vyloženo obecně jako analýza mezer (úzká místa × oblasti růstu). Jaké konkrétní pojetí má přednáška? | |
+| 🟡 | **„Modely porovnávacích metod k vyhodnocování efektivnosti HRM"** | `01-teoreticka-vychodiska…` → `{#hr-benchmarking}` | Pokryty druhy benchmarkingu a srovnání (v čase, s plánem, s ostatními). Jde o konkrétní pojmenované modely? | |
+| 🟡 | **„Vliv řízení kariéry"** a **„plánovité zvyšování pracovních schopností"** | `03-rizeni-kariery` → `{#rizeni-kariery}`, `{#planovity-rozvoj}` | Vyloženo jako přínosy řízení kariéry a jako rozvoj navázaný na personální plán. Odpovídá to přednášce? | |
+| 🟡 | **„Práce s měkkými faktory"** | `02-vzdelavani…` → `{#mekke-faktory}` | Vyloženo jako měkké dovednosti, postoje a kultura a jejich převod na pozorovatelné chování | |
+| 🟡 | **Role personálního manažera „v nově nadcházejícím období"** | `04-talent-management` → `{#role-personalniho-manazera}` | Uvedeny obecné trendy (strategický partner, data, digitalizace, hybridní práce, wellbeing). Které trendy má přednáška na mysli? | |
+| 🟡 | **Míra stabilizace / index stability** | `05-mobility-management` → `{#retence}` | Definice podle Armstronga. Počítá ji Koubek (česká literatura) jinak? | |
+
+## Strategický management
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| ⬜ | **Učebnice předmětu** | celý předmět | Formulace osnovy odpovídají Hill & Jones, *Strategic Management*. Platí to? Které vydání? | |
+| 🟡 | **„Možnosti a limity překročení hodnotového řetězce"** | `01-strategicka-analyza` → `{#hodnotovy-system}` | Vyloženo jako Porterův hodnotový systém (vazby na dodavatele a odběratele, outsourcing, integrace) a limity analýzy za hranicemi firmy. Co přesně tím přednáška myslí? | |
+| 🟡 | **„Klíčové funkce strategického rozvoje"** | `02-formulace-strategie` → `{#klicove-funkce}` | Vyloženo jako požadavky na funkce a schopnosti pro jednotlivé generické strategie. Jiný možný výklad: směry rozvoje (růst, stabilita, útlum) | |
+| 🟡 | **Soustavné zvyšování hodnoty pro zákazníka** | `02-formulace-strategie` → `{#soustavne-zvysovani}` | Postaveno na Hill & Jones (neustálé zlepšování, benchmarking, překonávání setrvačnosti). Odpovídá to přednášce? | |
+| 🟡 | **„Význam světové perspektivy strategie"** | `03-strategicky-management…` → `{#hnaci-sily-globalizace}` | Vyloženo obecně jako nutnost analyzovat odvětví a konkurenci v mezinárodním měřítku | |
+| 🟡 | **Kombinování globálních a národních strategií** | `03-strategicky-management…` → `{#kombinovani-strategii}` | Vyloženo obecně (rozdělení činností hodnotového řetězce, standardní jádro + lokální prvky, glokalizace). Má přednáška vlastní členění? | |
+| 🟡 | **„Aspekty taktiky při realizaci strategie"** | `04-realizace-strategie` → `{#strategie-a-taktika}` | Jen obecné srovnání strategie × taktiky; konkrétní model neznámý | |
+| 🟡 | **„Typy cest k dosažení integrace"** a **„alternativní přístupy ke kontrole"** | `04-realizace-strategie` → `{#integracni-mechanismy}`, `{#typy-kontroly}` | Vyloženo jako integrační mechanismy podle Hill & Jones a pětice typů kontroly (osobní, výstupová, byrokratická, tržní, klanová). Odpovídá to výčtu z přednášky? | |
+
+## Strategický marketing
+
+Osnova je psaná neobvyklým jazykem. Obsah stojí na standardní literatuře (Kotler & Keller, Jakubíková). Výklady nejasných formulací jsou v kartách výslovně označené a **žádná otázka na nich nestojí**.
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| ⬜ | **Učebnice / podklady předmětu** | celý předmět | Osnova „vychází z pojetí marketingových strategií různých autorů". Kterých? Existují skripta? | |
+| ⬜ | **„Boplan"** | `05-marketingovy-plan…` → `{#vazba-na-podnikovy-plan}` | Pojem neznámý, nevyložen | |
+| ⬜ | **„Certifikace strategie"** — celé téma | `06-certifikace-strategie` → `{#vymezeni-tematu}` | Vyloženo jako ověření strategie (kritéria vhodnosti, přijatelnosti a proveditelnosti; dokumentace; posuzování shody; kontrola plnění). Co téma skutečně obsahuje? | |
+| ⬜ | **„Produktivita projektanta v projektovém cyklu"** | `06-certifikace-strategie` | Nevyloženo | |
+| 🟡 | **„Zdroje porozumění, dokumentace, dotazování, dokazování shody, dodávky, pružnost"** | `06-certifikace-strategie` → `{#zdroje-porozumeni}`, `{#posuzovani-shody}`, `{#ukazatele-plneni}` | Vyloženo obecně (zdroje informací, dotazování stakeholderů, posuzování shody podle ISO/IEC 17000, provozní ukazatele) | |
+| ⬜ | **„Spojování (INV)"** | `07-marketingove-strategie…` → `{#spolecny-podnik}` | „Spojování" vyloženo jako společné podniky a aliance; zkratka INV neznámá | |
+| 🟡 | **„Programovaná distribuce"** | `07-marketingove-strategie…` → `{#distributor-zastupce}` | Vyloženo jako plánované, smluvně řízené budování distribuce v zahraničí. Nejde o konkrétní koncept (např. vertikální marketingový systém)? | |
+| ⬜ | **„Udržování vzdálenosti moci, případně pozice"** | `08-konkurence…` → `{#udrzeni-odstupu}` | Vyloženo jako udržení odstupu od konkurentů (relativní tržní podíl). Co znamená „moc"? | |
+| ⬜ | **„Lámání" životních křivek, „maximalizace stability výkonu"** | `09-zivotni-krivka` → `{#rozpoznani-faze}`, `{#portfolio-ve-fazich}` | Vyloženo jen jako práce se zlomovými body křivky a vyvážení portfolia | |
+| ⬜ | **„Kombinace životních křivek konkurentů", „časování nákupů a prodejů"** | `09-zivotni-krivka` | Nevyloženo; nepřímo se týká jen karty `{#nacasovani-vstupu}` | |
+| ⬜ | **„Konstanty a pozice vlastností v managementu kategorií"** | `10-marketingove-strategie-u-prodejcu` → `{#prezentace-v-regalu}` | Vyloženo jako atributy, podle kterých se kategorie člení a umisťuje v regálu (rozhodovací strom, planogram) | |
+| 🟡 | **„Metrologie na vznikajících trzích"** | `11-inovace…` → `{#potencial-vznikajiciho-trhu}` | Vyloženo jako měření a odhad potenciálu nově vznikajících trhů | |
+| ⬜ | **„Projektové hnutí"** | `11-inovace…` | Nevyloženo | |
+| 🟡 | **„Požadovaný výstup a disponibilní zdroj pro plánování procesu"** | `01-strategie` → `{#vystup-a-zdroje}` | Vyloženo jako vztah cílů a zdrojů (přístup zvenku dovnitř × zevnitř ven) | |
+| 🟡 | **„Formy obsazování trhů"** | `02-marketing` → `{#koncepce-prehled}` | Vyloženo jako koncepce řízení vztahu k trhu (výrobní, výrobková, prodejní, marketingová) | |
+
+## Strategie podniku
+
+Obsahově podniková ekonomika. Definice a vzorce jsou sladěné s předmětem Manažerská ekonomika.
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| ⬜ | **Učebnice předmětu** | celý předmět | Vychází kurz ze Synka *Podniková ekonomika*? | |
+| 🟡 | **Funkcionální struktura** | `06-organizacni-struktura…` → `{#funkcionalni-struktura}` | Dva významy: Taylorovi funkční mistři (česká typologie) × členění podle podnikových funkcí (anglosaská literatura, Strategický management). Který používá přednáška? | |
+| 🟡 | **Metoda řetězových podílů** | `05-rozborova-cinnost` → `{#postupne-zmeny}` | Zpracována jen metoda postupných změn (řetězová substituce). Co přesně osnova myslí „řetězovými podíly"? | |
+| 🟡 | **Fáze rozboru** | `05-rozborova-cinnost` → `{#faze-rozboru}` | Použito typické šestifázové členění (příprava, měření, rozklad, komparace, interpretace, opatření). Jak je člení přednáška? | |
+| 🟡 | **Nomenklatura × sortiment** | `02-vyrobni-cinnost…` → `{#nomenklatura-sortiment}` | Nomenklatura = výčet druhů, sortiment = podrobné členění a skladba. Odpovídá to přednášce? | |
+| 🟡 | **Funkce skladu** | `01-nakupni-prodejni…` → `{#funkce-skladu}` | Pět funkcí (vyrovnávací, zabezpečovací, spekulační, sortimentní, zušlechťovací). Ověřit počet a názvy | |
+| 🟡 | **Finanční × kapitálová struktura** | `03-financni-cinnost` → `{#struktura-kapitalu}` | Rozlišení „všechna pasiva × jen dlouhodobý kapitál" (Synek, Kislingerová). Používá ho přednáška? | |
+
+## ICT strategie
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| ⬜ | **Učebnice předmětu** | celý předmět | Vychází kurz z Voříška (*Strategické řízení IS*, model MBI)? | |
+| 🟡 | **Struktura informační strategie** | `02-strategicke-rizeni…` → `{#struktura-informacni-strategie}` | Uveden typický obsah podle Voříška (globální cíle, KFÚ, principy, architektura, projekty, zdroje), neověřený přímo v knize. Jaké členění má přednáška? | |
+| 🟡 | **Model MBI** | `02-strategicke-rizeni…` → `{#model-mbi}` | Jen přehledově; přesné členění úloh a jejich atributů nedoloženo | |
+| 🟡 | **„Analýza potenciálních zlepšení"** | `03-vztah-firemni…` → `{#analyza-zlepseni}` | Vyloženo obecně jako analýza rozdílů a prioritizace zlepšení. Jde o konkrétní metodu? | |
+| 🟡 | **Strategická × funkční integrace (model SAM)** | `03-vztah-firemni…` → `{#strategicka-integrace}`, `{#funkcni-integrace}` | České překlady se liší. Ověřit pojetí přednášky | |
+| 🟡 | **„Návrh a specifikace aplikací typu SEM"** | `04-podpora-strategickeho…` → `{#specifikace-sem}` | Popsán obecný postup; vlastní postup přednášky neznámý | |
+| 🟡 | **Uplatnění TOC v IS/ICT** | `05-metoda-toc…` → `{#toc-analyticke-aplikace}`, `{#toc-is-rizeni-vyroby}` | Formulováno opatrně jako obecné požadavky na analytické aplikace a IS pro řízení výroby | |
+| 🟡 | **Analýza řízení informatiky a kategorizace klíčových problémů** | `06-analyza-informacnich…` → `{#analyza-rizeni-informatiky}`, `{#kategorizace-problemu}` | Použit obecný postup a obecné kategorie problémů. Má přednáška vlastní metodu nebo členění? | |
+| 🟡 | **Integrační aspekty „na úrovni poskytovaných služeb"** | `07-rozvojove-cile…` → `{#integracni-aspekty-sluzeb}` | Vyloženo jako MDM, SSO, řetězec aplikací tvořící službu a monitoring integrací | |
+| 🟡 | **Projektový záměr IT** | `08-rozvojove-plany…` → `{#projektovy-zamer}` | Obsah popsán obecně; osnova záměru podle přednášky neověřena | |
+| 🟡 | **Metodologie řešení úloh BI** | `10-business-intelligence…` → `{#prirustkovy-postup}` | Fáze iterace popsány obecně; konkrétní metodika (Pour a kol.) neověřena | |
+
+## Krizový management
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| ⬜ | **Učebnice předmětu** | celý předmět | Vychází kurz ze Zuzáka & Königové (*Krizové řízení podniku*)? | |
+| 🟡 | **Fáze krize** | `03-procesni-charakter-krizi` → `{#faze-podnikove-krize}`, `{#fink-vs-podnikovy-model}` | Použity Finkovy fáze a české členění potenciální / latentní / akutní zvládnutelná / nezvládnutelná. Kolik fází a jaké názvy používá přednáška? | |
+| 🟡 | **Sociální × společenská krize** | `01-vymezeni-zakladnich-pojmu` → `{#osobni-socialni-spolecenska}` | Pracovní rozlišení podle okruhu zasažených (jednotlivec / skupina / společnost). Jak je vymezuje přednáška? | |
+| 🟡 | **Strategická / výsledková / likvidní krize** | `01-…` → `{#ekonomicka-krize}`, `03-…` → `{#posloupnost-podnikove-krize}` | Členění z německé literatury; používá přednáška název „výsledková krize", nebo „krize úspěšnosti"? | |
+| 🟡 | **Krizový management v širším × užším smyslu** | `01-…` → `{#sirsi-vs-uzsi}` | Vymezení (celý cyklus × řešení akutní krize) neověřeno proti zdroji | |
+| 🟡 | **Vnější havarijní plán — kdo zpracovává** | `02-havarie-a-katastrofy` → `{#havarijni-plany}` | Krajský úřad, nebo HZS kraje? (ověří i recenze) | |
+| 🟡 | **Fáze turnaroundu** | `06-krizove-rizeni…` → `{#faze-turnaroundu}` | Použito čtyřfázové členění (analýza → stabilizace → restrukturalizace → obnova růstu). Jak je člení přednáška? | |
+| 🟡 | **Kompetence krizového manažera** | `07-krize-stres…` → `{#kompetence-krizoveho-manazera}` | Obecné členění, ne konkrétní model z literatury | |
+| 🟡 | **Podmínky změny v krizi** | `09-krize-jako-prilezitost` → `{#podminky-zmeny}` | Vlastní syntéza z osnovy a Kotterova modelu | |
+
+## Aplikace podnikové informatiky
+
+Struktura osnovy odpovídá učebnici Gála–Pour–Šedivá, *Podniková informatika*. Definice jsou sladěné s ICT strategií.
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| ⬜ | **Učebnice předmětu** | celý předmět | Vychází kurz z Gály a kol. *Podniková informatika*? Které vydání? | |
+| 🟡 | **„Extrakty"** (osnova téma 1) | `01-vymezeni-aplikaci…` → `{#extranet}` | Zpracováno jako překlep za „extranety". Pokud jde opravdu o „extrakty", téma chybí | |
+| 🟡 | **Kategorie ERP** | `03-celopodnikove-aplikace-erp…` → `{#all-in-one-best-of-breed}` | Uvedeno All-in-One × Best-of-Breed; „Lite ERP" vynecháno (neověřeno). Jaké kategorie uvádí přednáška? | |
+| 🟡 | **Kooperační (kolaborativní) CRM** | `04-rizeni-vztah-k-zakaznikum-crm` → `{#kooperacni-crm}` | Jádrem jsou komunikační kanály (Gála); pojetí jako spolupráce s partnery je jen zmíněné. Které pojetí platí? | |
+| 🟡 | **„Správa neměnných dat"** a **„správa obsahu"** v ECM | `05-rizeni-podnikoveho-obsahu-ecm` → `{#records-management}`, `{#archivace-worm}`, `{#wcm}` | Vyloženo jako archivace, WORM a records management; „správa obsahu" jako WCM | |
+| 🟡 | **„Možnosti a standardy ebXML"** a útržek **„internetu"** v osnově | `08-elektronicka-vymena-dat-edi` → `{#ebxml}`, `{#edi-internet}` | ebXML pokryto přes cíle a architekturu (BPSS, Core Components, registr, CPP/CPA, ebMS); útržek „internetu" vyložen jako EDI přes internet | |
+| 🟡 | **Kategorizace aplikací ve veřejné správě** | `12-aplikace-ve-verejne-sprave` → `{#kategorie-aplikaci-vs}` | Kategorie „sdílené služby" doplněna; členění podle přednášky neověřeno | |
+| 🟡 | **Kdo má povinně datovou schránku** | `12-aplikace-ve-verejne-sprave` → `{#datove-schranky}` | Formulováno opatrně (orgány veřejné moci, právnické osoby, podnikající fyzické osoby); otázky na tom nestojí | |
+
+## Měření firemní výkonnosti
+
+Definice a vzorce jsou sladěné s Manažerskou ekonomikou (finanční analýza, EVA) a se Strategií podniku (rozbory).
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| ⬜ | **Učebnice předmětu** | celý předmět | Vychází kurz z Pavelkové & Knápkové, nebo ze Sedláčka? | |
+| 🟡 | **CROGA** — rozepsání v osnově | `06-financni-indikatory…` → `{#croga}` | Osnova: „Cash Returns On Net Assets"; správně Cash Return on Gross Assets (tak je v kartě). Ověřit i pojetí jmenovatele | |
+| 🟡 | **CEVA „Cash Flow Economic Value Added"** | `06-financni-indikatory…` → `{#cva}` | Zkratka není ustálená; karta vykládá CVA (Cash Value Added, BCG). Co myslí přednáška? | |
+| ⬜ | **Soustava rovnic ekonomického normálu** | `04-klasicke-modely…` → `{#ekonomicky-normal}` | Uveden jen princip (žádoucí pořadí temp růstu); konkrétní rovnice a sestava ukazatelů (Sedláček) chybí | |
+| ⬜ | **Tamariho rizikový index** a **Beermanova diskriminační funkce** | `05-alternativni-modely` → `{#tamari}`, `{#beerman}` | Jen princip; váhy, koeficienty a hranice neověřeny. Mají se učit čísla? U Tamariho se první ukazatel (finanční nezávislost) uvádí jako VK / aktiva i jako VK / cizí zdroje — který platí? | |
+| 🟡 | **Kralickův Quick test — bodová stupnice** | `05-alternativni-modely` → `{#quick-test-hodnoceni}` | Literatura uvádí stupnici 0–4 i 1–5; otázky stojí jen na slovních třídách | |
+| 🟡 | **Maticová soustava ukazatelů** | `02-soustavy-ukazatelu…` → `{#maticova-soustava}` | Vyloženo obecně (např. Performance Measurement Matrix); jak ji vymezuje přednáška? | |
+| 🟡 | **Matice BSC, rollout a index BSC** | `08-balanced-scorecard` → `{#matice-bsc}`, `{#rollout-bsc}`, `{#index-bsc}` | Obecný výklad (matice cílů × měřítek / rozpisu; vážený průměr plnění). Konkrétní metodika kurzu? | |
+| 🟡 | **Váhy kritérií EFQM 2020** | `09-efqm-excellence-model` → `{#kriteria-2020}` | Uvedeno 100/100/100/200/100/200/200 s jistotou ~85 %; otázky na vahách nestojí | |
+| 🟡 | **Smíšená odvětvová analýza** | `11-odvetvove-analyzy` → `{#druhy-analyzy}` | Vyloženo jako kombinace fundamentálního výběru a technického načasování; v literatuře spíš fundamentální / technická / psychologická | |
+| 🟡 | **Manažerské × investorské pojetí ČPK** | `03-financni-analyza…` → `{#cpk-pojeti}` | Přiřazení podle Sedláčka; ověřit pojetí přednášky | |
+
+## Systémy řízení
+
+Terminologie podle ČSN EN ISO 9000:2016. Definice jsou sladěné s Krizovým managementem (riziko, havárie), Strategickým marketingem 06 (certifikace, akreditace) a Měřením firemní výkonnosti (EFQM, Six Sigma, Pareto).
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| ⬜ | **Učebnice předmětu** | celý předmět | Vychází kurz z Vebera a kol. *Management kvality, environmentu a bezpečnosti práce*? Které vydání? | |
+| 🟡 | **Nehoda × havárie** | `01-vymezeni-zakladnich-pojmu` → `{#nehoda-skoronehoda}`, `{#udalosti-srovnani}` | Obecná definice nehody není z normy (ISO 45001 zná incident / accident / near miss); hranice vůči havárii je formulovaná opatrně | |
+| 🟡 | **Kalibrace × ověření stanoveného měřidla** | `01-…` → `{#kalibrace-overeni}` | Kdo ověřuje (ČMI, autorizovaná metrologická střediska) a kategorie měřidel jen v principu, bez čísla zákona o metrologii | |
+| 🟡 | **Efektivnost × účinnost** | `04-…` → `{#efektivnost-vs-ucinnost}` | Podle ČSN EN ISO 9000:2016 efektivnost = effectiveness, účinnost = efficiency (v ekonomii 3E opačně — na kartě upozorněno). Ověřit, že přednáška drží normové pojetí | |
+| 🟡 | **Obecná bezpečnost výrobků** | `02-misto-a-uloha…` → `{#bezpecnost-vyrobku}` | Od 12/2024 platí nařízení EU 2023/988 (GPSR); zda už nahradilo zákon 102/2001 Sb., neověřeno — zákon nejmenován | |
+| 🟡 | **Odpovědnost za vadu výrobku** | `02-…` → `{#odpovednost-vyrobce}` | Jen princip (objektivní odpovědnost); nová směrnice EU 2024/2853 (i software, transpozice do 12/2026) neuvedena | |
+| 🟡 | **Záznam o úrazu, OZO, prohlídky** | `02-…` → `{#lekarske-sluzby-urazy}`, `{#povinnosti-zamestnavatele}` | Hranice „pracovní neschopnost > 3 kalendářní dny" ověřit; početní hranice pro OZO a kdo platí vstupní prohlídku vynechány | |
+| 🟡 | **EIA — výstup řízení** | `02-…` → `{#eia}` | Uvedeno jen „stanovisko"; přesná forma po novelách (závazné stanovisko?) neověřena | |
+| 🟡 | **EMAS — detaily** | `03-prehled-pristupu…` → `{#emas}` | Klíčové ukazatele jen „např."; registrační orgán v ČR (MŽP / CENIA) a četnost aktualizace environmentálního prohlášení vynechány | |
+| 🟡 | **Přechod OHSAS 18001 → ISO 45001** | vynecháno | Datum konce přechodného období (2021, prodlouženo kvůli covidu) neověřeno | |
+| 🟡 | **Model optima nákladů na kvalitu, PAF** | `04-vyvojove-tendence…` → `{#kvalita-je-zadarmo}`, `{#model-paf}`; `07-tqm…` → `{#feigenbaum}` | Autorství (Juran / Gryna / Feigenbaum) záměrně neuvedeno | |
+| 🟡 | **LTIFR** | `04-…` → `{#ukazatele-env-bozp}` | Přepočet na 1 mil. hodin (v USA 200 000 h) — jakou konvenci používá přednáška? | |
+| 🟡 | **IATF 16949, ISO/IEC 27001, NIS2** | `04-…` → `{#iatf-16949}`, `{#opatreni-bezpecnosti}` | Core tools jen „spojované s normou"; počet opatření Annex A a nový zákon o kybernetické bezpečnosti vynechány | |
+| ⬜ | **Metoda PNH** a **Fine–Kinney** | `05-rizeni-rizik` → `{#bodove-metody}` | Význam P, N, H, výpočet a kategorie neověřeny; u Fine–Kinney jen vzorec bez škál. Učí se na přednášce? | |
+| 🟡 | **HAZOP — česká klíčová slova** | `05-…` → `{#hazop}` | Překlady se liší, uvedeny i anglické originály | |
+| 🟡 | **Integrovaný audit** | `06-audity…` → `{#kombinovany-integrovany}` | ISO 19011 zná jen kombinovaný a společný audit; jak integrovaný vymezuje přednáška? | |
+| 🟡 | **Klasifikace zjištění** (hlavní / vedlejší neshoda, pozorování) | `06-…` → `{#klasifikace-zjisteni}` | Podle ISO/IEC 17021-1 a praxe certifikačních orgánů; formulace v učebnici neověřena | |
+| 🟡 | **Dozorové audity** | `06-…` → `{#certifikacni-proces}` | „Zpravidla jednou ročně"; lhůta prvního dozoru neuvedena | |
+| 🟡 | **Demingových 7 smrtelných nemocí** | `07-tqm…` → `{#deming}` | Uvedeny jen 4 příklady, ne úplný výčet | |
+| 🟡 | **Vývoj péče o kvalitu — stádia** | `07-…` → `{#vyvoj-pece-o-kvalitu}` | Pojmenování a období stádií se v literatuře liší; jaké členění používá Veber? | |
+| 🟡 | **7. nástroj kvality** | `07-…` → `{#sedm-nastroju}` | Stratifikace, nebo vývojový diagram? Uvedeny obě varianty | |
+| 🟡 | **Národní cena kvality ČR, ocenění a úrovně uznání EFQM** | `08-excelence…` → `{#ceny-kvality}` | Rok vzniku, zajišťovatel a současné názvy ocenění a úrovní uznání neuvedeny | |
+| 🟡 | **CAF** | `08-…` → `{#caf}` | 9 kritérií, verze 2000, podpora MV ČR — bez detailu (dílčí kritéria vynechána) | |
+| ⬜ | **EFQM Model 2025?** | `08-…` → `{#efqm-model}`; MFV `09-efqm-excellence-model` | Karty vykládají model 2020 jako aktuální. Nahradila ho nová revize? Učí se na přednášce 2020? | |
+| 🟡 | **RADAR × PDCA** | `08-…` → `{#radar}` | „RADAR začíná výsledky" je výklad EFQM; rozdíl proti PDCA je spíš v důrazu | |
+
+## Management změny
+
+Lewin a Kotter jsou sladění s Krizovým managementem 09 a Řízením lidských zdrojů 05; restrukturalizace s Krizovým managementem 06 a Právem 07; inovace se Strategickým marketingem 11.
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| ⬜ | **Učebnice předmětu** | celý předmět | Z jaké literatury kurz vychází (Kotter, Carnall, česká učebnice)? | |
+| 🟡 | **„Modely fungování organizací"** (osnova téma 1) | `01-rizeni-zmen` → `{#mckinsey-7s}`, `{#mechanisticka-organicka}`, metafory | Pokryto modelem 7S, Burnsem & Stalkerem a Morganovými metaforami. Které modely myslí přednáška? | |
+| 🟡 | **Typy změn podle Ackermanové** | `01-…` → `{#ackerman-typy}` | Doplňková typologie (rozvojová / přechodová / transformační); pokud se neučí, lze kartu vypustit | |
+| 🟡 | **„70 % změn selže"** | `01-…` → `{#neuspech-zmen}` | Uvedeno jako sporné číslo (kritika Hughes 2011). Pracuje s ním přednáška jako s faktem? | |
+| 🟡 | **Carnallův model** | `02-modely-zmen` → `{#carnall-model}`, `{#carnall-kultura}`, `{#carnall-politika}` | Jistě jen tři oblasti (řízení přechodu, kultura, politika); podrobnější prvky a „vyjednávání s kulturou" z osnovy neověřeny | |
+| 🟡 | **Kotter — čísla** | `02-…` → `{#nalehavost}`; `06-lidr-pro-zmeny` → `{#preridene-a-podvedene}` | „75 % manažerů musí být přesvědčeno" (HBR 1995) a „70–90 % leadership" — ověřit; otázky na číslech nestojí | |
+| 🟡 | **Mapování Lewin–Kotter–Bridges** | `02-…` → `{#vztahy-modelu}` | Přiřazení Kotterových kroků 1–4 / 5–7 / 8 k Lewinovým fázím je běžné, ne kanonické | |
+| 🟡 | **Zaměstnanecký vynález, užitný vzor — lhůty** | `03-invence-a-inovace` → `{#zamestnanecky-vynalez}`, `{#uzitny-vzor}` | Tříměsíční lhůta zaměstnavatele a šestiměsíční „ochranná lhůta" u užitného vzoru — ověřit v aktuálním znění zákonů | |
+| ⬜ | **Podpora VaVaI v ČR** | `03-…` → `{#podpora-vavai}` | Jen obecně (RVVI, GA ČR, TA ČR, CzechInvest / API, operační programy); aktuální programy, strategie a odpočet na VaV bez detailů | |
+| ⬜ | **Valentovy řády inovací** | vynecháno | Učí se na přednášce? Pokud ano, doplním kartu | |
+| 🟡 | **Označení původu, zeměpisné označení** | `03-…` → `{#oznaceni-puvodu}` | Zemědělské produkty se registrují na úrovni EU, od 12/2025 i řemeslné a průmyslové výrobky (nařízení 2023/2411); role ÚPV a nepřevoditelnost ověřit v aktuálním znění | |
+| 🟡 | **Zaměstnanecký průmyslový vzor** | `03-…` → `{#zamestnanecky-vynalez}` | Platí „obdobně" (lhůta, odměna) i podle zákona o průmyslových vzorech? | |
+| 🟡 | **Křivka změny** | `04-lide-ve-zmene` → `{#krivka-zmeny}` | Varianty se liší; použito 7 fází (šok, popření, hněv, smlouvání, deprese, testování, integrace). Kolik fází uvádí přednáška? | |
+| 🟡 | **„Agendy změny"** (osnova téma 4) | `04-…` → `{#agendy-zmeny}` | Vyloženo podle Buchanana & Boddyho (obsahová, kontrolní, procesní agenda). Je to pojetí přednášky? | |
+| 🟡 | **Komunikace změny × ve změně** | `04-…` → `{#komunikace-zmeny-vs-ve-zmene}` | Pracovní rozlišení (oznámení × průběžná komunikace), bez doloženého zdroje | |
+| 🟡 | **Vývoj vnímání změny** | `04-…` → `{#vyvoj-vnimani-zmeny}` | Vyloženo emočním cyklem Kelleyho & Connera (1979). Myslí osnova tento model? | |
+| 🟡 | **Fáze implementace** | `04-…` → `{#faze-implementace}` | Obecné pětifázové členění; jak je člení přednáška? | |
+| 🟡 | **Fáze restrukturalizačního procesu** | `05-restrukturalizace` → `{#faze-restrukturalizace}` | Vlastní syntéza (diagnostika → stabilizace → plán → implementace → kontrola) navázaná na fáze turnaroundu z KM 06 | |
+| 🟡 | **Obranná × strategická restrukturalizace** a **individuální perspektivy** | `05-…` → `{#obranna-vs-strategicka}`, `{#individualni-perspektivy}` | Charakteristiky z obecné literatury; které skupiny a znaky uvádí přednáška? | |
+| 🟡 | **Pasivní řízení výjimkou** | `06-lidr-pro-zmeny` → `{#rizeni-vyjimkou}` | Řazení k pasivně-vyhýbavému vedení se mezi verzemi MLQ liší — formulováno opatrně | |
+| 🟡 | **Situační vedení** | `06-…` → `{#situacni-vedeni}` | Jen původní model Herseyho & Blancharda (připravenost R1–R4; telling / selling / participating / delegating). Učí přednáška tento, nebo Blanchardův SLII (D1–D4)? | |
+| 🟡 | **Coping cycle — průběh výkonu** | `04-lide-ve-zmene` → `{#coping-cycle}` | Sebeúcta se podle Carnalla obrací s odpoutáním; výkon může mít minimum až na začátku adaptace — ověřit | |
+
 ## Vyřešeno
 
 _(zatím nic)_

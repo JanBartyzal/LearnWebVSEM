@@ -61,7 +61,7 @@ Riziko může mít negativní i pozitivní dopad, proto se rozlišují dva druhy
 
 - [ ] Může dojít ke zdražení materiálu o 10 %
 - [x] Možná sleva od dodavatele při větším odběru
-- [ ] Klíčový člen týmu může během projektu odejít
+- [ ] Klíčový člen týmu může odejít
 - [ ] Zákazník již zpozdil schválení návrhu
 
 > Příležitost je nejistá událost s pozitivním dopadem na cíle — zde možná úspora nákladů. Zpoždění, které už nastalo, je problém, nikoli riziko.
@@ -210,7 +210,7 @@ Rizika se identifikují kombinací více technik; výsledky se zapisují do regi
 ### ? K čemu slouží struktura členění rizik (RBS)?
 
 - [ ] K výpočtu očekávané peněžní hodnoty
-- [ ] K rozdělení rezerv mezi jednotlivé pracovní balíky
+- [ ] K rozdělení rezerv mezi pracovní balíky
 - [ ] K určení pořadí činností v harmonogramu
 - [x] K třídění rizik podle zdrojů (kategorií)
 
@@ -284,7 +284,7 @@ Pravděpodobnost hrozby se určuje podle dostupných podkladů:
 ### ? K čemu slouží analýza scénářů („co když") v řízení rizik?
 
 - [x] Ukáže dopad možných průběhů projektu na cíle
-- [ ] Určí vlastníka každého identifikovaného rizika
+- [ ] Určí vlastníka každého rizika
 - [ ] Nahradí registr rizik souhrnným popisem
 - [ ] Zaručí, že nastane realistický scénář
 
@@ -355,7 +355,7 @@ Pravděpodobnost hrozby se určuje podle dostupných podkladů:
 
 ### ? Co v rozhodovacím stromu představuje uzel náhody?
 
-- [ ] Volbu mezi variantami, kterou činí projektový manažer
+- [ ] Volbu manažera mezi variantami
 - [x] Nejistý výsledek s pravděpodobnostmi větví
 - [ ] Konečnou hodnotu zvolené varianty
 - [ ] Kontrolní bod v harmonogramu projektu
@@ -435,7 +435,7 @@ Po provedení reakce může zůstat **zbytkové riziko** (residual risk) a reakc
 
 - [ ] Riziko se zapíše a dále se nic neplánuje
 - [ ] Riziko se předá k řešení vedení portfolia
-- [ ] Riziko se smluvně přenese na externího subdodavatele
+- [ ] Riziko se smluvně přenese na subdodavatele
 - [x] Vytvoří se rezerva a plán pro případ výskytu
 
 > Aktivní akceptace znamená, že se proti riziku preventivně nezasahuje, ale připraví se rezerva a záložní postup. Pouhé zapsání bez plánu je pasivní akceptace.

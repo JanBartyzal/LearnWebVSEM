@@ -16,7 +16,7 @@ Cíl projektu (project objective) je **konkrétní a měřitelný stav nebo výs
 
 - [ ] Popisuje jednotlivé činnosti, které tým vykoná
 - [ ] Stanovuje se až po sestavení harmonogramu
-- [x] Slouží jako měřítko úspěchu projektu
+- [x] Slouží jako měřítko úspěchu celého projektu
 - [ ] Je totožný s posláním (misí) celé organizace
 
 > Cíl popisuje požadovaný výsledek, nikoli činnosti, a stanovuje se na začátku. Právě proti němu se na konci posuzuje, zda byl projekt úspěšný.
@@ -157,7 +157,7 @@ Projektová charta (zakládací listina, project charter) je dokument vydaný **
 
 - [ ] Projektový manažer po sestavení plánu projektu
 - [x] Sponzor nebo iniciátor projektu
-- [ ] Členové projektového týmu na úvodní poradě
+- [ ] Členové týmu na úvodní poradě
 - [ ] Dodavatel na základě uzavřené smlouvy o dílo
 
 > Podle PMBOK chartu vydává iniciátor nebo sponzor projektu, který má pravomoc uvolnit zdroje; teprve chartou získává projektový manažer svou autoritu.
@@ -211,7 +211,7 @@ Skupiny procesů **nejsou fázemi** životního cyklu — v každé fázi se moh
 
 - [ ] Jsou totožné s fázemi životního cyklu projektu
 - [x] Mohou se uplatnit v každé fázi projektu
-- [ ] Probíhají vždy jen jednou a v pevném pořadí
+- [ ] Probíhají jen jednou v pevném pořadí
 - [ ] Uplatňují se jen ve fázi realizace projektu
 
 > Skupiny procesů jsou logické seskupení procesů, nikoli fáze. V každé fázi se mohou opakovat a překrývat.
@@ -302,7 +302,7 @@ Norma ISO 10006 (ve vydání 2017: Management kvality — Směrnice pro manageme
 - [x] Návodem pro management kvality v projektech
 - [ ] Certifikačním standardem pro projektové manažery
 - [ ] Metodikou výhradně pro agilní vývoj softwaru
-- [ ] Souborem 49 procesů v pěti skupinách procesů
+- [ ] Souborem 49 procesů v pěti skupinách
 
 > ISO 10006 je směrnice (guidelines) pro uplatnění managementu kvality v projektech. Certifikaci manažerů nabízí např. IPMA či PMI, 49 procesů v 5 skupinách popisuje PMBOK 6.
 

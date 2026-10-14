@@ -18,7 +18,7 @@ Model důchod–výdaje (income–expenditure model, keynesiánský model) vysv�
 
 - [ ] Cenová hladina a mzdy jsou v krátkém období fixní
 - [x] Ceny pružně vyčišťují trhy a produkt je na úrovni Y*
-- [ ] V ekonomice jsou nevyužité kapacity a nezaměstnanost
+- [ ] V ekonomice jsou nevyužité kapacity
 - [ ] Výši produktu určují plánované výdaje (poptávka)
 
 > Pružné ceny a produkt trvale na potenciální úrovni jsou předpoklady klasického modelu. Keynesiánský model důchod–výdaje naopak předpokládá fixní ceny a nevyužité kapacity, takže produkt určuje poptávka.
@@ -68,7 +68,7 @@ Pokud **Y > AE**, firmy vyrobí víc, než se prodá; neprodané zboží zvyšuj
 
 ### ? Při současném produktu jsou plánované výdaje vyšší než produkt (AE > Y). Co se bude dít?
 
-- [ ] Zásoby nad plán porostou a firmy omezí výrobu
+- [ ] Zásoby porostou a firmy omezí výrobu
 - [ ] Firmy zvýší ceny, produkt se nezmění
 - [x] Zásoby nečekaně klesnou a firmy zvýší výrobu
 - [ ] Ekonomika je v rovnováze, nic se nezmění
@@ -182,7 +182,7 @@ Paradox spořivosti (paradox of thrift, J. M. Keynes) tvrdí, že když se domá
 ### ? Proč úhrnné úspory v paradoxu spořivosti (při autonomních investicích) nevzrostou?
 
 - [x] V rovnováze S = I a investice se nezměnily
-- [ ] Vyšší úspory automaticky sníží úrokovou míru
+- [ ] Vyšší úspory sníží úrokovou míru
 - [ ] Domácnosti utratí úspory za dovoz
 - [ ] Vláda úspory odčerpá vyššími daněmi
 
@@ -312,9 +312,9 @@ Vyšší sazba t znamená větší únik do daní a **menší multiplikátor**.
 
 ### ? Jak se v keynesiánském kříži projeví zvýšení sazby důchodové daně t?
 
-- [ ] AE se posune rovnoběžně dolů, multiplikátor se nezmění
+- [ ] AE se posune rovnoběžně dolů, multiplikátor stejný
 - [x] AE se zploští, multiplikátor i rovnovážné Y klesnou
-- [ ] AE se zestrmí, multiplikátor i rovnovážné Y vzrostou
+- [ ] AE se zestrmí, multiplikátor i Y vzrostou
 - [ ] AE se nezmění, klesne jen disponibilní důchod
 
 > Sklon AE je c(1 − t); vyšší t ho snižuje, AE se otočí dolů a protne 45° čáru při nižším Y. Rovnoběžný posun by způsobila změna paušální daně Ta.

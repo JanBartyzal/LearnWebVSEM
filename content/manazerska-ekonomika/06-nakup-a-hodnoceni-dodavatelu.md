@@ -79,7 +79,7 @@ Cíle jsou často **v konfliktu**: nejnižší cena proti kvalitě a spolehlivos
 
 - [ ] S kvalitou nakupovaných vstupů
 - [ ] S využitím inovací dodavatelů
-- [ ] Se spolehlivostí a včasností dodávek materiálu
+- [ ] Se spolehlivostí dodávek
 - [x] S nízkou vázaností kapitálu v zásobách
 
 > Jednorázový nákup roční spotřeby sníží cenu, ale zvýší průměrnou zásobu, a tím vázaný kapitál i náklady skladování. Nákup musí porovnat slevu s těmito náklady.
@@ -198,7 +198,7 @@ Při potřebě nad Q_k je výhodnější vyrábět, pod Q_k nakupovat. Výsledek
 ### ? Co NEPATŘÍ mezi relevantní náklady při rozhodování make-or-buy?
 
 - [ ] Materiál spotřebovaný na výrobu dílu
-- [ ] Mzdy dělníků, kteří by díl vyráběli ve vlastní dílně
+- [ ] Mzdy dělníků, kteří by díl vyráběli
 - [x] Odpisy stávající haly, nesené i bez této výroby
 - [ ] Nájem stroje pořízeného jen kvůli výrobě dílu
 
@@ -250,7 +250,7 @@ U nového nákupu proběhnou všechny etapy; u přímého opakovaného nákupu o
 
 - [x] Dodavatelé postupně snižují nabídky a vítězí nejnižší cena
 - [ ] Odběratelé přihazují a vítězí nejvyšší nabídnutá cena
-- [ ] Dodavatel předloží jedinou zapečetěnou nabídku bez možnosti změny
+- [ ] Dodavatel předloží jedinou zapečetěnou nabídku
 - [ ] Cena se sjedná osobně s jediným oslovením dodavatelem
 
 > V reverzní (obrácené) aukci soutěží prodávající: v reálném čase vidí aktuální nejlepší nabídku a cenu snižují. Přihazování kupujících je klasická aukce.
@@ -330,7 +330,7 @@ V praxi se často **kombinují**: centrála vyjedná rámcové smlouvy a závody
 
 ### ? Podnik porovnává asijského dodavatele s nižší cenou a českého dodavatele. Co musí v rámci global sourcingu zohlednit kromě nabídnuté ceny?
 
-- [ ] Pouze dopravní náklady, ostatní vlivy jsou zanedbatelné
+- [ ] Pouze dopravní náklady
 - [ ] Jen cenu přepočtenou aktuálním kurzem měny
 - [x] Dopravu, cla, delší dodací lhůty a kurzové riziko
 - [ ] Pouze to, zda má dodavatel certifikát ISO 9001
@@ -415,7 +415,7 @@ Norma ISO 9001 vyžaduje, aby organizace stanovila kritéria pro hodnocení, vý
 
 - [x] Ze statistik včasnosti, vadnosti a reklamací
 - [ ] Z referencí od jiných zákazníků dodavatele
-- [ ] Z prvního vyplněného dotazníku před zahájením spolupráce
+- [ ] Ze vstupního dotazníku před spoluprací
 - [ ] Z cenové nabídky podané ve výběrovém řízení
 
 > Průběžné hodnocení měří skutečnou výkonnost dodavatele během spolupráce. Reference, vstupní dotazník a nabídka jsou podklady vstupního hodnocení.
@@ -534,6 +534,6 @@ Podle výsledku (váženého) hodnocení se dodavatelé zařazují do tříd, na
 - [x] Významný dodavatel nevyhovuje, nutná náprava či náhrada
 - [ ] Rozpor je jen formální, rozhoduje objem nákupu
 - [ ] Dodavatel je preferovaný, protože patří do skupiny A
-- [ ] Dodavatele je třeba okamžitě vyřadit bez dalšího jednání
+- [ ] Dodavatele je třeba okamžitě vyřadit
 
 > ABC podle objemu ukazuje význam dodavatele, třída podle hodnocení jeho výkonnost. Nevyhovující výkon u významného dodavatele je prioritní riziko: obvykle se vyžadují nápravná opatření a souběžně se hledá alternativa.

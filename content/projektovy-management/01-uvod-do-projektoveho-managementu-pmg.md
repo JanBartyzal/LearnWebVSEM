@@ -17,7 +17,7 @@ Projektový management (PMG) je specializovaná disciplína managementu, která 
 ### ? Který milník se obvykle uvádí jako počátek moderního projektového managementu jako samostatné disciplíny?
 
 - [ ] Vydání normy ISO 9001 v 80. letech 20. století
-- [ ] Vznik první verze metodiky PRINCE2 v 90. letech
+- [ ] Vznik metodiky PRINCE2 v 90. letech
 - [ ] Sepsání Manifestu agilního vývoje v roce 2001
 - [x] Vznik síťových metod CPM a PERT v 50. letech
 
@@ -26,7 +26,7 @@ Projektový management (PMG) je specializovaná disciplína managementu, která 
 ### ? Jak se projektový management vztahuje k obecnému managementu?
 
 - [x] Uplatňuje manažerské funkce na dočasné, jedinečné úkoly
-- [ ] Nahrazuje liniový management ve všech činnostech organizace
+- [ ] Nahrazuje liniový management ve všech činnostech
 - [ ] Je samostatný obor bez vazby na manažerské funkce
 - [ ] Zabývá se pouze technickým plánováním termínů
 
@@ -54,7 +54,7 @@ Projektový management (řízení projektů, *project management*) je podle PMI 
 - [ ] Trvalé řízení provozních procesů s cílem jejich standardizace
 - [x] Aplikace znalostí a technik na projektové činnosti ke splnění požadavků
 - [ ] Výběr a prioritizace projektů podle strategických cílů organizace
-- [ ] Koordinované řízení souvisejících projektů pro dosažení společných přínosů
+- [ ] Koordinované řízení souvisejících projektů pro společné přínosy
 
 > PMI definuje projektový management jako aplikaci znalostí, dovedností, nástrojů a technik na projektové činnosti. Výběr a prioritizace projektů je řízení portfolia, koordinace souvisejících projektů je řízení programu.
 
@@ -113,10 +113,10 @@ Projekt se pozná podle souboru typických atributů:
 
 ### ? Proč je u projektu zpravidla vyšší nejistota než u rutinní činnosti?
 
-- [ ] Protože projekty nemají stanovený rozpočet ani termín
+- [ ] Protože projekty nemají rozpočet ani termín
 - [x] Protože výsledek je jedinečný a chybí s ním zkušenost
 - [ ] Protože projektový tým nemá určeného vedoucího
-- [ ] Protože projekty nepodléhají kontrole vedení organizace
+- [ ] Protože projekty nepodléhají kontrole vedení
 
 > Jedinečnost znamená, že totéž se dosud přesně takto nedělalo, a proto nelze plně vycházet z minulé zkušenosti. Projekty přitom mají rozpočet, termín, vedoucího i kontrolu.
 
@@ -396,7 +396,7 @@ ISO 21500 je mezinárodní norma, která poskytuje **obecné vodítko a koncepty
 - [ ] Certifikuje kompetence projektových manažerů ve čtyřech úrovních
 - [x] Je obecným vodítkem, nikoli certifikační normou
 - [ ] Je metodikou s pevně předepsanými rolemi a sedmi procesy
-- [ ] Je americkým standardem, který vydává a spravuje PMI
+- [ ] Je americkým standardem institutu PMI
 
 > ISO 21500 je mezinárodní návod (guidance) k řízení projektů. Čtyřúrovňová certifikace patří IPMA, sedm procesů metodice PRINCE2 a PMI vydává PMBOK® Guide.
 
@@ -467,7 +467,7 @@ Certifikace PRINCE2® (uděluje PeopleCert, dříve AXELOS) má dvě základní 
 
 - [x] Schopnost použít a přizpůsobit metodiku v praxi
 - [ ] Pouze znalost základních principů a terminologie PRINCE2
-- [ ] Délku doložené praxe v roli projektového manažera
+- [ ] Délku praxe projektového manažera
 - [ ] Kompetence pro řízení portfolia projektů organizace
 
 > Practitioner ověřuje praktické použití a přizpůsobení metodiky. Znalost terminologie a principů ověřuje úroveň Foundation; délku praxe PRINCE2 nezkoumá.

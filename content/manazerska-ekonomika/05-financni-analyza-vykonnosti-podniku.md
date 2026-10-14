@@ -712,11 +712,11 @@ Pyramida umožňuje kvantifikovat, **jak velkou měrou se změny dílčích ukaz
 
 Účelově vybrané soustavy ukazatelů hodnotí finanční zdraví podniku jedním souhrnným číslem:
 
-| | Bankrotní modely | Bonitní modely |
-|---|---|---|
-| Otázka | Hrozí podniku v blízké budoucnosti bankrot (finanční tíseň)? | Jak kvalitní (bonitní) je podnik, jak si stojí ve srovnání s jinými? |
-| Princip | vážený součet ukazatelů odvozený statisticky (např. diskriminační analýzou) z dat zdravých a zbankrotovaných podniků | bodové hodnocení a zařazení podniku do třídy bonity |
-| Příklady | **Altmanovo Z-skóre**, Tafflerův model, indexy IN95, IN01 a IN05 (manželé Neumaierovi) | Kralickův Quick test, Tamariho model, index IN99 |
+| | Bankrotní modely | Bonitní modely | Kombinované indexy |
+|---|---|---|---|
+| Otázka | Hrozí podniku v blízké budoucnosti bankrot (finanční tíseň)? | Jak kvalitní (bonitní) je podnik, jak si stojí ve srovnání s jinými? | Obojí — pohled věřitele i vlastníka v jednom čísle |
+| Princip | vážený součet ukazatelů odvozený statisticky (např. diskriminační analýzou) z dat zdravých a zbankrotovaných podniků | expertní bodové hodnocení a zařazení do třídy bonity (Quick test, Tamari); IN99 je statisticky odvozený vážený součet | vážený součet ukazatelů odvozený statisticky |
+| Příklady | **Altmanovo Z-skóre**, Tafflerův model, věřitelský index IN95 (manželé Neumaierovi) | Kralickův Quick test, Tamariho model, vlastnický index IN99 | indexy IN01 a IN05 (manželé Neumaierovi) |
 
 **Altmanovo Z-skóre** (E. Altman, 1968, pro akciové společnosti obchodované na burze): Z = 1,2·X₁ + 1,4·X₂ + 3,3·X₃ + 0,6·X₄ + 1,0·X₅, kde X₁ = ČPK / A, X₂ = nerozdělený zisk / A, X₃ = EBIT / A, X₄ = tržní hodnota VK / cizí zdroje, X₅ = T / A. Z > 2,99 — finančně zdravý podnik; 1,81–2,99 — šedá zóna; Z < 1,81 — vážné finanční problémy.
 
