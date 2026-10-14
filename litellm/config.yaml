@@ -1,0 +1,26 @@
+# LiteLLM brána: jednotné OpenAI-kompatibilní API pro backend.
+# Upstream = Kilo Gateway (KiloCode API, OpenAI-kompatibilní).
+# Backend volá vždy alias modelu (Llm:Model), nikdy přímo poskytovatele —
+# výměna modelu/poskytovatele = změna jen tohoto souboru.
+
+model_list:
+  # Výchozí model pro návrhy výukového obsahu (karty + otázky)
+  - model_name: content-default
+    litellm_params:
+      model: openai/anthropic/claude-sonnet-4.5
+      api_base: os.environ/KILOCODE_API_BASE
+      api_key: os.environ/KILOCODE_API_KEY
+
+  # Automatický výběr modelu na straně Kilo Gateway
+  - model_name: content-auto
+    litellm_params:
+      model: openai/kilo-auto/balanced
+      api_base: os.environ/KILOCODE_API_BASE
+      api_key: os.environ/KILOCODE_API_KEY
+
+litellm_settings:
+  drop_params: true
+  request_timeout: 300
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY

@@ -1,0 +1,62 @@
+name: learnweb
+
+services:
+  db:
+    image: postgres:18-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: learnweb
+      POSTGRES_USER: learnweb
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-learnweb}
+    volumes:
+      - db-data:/var/lib/postgresql
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U learnweb -d learnweb"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      ConnectionStrings__LearnWeb: "Host=db;Port=5432;Database=learnweb;Username=learnweb;Password=${POSTGRES_PASSWORD:-learnweb};GSS Encryption Mode=Disable"
+      Content__Directory: /content
+      Content__SeedOnEmptyDatabase: "true"
+      Llm__BaseUrl: http://litellm:4000/v1
+      Llm__ApiKey: ${LITELLM_MASTER_KEY:-sk-learnweb-local}
+      Llm__Model: ${LLM_MODEL:-content-default}
+    volumes:
+      - ./content:/content:ro
+    ports:
+      - "${API_PORT:-8080}:8080"
+
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "${WEB_PORT:-8090}:80"
+
+  # Volitelná AI brána — aplikace běží i bez ní (LLM slouží jen pro návrhy obsahu).
+  litellm:
+    image: ghcr.io/berriai/litellm:main-stable
+    restart: unless-stopped
+    command: ["--config", "/app/config.yaml", "--port", "4000"]
+    environment:
+      LITELLM_MASTER_KEY: ${LITELLM_MASTER_KEY:-sk-learnweb-local}
+      KILOCODE_API_BASE: ${KILOCODE_API_BASE:-https://api.kilo.ai/api/gateway}
+      KILOCODE_API_KEY: ${KILOCODE_API_KEY:-}
+    volumes:
+      - ./litellm/config.yaml:/app/config.yaml:ro
+    ports:
+      - "${LITELLM_PORT:-4000}:4000"
+
+volumes:
+  db-data:

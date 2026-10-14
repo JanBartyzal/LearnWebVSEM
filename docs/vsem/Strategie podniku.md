@@ -1,0 +1,8 @@
+"Předmět seznamuje s podstatou, analýzou a řízením základních činností podniku z hlediska jejich předmětového zaměření (marketing, nákup, výroba, prodej, financování, investování a rozborová činnost) a vytváří tak obsahové i metodologické východisko pro navazující odborně specifikované předměty studijního programu.
+•	Nákupní, prodejní a marketingová činnost: Nákup surovin a dalších materiálů, problematika skladování. Úkoly a organizace prodejních a marketingových činností: výzkum trhu, marketingová komunikace, tvorba cen, distribuce.
+•	Výrobní činnost, výrobní činitelé, výrobní kapacita: Celkové pojetí výrobní činnosti, význam a pojetí produkční funkce. Optimalizace struktury výroby, charakteristika výrobní kapacity jako určujícího prvku výrobní činnosti. Charakteristika výrobního programu (objem, nomenklatura, sortiment a jakost).
+•	Finanční činnost: Obsah, úkoly a organizace finančního managementu. Získávání kapitálu pro běžné a mimořádné potřeby. Rozhodování o struktuře kapitálu a jeho alokaci. Podstata a význam finanční analýzy. Toky peněz (cash flow) a jejich vztah k zisku podniku, řízení peněžních toků. Finanční plánování.
+•	Investiční činnost: Jednotlivé druhy financování a plánování investic. Hodnocení efektivnosti investic a jeho metody. Způsoby srovnání investičních variant a determinanty investičního rozhodování. Vyjádření investičního rizika.
+•	Rozborová činnost: Podstata, význam, předmět a subjekty rozborové činnosti podniku. Ukazatele analýzy činnosti podniku a princip její tvorby s vyústěním do charakteristiky fáze komparace a interpretace výsledků rozborové činnosti.
+•	Organizační struktura podniku: Význam organizace podniku a její vnitřní struktury, příklady organizačních typů podniků.
+"

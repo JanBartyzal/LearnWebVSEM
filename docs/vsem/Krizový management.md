@@ -1,0 +1,11 @@
+"Předmět vymezuje a rozvíjí základní pojmy krizového managementu. Zaměřuje se na vazby mezi nebezpečím, rizikem a krizí. Důraz je kladen především na předcházení krizových stavů, na jejich včasné identifikování a vytváření systémů, které umožní organizaci přípravy na potenciální krizové situace a včasnou a adekvátní reakci na ně s cílem zabránění vzniku negativních důsledků. Obsahuje postupy, jak krizové situace řešit, jaké jsou kladeny požadavky na manažery v krizovém období a v čem se krizové řízení odlišuje od řízení v mimokrizovém období. 
+•	Vymezení základních pojmů: Krize, riziko, nebezpečí, vzájemné vazby. Druhy rizik, snižování rizika. Druhy krizí – osobní, sociální, společenská, v důsledku živelních pohrom a havárií, ekonomická, krizové řízení, přístupy ke krizovému řízení. 
+•	Havárie a katastrofy: Vymezení základních pojmů. Dopady havárií a katastrof. Předcházení a zvládání havárií a katastrof, legislativa a povinnosti organizací a státní správy.
+•	Procesní charakter krizí: Krizový vývoj a jeho fáze. Krizové řízení v jednotlivých fázích. Včasné odhalování krizového vývoje, informační a kontrolní systémy. Systémy včasného varování. 
+•	Krizové scénáře a krizové plány: Vymezení pojmů. Cíl, struktura a požadavky na zpracování scénářů a plánů. Využití a postup implementace. Trénink na krizové situace. Dokumentace. Legislativa. Business Continuity Management.
+•	Krizová komunikace: Vnitřní a vnější komunikace, její cíl a význam. Zásady krizové komunikace. Příprava a nácvik krizové komunikace. Kompetence krizového komunikátora. Pověst podniku a krizová komunikace s medii.
+•	Krizové řízení v akutní fázi krize: Identifikace akutní krize a její charakter. Možné postupy řešení akutní krize. Strategie turnaround, její specifika a požadavky na implementaci.
+•	Krize, stres, podniková kultura: Faktory ovlivňující vznik krize a krizové řízení. Význam stresu při vzniku krize a zvyšování odolnosti proti němu. Osobnost krizového manažera a požadavky na jeho kompetence.
+•	Krizový tým: Požadavky na krizový tým. Vytváření krizového týmu a jeho struktura.
+•	Krize jako příležitost: Chápání krize jako výrazného podnětu pro změnu. Podmínky, které umožňují změnu v podmínkách krize realizovat. 
+"

@@ -1,0 +1,6 @@
+Cílem je vybudovcat apliakci na výuku předmetů VSEM, které budou probírány. 
+Aplikace bude postupne formou citací a karet procházet všechny detaily zvoleného předmetu, navrhovat testy formou itázet s výběrem z odpovedi z více možností.
+
+Apliakce si bude pamatovat špatné odpovedi a bude pomocí zpětné vazby opakovat karty. Učební proces bude spíše hravou formou než opakovaoou hrubou citací.
+
+Cílem je naučit studenta látku daného předmetu, aby obstál u zkoušek.

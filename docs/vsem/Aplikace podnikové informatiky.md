@@ -1,0 +1,14 @@
+"Cílem předmětu je vytvořit komplexní představu studentů o současných i perspektivních možnostech informačních systémů v praxi. Je orientován aplikačně, to znamená, že podává přehled o jednotlivých typech aplikací a jejich podstatných parametrech a přístupech k implementaci a užití.
+•	Vymezení aplikací v podnikové informatice: podstata aplikací, kategorizace aplikačního software. Přehled hlavních typů aplikací, podnikové portály, intranety a extrakty. Poptávka a nabídka aplikací na ICT trhu.
+•	Řízení aplikací v podnikové informatice: Řešení podnikové architektury, metodiky a metody řízení aplikací. Životní cyklus aplikace. Strategické aplikace.
+•	Celopodnikové aplikace – ERP (Enterprise Resource Planning): podstata a principy ERP, kategorie aplikací, jádro podnikové informatiky, funkcionalita, příklady v užití a provozu, přístupy k implementaci, přehled hlavních produktů na ICT trhu. Branžová řešení. Efekty ERP.
+•	Řízení vztah k zákazníkům (CRM): CRM v řízení podniku, principy řešení CRM – operační CRM, kooperační CRM, analytické CRM. Funkcionalita. Faktory úspěšnosti.
+•	Řízení podnikového obsahu (ECM): principy řešení ECM, úlohy ECM – správa dokumentů (DMS), řízení a podpora spolupráce (groupware), řízení pracovních postupů a procesů (workflow), správa obsahu, analytické nástroje v ECM, správa neměnných dat, správa multimediálních dat, správa dokumentace výrobků (PLM).
+•	Konkurenční zpravodajství (Competitive Intelligence): CI a jeho podpora pro řízení podniku, principy konkurenčního zpravodajství, typy aplikací podporující CI, Přínosy a výhody aplikací pro CI.
+•	Aplikace elektronického podnikání (eBusiness): Vymezení možností a rozdílů jednotlivých typů aplikací elektronického podnikání (elektronický obchod, elektronické zásobování, elektronická tržiště) - hlavní principy, dopady aplikací a technologií elektronického podnikání do řízení firmy, efekty, přístupy k implementaci, přehled hlavních produktů na ICT trhu.
+•	Elektronická výměna dat (EDI): principy EDI, využití infrastruktury, VAN sítě, inhouse formát, požadavky na EDI komunikaci, standard UN/EDIFACT, EDI konvertory, internetu, ostatní standardy (EDIFACT, ODETTE…), možnosti a standardy ebXML. Architektura ebXML. Standardy AS1, AS2, AS3.
+•	Mobilní obchodování (mCommerce): mobilní podnikání a mobilní obchodování. Principy řešení mCommerce. Možnosti a funkce mCommerce. Efekty mCommerce.
+•	Řízení dodavatelských řetězců (APS/SCM): principy a funkcionalita aplikací APS/SCM, efekty aplikací APS/SCM.
+•	Elektronické vzdělávání (eLearning): Historický vývoj a podstata eLearningu, virtuální třída, blended learning a jiné formy výuky, LMS – systém pro řízení výuky, Efekty aplikací eLearningu. mLearning jako navazující forma výuky. Omezení a nevýhody mobilní výuky.
+•	Aplikace ve veřejné správě: eGovernment, informatizace veřejné správy. Kategorizace aplikací ve veřejné správě. Základní registry, CzechPOINT, datové schránky. Efekty aplikací veřejné správy.
+"
