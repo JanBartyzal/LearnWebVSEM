@@ -227,7 +227,7 @@ Rychlý odhad dává **pravidlo 72**: doba zdvojnásobení částky při složen
 | Růst částky | lineární | exponenciální |
 | Typické použití | krátkodobé operace do 1 roku (termínované vklady, pokladniční poukázky, operace peněžního trhu); doba se vyjadřuje jako `dny / 360` nebo `dny / 365` podle konvence | víceleté vklady, úvěry, investiční rozhodování, diskontování peněžních toků |
 
-Pro jedno celé období dávají obě metody stejný výsledek; rozdíl roste s délkou doby a výší sazby. U krátkodobých operací se úrok vypočte `PV · r · dny / 360` (v ČR je na peněžním trhu obvyklá konvence 360 dní, jinde 365).
+Pro jedno celé období dávají obě metody stejný výsledek; rozdíl roste s délkou doby a výší sazby. U krátkodobých operací se úrok vypočte `PV · r · dny / 360` — na českém peněžním trhu platí konvence **ACT/360** (skutečný počet dní / 360); s ní se počítají i referenční sazby **PRIBOR** (podle pravidel jejich administrátora, s výjimkou sazby O/N). Jinde se používá i konvence 365 dní.
 
 ### ? Podnik uloží 500 000 Kč na 4 roky při sazbě 4 % p. a. O kolik bude konečná hodnota při složeném úročení s ročním připisováním vyšší než při jednoduchém úročení?
 

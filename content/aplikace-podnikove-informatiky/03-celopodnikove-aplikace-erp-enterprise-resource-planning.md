@@ -137,17 +137,20 @@ ERP zajišťuje transakce a sdílená data, navazující aplikace přidávají s
 
 > Plánování poptávky a koordinace toků v dodavatelském řetězci jsou úlohami SCM a APS, které navazují na data z ERP.
 
-## All-in-One × Best-of-Breed {#all-in-one-best-of-breed .compare}
+## Kategorie ERP: All-in-One × Best-of-Breed × Lite ERP {#all-in-one-best-of-breed .compare}
 
-Firma může podnikové aplikace pořizovat dvěma základními přístupy.
+Kategorizace ERP v literatuře není jednotná; běžně (např. Basl & Blažíček) se rozlišují tři kategorie.
 
-| | All-in-One (komplexní ERP) | Best-of-Breed (nejlepší ve své třídě) |
-|---|---|---|
-| Princip | jeden integrovaný systém od jednoho dodavatele pokrývá většinu procesů | pro každou oblast se vybere nejlepší specializovaná aplikace |
-| Integrace | vnitřní, daná společnou databází | nutno řešit propojením (rozhraní, integrační platforma) |
-| Funkční hloubka | standardní, v některých oblastech slabší | vysoká v jednotlivých oblastech |
-| Správa a upgrade | jednodušší, jeden dodavatel | složitější, více dodavatelů a verzí |
-| Hlavní riziko | závislost na jednom dodavateli | nekonzistence dat, náklady na integraci |
+| | All-in-One (komplexní ERP) | Best-of-Breed (nejlepší ve své třídě) | Lite ERP (odlehčené ERP) |
+|---|---|---|---|
+| Princip | jeden integrovaný systém od jednoho dodavatele pokrývá většinu procesů | pro každou oblast se vybere nejlepší specializovaná aplikace | zjednodušený ERP se základními moduly a standardními procesy |
+| Typický zákazník | velké a střední firmy | firmy se specifickými požadavky v jednotlivých oblastech | malé a střední podniky (MSP) |
+| Integrace | vnitřní, daná společnou databází | nutno řešit propojením (rozhraní, integrační platforma) | vnitřní, v jednom systému |
+| Funkční hloubka | standardní, v některých oblastech slabší | vysoká v jednotlivých oblastech | nižší, omezené přizpůsobení |
+| Implementace a správa | náročná, ale jeden dodavatel | složitější, více dodavatelů a verzí | rychlá a levná, často jako SaaS |
+| Hlavní riziko | závislost na jednom dodavateli | nekonzistence dat, náklady na integraci | systém nestačí růstu a specifickým potřebám firmy |
+
+Napříč kategoriemi se nabízejí **branžová (oborová) řešení** — ERP předem přizpůsobené určitému odvětví.
 
 ### ? Firma kombinuje ERP jednoho dodavatele, specializovaný skladový systém od druhého a CRM od třetího a propojuje je rozhraními. Jaký přístup uplatňuje?
 
@@ -166,6 +169,15 @@ Firma může podnikové aplikace pořizovat dvěma základními přístupy.
 - [ ] Nemožnost zvolit specializované řešení
 
 > Aplikace od různých dodavatelů je nutné propojit a udržovat jejich rozhraní, což je drahé a hrozí nekonzistence dat. Závislost na jednom dodavateli je riziko All-in-One.
+
+### ? Malá obchodní firma s 15 zaměstnanci potřebuje rychle a levně zavést účetnictví, sklad a fakturaci se standardními procesy, bez rozsáhlého přizpůsobení. Která kategorie ERP jí nejlépe odpovídá?
+
+- [ ] Komplexní ERP typu All-in-One
+- [ ] Sada specializovaných aplikací Best-of-Breed
+- [x] Odlehčené ERP (Lite ERP)
+- [ ] Vlastní vývoj ERP na zakázku
+
+> Lite ERP je zjednodušený systém se základními moduly a standardními procesy určený pro malé a střední podniky, s rychlou a levnou implementací. Komplexní ERP i Best-of-Breed jsou pro takovou firmu zbytečně nákladné, vlastní vývoj je nejdražší a nejpomalejší.
 
 ## Funkcionalita ERP — moduly {#moduly-erp .compare}
 

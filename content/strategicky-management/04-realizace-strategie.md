@@ -264,12 +264,12 @@ Horizontální diferenciace určuje, **jak se úkoly seskupují do útvarů** na
 
 Integrační mechanismy jsou „cesty k dosažení integrace" — nástroje koordinace mezi útvary. Hill a Jones je řadí od nejjednodušších po nejsložitější:
 
-1. **Přímý kontakt** — manažeři útvarů řeší společné problémy přímo mezi sebou.
+1. **Přímý kontakt** (direct contact) — manažeři útvarů řeší společné problémy přímo mezi sebou.
 2. **Styčné role** (liaison roles) — určený pracovník útvaru má koordinaci s jiným útvarem jako součást své náplně.
 3. **Dočasné pracovní skupiny** (task forces) — zástupci útvarů řeší konkrétní problém a po jeho vyřešení se rozpustí.
-4. **Stálé týmy** — trvalé mezifunkční skupiny pro opakující se úkoly.
-5. **Integrační role** — samostatná pozice, jejíž hlavní náplní je koordinace útvarů (např. produktový manažer); případně celý integrační útvar.
-6. **Maticová struktura** — nejsložitější mechanismus, v němž je integrace zabudována do celé struktury.
+4. **Týmy** (teams) — stálé mezifunkční skupiny pro opakující se úkoly.
+5. **Integrační role a integrační útvary** (integrating roles / departments) — samostatná pozice, jejíž hlavní náplní je koordinace útvarů (např. produktový manažer); při velké potřebě koordinace celý integrační útvar.
+6. **Maticová struktura** (matrix) — nejsložitější mechanismus, v němž je integrace zabudována do celé struktury.
 
 Složitější mechanismy jsou potřeba při vyšší diferenciaci a náročnější strategii, ale zvyšují byrokratické náklady. Doplňují je **neformální mechanismy** — osobní sítě manažerů a odborníků napříč útvary (znalostní sítě), budované rotací pracovníků, společnými školeními a sdílenou kulturou.
 
@@ -620,17 +620,17 @@ Kontrola probíhá na **podnikové, divizní, funkcionální a individuální ú
 
 ## Alternativní přístupy ke kontrole {#typy-kontroly .compare}
 
-Organizace mohou kontrolovat činnost různými přístupy; obvykle je kombinují. Trojici tržní, byrokratická a klanová kontrola popsal W. G. Ouchi.
+Organizace mohou kontrolovat činnost různými přístupy; obvykle je kombinují. **Hill a Jones** rozlišují čtyři přístupy: **osobní, výstupovou, byrokratickou a kulturní** kontrolu. **W. G. Ouchi** popsal trojici **tržní, byrokratická a klanová** kontrola; jeho klanová kontrola v podstatě odpovídá kulturní kontrole a **tržní kontrola** (cenový mechanismus uvnitř firmy) představuje **rozšíření** nad čtveřici Hill & Jones.
 
 | Přístup | Podstata | Kde se uplatní | Slabina |
 |---|---|---|---|
-| **Osobní** | přímý dohled a osobní kontakt vedoucího s podřízenými | malé firmy, vrcholové vedení | časově náročná, omezená rozpětím řízení |
-| **Výstupová** | měření výsledků vůči cílům (zisk, rentabilita, podíl na trhu, kvalita) | divize, útvary, jednotlivci | podporuje krátkodobost, ne vše jde měřit |
-| **Byrokratická** | pravidla, postupy, standardy a rozpočty předepisují chování | rutinní, standardizované činnosti | strnulost, pomalá reakce na změny |
-| **Tržní** | ceny a tržní mechanismy uvnitř firmy (transferové ceny, interní trh) | divize obchodující mezi sebou | spory o ceny, náklady na stanovení cen |
-| **Klanová (kulturní)** | sdílené hodnoty a normy, lidé se kontrolují sami | znalostní a inovativní činnosti | buduje se dlouho, obtížně se mění |
+| **Osobní** (Hill & Jones) | přímý dohled a osobní kontakt vedoucího s podřízenými | malé firmy, vrcholové vedení | časově náročná, omezená rozpětím řízení |
+| **Výstupová** (Hill & Jones) | měření výsledků vůči cílům (zisk, rentabilita, podíl na trhu, kvalita) | divize, útvary, jednotlivci | podporuje krátkodobost, ne vše jde měřit |
+| **Byrokratická** (Hill & Jones i Ouchi) | pravidla, postupy, standardy a rozpočty předepisují chování | rutinní, standardizované činnosti | strnulost, pomalá reakce na změny |
+| **Kulturní** (Hill & Jones), u Ouchiho **klanová** | sdílené hodnoty a normy, lidé se kontrolují sami | znalostní a inovativní činnosti | buduje se dlouho, obtížně se mění |
+| **Tržní** (Ouchiho rozšíření) | ceny a tržní mechanismy uvnitř firmy (transferové ceny, interní trh) | divize obchodující mezi sebou | spory o ceny, náklady na stanovení cen |
 
-*Poznámka:* Některá vydání Hill & Jones místo tržní kontroly (interní ceny) uvádějí **finanční kontrolu** — hodnocení podle finančních ukazatelů, jako je rentabilita investic (ROI) nebo cena akcií. U výstupové kontroly jde o měření výsledků útvarů (divizí, oddělení, jednotlivců) vůči cílům.
+*Poznámka:* Členění se mezi vydáními Hill & Jones liší; některá samostatně uvádějí i **finanční kontrolu** — hodnocení podle finančních ukazatelů, jako je rentabilita investic (ROI) nebo cena akcií. U výstupové kontroly jde o měření výsledků útvarů (divizí, oddělení, jednotlivců) vůči cílům.
 
 ### ? Centrála hodnotí ředitele divizí podle toho, jaké rentability a podílu na trhu dosáhli ve srovnání s plánem; jak cílů dosáhnou, je na nich. Jaký přístup ke kontrole používá?
 
@@ -650,18 +650,18 @@ Organizace mohou kontrolovat činnost různými přístupy; obvykle je kombinuj�
 
 > Pravidla a standardní postupy, které předepisují chování pracovníků, jsou podstatou byrokratické kontroly. Výstupová kontrola by sledovala jen výsledky, nikoli postup.
 
-### ? Divize koncernu si navzájem účtují dodávky v cenách odvozených od tržních cen a jejich výsledky se posuzují jako u samostatných firem. Jaký přístup ke kontrole se tu uplatňuje?
+### ? Divize koncernu si navzájem účtují dodávky v cenách odvozených od tržních cen a jejich výsledky se posuzují jako u samostatných firem. Jaký přístup ke kontrole se tu uplatňuje podle členění W. G. Ouchiho?
 
 - [ ] Osobní kontrola
 - [ ] Byrokratická kontrola
 - [ ] Klanová kontrola
 - [x] Tržní kontrola
 
-> Tržní kontrola využívá uvnitř firmy cenový mechanismus, typicky transferové ceny mezi divizemi. Výkon divizí se pak posuzuje podobně jako výkon samostatných firem na trhu.
+> Tržní kontrola, kterou Ouchi řadí vedle byrokratické a klanové, využívá uvnitř firmy cenový mechanismus, typicky transferové ceny mezi divizemi. Výkon divizí se pak posuzuje podobně jako výkon samostatných firem na trhu.
 
 ## Klanová (kulturní) kontrola {#klanova-kontrola .term}
 
-Klanová (kulturní) kontrola usměrňuje chování pomocí **sdílených hodnot, norem a přesvědčení** organizační kultury. Pracovníci se chovají v souladu s cíli firmy, protože se s nimi ztotožnili, a kontrolují se sami i navzájem. Je vhodná tam, kde výsledky ani postupy nelze snadno předepsat a měřit (výzkum, vývoj, odborné služby). Je **levná na provoz**, ale buduje se dlouho výběrem lidí, socializací a příkladem vedení a obtížně se mění.
+Klanová (kulturní) kontrola — u Hill & Jones **kulturní kontrola**, u W. G. Ouchiho **klanová** — usměrňuje chování pomocí **sdílených hodnot, norem a přesvědčení** organizační kultury. Pracovníci se chovají v souladu s cíli firmy, protože se s nimi ztotožnili, a kontrolují se sami i navzájem. Je vhodná tam, kde výsledky ani postupy nelze snadno předepsat a měřit (výzkum, vývoj, odborné služby). Je **levná na provoz**, ale buduje se dlouho výběrem lidí, socializací a příkladem vedení a obtížně se mění.
 
 ### ? Zaměstnanci vývojové firmy nemají podrobná pravidla ani přesně měřené cíle, ale sdílejí silné hodnoty kvality a odpovědnosti vůči zákazníkovi a sami se jimi řídí. O jaký přístup ke kontrole jde?
 

@@ -494,25 +494,27 @@ Někteří autoři označují za možnou **6. generaci otevřené inovace** (Che
 
 ## Berkhoutův model cyklické inovace {#berkhout-cim .explain}
 
-**Model cyklické inovace** (Cyclic Innovation Model, CIM) navrhl **A. J. (Guus) Berkhout** z TU Delft s kolegy (kolem roku 2006; osnova píše „Berkout"). Inovaci chápe jako **cyklus cyklů** — čtyři oblasti změn uspořádané do kruhu:
+**Model cyklické inovace** (Cyclic Innovation Model, CIM) navrhl **A. J. (Guus) Berkhout** z TU Delft s kolegy (kolem roku 2006; osnova píše „Berkout"). Inovaci chápe jako **cyklus cyklů** — čtyři uzly (oblasti změn) uspořádané do kruhu:
 
 1. **vědecký výzkum** (scientific exploration),
 2. **technologický výzkum** (technological research),
-3. **vývoj produktů** (product creation),
+3. **tvorba produktů** (product creation — v originále „creation", nikoli „development"),
 4. **tržní přeměny** (market transitions).
 
-Ve **středu kruhu je podnikání** (entrepreneurship), které oblasti propojuje a dává změnám směr. Mezi oblastmi probíhají **obousměrné vazby**, procesy běží **souběžně** a inovace může začít v kterékoli oblasti — i změnou potřeb a chování na trhu, nejen objevem. Model tak propojuje vědu a technologie se **společenskými a tržními změnami** a zdůrazňuje spolupráci v síti místo lineárního sledu. Názvy dílčích cyklů a české překlady se v literatuře liší.
+Sousední uzly propojují čtyři **dílčí cykly**: **cyklus „tvrdých" věd** (hard science — vědecký ↔ technologický výzkum), **cyklus integrovaného inženýrství** (integrated engineering — technologický výzkum ↔ tvorba produktů), **cyklus diferencovaného zhodnocení** (differentiated valorisation — tvorba produktů ↔ tržní přeměny) a **cyklus „měkkých" věd** (soft science — tržní přeměny ↔ vědecký výzkum, tj. poznání chování lidí a společnosti).
 
-*Příklad:* Rostoucí zájem měst o čistou dopravu (tržní přeměna) vyvolá vývoj elektrobusů, ten si vyžádá výzkum baterií a jeho poznatky zpětně umožní nové služby; podnikatelé tyto změny propojují.
+Ve **středu kruhu je systémový podnikatel** (system entrepreneur) — podnikání, které uzly a cykly propojuje a dává změnám směr. Mezi uzly probíhají **obousměrné vazby**, procesy běží **souběžně** a inovace může začít v kterémkoli uzlu — i změnou potřeb a chování na trhu, nejen objevem. Model tak propojuje vědu a technologie se **společenskými a tržními změnami** a zdůrazňuje spolupráci v síti místo lineárního sledu. České překlady názvů nejsou ustálené.
+
+*Příklad:* Rostoucí zájem měst o čistou dopravu (tržní přeměna) vyvolá tvorbu nových produktů (elektrobusů), ta si vyžádá technologický výzkum baterií a jeho poznatky zpětně umožní nové služby; systémový podnikatel tyto změny propojuje.
 
 ### ? Co je podle Berkhoutova modelu cyklické inovace ve středu (jádru) celého cyklu?
 
 - [ ] Základní vědecký výzkum
 - [ ] Státní inovační politika
-- [x] Podnikání (entrepreneurship)
+- [x] Systémový podnikatel
 - [ ] Marketingový výzkum trhu
 
-> Ve středu modelu stojí podnikání, které propojuje vědecký a technologický výzkum, vývoj produktů a tržní přeměny. Vědecký výzkum je jen jednou ze čtyř oblastí cyklu.
+> Ve středu modelu stojí systémový podnikatel (system entrepreneur), který propojuje vědecký a technologický výzkum, tvorbu produktů a tržní přeměny. Vědecký výzkum je jen jedním ze čtyř uzlů cyklu.
 
 ### ? Které tvrzení o Berkhoutově modelu cyklické inovace platí?
 
@@ -523,14 +525,14 @@ Ve **středu kruhu je podnikání** (entrepreneurship), které oblasti propojuje
 
 > Model je cyklický a síťový: oblasti jsou propojené obousměrnými vazbami a podnět může přijít odkudkoli, například ze změny chování zákazníků. Lineární sled „od objevu k prodeji" naopak odmítá.
 
-### ? Která oblast NEPATŘÍ mezi čtyři oblasti změn v Berkhoutově modelu cyklické inovace?
+### ? Která oblast NEPATŘÍ mezi čtyři uzly (oblasti změn) v Berkhoutově modelu cyklické inovace?
 
 - [ ] Technologický výzkum (technological research)
 - [ ] Tržní přeměny (market transitions)
-- [ ] Vývoj produktů (product creation)
+- [ ] Tvorba produktů (product creation)
 - [x] Ochrana duševního vlastnictví (IP protection)
 
-> Čtyři oblasti cyklu jsou vědecký výzkum, technologický výzkum, vývoj produktů a tržní přeměny, se středem v podnikání. Ochrana duševního vlastnictví samostatnou oblastí modelu není.
+> Čtyři uzly cyklu jsou vědecký výzkum, technologický výzkum, tvorba produktů a tržní přeměny, se systémovým podnikatelem uprostřed. Ochrana duševního vlastnictví samostatným uzlem modelu není.
 
 ## Inovace jako tvůrce hodnoty {#inovace-tvurce-hodnoty .explain}
 

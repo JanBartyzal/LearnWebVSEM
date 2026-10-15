@@ -164,7 +164,7 @@ Empirické studie nacházejí přínosy nejčastěji u zpětných vazeb k dodava
 | mírní inovátoři (moderate innovators) | 70–100 % |
 | vznikající inovátoři (emerging innovators) | pod 70 % |
 
-Česko patří dlouhodobě mezi mírné inovátory. Souhrnný index usnadňuje srovnání, ale skrývá rozdíly mezi dílčími ukazateli; pro politiku je proto důležitější rozbor silných a slabých stránek než samotné pořadí. Regionální obdobou je Regional Innovation Scoreboard.
+Česko patří dlouhodobě mezi mírné inovátory; v **EIS 2025** je mírným inovátorem (moderate innovator) na **19. místě** v EU s výkonností **80,6 % průměru EU**. Souhrnný index usnadňuje srovnání, ale skrývá rozdíly mezi dílčími ukazateli; pro politiku je proto důležitější rozbor silných a slabých stránek než samotné pořadí. Regionální obdobou je Regional Innovation Scoreboard.
 
 ### ? Země dosáhla v European Innovation Scoreboard souhrnného inovačního indexu 112 % průměru EU. Do které skupiny patří podle metodiky platné od roku 2021?
 
@@ -183,6 +183,15 @@ Empirické studie nacházejí přínosy nejčastěji u zpětných vazeb k dodava
 - [x] Protože souhrnné číslo skrývá silné a slabé stránky
 
 > Souhrnný index shrnuje mnoho ukazatelů do jednoho čísla, takže z něj nelze poznat, kde má země slabiny. Návrh politiky vyžaduje vědět, které oblasti zaostávají.
+
+### ? Česko dosáhlo v European Innovation Scoreboard 2025 výkonnosti 80,6 % průměru EU. Do které skupiny zemí patří?
+
+- [x] Mírní inovátoři
+- [ ] Silní inovátoři
+- [ ] Vznikající inovátoři
+- [ ] Inovační lídři
+
+> Pásmo 70–100 % průměru EU odpovídá mírným inovátorům (moderate innovators). Vznikající inovátoři jsou pod 70 %, silní inovátoři mezi 100 a 125 %.
 
 ## Global Innovation Index {#gii .term}
 
@@ -362,7 +371,7 @@ Podpora projektů, které by se uskutečnily stejně, je **mrtvá váha** (deadw
 
 ## LEADER a komunitně vedený místní rozvoj (CLLD) {#leader-clld .explain}
 
-**LEADER** (z franc. *Liaison Entre Actions de Développement de l'Économie Rurale*) je metoda rozvoje venkova v EU, zahájená v roce 1991 jako iniciativa Společenství a později začleněná do programů rozvoje venkova. Nositelem jsou **místní akční skupiny** (MAS, Local Action Groups) — partnerství veřejného, soukromého a neziskového sektoru, která zpracují a realizují vlastní rozvojovou strategii území. Metoda stojí na sedmi principech: přístup zdola nahoru, územní přístup, místní partnerství, integrovaná a vícesektorová strategie, **inovace**, spolupráce a síťování. Od programového období 2014–2020 se metoda pod názvem **komunitně vedený místní rozvoj** (CLLD, Community-Led Local Development) rozšířila i do dalších fondů EU. Pro složení rozhodovacích orgánů MAS platí **pravidlo 49 %**: v období 2014–2020 nařízení výslovně stanovilo, že veřejné orgány ani žádná jednotlivá zájmová skupina nesmějí mít víc než 49 % hlasovacích práv; nařízení pro období 2021–2027 požaduje, aby rozhodování neovládala jedna zájmová skupina.
+**LEADER** (z franc. *Liaison Entre Actions de Développement de l'Économie Rurale*) je metoda rozvoje venkova v EU, zahájená v roce 1991 jako iniciativa Společenství a později začleněná do programů rozvoje venkova. Nositelem jsou **místní akční skupiny** (MAS, Local Action Groups) — partnerství veřejného, soukromého a neziskového sektoru, která zpracují a realizují vlastní rozvojovou strategii území. Metoda stojí na sedmi principech: přístup zdola nahoru, územní přístup, místní partnerství, integrovaná a vícesektorová strategie, **inovace**, spolupráce a síťování. Od programového období 2014–2020 se metoda pod názvem **komunitně vedený místní rozvoj** (CLLD, Community-Led Local Development) rozšířila i do dalších fondů EU. Pro složení rozhodovacích orgánů MAS platí **pravidlo 49 %**: v období 2014–2020 nařízení výslovně stanovilo, že veřejné orgány ani žádná jednotlivá zájmová skupina nesmějí mít víc než 49 % hlasovacích práv; nařízení pro období 2021–2027 požaduje, aby rozhodování neovládala jedna zájmová skupina. V ČR pravidlo 49 % pro období 2021–2027 výslovně zachovávají **standardy MAS** v Metodickém pokynu pro integrované nástroje (MPIN) Ministerstva pro místní rozvoj: veřejný sektor ani žádná zájmová skupina nesmí mít více než 49 % hlasovacích práv v nejvyšším, rozhodovacím ani výběrovém orgánu MAS.
 
 *Příklad:* MAS vyhlásí výzvu podle své strategie a o podpoře projektů místních zemědělců, spolků a obcí rozhoduje výběrová komise složená ze zástupců různých sektorů.
 
@@ -383,6 +392,15 @@ Podpora projektů, které by se uskutečnily stejně, je **mrtvá váha** (deadw
 - [x] Metoda LEADER (CLLD)
 
 > Partnerství místních aktérů s vlastní strategií a výběrem projektů zdola je podstatou metody LEADER, rozšířené jako CLLD. Chytrá specializace a Triple Helix jsou koncepty regionální inovační politiky (téma 6).
+
+### ? Platí v ČR v programovém období 2021–2027 pro orgány místních akčních skupin pravidlo, že žádná skupina nesmí mít víc než 49 % hlasů?
+
+- [ ] Ne, od roku 2021 platí jen obecné pravidlo EU bez limitu
+- [x] Ano, ukládají ho standardy MAS v metodickém pokynu MMR
+- [ ] Ano, ale pouze pro výběrovou komisi, ne pro jiné orgány
+- [ ] Ne, veřejný sektor musí mít v orgánech MAS většinu
+
+> Nařízení EU pro 2021–2027 požaduje jen, aby rozhodování neovládala jedna zájmová skupina. České standardy MAS v Metodickém pokynu pro integrované nástroje (MMR) ale limit 49 % hlasovacích práv zachovávají pro nejvyšší, rozhodovací i výběrový orgán.
 
 ## Inkluzivní inovace {#inkluzivni-inovace .term}
 
@@ -470,9 +488,9 @@ Reverzní inovace je opakem tradiční **glokalizace**, při níž firma výrobe
 
 ## Tři rámce (generace) inovační politiky {#generace-politiky .compare}
 
-Zdůvodnění a nástroje inovační politiky se vyvíjely. J. Schot a W. E. Steinmueller (2018) rozlišují tři rámce; v literatuře se zhruba odpovídajícím způsobem mluví o inovační politice 1., 2. a 3. generace:
+Zdůvodnění a nástroje inovační politiky se vyvíjely. J. Schot a W. E. Steinmueller (*Three frames for innovation policy*, Research Policy 47/9, 2018) rozlišují tři rámce — VaV pro růst, národní inovační systémy a transformativní změnu (navázanou na cíle udržitelného rozvoje, SDGs); v literatuře se zhruba odpovídajícím způsobem mluví o inovační politice 1., 2. a 3. generace:
 
-| | 1. rámec: VaV pro růst | 2. rámec: inovační systémy | 3. rámec: transformativní změna |
+| | 1. rámec: VaV pro růst | 2. rámec: (národní) inovační systémy | 3. rámec: transformativní změna |
 |---|---|---|---|
 | Model inovace | lineární (věda → technologie → trh) | systémový, interaktivní | sociotechnické systémy a transice |
 | Důvod zásahu státu | **selhání trhu** — podinvestování do výzkumu kvůli jeho povaze veřejného statku | **selhání systému** — slabé vazby, chybějící aktéři, nízká absorpční kapacita | **selhání transformace** — chybějící směr vývoje, nekoordinované politiky, neschopnost řešit společenské výzvy |
@@ -563,7 +581,7 @@ Starší proud — **přiměřená / střední technologie** (intermediate techn
 
 ## Resilience (kapacita přizpůsobení) {#resilience .term}
 
-**Resilience** (odolnost, kapacita přizpůsobení) je schopnost systému — ekosystému, regionu, ekonomiky, komunity — absorbovat šok, přizpůsobit se a zachovat si základní funkce a strukturu. C. S. Holling (1973) zavedl pojem resilience (oproti stabilitě); později (1996) rozlišil **inženýrskou resilienci** (rychlost návratu do původní rovnováhy) a **ekologickou resilienci** (velikost narušení, kterou systém snese, než přejde do jiného stavu — režimu). Walker a kol. (2004) k ní přidávají **adaptabilitu** (schopnost aktérů resilienci ovlivňovat) a **transformabilitu** (schopnost vytvořit zásadně nový systém, když je stávající neudržitelný). U regionů se v **adaptivním (evolučním) pojetí** rozlišuje odolnost vůči šoku, zotavení, přeorientování a obnova (R. Martin, 2012); inovace jsou klíčem hlavně k přeorientování a obnově.
+**Resilience** (odolnost, kapacita přizpůsobení) je schopnost systému — ekosystému, regionu, ekonomiky, komunity — absorbovat šok, přizpůsobit se a zachovat si základní funkce a strukturu. C. S. Holling (1973) zavedl pojem resilience (oproti stabilitě); později (1996) rozlišil **inženýrskou resilienci** (rychlost návratu do původní rovnováhy) a **ekologickou resilienci** (velikost narušení, kterou systém snese, než přejde do jiného stavu — režimu). Walker a kol. (2004) k ní přidávají **adaptabilitu** (schopnost aktérů resilienci ovlivňovat) a **transformabilitu** (schopnost vytvořit zásadně nový systém, když je stávající neudržitelný). U regionů se v **adaptivním (evolučním) pojetí** rozlišují čtyři dimenze — odolnost vůči šoku (resistance), zotavení (recovery), přeorientování (re-orientation) a obnova (renewal) (R. Martin, 2012); inovace jsou klíčem hlavně k přeorientování a obnově.
 
 ### ? Region po uzavření dolů nejen obnovil zaměstnanost, ale převedl ekonomiku na nová odvětví (IT služby, cestovní ruch) a změnil dosavadní strukturu. Které pojetí resilience tento vývoj nejlépe vystihuje?
 
@@ -616,7 +634,7 @@ Fáze r → K tvoří „přední smyčku" (pomalá akumulace), Ω → α „zad
 
 ## Past chudoby × past rigidity {#pasti-resilience .compare}
 
-Adaptivní cyklus se může zaseknout. Holling (2001) a navazující autoři (Carpenter a Brock, 2008) popisují dvě pasti; jejich vymezení se v literatuře liší a pojem „past chudoby" má v rozvojové ekonomii i jiný, makroekonomický význam (sebeposilující mechanismy chudoby).
+Adaptivní cyklus se může zaseknout. Holling (2001) a navazující autoři (Carpenter a Brock, *Ecology and Society* 13/2, 2008) popisují v rámci adaptivního cyklu dvě pasti; jejich vymezení se v literatuře liší a pojem „past chudoby" má v rozvojové ekonomii i jiný, makroekonomický význam (sebeposilující mechanismy chudoby).
 
 | | Past chudoby (poverty trap) | Past rigidity (rigidity trap) |
 |---|---|---|

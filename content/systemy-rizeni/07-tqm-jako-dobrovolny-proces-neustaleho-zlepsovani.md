@@ -127,7 +127,17 @@ Normy řady ISO 9000 (poprvé vydané 1987) vycházejí z koncepce zabezpečová
 - většinu problémů způsobuje **systém**, za který odpovídá vedení, nikoli jednotliví pracovníci;
 - **řetězová reakce**: zlepšení kvality → nižší náklady (méně chyb, přepracování a zdržení) → vyšší produktivita → získání trhu lepší kvalitou a nižší cenou → udržení podniku a pracovních míst.
 
-Jeho odkazem je **14 bodů** pro management, šíření cyklu **PDCA/PDSA** a varování před **7 smrtelnými nemocemi** managementu (např. nestálost cílů, důraz na krátkodobé zisky, každoroční hodnocení výkonu jednotlivců, časté střídání manažerů).
+Jeho odkazem je **14 bodů** pro management, šíření cyklu **PDCA/PDSA** a varování před **7 smrtelnými nemocemi** managementu:
+
+1. **nestálost účelu** (chybí trvalý cíl zlepšovat produkty a služby),
+2. **důraz na krátkodobé zisky**,
+3. **hodnocení výkonnosti** a roční hodnocení zásluh jednotlivců,
+4. **přelétavost managementu** (časté střídání manažerů),
+5. **řízení jen podle viditelných čísel** (bez ohledu na čísla neznámá či nezjistitelná),
+6. **nadměrné náklady na zdravotní péči**,
+7. **nadměrné náklady na záruky a právní spory**.
+
+Poslední dvě nemoci vztahoval Deming především k poměrům v USA.
 
 *Příklad:* Po zvýšení počtu vad začne vedení hledat viníky mezi operátory. Podle Deminga by mělo nejdřív prověřit systém — materiál, seřízení strojů, zaškolení a pracovní postupy.
 
@@ -156,7 +166,7 @@ Jeho odkazem je **14 bodů** pro management, šíření cyklu **PDCA/PDSA** a va
 - [x] Přílišný důraz na krátkodobé zisky
 - [ ] Školení pracovníků přímo na pracovišti
 
-> Důraz na krátkodobé zisky patří k Demingovým smrtelným nemocem, protože podkopává dlouhodobé zlepšování. Stálost cílů a školení naopak Deming výslovně doporučoval.
+> Důraz na krátkodobé zisky patří k Demingovým smrtelným nemocem, protože podkopává dlouhodobé zlepšování. Stálost cílů a školení naopak Deming výslovně doporučoval. Úplný výčet sedmi nemocí: nestálost účelu, důraz na krátkodobé zisky, hodnocení výkonnosti a roční hodnocení zásluh, přelétavost managementu, řízení jen podle viditelných čísel, nadměrné náklady na zdravotní péči a nadměrné náklady na záruky a právní spory.
 
 ## Demingových 14 bodů {#deming-14-bodu .explain}
 
@@ -302,7 +312,7 @@ Ke zlepšování navrhl program 14 kroků.
 
 ## A. V. Feigenbaum a TQC {#feigenbaum .term}
 
-**Armand V. Feigenbaum** (General Electric) je autorem koncepce **Total Quality Control (TQC)** — kvalita je věcí **všech útvarů a celého životního cyklu výrobku**, od marketingu přes vývoj, nákup a výrobu až po expedici a servis, nikoli jen výroby a kontroly. Rozpracoval sledování **nákladů na kvalitu** a upozornil na **„skrytou továrnu"** — kapacitu, kterou podnik spotřebuje na opravy a přepracování vad. Kvalitu podle něj určuje zákazník.
+**Armand V. Feigenbaum** (General Electric) je autorem koncepce **Total Quality Control (TQC)** — kvalita je věcí **všech útvarů a celého životního cyklu výrobku**, od marketingu přes vývoj, nákup a výrobu až po expedici a servis, nikoli jen výroby a kontroly. Rozpracoval sledování **nákladů na kvalitu** — jemu se obvykle připisuje členění na náklady na prevenci, hodnocení a selhání (1956), z něhož vychází model PAF — a upozornil na **„skrytou továrnu"** — kapacitu, kterou podnik spotřebuje na opravy a přepracování vad. Kvalitu podle něj určuje zákazník.
 
 ### ? Firma řeší kvalitu jen ve výrobě a výstupní kontrole, vady ale vznikají už nevhodným návrhem výrobku. Kterou myšlenku Feigenbaumovy TQC firma nedodržuje?
 
@@ -430,7 +440,7 @@ Ishikawa prosazoval sadu jednoduchých grafických a statistických nástrojů, 
 4. **diagram příčin a následků** (Ishikawův, „rybí kost") — možné příčiny problému;
 5. **bodový (korelační) diagram** — vztah dvou veličin;
 6. **regulační diagram** — stabilita procesu v čase;
-7. **stratifikace** — rozdělení dat podle zdroje (v některých pramenech místo ní **vývojový diagram** procesu).
+7. **vývojový diagram** procesu — kroky procesu a jejich návaznosti; tak ho uvádí česká literatura (např. Nenadál). Původní Ishikawovy výčty mají na tomto místě **stratifikaci** (rozdělení dat podle zdroje) — obě varianty se používají.
 
 *Příklad:* Tým sbírá data o vadách kontrolní tabulkou, Paretovým diagramem vybere nejčastější vadu, diagramem příčin a následků hledá její možné příčiny a regulačním diagramem pak sleduje, zda opatření proces stabilizovalo.
 

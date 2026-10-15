@@ -23,7 +23,7 @@ Vznik, vývoj a základní charakteristika, vyjádření potenciálu a výsledk�
 
 ## Vznik a vývoj modelu EFQM {#efqm-vyvoj .explain}
 
-Model EFQM vznikl jako evropská odpověď na japonskou **Demingovu cenu** a americkou **cenu Malcolma Baldrige**. První verze byla představena v roce **1991** jako hodnoticí rámec pro **Evropskou cenu za kvalitu** (European Quality Award), udělovanou od roku 1992. Původně šlo o „model TQM", později byl přejmenován na **EFQM Excellence Model** — zdůraznil se tím posun od kvality výrobků k **excelenci celé organizace**. Model se pravidelně reviduje (významné verze **2010** a **2013**); verze 2010 a 2013 pracovaly s **9 kritérii** rozdělenými na předpoklady a výsledky. Zásadní změnu přinesl **model EFQM 2020**: opustil dělení předpoklady × výsledky a zavedl strukturu **Směr – Realizace – Výsledky** se **7 kritérii**. Model je **nenormativní** — nepředepisuje konkrétní postupy, ale ptá se, zda a jak dobře organizace své přístupy uplatňuje.
+Model EFQM vznikl jako evropská odpověď na japonskou **Demingovu cenu** a americkou **cenu Malcolma Baldrige**. První verze byla představena v roce **1991** jako hodnoticí rámec pro **Evropskou cenu za kvalitu** (European Quality Award), udělovanou od roku 1992. Původně šlo o „model TQM", později byl přejmenován na **EFQM Excellence Model** — zdůraznil se tím posun od kvality výrobků k **excelenci celé organizace**. Model se pravidelně reviduje (významné verze **2010** a **2013**); verze 2010 a 2013 pracovaly s **9 kritérii** rozdělenými na předpoklady a výsledky. Zásadní změnu přinesl **model EFQM 2020**: opustil dělení předpoklady × výsledky a zavedl strukturu **Směr – Realizace – Výsledky** se **7 kritérii**. Aktuální revize **EFQM Model 2025** (představena v červnu 2024) tuto strukturu zachovává — 7 kritérií ve 3 oblastech, stejné váhy, maximum 1000 bodů — a posouvá obsah: důraz na **udržitelný užitek** pro stakeholdery, **technologie a umělou inteligenci**, výsledky člení do **4 kategorií** a hodnotí se **2 maticemi RADAR** místo dosavadních 3. Model je **nenormativní** — nepředepisuje konkrétní postupy, ale ptá se, zda a jak dobře organizace své přístupy uplatňuje.
 
 *Příklad:* Firma, která byla hodnocena podle verze 2013, musela při přechodu na model 2020 přepracovat sebehodnoticí dokumentaci — místo pěti kritérií předpokladů nyní popisuje směr (účel, vizi, kulturu) a realizaci (zapojení stakeholderů, tvorbu hodnoty, transformaci).
 
@@ -44,6 +44,15 @@ Model EFQM vznikl jako evropská odpověď na japonskou **Demingovu cenu** a ame
 - [x] Místo předpokladů a výsledků má Směr, Realizaci a Výsledky
 
 > Model 2020 opustil dělení na 5 kritérií předpokladů a 4 kritéria výsledků a zavedl tři oblasti (Směr, Realizace, Výsledky) se sedmi kritérii. Logika RADAR i bodové hodnocení zůstaly zachovány.
+
+### ? Co přinesl EFQM Model 2025 (představený v červnu 2024) oproti modelu 2020?
+
+- [ ] Návrat k devíti kritériím rozděleným na předpoklady a výsledky
+- [x] Zachoval 7 kritérií a 1000 bodů, posílil udržitelnost a technologie
+- [ ] Nahradil bodové hodnocení certifikací shody s požadavky
+- [ ] Zrušil logiku RADAR a převzal Demingův cyklus PDCA
+
+> Model 2025 je evoluční revize: struktura Směr – Realizace – Výsledky se 7 kritérii, stejnými váhami a maximem 1000 bodů zůstává. Nově zdůrazňuje udržitelný užitek, technologie a AI a zjednodušuje hodnocení na 2 matice RADAR. Certifikace se u EFQM neprovádí.
 
 ## Excelence a nenormativní povaha modelu {#excelence .term}
 
@@ -152,7 +161,7 @@ Pět kritérií předpokladů ve verzích 2010/2013 a jejich obsah:
 
 ## Vyjádření potenciálu a výsledků firmy {#potencial-vysledky .explain}
 
-Model EFQM zachycuje výkonnost ze dvou stran. **Potenciál** firmy vyjadřují předpoklady (v modelu 2020 Směr a Realizace) — kvalita vedení, strategie, lidí, zdrojů a procesů určuje, jaké výsledky je firma **schopna dosahovat v budoucnu**. **Výsledky** ukazují, čeho firma **skutečně dosáhla** u všech zainteresovaných stran. Hodnocení obou stran odhalí nesoulad: dobré výsledky při slabých předpokladech mohou být náhodné nebo dočasné (např. díky příznivé konjunktuře), naopak silné předpoklady bez výsledků signalizují, že přístupy nejsou účinné nebo se ještě neprojevily. Předpoklady tak mají povahu **předstihových** a výsledky povahu **zpožďujících** ukazatelů.
+Model EFQM zachycuje výkonnost ze dvou stran. **Potenciál** firmy vyjadřují předpoklady (v modelech 2020 a 2025 Směr a Realizace) — kvalita vedení, strategie, lidí, zdrojů a procesů určuje, jaké výsledky je firma **schopna dosahovat v budoucnu**. **Výsledky** ukazují, čeho firma **skutečně dosáhla** u všech zainteresovaných stran. Hodnocení obou stran odhalí nesoulad: dobré výsledky při slabých předpokladech mohou být náhodné nebo dočasné (např. díky příznivé konjunktuře), naopak silné předpoklady bez výsledků signalizují, že přístupy nejsou účinné nebo se ještě neprojevily. Předpoklady tak mají povahu **předstihových** a výsledky povahu **zpožďujících** ukazatelů.
 
 *Příklad:* Firma má rekordní zisk díky jednorázové zakázce, ale nemá popsané klíčové procesy ani plán rozvoje pracovníků. Vysoké skóre výsledků a nízké skóre předpokladů varuje, že výkonnost není udržitelná.
 
@@ -174,9 +183,9 @@ Model EFQM zachycuje výkonnost ze dvou stran. **Potenciál** firmy vyjadřují 
 
 > Model stojí na vztahu příčiny a důsledku: kvalita toho, co organizace dělá (předpoklady), se projeví v tom, čeho dosahuje (výsledky). Zpětná vazba z výsledků pak slouží k učení a zlepšování předpokladů.
 
-## Model EFQM 2020: Směr – Realizace – Výsledky {#model-2020 .explain}
+## Model EFQM 2020 a 2025: Směr – Realizace – Výsledky {#model-2020 .explain}
 
-Model 2020 je postaven na otázkách **Proč – Jak – Co**. **Směr** (Direction) odpovídá na otázku, **proč** organizace existuje: zahrnuje účel, vizi a strategii a kulturu organizace a vedení. **Realizace** (Execution) popisuje, **jak** organizace strategii naplňuje: zapojuje zainteresované strany, vytváří udržitelnou hodnotu a řídí výkonnost a transformaci. **Výsledky** (Results) ukazují, **co** organizace skutečně dosáhla: jak ji vnímají zainteresované strany a jaká je její strategická a provozní výkonnost. Model klade důraz na **primární postavení zákazníka**, **dlouhodobou perspektivu všech zainteresovaných stran** (včetně udržitelnosti) a na pochopení **příčinných vazeb** mezi směrem, realizací a výsledky. Celkem má **7 kritérií** a maximálně **1000 bodů**.
+Model 2020 je postaven na otázkách **Proč – Jak – Co**. **Směr** (Direction) odpovídá na otázku, **proč** organizace existuje: zahrnuje účel, vizi a strategii a kulturu organizace a vedení. **Realizace** (Execution) popisuje, **jak** organizace strategii naplňuje: zapojuje zainteresované strany, vytváří udržitelnou hodnotu a řídí výkonnost a transformaci. **Výsledky** (Results) ukazují, **co** organizace skutečně dosáhla: jak ji vnímají zainteresované strany a jaká je její strategická a provozní výkonnost. Model klade důraz na **primární postavení zákazníka**, **dlouhodobou perspektivu všech zainteresovaných stran** (včetně udržitelnosti) a na pochopení **příčinných vazeb** mezi směrem, realizací a výsledky. Celkem má **7 kritérií** a maximálně **1000 bodů**. Model EFQM 2025 tuto strukturu přebírá beze změny, obsah kritérií aktualizuje (udržitelnost, technologie a AI).
 
 *Příklad:* Nemocnice v oblasti Směr formuluje účel „bezpečná a dostupná péče", v oblasti Realizace zapojí pacienty a zdravotní pojišťovny do návrhu služeb a v oblasti Výsledky sleduje spokojenost pacientů a počet nežádoucích událostí.
 
@@ -189,16 +198,16 @@ Model 2020 je postaven na otázkách **Proč – Jak – Co**. **Směr** (Direct
 
 > Model 2020 stojí na logice Proč (Směr) – Jak (Realizace) – Co (Výsledky). Realizace popisuje, jak organizace zapojuje stakeholdery, tvoří hodnotu a řídí výkonnost a transformaci.
 
-### ? Kolik kritérií má model EFQM 2020?
+### ? Kolik kritérií má model EFQM ve verzích 2020 a 2025?
 
 - [ ] 5
 - [x] 7
 - [ ] 9
 - [ ] 12
 
-> Model 2020 má 7 kritérií: 2 ve Směru, 3 v Realizaci a 2 ve Výsledcích. Devět kritérií měly předchozí verze 2010 a 2013.
+> Modely 2020 i 2025 mají 7 kritérií: 2 ve Směru, 3 v Realizaci a 2 ve Výsledcích. Devět kritérií měly předchozí verze 2010 a 2013.
 
-## Kritéria modelu EFQM 2020 {#kriteria-2020 .compare}
+## Kritéria modelu EFQM 2020 a 2025 {#kriteria-2020 .compare}
 
 | Oblast | Kritérium | Obsah | Max. body |
 |---|---|---|---|
@@ -210,7 +219,7 @@ Model 2020 je postaven na otázkách **Proč – Jak – Co**. **Směr** (Direct
 | **Výsledky** (Co) | 6 Vnímání zainteresovanými stranami | jak organizaci vnímají zákazníci, pracovníci, vlastníci, společnost | 200 |
 | | 7 Strategická a provozní výkonnost | finanční i nefinanční ukazatele plnění strategie a provozu | 200 |
 
-Celkem: Směr 200 + Realizace 400 + Výsledky 400 = **1000 bodů**.
+Celkem: Směr 200 + Realizace 400 + Výsledky 400 = **1000 bodů**. Model 2025 kritéria i váhy zachovává. U kritérií **3** a **6** si organizace sama volí váhy jednotlivých skupin zainteresovaných stran podle jejich významu pro svou strategii.
 
 ### ? Ukazatele jako tržby, provozní cash flow nebo plnění strategických cílů se v modelu EFQM 2020 hodnotí v kritériu…
 
@@ -230,9 +239,18 @@ Celkem: Směr 200 + Realizace 400 + Výsledky 400 = **1000 bodů**.
 
 > Kultura organizace a vedení spolu s kritériem Účel, vize a strategie tvoří oblast Směr. Realizace zahrnuje zapojení stakeholderů, tvorbu udržitelné hodnoty a řízení výkonnosti a transformace.
 
+### ? Které kritérium modelu EFQM (verze 2020 i 2025) má maximum 200 bodů, zatímco ostatní uvedená mají po 100 bodech?
+
+- [ ] Účel, vize a strategie
+- [ ] Zapojení zainteresovaných stran
+- [ ] Řízení výkonnosti a transformace
+- [x] Vytváření udržitelné hodnoty
+
+> Váhy kritérií jsou 100 / 100 / 100 / 200 / 100 / 200 / 200 = 1000 bodů. Ze sedmi kritérií má 200 bodů jen Vytváření udržitelné hodnoty (4) v Realizaci a obě kritéria Výsledků (6 a 7); Účel, vize a strategie, Zapojení zainteresovaných stran i Řízení výkonnosti a transformace mají po 100 bodech.
+
 ## Logika RADAR {#radar .explain}
 
-**RADAR** je hodnoticí logika modelu EFQM a zároveň dynamický nástroj řízení zlepšování. Název tvoří počáteční písmena čtyř prvků: **R**esults (výsledky), **A**pproach (přístup), **D**eployment (nasazení, zavedení) a **A**ssessment & **R**efinement (hodnocení a zdokonalování). Organizace by měla (1) **stanovit požadované výsledky** jako součást strategie, (2) naplánovat a rozvinout **podložené a integrované přístupy**, které k nim vedou, (3) přístupy **systematicky zavést**, (4) jejich účinnost **měřit, vyhodnocovat a zdokonalovat** na základě učení. Logika připomíná Demingův cyklus PDCA, ale začíná výsledky. Při hodnocení se prvky Přístup, Nasazení a Hodnocení a zdokonalování aplikují na **předpoklady** (v modelu 2020 na Směr a Realizaci), pro **výsledky** se používají vlastní prvky (relevance a využitelnost dat, výkonnost).
+**RADAR** je hodnoticí logika modelu EFQM a zároveň dynamický nástroj řízení zlepšování. Název tvoří počáteční písmena čtyř prvků: **R**esults (výsledky), **A**pproach (přístup), **D**eployment (nasazení, zavedení) a **A**ssessment & **R**efinement (hodnocení a zdokonalování). Organizace by měla (1) **stanovit požadované výsledky** jako součást strategie, (2) naplánovat a rozvinout **podložené a integrované přístupy**, které k nim vedou, (3) přístupy **systematicky zavést**, (4) jejich účinnost **měřit, vyhodnocovat a zdokonalovat** na základě učení. Logika připomíná Demingův cyklus PDCA, ale začíná výsledky. Při hodnocení se prvky Přístup, Nasazení a Hodnocení a zdokonalování aplikují na **předpoklady** (od modelu 2020 na Směr a Realizaci), pro **výsledky** se používají vlastní prvky (relevance a využitelnost dat, výkonnost).
 
 *Příklad:* Firma si stanoví cíl snížit dobu dodání na 48 hodin (výsledek), zavede metodu plánování výroby podle zakázek (přístup), proškolí všechny tři závody (nasazení) a čtvrtletně vyhodnocuje dodací lhůty a postup upravuje (hodnocení a zdokonalování).
 
@@ -319,11 +337,11 @@ U kritérií výsledků hodnotitel nezkoumá, **jak dobré čísla jsou samy o s
 
 ## Bodové hodnocení v modelu EFQM {#bodovani .explain}
 
-Hodnotitelé posuzují každé kritérium (resp. jeho dílčí kritéria) pomocí **matice RADAR**: každý atribut ohodnotí procentem na škále **0–100 %** (typicky v krocích 0, 25, 50, 75, 100 % — od „žádný důkaz" po „komplexní důkaz"). Z hodnot atributů se odvodí **procentní skóre kritéria**, které se vynásobí jeho **maximálním počtem bodů** (váhou). Součet bodů za všechna kritéria dává celkové skóre organizace, maximálně **1000 bodů**. Celkové skóre umožňuje sledovat pokrok v čase a srovnávat organizace, např. v soutěži o ocenění. Hodnota skóre je ale méně důležitá než seznam **silných stránek a oblastí pro zlepšení**, který hodnocení přinese.
+Hodnotitelé posuzují každé kritérium (resp. jeho dílčí kritéria) pomocí **matice RADAR**: každý atribut ohodnotí procentem na škále **0–100 %** (typicky v krocích 0, 25, 50, 75, 100 % — od „žádný důkaz" po „komplexní důkaz"). Z hodnot atributů se odvodí **procentní skóre kritéria**, které se vynásobí jeho **maximálním počtem bodů** (váhou). Součet bodů za všechna kritéria dává celkové skóre organizace, maximálně **1000 bodů**. Model 2020 používal tři matice RADAR (Směr a Realizace, Vnímání stakeholdery, Strategická a provozní výkonnost), model 2025 dvě. Celkové skóre umožňuje sledovat pokrok v čase a srovnávat organizace, např. v soutěži o ocenění. Hodnota skóre je ale méně důležitá než seznam **silných stránek a oblastí pro zlepšení**, který hodnocení přinese.
 
 `body kritéria = procentní skóre kritéria · max. body kritéria`
 
-*Příklad:* V modelu 2020 získá kritérium „Vytváření udržitelné hodnoty" (max. 200 bodů) skóre 45 % → 0,45 · 200 = 90 bodů.
+*Příklad:* V modelu 2020 (i 2025) získá kritérium „Vytváření udržitelné hodnoty" (max. 200 bodů) skóre 45 % → 0,45 · 200 = 90 bodů.
 
 ### ? Organizace hodnocená podle modelu EFQM 2020 dosáhla v oblasti Směr (max. 200 bodů) 50 %, v oblasti Realizace (max. 400 bodů) 40 % a v oblasti Výsledky (max. 400 bodů) 35 %. Kolik bodů celkem získala?
 
@@ -409,8 +427,8 @@ Balanced Scorecard i model EFQM hodnotí výkonnost vyváženě, ale liší se �
 | **Původ** | Kaplan & Norton, 1992 | EFQM, první model 1991 |
 | **Podstata** | systém strategického řízení — převádí vizi a strategii do cílů a měřítek | rámec pro komplexní (sebe)hodnocení vyspělosti řízení organizace |
 | **Hlavní otázka** | Plníme svou strategii? | Jak vyspělé je naše řízení a kde se zlepšit? |
-| **Struktura** | 4 perspektivy; cíle a ukazatele si podnik volí sám podle strategie | pevně daná kritéria (9, resp. 7 v modelu 2020) shodná pro všechny organizace |
-| **Kauzalita** | příčinné vazby mezi cíli ve strategické mapě | předpoklady → výsledky (2020: Směr → Realizace → Výsledky), logika RADAR |
+| **Struktura** | 4 perspektivy; cíle a ukazatele si podnik volí sám podle strategie | pevně daná kritéria (9 ve verzích 2010/2013, 7 v modelech 2020 a 2025) shodná pro všechny organizace |
+| **Kauzalita** | příčinné vazby mezi cíli ve strategické mapě | předpoklady → výsledky (od 2020: Směr → Realizace → Výsledky), logika RADAR |
 | **Výstup** | strategická mapa, ukazatele s cílovými hodnotami a iniciativy | bodové skóre (max. 1000), silné stránky a oblasti pro zlepšení |
 | **Zainteresované strany** | hlavně vlastníci a zákazníci; společnost bez samostatné perspektivy | všechny včetně pracovníků, partnerů a společnosti |
 | **Srovnatelnost mezi firmami** | nízká — každý scorecard je unikátní | vysoká — jednotná kritéria umožňují benchmarking a ocenění |
@@ -435,7 +453,7 @@ Balanced Scorecard i model EFQM hodnotí výkonnost vyváženě, ale liší se �
 
 ## Styčné body a vzájemná podpora BSC a EFQM {#bsc-efqm-podpora .explain}
 
-Oba přístupy sdílejí **vyvážený pohled** na finanční i nefinanční výkonnost a **kauzální logiku**: předpoklady EFQM odpovídají **předstihovým**, výsledky **zpožďujícím** ukazatelům BSC. Kritéria se dají přiřadit k perspektivám: **výsledky zákazníků** ↔ zákaznická perspektiva, **klíčové výsledky** (2020: strategická a provozní výkonnost) ↔ finanční perspektiva, **procesy, produkty a služby** ↔ perspektiva interních procesů, **pracovníci a jejich výsledky** ↔ perspektiva učení se a růstu. Nástroje se vzájemně **doplňují**: sebehodnocení EFQM odhalí **oblasti pro zlepšení**, které se v BSC promítnou do strategických cílů a **iniciativ**; BSC je zase dokladem kvalitního **přístupu a nasazení** v kritériu strategie (2020: účel, vize a strategie) a ukazatele BSC poskytují **data, trendy a cíle** pro hodnocení výsledků podle RADAR. EFQM tak odpovídá na otázku „jak dobře řídíme", BSC na otázku „jak plníme strategii".
+Oba přístupy sdílejí **vyvážený pohled** na finanční i nefinanční výkonnost a **kauzální logiku**: předpoklady EFQM odpovídají **předstihovým**, výsledky **zpožďujícím** ukazatelům BSC. Kritéria se dají přiřadit k perspektivám: **výsledky zákazníků** ↔ zákaznická perspektiva, **klíčové výsledky** (od 2020: strategická a provozní výkonnost) ↔ finanční perspektiva, **procesy, produkty a služby** ↔ perspektiva interních procesů, **pracovníci a jejich výsledky** ↔ perspektiva učení se a růstu. Nástroje se vzájemně **doplňují**: sebehodnocení EFQM odhalí **oblasti pro zlepšení**, které se v BSC promítnou do strategických cílů a **iniciativ**; BSC je zase dokladem kvalitního **přístupu a nasazení** v kritériu strategie (od 2020: účel, vize a strategie) a ukazatele BSC poskytují **data, trendy a cíle** pro hodnocení výsledků podle RADAR. EFQM tak odpovídá na otázku „jak dobře řídíme", BSC na otázku „jak plníme strategii".
 
 *Příklad:* Sebehodnocení EFQM ukáže slabé zapojení pracovníků do zlepšování. Firma doplní do perspektivy učení se a růstu cíl „počet realizovaných zlepšovacích návrhů na pracovníka" s iniciativou systému zlepšovacích návrhů; vývoj ukazatele pak v dalším sebehodnocení doloží trend v kritériu výsledků pracovníků.
 

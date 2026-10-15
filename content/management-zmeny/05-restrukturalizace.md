@@ -99,7 +99,7 @@ Podle toho, **co se mění**, se rozlišují čtyři druhy (shodně s Krizovým 
 | **Organizační** | strukturu, řízení a lidi | zeštíhlení struktury, slučování útvarů, změna vedení, odpovědností a motivace |
 | **Portfoliová (majetková)** | čím podnik podniká a co vlastní | prodej divizí (divestice), spin-off, outsourcing, uzavření ztrátových činností, akvizice posilující jádro |
 
-Portfoliová restrukturalizace se někdy nazývá i strategická; tento název se ale nesmí plést s rozlišením **obranná × strategická** restrukturalizace, které se týká důvodu a načasování, ne předmětu změny.
+Portfoliová restrukturalizace se někdy nazývá i strategická; tento název se ale nesmí plést s rozlišením **obranná × strategická** restrukturalizace, které se týká povahy opatření (úsporná × obnovující složka, retrenchment × recovery), ne předmětu změny.
 
 ### ? Firma zruší dvě úrovně středního managementu a sloučí obchodní a marketingové oddělení. Jaký druh restrukturalizace provádí?
 
@@ -442,45 +442,49 @@ Prodejem aktiv podnik **uvolní peníze vázané v majetku**, který nepotřebuj
 
 > Outsourcing znamená, že podnik nehlavní činnost dál využívá, ale provozuje ji externí dodavatel. Podnik tak činnost neopouští, jen ji nakupuje jako službu.
 
-## Obranná × strategická restrukturalizace {#obranna-vs-strategicka .compare}
+## Obranná × strategická restrukturalizace (retrenchment × recovery) {#obranna-vs-strategicka .compare}
 
-Restrukturalizace se liší podle toho, **proč a kdy** se provádí (v literatuře se setkáme i s dvojicí defenzivní × ofenzivní):
+Osnova předmětu rozlišuje **obrannou** a **strategickou** restrukturalizaci. Tato dvojice názvů v odborné literatuře ustálená není; obsahově jí odpovídají doložené pojmy z literatury o obratu podniku (turnaroundu):
 
-| | Obranná (defenzivní, reaktivní) | Strategická (ofenzivní, proaktivní) |
+- **retrenchment × recovery** (Robbins & Pearce 1992; Schmitt & Raisch 2010, 2013) — **úsporná (obranná) složka** obratu, která škrtá náklady a redukuje aktiva, a **složka obnovy (strategická)**, která podnik repozicuje a vrací k růstu. Klasicky se chápou jako dvě po sobě jdoucí fáze; Schmitt a Raisch ukazují, že se v úspěšných obratech obě složky prolínají a doplňují — nejprve převažují úspory, později obnova;
+- **operační × strategický turnaround** (Hofer 1980) — operační zlepšuje výkon při **zachování strategie** (náklady, aktiva, tržby), strategický **mění strategii** (trhy, produkty, obchodní model).
+
+| | Obranná — úsporná složka (retrenchment) | Strategická — složka obnovy (recovery) |
 |---|---|---|
-| Podnět | krize, která už nastala (ztráty, nedostatek hotovosti, tlak věřitelů) | předvídaná změna prostředí, nová strategie, příležitost |
-| Cíl | přežití, obnovení platební schopnosti | repozicování, budoucí konkurenceschopnost a růst hodnoty |
-| Čas a zdroje | pod tlakem, málo času i peněz | z pozice síly, čas na přípravu, zdroje na investice |
-| Typická opatření | škrty nákladů, prodej majetku, finanční restrukturalizace | změna portfolia a obchodního modelu, investice, akvizice |
-| Kdo tlačí | věřitelé, likvidita | vlastníci a vedení |
-| Riziko | ztráta hodnoty nuceným prodejem, odchod lidí | odpor („proč měnit, když se daří"), chybný odhad budoucnosti |
+| Cíl | zastavit propad, stabilizovat hotovost a hospodaření | obnovit konkurenceschopnost a růst |
+| Typická opatření | **snižování nákladů** (provozních i osobních), **redukce aktiv** — prodej nepotřebného majetku, uzavření ztrátových činností | **repozicování** — nové produkty, trhy či obchodní model, investice, akvizice posilující jádro |
+| Zaměření | dovnitř, na efektivnost | ven, na trh a budoucí strategii |
+| Časový horizont | krátkodobý | střednědobý až dlouhodobý |
+| Fáze turnaroundu (Krizový management) | zhruba stabilizace a úsporná opatření restrukturalizace | zhruba obnova růstu |
 
-### ? Ziskový výrobce tiskáren předvídá dlouhodobý pokles tisku na papír. Bez tlaku věřitelů investuje do služeb správy dokumentů a prodá výrobu spotřebního materiálu. O jakou restrukturalizaci jde?
+Zdravý podnik, který se s předstihem přeorientuje bez krize, uplatňuje rovnou opatření strategického typu; úsporná složka u něj odpadá nebo je mírná.
 
-- [ ] O obrannou, protože prodává část výroby
-- [x] O strategickou, provádí ji z pozice síly
-- [ ] O obrannou, protože reaguje na vnější změnu
-- [ ] O reorganizaci v insolvenčním řízení
+### ? Ziskový výrobce tiskáren předvídá dlouhodobý pokles tisku na papír. Investuje do služeb správy dokumentů a mění obchodní model, aby získal novou pozici na trhu. Jakou povahu mají tato opatření v rozlišení úsporná (retrenchment) × obnovující (recovery) složka obratu?
 
-> Podnik jedná proaktivně, ze zisku a bez tlaku věřitelů, s cílem repozicování — jde o strategickou restrukturalizaci. Samotný prodej části výroby ani reakce na předvídaný trend z ní obrannou nedělají.
+- [ ] Úsporná, protože podnik mění své portfolio
+- [x] Obnovující (strategická) — repozicování k růstu
+- [ ] Úsporná, protože reaguje na vnější změnu
+- [ ] Reorganizace v insolvenčním řízení
+
+> Investice do nových služeb a změna obchodního modelu podnik repozicují a směřují k růstu — to jsou znaky složky obnovy (recovery), které v osnově odpovídá strategická restrukturalizace. Úsporná složka spočívá ve škrtech nákladů a redukci aktiv.
 
 ### ? Bankám došla trpělivost a hrozí zesplatněním úvěrů. Firma škrtá náklady, prodává nepotřebný majetek a vyjednává odklad splátek. O jakou restrukturalizaci jde?
 
-- [x] O obrannou (reaktivní)
-- [ ] O strategickou (proaktivní)
+- [x] O obrannou (úsporná složka, retrenchment)
+- [ ] O strategickou (složka obnovy, recovery)
 - [ ] O čistě portfoliovou
 - [ ] O spin-off části podniku
 
-> Reakce na akutní tlak věřitelů s cílem přežít, škrty a prodej majetku jsou typické znaky obranné restrukturalizace.
+> Snižování nákladů a redukce aktiv s cílem zastavit propad a přežít jsou typické znaky úsporné složky obratu (retrenchment), které v osnově odpovídá obranná restrukturalizace.
 
-### ? Jaká je hlavní výhoda strategické restrukturalizace oproti obranné?
+### ? Čím se v literatuře o obratu podniku liší složka obnovy (recovery) od úsporné složky (retrenchment)?
 
-- [ ] Nevyvolává u zaměstnanců žádný odpor ani obavy
-- [ ] Nevyžaduje souhlas vlastníků, věřitelů ani vedení podniku
-- [x] Probíhá z pozice síly, má čas, zdroje i víc variant
-- [ ] Je vždy levnější a nevyžaduje žádné investice
+- [ ] Spočívá hlavně v odpisu části dluhů věřiteli
+- [ ] Probíhá vždy až po prodeji celého podniku
+- [ ] Týká se výhradně podniků bez jakékoli krize
+- [x] Místo škrtů podnik repozicuje a vrací k růstu
 
-> Podnik, který restrukturalizuje dřív, než přijde krize, má čas na přípravu, peníze na investice a silnou vyjednávací pozici. Odpor naopak bývá u strategické restrukturalizace silný, protože lidé nevidí důvod ke změně.
+> Úsporná složka zastavuje propad škrty nákladů a redukcí aktiv, složka obnovy podnik strategicky repozicuje (produkty, trhy, obchodní model) a vrací k růstu. Odpis dluhu je nástrojem finanční restrukturalizace.
 
 ## Fáze restrukturalizačního procesu {#faze-restrukturalizace .explain}
 

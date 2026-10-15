@@ -159,33 +159,35 @@ Slovník WBS (WBS dictionary) je dokument, který ke každému prvku WBS uvádí
 
 > Slovník WBS je plánovací dokument popisující obsah prvků WBS. Skutečně odpracované hodiny vznikají až při realizaci a evidují se ve výkazech práce.
 
-## WBS, rozpad podle produktů a OBS {#wbs-pbs-obs .compare}
+## W/OBS — WBS, OBS a matice odpovědnosti {#wbs-pbs-obs .compare}
 
-Zkratka W/OBS v osnově zahrnuje rozpad prací a rozpad podle objektů (produktů); zkratka OBS se však v literatuře často používá i pro organizační strukturu projektu.
+Osnova uvádí rozpad projektu zkratkou **W/OBS**. Studijní texty VŠEM chápou **OBS** jako **Organisational Breakdown Structure** — organizační strukturu projektu (rozepsání „Object" v osnově je nepřesné). Rozpad projektu má tedy dvě osy: **co** se má udělat (WBS) a **kdo** to udělá (OBS). Jejich propojením vzniká **matice odpovědnosti** (Responsibility Assignment Matrix, RAM).
 
-| Struktura | Co rozkládá | Typické použití |
+| Struktura | Co zachycuje | Použití |
 |---|---|---|
-| **WBS** (Work Breakdown Structure) | veškerou práci projektu na dílčí výstupy a pracovní balíky | základ plánování rozsahu, času a nákladů (PMBOK, IPMA) |
-| **Rozpad podle objektů / produktů** — v PRINCE2 **PBS** (Product Breakdown Structure) | výsledný produkt na dílčí produkty (objekty, komponenty) | plánování založené na produktech (PRINCE2) |
-| **OBS** (Organizational Breakdown Structure) | organizaci projektu na útvary, týmy a role | přiřazení odpovědnosti za pracovní balíky (ve spojení s WBS např. v matici odpovědnosti) |
+| **WBS** (Work Breakdown Structure) | veškerou práci projektu rozloženou na dílčí výstupy a pracovní balíky | základ plánování rozsahu, času a nákladů |
+| **OBS** (Organisational Breakdown Structure) | organizaci projektu rozloženou na útvary, týmy a role | určení nositelů práce a odpovědnosti |
+| **WBS × OBS → RAM** | průsečíky pracovních balíků (řádky) a organizačních jednotek či rolí (sloupce) | přiřazení odpovědnosti za každý pracovní balík, např. ve formě RACI |
 
-### ? Co v PRINCE2 vyjadřuje struktura rozpadu produktů (PBS)?
+*Příklad:* Pracovní balík „Migrace dat" z WBS se v matici odpovědnosti přiřadí oddělení IT z OBS jako odpovědnému útvaru a účetnímu oddělení jako konzultovanému.
 
-- [x] Rozklad výsledného produktu na dílčí produkty
-- [ ] Hierarchii rolí a útvarů v projektovém týmu
-- [ ] Časový sled manažerských etap a jejich bran
-- [ ] Rozdělení rozpočtu podle nákladových druhů
+### ? Co vznikne propojením struktury členění prací (WBS) s organizační strukturou projektu (OBS)?
 
-> PRINCE2 používá plánování založené na produktech; PBS hierarchicky rozkládá výsledný produkt na dílčí produkty, které je třeba vytvořit.
+- [x] Matice odpovědnosti (RAM) k pracovním balíkům
+- [ ] Síťový graf s logickými vazbami mezi činnostmi
+- [ ] Výchozí plán nákladů rozložený do časových období
+- [ ] Registr rizik s vlastníky jednotlivých rizik
 
-### ? Zkratka OBS se používá i pro Organizational Breakdown Structure. Co tato struktura zobrazuje?
+> Křížením WBS (co se dělá) a OBS (kdo to dělá) vzniká matice odpovědnosti (RAM), která ke každému pracovnímu balíku určuje odpovědný útvar či roli.
+
+### ? Co zobrazuje OBS (Organisational Breakdown Structure) projektu?
 
 - [ ] Rozklad práce na pracovní balíky
 - [ ] Posloupnost činností a jejich vazby
 - [x] Organizační útvary a role odpovědné za práci
 - [ ] Rozpad nákladů do časových období
 
-> Organizational Breakdown Structure zachycuje organizaci projektu (útvary, týmy, role); propojením s WBS se určuje, kdo odpovídá za který pracovní balík.
+> Organisational Breakdown Structure zachycuje organizaci projektu (útvary, týmy, role); propojením s WBS se v matici odpovědnosti určuje, kdo odpovídá za který pracovní balík.
 
 ## Činnost a milník {#cinnost-milnik .compare}
 

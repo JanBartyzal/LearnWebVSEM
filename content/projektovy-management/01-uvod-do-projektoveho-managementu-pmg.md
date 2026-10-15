@@ -373,7 +373,7 @@ Standard popisuje hlavně, **co** má řízení projektu zahrnovat (znalosti, pr
 
 | Standard | Původ | Zaměření |
 |---|---|---|
-| **PMI / PMBOK® Guide** | Project Management Institute, USA | znalostní oblasti a procesy řízení projektů (od 7. vydání principy a výkonnostní domény; ověř, ze kterého vydání vychází výuka); certifikace PMP, CAPM |
+| **PMI / PMBOK® Guide** | Project Management Institute, USA | znalostní oblasti a procesy řízení projektů (od 7. vydání principy a výkonnostní domény; od listopadu 2025 platí 8. vydání); certifikace PMP, CAPM |
 | **IPMA ICB** | International Project Management Association, Evropa | kompetence projektového manažera ve třech oblastech (perspektiva, lidé, praxe); čtyřúrovňová certifikace A–D |
 | **PRINCE2®** | Spojené království (původně státní správa) | procesně orientovaná metodika řízení projektů s důrazem na Business Case |
 | **ISO 21500** | Mezinárodní organizace pro normalizaci (ISO) | obecné vodítko a koncepty řízení projektů; nejde o certifikační normu |

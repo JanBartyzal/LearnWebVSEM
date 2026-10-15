@@ -43,7 +43,7 @@ Model EFQM ve verzích 2010 a 2013 stál na **základních koncepcích excelence
 - úspěch díky talentu pracovníků,
 - udržování vynikajících výsledků.
 
-Koncepce nejsou bodovaná kritéria, ale **hodnotový základ** kultury excelence; kritéria modelu pak slouží jako rámec, podle kterého se hodnotí, jak organizace tyto myšlenky uplatňuje. Model 2020 je jako samostatnou část neuvádí a jejich myšlenky (zákazník, udržitelnost, kultura, inovace, transformace) promítá přímo do svých kritérií.
+Koncepce nejsou bodovaná kritéria, ale **hodnotový základ** kultury excelence; kritéria modelu pak slouží jako rámec, podle kterého se hodnotí, jak organizace tyto myšlenky uplatňuje. Modely 2020 a 2025 je jako samostatnou část neuvádějí a jejich myšlenky (zákazník, udržitelnost, kultura, inovace, transformace) promítá přímo do svých kritérií.
 
 *Příklad:* Logistická firma pořádá čtvrtletní „inovační dny", kdy týmy navrhují nové služby — naplňuje tím koncepci využívání tvořivosti a inovací. Rychlé přeplánování tras při výpadku dopravce zase dokládá agilní řízení.
 
@@ -67,7 +67,7 @@ Koncepce nejsou bodovaná kritéria, ale **hodnotový základ** kultury excelenc
 
 ## Role vedení v excelenci {#role-vedeni .explain}
 
-Vedení je v koncepci excelence **hybnou silou** — kultura zlepšování nevznikne bez aktivní účasti vrcholového managementu. Vedoucí pracovníci formulují **účel, vizi a hodnoty**, převádějí je do strategie a **jdou příkladem** (role model) vlastním chováním. Vytvářejí podmínky pro zlepšování: uvolňují **zdroje a čas**, odstraňují překážky, oceňují iniciativu a přijímají chyby jako příležitost k učení. Zároveň **řídí změny** a komunikují se zainteresovanými stranami. V modelu EFQM 2020 se role vedení posuzuje zejména v kritériu **Kultura organizace a vedení**, v normách ISO jí odpovídá zásada **vedení** (leadership) a požadavek na závazek vrcholového vedení.
+Vedení je v koncepci excelence **hybnou silou** — kultura zlepšování nevznikne bez aktivní účasti vrcholového managementu. Vedoucí pracovníci formulují **účel, vizi a hodnoty**, převádějí je do strategie a **jdou příkladem** (role model) vlastním chováním. Vytvářejí podmínky pro zlepšování: uvolňují **zdroje a čas**, odstraňují překážky, oceňují iniciativu a přijímají chyby jako příležitost k učení. Zároveň **řídí změny** a komunikují se zainteresovanými stranami. V modelech EFQM 2020 a 2025 se role vedení posuzuje zejména v kritériu **Kultura organizace a vedení**, v normách ISO jí odpovídá zásada **vedení** (leadership) a požadavek na závazek vrcholového vedení.
 
 *Příklad:* Generální ředitel strojírenské firmy chodí jednou týdně na obchůzku pracovišť (gemba walk), osobně vyslechne návrhy operátorů a u schválených návrhů zajistí rozpočet do 14 dnů — pracovníci vidí, že zlepšování má podporu shora.
 
@@ -80,7 +80,7 @@ Vedení je v koncepci excelence **hybnou silou** — kultura zlepšování nevzn
 
 > Bez osobního příkladu vedení a bez uvolněných zdrojů zůstane program jen deklarací. Excelence vyžaduje, aby vedení zlepšování aktivně podporovalo a samo se ho účastnilo.
 
-### ? Ve kterém kritériu modelu EFQM 2020 se především posuzuje, jak vedoucí jdou příkladem a utvářejí hodnoty a kulturu organizace?
+### ? Ve kterém kritériu modelu EFQM (verze 2020 i 2025) se především posuzuje, jak vedoucí jdou příkladem a utvářejí hodnoty a kulturu organizace?
 
 - [ ] Řízení výkonnosti a transformace
 - [x] Kultura organizace a vedení
@@ -216,20 +216,22 @@ Excelentní organizace kombinují oba typy změn: postupné zlepšování udržu
 
 ## Model EFQM jako návod na rozvoj kultury zlepšování {#efqm-model .explain}
 
-**Model EFQM** je **nenormativní** rámec, který organizacím slouží jako návod na rozvoj kultury zlepšování a inovací — nepředepisuje konkrétní postupy, ale pomáhá posoudit vyspělost řízení a najít oblasti pro zlepšení. Spravuje jej Evropská nadace pro management kvality (EFQM, založena 1988), první verze modelu vznikla v roce 1991. Současný **model EFQM 2020** stojí na otázkách **Proč – Jak – Co**: **Směr** (účel, vize a strategie; kultura organizace a vedení), **Realizace** (zapojení zainteresovaných stran, vytváření udržitelné hodnoty, řízení výkonnosti a transformace) a **Výsledky** (vnímání zainteresovanými stranami, strategická a provozní výkonnost). Má **7 kritérií** a maximálně **1000 bodů**; předchozí verze 2010/2013 měly 9 kritérií rozdělených na předpoklady a výsledky. Hodnotí se logikou **RADAR**.
+**Model EFQM** je **nenormativní** rámec, který organizacím slouží jako návod na rozvoj kultury zlepšování a inovací — nepředepisuje konkrétní postupy, ale pomáhá posoudit vyspělost řízení a najít oblasti pro zlepšení. Spravuje jej Evropská nadace pro management kvality (EFQM, založena 1988), první verze modelu vznikla v roce 1991. **Model EFQM 2020** zavedl strukturu postavenou na otázkách **Proč – Jak – Co**: **Směr** (účel, vize a strategie; kultura organizace a vedení), **Realizace** (zapojení zainteresovaných stran, vytváření udržitelné hodnoty, řízení výkonnosti a transformace) a **Výsledky** (vnímání zainteresovanými stranami, strategická a provozní výkonnost). Má **7 kritérií** a maximálně **1000 bodů**; předchozí verze 2010/2013 měly 9 kritérií rozdělených na předpoklady a výsledky. Hodnotí se logikou **RADAR**.
+
+Aktuální revize **EFQM Model 2025** (představena v červnu 2024) strukturu modelu 2020 zachovává — 7 kritérií ve 3 oblastech, stejné váhy, maximum 1000 bodů. Novinkou je důraz na **udržitelný užitek** pro zainteresované strany, na **technologie a umělou inteligenci**, členění výsledků do **4 kategorií** a hodnocení **2 maticemi RADAR** místo 3.
 
 *Příklad:* Distribuční firma použije model 2020 jako „zrcadlo": zjistí, že má jasně formulovanou strategii (Směr), ale chybí jí systematické řízení transformace a digitalizace (Realizace) — tuto oblast zařadí do plánu rozvoje.
 
-### ? Kterou otázku pokrývá oblast „Směr" v modelu EFQM 2020?
+### ? Kterou otázku pokrývá oblast „Směr" v modelech EFQM 2020 a 2025?
 
 - [x] Proč organizace existuje a kam směřuje
 - [ ] Jak organizace naplňuje svou strategii
 - [ ] Čeho organizace skutečně dosáhla
 - [ ] Kolik bodů organizace získá v soutěži
 
-> Model 2020 stojí na logice Proč (Směr) – Jak (Realizace) – Co (Výsledky). Směr zahrnuje účel, vizi a strategii a kulturu organizace a vedení.
+> Modely 2020 i 2025 stojí na logice Proč (Směr) – Jak (Realizace) – Co (Výsledky). Směr zahrnuje účel, vizi a strategii a kulturu organizace a vedení.
 
-### ? Firma chce využít model EFQM 2020. Které očekávání je správné?
+### ? Firma chce využít aktuální model EFQM 2025. Které očekávání je správné?
 
 - [ ] Získá certifikát shody vydaný akreditovaným orgánem
 - [ ] Dostane závazný seznam postupů, které musí zavést
@@ -238,17 +240,26 @@ Excelentní organizace kombinují oba typy změn: postupné zlepšování udržu
 
 > Model EFQM je nenormativní — nepředepisuje postupy a nevede k certifikátu. Slouží k posouzení vyspělosti řízení a k nalezení silných stránek a oblastí pro zlepšení.
 
-## Oblasti a kritéria modelu EFQM 2020 {#efqm-oblasti .compare}
+### ? Jak se EFQM Model 2025 liší od modelu EFQM 2020?
+
+- [ ] Vrátil se k devíti kritériím předpokladů a výsledků
+- [ ] Zavedl certifikaci shody prováděnou třetí stranou
+- [ ] Snížil maximální bodové hodnocení na 500 bodů
+- [x] Strukturu zachoval, posílil udržitelnost a technologie
+
+> Model 2025 zachovává 7 kritérií ve třech oblastech (Směr, Realizace, Výsledky), jejich váhy i maximum 1000 bodů. Nově zdůrazňuje udržitelný užitek, technologie a umělou inteligenci a hodnotí se dvěma maticemi RADAR místo tří. Certifikaci model EFQM nezavádí.
+
+## Oblasti a kritéria modelu EFQM 2020 a 2025 {#efqm-oblasti .compare}
 
 | Oblast | Otázka | Kritéria | Max. body |
 |---|---|---|---|
-| **Směr** | Proč? | 1 Účel, vize a strategie; 2 Kultura organizace a vedení | 200 |
-| **Realizace** | Jak? | 3 Zapojení zainteresovaných stran; 4 Vytváření udržitelné hodnoty; 5 Řízení výkonnosti a transformace | 400 |
-| **Výsledky** | Co? | 6 Vnímání zainteresovanými stranami; 7 Strategická a provozní výkonnost | 400 |
+| **Směr** | Proč? | 1 Účel, vize a strategie (100); 2 Kultura organizace a vedení (100) | 200 |
+| **Realizace** | Jak? | 3 Zapojení zainteresovaných stran (100); 4 Vytváření udržitelné hodnoty (200); 5 Řízení výkonnosti a transformace (100) | 400 |
+| **Výsledky** | Co? | 6 Vnímání zainteresovanými stranami (200); 7 Strategická a provozní výkonnost (200) | 400 |
 
-Směr a Realizace popisují, **co a jak organizace dělá**; Výsledky ukazují, **čeho dosáhla**. Mezi oblastmi platí vztah příčiny a důsledku.
+Směr a Realizace popisují, **co a jak organizace dělá**; Výsledky ukazují, **čeho dosáhla**. Mezi oblastmi platí vztah příčiny a důsledku. Model 2025 kritéria i váhy (celkem 1000 bodů) přebírá beze změny; u kritérií 3 a 6 si organizace volí váhy jednotlivých skupin zainteresovaných stran sama.
 
-### ? Firma pravidelně zjišťuje průzkumem, jak ji vnímají zaměstnanci a místní komunita. Do kterého kritéria modelu EFQM 2020 tyto výsledky patří?
+### ? Firma pravidelně zjišťuje průzkumem, jak ji vnímají zaměstnanci a místní komunita. Do kterého kritéria modelu EFQM (2020 i 2025) tyto výsledky patří?
 
 - [ ] Zapojení zainteresovaných stran
 - [ ] Řízení výkonnosti a transformace
@@ -257,7 +268,7 @@ Směr a Realizace popisují, **co a jak organizace dělá**; Výsledky ukazují,
 
 > Výsledky průzkumů názorů stakeholderů patří do kritéria Vnímání zainteresovanými stranami (oblast Výsledky). Zapojení zainteresovaných stran popisuje přístupy, nikoli dosažené výsledky.
 
-### ? Firma v rámci hodnocení podle modelu EFQM 2020 popisuje, jak spolu se zákazníky navrhuje nové služby, jak je dodává a vyhodnocuje. Do které oblasti modelu tato činnost patří?
+### ? Firma v rámci hodnocení podle modelu EFQM (2020 i 2025) popisuje, jak spolu se zákazníky navrhuje nové služby, jak je dodává a vyhodnocuje. Do které oblasti modelu tato činnost patří?
 
 - [ ] Směr
 - [x] Realizace
@@ -268,7 +279,7 @@ Směr a Realizace popisují, **co a jak organizace dělá**; Výsledky ukazují,
 
 ## RADAR jako nástroj řízení zlepšování {#radar .explain}
 
-**RADAR** je hodnoticí logika modelu EFQM a zároveň praktický **nástroj řízení zlepšování** použitelný v jakékoli oblasti. Prvky: **Results** (požadované výsledky), **Approach** (přístup), **Deployment** (nasazení) a **Assessment & Refinement** (hodnocení a zdokonalování). Organizace (1) stanoví výsledky, kterých chce dosáhnout, (2) zvolí podložené a integrované přístupy, (3) systematicky je zavede ve všech relevantních oblastech a (4) měří jejich účinnost, učí se a přístupy zdokonaluje. Na rozdíl od cyklu PDCA začíná RADAR **výsledky** — přístupy se volí až podle cíle. U dosažených výsledků se posuzují **trendy, plnění cílů, srovnání** s jinými a **pochopení příčin**.
+**RADAR** je hodnoticí logika modelu EFQM a zároveň praktický **nástroj řízení zlepšování** použitelný v jakékoli oblasti. Prvky: **Results** (požadované výsledky), **Approach** (přístup), **Deployment** (nasazení) a **Assessment & Refinement** (hodnocení a zdokonalování). Organizace (1) stanoví výsledky, kterých chce dosáhnout, (2) zvolí podložené a integrované přístupy, (3) systematicky je zavede ve všech relevantních oblastech a (4) měří jejich účinnost, učí se a přístupy zdokonaluje. Na rozdíl od cyklu PDCA začíná RADAR **výsledky** — přístupy se volí až podle cíle. U dosažených výsledků se posuzují **trendy, plnění cílů, srovnání** s jinými a **pochopení příčin**. Model 2025 hodnocení zjednodušil na **2 matice RADAR** (dříve 3).
 
 *Příklad:* Firma chce snížit počet pracovních úrazů o 30 % (výsledky), zavede systém hlášení skoronehod (přístup), rozšíří jej na všechny směny a závody (nasazení) a čtvrtletně hlášení vyhodnocuje a upravuje opatření (hodnocení a zdokonalování).
 
@@ -318,12 +329,14 @@ Směr a Realizace popisují, **co a jak organizace dělá**; Výsledky ukazují,
 
 Ceny za kvalitu vznikly jako nástroj šíření myšlenek TQM a excelence. Jejich kritéria používají i organizace, které se o cenu neucházejí — jako rámec pro sebehodnocení.
 
+**Národní cenu kvality ČR** koordinuje **Rada kvality ČR** (poradní orgán vlády, administrativně zajišťuje Ministerstvo průmyslu a obchodu); uděluje se od roku **2001** a navázala na Cenu České republiky za jakost. Organizace se mohou ucházet v programech **EXCELENCE** (náročnější, plné hodnocení podle modelu) a **START** (vstupní úroveň); vedle nich se udělují ceny za **společenskou odpovědnost** a za **rodinné podnikání**.
+
 | Ocenění | Oblast | Kdo uděluje / spravuje | Vznik | Hodnoticí model |
 |---|---|---|---|---|
 | **Demingova cena** (Deming Prize) | Japonsko | JUSE — Japonský svaz vědců a inženýrů | 1951 (nejstarší) | kritéria TQM; pojmenována po W. E. Demingovi |
 | **Cena Malcolma Baldrige** (Malcolm Baldrige National Quality Award) | USA | program spravuje NIST (ministerstvo obchodu USA) | zřízena zákonem v roce 1987 | Baldrigeova kritéria výkonnostní excelence |
 | **Ocenění EFQM** (Evropská cena za kvalitu, později EFQM Excellence Award) | Evropa | EFQM | 1992 | model EFQM |
-| **Národní cena kvality ČR** | Česko | Rada kvality ČR | — | model EFQM pro podniky, model CAF pro veřejný sektor |
+| **Národní cena kvality ČR** | Česko | Rada kvality ČR (poradní orgán vlády), administrativa MPO | od 2001 (navázala na Cenu ČR za jakost) | model EFQM pro podniky, model CAF pro veřejný sektor |
 
 ### ? Která cena za kvalitu je nejstarší a je spojena s Japonskem?
 
@@ -354,7 +367,7 @@ Ceny za kvalitu vznikly jako nástroj šíření myšlenek TQM a excelence. Jeji
 
 ## CAF — společný hodnoticí rámec {#caf .term}
 
-**CAF** (Common Assessment Framework, společný hodnoticí rámec) je model řízení kvality pro **organizace veřejného sektoru**, který vychází z modelu EFQM. Vznikl spoluprací členských států EU (první verze v roce 2000), je volně dostupný a pracuje s **9 kritérii** rozdělenými na předpoklady a výsledky, podobně jako model EFQM 2010/2013. Slouží především k **sebehodnocení** a následnému zlepšování; v ČR jeho zavádění ve veřejné správě podporuje Ministerstvo vnitra.
+**CAF** (Common Assessment Framework, společný hodnoticí rámec) je model řízení kvality pro **organizace veřejného sektoru**, který vychází z modelu EFQM. Vznikl spoluprací členských států EU (první verze v roce 2000), je volně dostupný a aktuálně platí verze **CAF 2020**. Pracuje s **9 kritérii** — **5 předpokladů** (vedení, strategie a plánování, lidé, partnerství a zdroje, procesy) a **4 výsledky** (výsledky orientované na občany/zákazníky, výsledky v oblasti lidí, výsledky společenské odpovědnosti, klíčové výsledky výkonnosti) — členěnými do **28 subkritérií**, podobně jako model EFQM 2010/2013. Slouží především k **sebehodnocení** a následnému zlepšování; v ČR model gestoruje **Ministerstvo vnitra** (český překlad, aplikační příručka z roku 2023, ocenění organizací v úrovních bronz až zlato).
 
 ### ? Které tvrzení o modelu CAF je správné?
 
@@ -373,6 +386,15 @@ Ceny za kvalitu vznikly jako nástroj šíření myšlenek TQM a excelence. Jeji
 - [ ] Six Sigma
 
 > CAF je společný hodnoticí rámec pro veřejný sektor odvozený z EFQM. ISO 9001 je certifikační norma, BSC systém strategického řízení a Six Sigma metodika zlepšování procesů.
+
+### ? Jak je uspořádáno 9 kritérií modelu CAF 2020 pro veřejný sektor?
+
+- [ ] 7 kritérií v oblastech Směr, Realizace a Výsledky a 2 doplňková kritéria
+- [ ] 4 kritéria předpokladů a 5 kritérií výsledků
+- [x] 5 kritérií předpokladů a 4 kritéria výsledků
+- [ ] 3 kritéria předpokladů a 6 kritérií výsledků
+
+> CAF 2020 dělí 9 kritérií na 5 předpokladů (vedení, strategie a plánování, lidé, partnerství a zdroje, procesy) a 4 výsledky (občané/zákazníci, lidé, společenská odpovědnost, klíčové výsledky výkonnosti), celkem s 28 subkritérii. Strukturu Směr – Realizace – Výsledky má model EFQM 2020/2025.
 
 ## Od shody k excelenci: ISO 9001 × TQM × EFQM {#iso-tqm-efqm .compare}
 

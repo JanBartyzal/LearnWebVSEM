@@ -14,7 +14,7 @@ O rozdělení zisku nebo úhradě ztráty rozhodují vlastníci — v kapitálov
 
 - **podíly na zisku** vlastníků (u a.s. **dividendy**),
 - **příděly do fondů ze zisku** — povinné podle zákona nebo společenské smlouvy / stanov a dobrovolné,
-- **tantiémy** členům orgánů, případně podíly jiným osobám (např. zaměstnancům), připouští-li to smlouva či stanovy,
+- **tantiémy** členům orgánů, případně podíly jiným osobám (např. zaměstnancům), určí-li tak společenská smlouva či stanovy,
 - **úhradu neuhrazené ztráty** minulých let,
 - **ponechání v podniku** jako nerozdělený zisk minulých let (samofinancování).
 
@@ -69,22 +69,23 @@ Ve v.o.s. se **zisk i ztráta dělí mezi společníky rovným dílem**, neurč�
 Zisk k.s. se dělí **mezi společnost a komplementáře napůl**, neurčí-li společenská smlouva jinak.
 
 - **Komplementáři** si svou polovinu dělí **rovným dílem** a zdaňují ji sami (jako společníci v.o.s.).
-- Polovina připadající **společnosti** se zdaní **daní z příjmů právnických osob** a zisk po zdanění se rozdělí mezi **komanditisty v poměru jejich vkladů**; jejich podíly pak podléhají srážkové dani jako podíly v s.r.o.
+- Polovina připadající **společnosti** se zdaní **daní z příjmů právnických osob** a zisk po zdanění se rozdělí mezi **komanditisty v poměru jejich podílů**, tj. podle **vkladů sjednaných ve společenské smlouvě** — zda je vklad už splacen, ovlivňuje jen rozsah ručení komanditisty, ne jeho podíl na zisku. Podíly komanditistů-FO pak podléhají srážkové dani jako podíly v s.r.o.
+- **Ztrátu** komanditisté **nenesou** (§ 126 odst. 3 ZOK) — dopadá na komplementáře.
 
-`podíl komplementářů = Z · 0,5` · `podíly komanditistů = Z · 0,5 · (1 − t)` rozdělené podle vkladů
+`podíl komplementářů = Z · 0,5` · `podíly komanditistů = Z · 0,5 · (1 − t)` rozdělené podle sjednaných vkladů
 
 Logika rozdělení: komplementáři ručí neomezeně a společnost řídí, komanditisté jsou kapitáloví investoři s ručením do výše nesplaceného vkladu.
 
 *Příklad:* Zisk 2 mil. Kč: komplementáři 1 mil. Kč; společnost 1 mil. Kč → po DPPO 21 % 790 000 Kč pro komanditisty.
 
-### ? Komanditní společnost má zisk před zdaněním 2 400 000 Kč; společenská smlouva rozdělení zisku neupravuje. Má jednoho komplementáře a dva komanditisty s plně splacenými vklady 600 000 Kč a 200 000 Kč. Kolik připadne většímu komanditistovi před srážkovou daní při sazbě DPPO 21 %?
+### ? Komanditní společnost má zisk před zdaněním 2 400 000 Kč; společenská smlouva rozdělení zisku neupravuje. Má jednoho komplementáře a dva komanditisty s vklady sjednanými ve společenské smlouvě 600 000 Kč a 200 000 Kč; menší komanditista zatím splatil jen 100 000 Kč. Kolik připadne většímu komanditistovi před srážkovou daní při sazbě DPPO 21 %?
 
 - [x] 711 000 Kč
 - [ ] 900 000 Kč
-- [ ] 474 000 Kč
+- [ ] 812 571 Kč
 - [ ] 1 422 000 Kč
 
-> Společnosti připadne polovina zisku 2 400 000 · 0,5 = 1 200 000 Kč, po DPPO 1 200 000 · 0,79 = 948 000 Kč. Větší komanditista má 600 / 800 = 75 % vkladů: 948 000 · 0,75 = 711 000 Kč. Částka 900 000 Kč vynechává daň, 474 000 Kč dělí zisk mezi komanditisty napůl a 1 422 000 Kč počítá s celým ziskem místo poloviny.
+> Společnosti připadne polovina zisku 2 400 000 · 0,5 = 1 200 000 Kč, po DPPO 1 200 000 · 0,79 = 948 000 Kč. Komanditisté se dělí podle sjednaných vkladů — větší má 600 / 800 = 75 %: 948 000 · 0,75 = 711 000 Kč; nesplacená část vkladu menšího komanditisty ovlivňuje jen jeho ručení. Částka 812 571 Kč vznikne dělením podle splacených vkladů (600 / 700), 900 000 Kč vynechává daň a 1 422 000 Kč počítá s celým ziskem místo poloviny.
 
 ### ? Proč zákon v komanditní společnosti přiznává komplementářům polovinu zisku bez ohledu na výši jejich vkladů?
 
@@ -94,6 +95,15 @@ Logika rozdělení: komplementáři ručí neomezeně a společnost řídí, kom
 - [ ] Komanditisté mají nárok jen na úrok ze svého vkladu
 
 > Komplementáři nesou neomezené ručení a obchodní vedení, proto jim připadá polovina zisku. Komanditisté mají podíl na zbývající, zdaněné části zisku podle poměru vkladů.
+
+### ? Komanditní společnost s jedním komplementářem a dvěma komanditisty vykázala za rok ztrátu 800 000 Kč; společenská smlouva dělení ztráty neupravuje. Jakou část ztráty nesou komanditisté?
+
+- [ ] Polovinu ztráty, rozdělenou podle jejich vkladů
+- [x] Žádnou, komanditisté se na ztrátě nepodílejí
+- [ ] Podíl odpovídající poměru vkladů na kapitálu
+- [ ] Ztrátu do výše svých dosud nesplacených vkladů
+
+> Zákon o obchodních korporacích stanoví, že komanditisté ztrátu nenesou — dopadá na komplementáře, kteří společnost řídí a ručí neomezeně. Pravidlo „napůl" platí jen pro dělení zisku a nesplacený vklad určuje rozsah ručení komanditisty věřitelům, ne podíl na ztrátě.
 
 ## Rozdělení zisku v s.r.o. {#rozdeleni-sro .explain}
 
@@ -152,7 +162,15 @@ Podíl akcionáře na zisku je **dividenda**. Návrh na rozdělení zisku předk
 
 ## Podíl na zisku v družstvu a nedělitelný fond {#rozdeleni-druzstvo .term}
 
-Družstvo je společenství osob založené primárně ke **vzájemné podpoře členů**, nikoli ke zhodnocení vloženého kapitálu. O rozdělení zisku rozhoduje **členská schůze**; připouštějí-li stanovy rozdělení zisku členům, odvíjí se podíl zpravidla od **splacených členských vkladů**, stanovy mohou určit jiný klíč. **Nedělitelný fond** je fond ze zisku, který se mezi členy **nerozděluje** (ani při zániku členství) a slouží ke krytí ztrát a k finanční stabilitě družstva; povinnost a rozsah jeho tvorby určují zákon a stanovy podle druhu družstva.
+Družstvo je společenství osob založené primárně ke **vzájemné podpoře členů**, nikoli ke zhodnocení vloženého kapitálu. O rozdělení zisku rozhoduje **členská schůze**; podíl člena se odvíjí zpravidla od **splacených členských vkladů**, stanovy mohou určit jiný klíč. Zda smí zisk jít členům, závisí na druhu družstva (ZOK):
+
+- **obecné družstvo** — výchozím stavem je **rozdělení zisku mezi členy** (§ 34 odst. 1 ZOK); stanovy to výslovně připouštět nemusí;
+- **bytové družstvo** — mezi členy smí rozdělit **nejvýše 33 % zisku**, jen **připouštějí-li to stanovy**, a teprve po vytvoření **nedělitelného fondu** alespoň ve výši **30 % základního kapitálu** (§ 750 ZOK);
+- **sociální družstvo** — nejvýše **33 % zisku**, a to jen podle stanov (§ 766 ZOK).
+
+**Nedělitelný fond** je fond ze zisku, který se mezi členy **nerozděluje** (ani při zániku členství) a slouží ke krytí ztrát a k finanční stabilitě družstva. Obecnou povinnost tvořit ho pro všechna družstva ZOK **nezná** — zřizují ho stanovy; u bytového družstva je jeho vytvoření zákonnou podmínkou rozdělení zisku členům.
+
+*Příklad:* Bytové družstvo se základním kapitálem 2 mil. Kč má nedělitelný fond 600 000 Kč (30 % ZK) a zisk 500 000 Kč; připouštějí-li to stanovy, smí členům rozdělit nejvýše 165 000 Kč.
 
 ### ? Co je charakteristické pro nedělitelný fond družstva?
 
@@ -161,7 +179,25 @@ Družstvo je společenství osob založené primárně ke **vzájemné podpoře 
 - [ ] Vyplácí se z něj každoročně podíl na zisku členům
 - [ ] Je tvořen z dotací a nesmí krýt ztrátu družstva
 
-> Nedělitelný fond je fond ze zisku, který zůstává družstvu a mezi členy se nerozděluje; slouží hlavně ke krytí ztrát a ke stabilitě. Členské vklady tvoří základní kapitál, nikoli tento fond.
+> Nedělitelný fond je fond ze zisku, který zůstává družstvu a mezi členy se nerozděluje; slouží hlavně ke krytí ztrát a ke stabilitě. Členské vklady tvoří základní kapitál, nikoli tento fond. Obecně ho zřizují stanovy; bytové družstvo ho musí vytvořit (alespoň 30 % základního kapitálu), chce-li rozdělovat zisk členům.
+
+### ? Obecné (nikoli bytové ani sociální) družstvo vykázalo zisk po zdanění. Jeho stanovy rozdělení zisku mezi členy výslovně nezmiňují ani nevylučují. Může členská schůze zisk mezi členy rozdělit?
+
+- [ ] Ne, rozdělení zisku musí stanovy výslovně připustit
+- [ ] Ne, celý zisk musí jít do nedělitelného fondu
+- [ ] Ano, ale nejvýše 33 % zisku po zdanění
+- [x] Ano, rozdělení mezi členy je zákonný výchozí stav
+
+> U obecného družstva zákon vychází z toho, že zisk se rozděluje mezi členy, takže stanovy to výslovně připouštět nemusí. Výslovné připuštění ve stanovách a strop 33 % zisku platí pro bytové a sociální družstvo; obecně povinný nedělitelný fond zákon o obchodních korporacích nezná.
+
+### ? Bytové družstvo má základní kapitál 3 mil. Kč, nedělitelný fond 900 000 Kč a zisk po zdanění 1 200 000 Kč; stanovy rozdělení zisku mezi členy připouštějí. Kolik zisku může nejvýše rozdělit mezi členy?
+
+- [x] 396 000 Kč
+- [ ] 1 200 000 Kč
+- [ ] 360 000 Kč
+- [ ] 0 Kč
+
+> Nedělitelný fond dosahuje požadovaných 30 % základního kapitálu (0,3 · 3 000 000 = 900 000 Kč) a stanovy rozdělení připouštějí, takže bytové družstvo smí členům rozdělit nejvýše 33 % zisku: 0,33 · 1 200 000 = 396 000 Kč. 1 200 000 Kč ignoruje strop 33 %, 360 000 Kč chybně použije 30 % (hranice pro nedělitelný fond) a 0 Kč by platilo, kdyby fond požadované výše nedosahoval nebo stanovy rozdělení nepřipouštěly.
 
 ## Omezení výplaty: test insolvence a bilanční test {#omezeni-vyplaty .compare}
 
@@ -250,7 +286,7 @@ Limity se liší, pokud vlastní kapitál obsahuje další položky — např. *
 
 ## Zálohy na podíl na zisku a mezitímní závěrka {#zalohy-na-zisk .explain}
 
-Korporace může vlastníkům vyplatit **zálohu na podíl na zisku** ještě před schválením řádné účetní závěrky, ale jen na základě **mezitímní účetní závěrky**, z níž vyplývá, že má **dostatek prostředků k rozdělení**; i záloha musí projít testem insolvence. Ukáže-li se později, že podmínky pro výplatu splněny nebyly, musí příjemce zálohu zpravidla vrátit. Rozhodnutá zálohová výplata se v rozvaze vykazuje jako položka **snižující vlastní kapitál**. Druhy účetních závěrek:
+Korporace může vlastníkům vyplatit **zálohu na podíl na zisku** ještě před schválením řádné účetní závěrky, ale jen na základě **mezitímní účetní závěrky**, z níž vyplývá, že má **dostatek prostředků k rozdělení**; i záloha musí projít testem insolvence. Nepokryje-li vyplacené zálohy zisk podle **řádné účetní závěrky**, vrátí příjemci rozdíl **do 3 měsíců od jejího schválení** (§ 35 ZOK). Rozhodnutá zálohová výplata se v rozvaze vykazuje jako položka **snižující vlastní kapitál**. Druhy účetních závěrek:
 
 - **řádná** — k poslednímu dni účetního období, s uzavřením účetních knih,
 - **mimořádná** — k jinému dni, s uzavřením knih (např. při přeměně nebo vstupu do likvidace),
@@ -276,11 +312,22 @@ Korporace může vlastníkům vyplatit **zálohu na podíl na zisku** ještě p�
 
 > Mezitímní účetní závěrka se sestavuje k okamžiku v průběhu účetního období a účetní knihy se přitom neuzavírají. Závěrka při vstupu do likvidace je mimořádná a sestavuje se s uzavřením knih.
 
+### ? S.r.o. vyplatila v listopadu společníkům na základě mezitímní účetní závěrky zálohy na podíl na zisku 1 000 000 Kč. Řádná účetní závěrka, schválená v červnu následujícího roku, však umožní rozdělit jen 700 000 Kč. Co platí?
+
+- [ ] Zálohy se nevracejí, protože už byly řádně vyplaceny
+- [ ] Rozdíl se automaticky započte proti podílu za příští rok
+- [ ] Společníci musí ihned vrátit celou zálohu 1 000 000 Kč
+- [x] Společníci vrátí 300 000 Kč do 3 měsíců od schválení závěrky
+
+> Zálohy, které zisk podle řádné účetní závěrky nepokryje, musí příjemci vrátit do 3 měsíců od jejího schválení — zde 1 000 000 − 700 000 = 300 000 Kč. Pokrytá část zálohy se započte na schválený podíl na zisku, takže se nevrací celá záloha; započtení proti podílům v dalších letech zákon nepředpokládá.
+
 ## Zákonné a nepovinné fondy ze zisku {#fondy-ze-zisku .explain}
 
 Fondy ze zisku vznikají **přídělem ze zisku po zdanění** a jsou součástí vlastního kapitálu (MEK 02).
 
-- **Zákonné (povinné)** — tvorbu ukládá zákon. Od roku 2014 zákon o obchodních korporacích **nevyžaduje rezervní fond** u s.r.o. ani a.s. (dříve byl povinný; zvláštní pravidla platí, drží-li a.s. vlastní akcie — viz zpětný odkup); zákonem upravený je např. **nedělitelný fond** družstva.
+- **Zákonné (povinné)** — tvorbu ukládá zákon. Od roku 2014 zákon o obchodních korporacích **nevyžaduje obecný rezervní fond** u s.r.o. ani a.s. (dříve byl povinný) ani obecný nedělitelný fond u všech družstev. Povinnost zůstala ve zvláštních situacích:
+  - vykáže-li a.s. **vlastní akcie v aktivech rozvahy**, vytvoří **zvláštní rezervní fond ve stejné výši** z nerozděleného zisku nebo z volných fondů (§ 316–317 ZOK); fond nelze rozdělit a zrušit ho lze jen při **zcizení** těchto akcií nebo **snížení základního kapitálu** (viz zpětný odkup),
+  - **bytové družstvo** smí rozdělit zisk členům až po vytvoření **nedělitelného fondu** alespoň ve výši 30 % základního kapitálu (viz družstvo).
 - **Nepovinné (statutární, dobrovolné)** — zřizuje je společenská smlouva, stanovy nebo rozhodnutí valné hromady, které určují jejich tvorbu i použití (rezervní, sociální, investiční fond, fond odměn).
 
 Funkce fondů: rezerva na krytí ztrát, stabilizace výplat, účelové vyčlenění zisku a — je-li fond nerozdělitelný — „polštář" nad základním kapitálem pro bilanční test. Fond **není hotovost**: je to zdroj krytí v pasivech, kterému odpovídá různý majetek v aktivech.
@@ -294,7 +341,7 @@ Funkce fondů: rezerva na krytí ztrát, stabilizace výplat, účelové vyčlen
 - [x] Nemusí; zřídit ho může stanovami a určit jeho pravidla
 - [ ] Nesmí, zákon o obchodních korporacích fondy zrušil
 
-> Od roku 2014 zákon povinný rezervní fond u a.s. ani s.r.o. nevyžaduje. Společnost si ho může zřídit stanovami a v nich určit tvorbu i použití.
+> Od roku 2014 zákon povinný rezervní fond u a.s. ani s.r.o. nevyžaduje. Společnost si ho může zřídit stanovami a v nich určit tvorbu i použití. Zvláštní rezervní fond ukládá zákon jen tehdy, vykazuje-li a.s. v aktivech vlastní akcie.
 
 ### ? Společnost vykazuje rezervní fond 5 mil. Kč, ale na bankovním účtu má jen 200 000 Kč. Jak je to možné?
 
@@ -305,6 +352,15 @@ Funkce fondů: rezerva na krytí ztrát, stabilizace výplat, účelové vyčlen
 
 > Fond ze zisku je součástí vlastního kapitálu na straně pasiv; ukazuje, odkud majetek pochází, ne v jaké podobě je. Zdroje fondu mohou být vázány ve strojích, zásobách nebo pohledávkách.
 
+### ? Akciová společnost odkoupila vlastní akcie za 12 mil. Kč a vykazuje je v aktivech rozvahy. Co jí v souvislosti s tím ukládá zákon o obchodních korporacích?
+
+- [ ] Nic, povinný rezervní fond zákon od roku 2014 nezná
+- [ ] Ihned snížit základní kapitál o 12 mil. Kč
+- [x] Vytvořit ve výši 12 mil. Kč zvláštní rezervní fond
+- [ ] Vytvořit rezervní fond ve výši 10 % základního kapitálu
+
+> Vykáže-li a.s. vlastní akcie v aktivech, vytvoří ve stejné výši zvláštní rezervní fond z nerozděleného zisku nebo volných fondů; zrušit ho lze jen při zcizení akcií nebo snížení základního kapitálu. Snížení základního kapitálu je jen jednou z možností, jak s vlastními akciemi naložit, a hranice 10 % základního kapitálu patří k dřívější úpravě obecného rezervního fondu.
+
 ## Použití fondů ze zisku {#pouziti-fondu .compare}
 
 | Fond | Typické použití |
@@ -313,7 +369,7 @@ Funkce fondů: rezerva na krytí ztrát, stabilizace výplat, účelové vyčlen
 | **Sociální fond** | plnění zaměstnancům — příspěvky na stravování, rekreaci, kulturu a sport, sociální výpomoci, půjčky |
 | **Fond odměn** | odměny zaměstnancům či vedení vyplácené ze zisku |
 | **Investiční (rozvojový) fond** | vyčlenění zisku na budoucí investice, aby nebyl rozdělen (samofinancování) |
-| **Nedělitelný fond** (družstvo) | krytí ztrát a stabilita; mezi členy se nerozděluje |
+| **Nedělitelný fond** (družstvo) | krytí ztrát a stabilita; mezi členy se nerozděluje (zřizují ho stanovy; u bytového družstva podmínka rozdělení zisku) |
 
 Fondy se tvoří ze zisku po zdanění, proto jejich čerpání není daňovým nákladem korporace. Pravidla čerpání stanoví statut fondu, smlouva nebo stanovy.
 
@@ -374,7 +430,7 @@ Fondy se tvoří ze zisku po zdanění, proto jejich čerpání není daňovým 
 
 ## Tantiéma {#tantiemy .term}
 
-**Podíl na zisku vyplácený členům orgánů** společnosti (jednatelům, členům představenstva, správní či dozorčí rady), o kterém rozhoduje valná hromada, připouští-li to společenská smlouva nebo stanovy (případně i smlouva o výkonu funkce). Vyplácí se ze **zisku po zdanění**, a proto pro korporaci **není daňovým nákladem** — na rozdíl od smluvní odměny za výkon funkce. Váže odměnu vedení na výsledek a zmírňuje problém zastoupení, může však motivovat ke krátkodobé maximalizaci účetního zisku.
+**Podíl na zisku vyplácený členům orgánů** společnosti (jednatelům, členům představenstva, správní či dozorčí rady), o kterém rozhoduje valná hromada. Tantiému lze vyplatit **jen tehdy, určí-li tak společenská smlouva nebo stanovy** (§ 34 odst. 1 ZOK) — samotná smlouva o výkonu funkce jako titul pro její výplatu **nestačí**. Vyplácí se ze **zisku po zdanění**, a proto pro korporaci **není daňovým nákladem** — na rozdíl od smluvní odměny za výkon funkce. Váže odměnu vedení na výsledek a zmírňuje problém zastoupení, může však motivovat ke krátkodobé maximalizaci účetního zisku.
 
 ### ? Valná hromada a.s. schválila členům představenstva tantiémy 2 mil. Kč. Jak ovlivní základ daně z příjmů společnosti?
 
@@ -393,6 +449,15 @@ Fondy se tvoří ze zisku po zdanění, proto jejich čerpání není daňovým 
 - [ ] Zajistit zaměstnancům sociální výhody
 
 > Tantiéma dává členům orgánů podíl na zisku, a tím sbližuje jejich zájmy se zájmy vlastníků. Daň nesnižuje a sociálním výhodám zaměstnanců slouží sociální fond.
+
+### ? Smlouva o výkonu funkce člena představenstva a.s. slibuje tantiému 2 % ze zisku, stanovy však podíl na zisku pro členy orgánů vůbec neupravují. Může valná hromada tantiému schválit a vyplatit?
+
+- [x] Ne, výplatu tantiémy musí určit stanovy společnosti
+- [ ] Ano, smlouva o výkonu funkce je dostatečným titulem
+- [ ] Ano, ale jen s předchozím souhlasem dozorčí rady
+- [ ] Ano, tantiéma žádný zvláštní titul nepotřebuje
+
+> Podíl na zisku jiným osobám než akcionářům, včetně tantiém členům orgánů, lze vyplatit jen tehdy, určí-li tak stanovy (u s.r.o. společenská smlouva). Smlouva o výkonu funkce ani souhlas dozorčí rady tento titul nenahradí; společnost by musela nejprve změnit stanovy.
 
 ## Dividendová politika {#dividendova-politika .term}
 
@@ -616,7 +681,7 @@ Při **zpětném odkupu** (share buyback) společnost za peníze nakoupí vlastn
 
 `EPS_po = EAT_po / (N − počet odkoupených akcií)`
 
-Je-li odkup financován dluhem nebo hotovostí nesoucí úrok, EAT klesne; EPS pak vzroste jen tehdy, je-li **ziskový výnos E/P vyšší než úrok po zdanění**. Růst EPS sám hodnotu netvoří a odkup za nadhodnocenou cenu ji ničí. Nabývání vlastních akcií podmiňuje zákon zejména souhlasem valné hromady a financováním jen ze zdrojů, které lze rozdělit akcionářům; z vlastních akcií společnost nehlasuje ani nepobírá dividendu.
+Je-li odkup financován dluhem nebo hotovostí nesoucí úrok, EAT klesne; EPS pak vzroste jen tehdy, je-li **ziskový výnos E/P vyšší než úrok po zdanění**. Růst EPS sám hodnotu netvoří a odkup za nadhodnocenou cenu ji ničí. Nabývání vlastních akcií podmiňuje zákon zejména souhlasem valné hromady a financováním jen ze zdrojů, které lze rozdělit akcionářům; z vlastních akcií společnost nehlasuje ani nepobírá dividendu. Vykáže-li a.s. odkoupené akcie v aktivech rozvahy, musí ve stejné výši vytvořit **zvláštní rezervní fond** z nerozděleného zisku nebo volných fondů (§ 316–317 ZOK); ten lze zrušit jen při zcizení akcií nebo snížení základního kapitálu, takže odpovídající část vlastního kapitálu nelze vyplatit akcionářům.
 
 *Příklad:* EAT 100 mil. Kč, 20 mil. akcií (EPS 5 Kč); po odkupu 4 mil. akcií z neúročené hotovosti EPS = 100 / 16 = 6,25 Kč.
 
@@ -649,9 +714,9 @@ Je-li odkup financován dluhem nebo hotovostí nesoucí úrok, EAT klesne; EPS p
 
 ## Důležitá data výplaty dividendy {#data-vyplaty .explain}
 
-1. **Den rozhodnutí (vyhlášení)** — valná hromada schválí rozdělení zisku a výši dividendy; společnosti vzniká dluh vůči akcionářům.
+1. **Den rozhodnutí (vyhlášení)** — valná hromada schválí rozdělení zisku a výši dividendy; společnosti vzniká dluh vůči akcionářům. Podíl na zisku je **splatný do 3 měsíců ode dne rozhodnutí** o rozdělení zisku (§ 34 odst. 4 ZOK).
 2. **Den ex-dividenda** (ex-date) — první den, kdy se akcie obchoduje **bez nároku** na dividendu; kupující ji už nedostane a cena akcie zpravidla klesne přibližně o výši dividendy (vlivem daní obvykle o něco méně).
-3. **Rozhodný den** (record date) — dividendu dostane ten, kdo je k tomuto dni evidován jako akcionář; ex-den mu kvůli lhůtě vypořádání obchodů předchází. Rozhodný den určují stanovy nebo usnesení valné hromady.
+3. **Rozhodný den** (record date) — dividendu dostane ten, kdo je k tomuto dni evidován jako akcionář; ex-den mu kvůli lhůtě vypořádání obchodů předchází. U a.s. je rozhodným dnem **den konání valné hromady**, která o rozdělení zisku rozhodla, **neurčí-li stanovy jinak** (§ 352 ZOK).
 4. **Den výplaty** (payment date) — připsání dividendy po sražení daně.
 
 *Příklad:* Kdo prodá akcii v den ex-dividenda, dividendu ještě dostane, protože je k rozhodnému dni stále evidován jako akcionář.
@@ -674,13 +739,22 @@ Je-li odkup financován dluhem nebo hotovostí nesoucí úrok, EAT klesne; EPS p
 
 > Kdo koupí akcii v den ex-dividenda nebo později, není k rozhodnému dni evidován jako akcionář, a dividendu proto dostane prodávající. Kupující to promítá do nižší ceny akcie.
 
+### ? Valná hromada a.s. schválila výplatu dividendy; stanovy rozhodný den pro uplatnění práva na dividendu neurčují. Kdo má na dividendu nárok?
+
+- [ ] Kdo byl akcionářem k poslednímu dni účetního období
+- [ ] Kdo bude akcionářem v den výplaty dividendy
+- [x] Kdo byl akcionářem ke dni konání této valné hromady
+- [ ] Kdo byl akcionářem ke dni sestavení účetní závěrky
+
+> Neurčí-li stanovy jinak, je rozhodným dnem pro uplatnění práva na dividendu den konání valné hromady, která o výplatě rozhodla. Konec účetního období ani sestavení závěrky nárok nezakládají a den výplaty následuje až po rozhodném dni (dividenda je splatná do 3 měsíců od rozhodnutí).
+
 ## Srážková daň a čistá dividenda {#srazkova-dan .explain}
 
 Podíl na zisku (dividenda) vyplácený **fyzické osobě** podléhá **srážkové dani** zvláštní sazbou — od roku 2024 **15 %**. Daň sráží a odvádí **vyplácející korporace** jako plátce daně; pro příjemce je daň **konečná** a dividendu do daňového přiznání neuvádí.
 
 `čistá dividenda = hrubá dividenda · (1 − sazba srážkové daně)`
 
-Srážková daň dopadá na zisk již zdaněný daní z příjmů právnických osob — jde o **ekonomické dvojí zdanění** (výpočet efektivní sazby viz téma 2). Podíly na zisku mezi mateřskou a dceřinou společností (zejména při podílu alespoň 10 % drženém alespoň 12 měsíců) mohou být od daně osvobozeny; u příjemců ze zahraničí sazbu ovlivňují smlouvy o zamezení dvojího zdanění.
+Srážková daň dopadá na zisk již zdaněný daní z příjmů právnických osob — jde o **ekonomické dvojí zdanění** (výpočet efektivní sazby viz téma 2). Podíly na zisku vyplácené mateřské společnosti jsou od daně **osvobozeny**, splní-li zákonné podmínky (§ 19 ZDP): podíl alespoň **10 %** na základním kapitálu dceřiné společnosti držený **nepřetržitě nejméně 12 měsíců** (lze splnit i dodatečně), právní forma podle směrnice 2011/96/EU a daňová rezidence v EU; u příjemců ze zahraničí sazbu ovlivňují smlouvy o zamezení dvojího zdanění.
 
 *Příklad:* Hrubá dividenda 10 000 Kč → srážková daň 1 500 Kč → na účet přijde 8 500 Kč.
 
@@ -701,3 +775,12 @@ Srážková daň dopadá na zisk již zdaněný daní z příjmů právnických 
 - [ ] Vyplácející společnost; akcionář dividendu ještě zdaní v přiznání
 
 > Srážkovou daň sráží a odvádí plátce — vyplácející korporace — a pro příjemce jde o konečné zdanění. Dividenda se proto do daňového přiznání fyzické osoby již neuvádí.
+
+### ? Česká a.s. vlastní nepřetržitě tři roky 25 % základního kapitálu české dceřiné s.r.o., která jí vyplácí podíl na zisku 4 mil. Kč. Kolik činí daň z tohoto podílu na zisku, je-li sazba srážkové daně 15 % a DPPO 21 %?
+
+- [ ] 600 000 Kč
+- [x] 0 Kč
+- [ ] 840 000 Kč
+- [ ] 400 000 Kč
+
+> Mateřská společnost drží alespoň 10 % základního kapitálu dcery nepřetržitě déle než 12 měsíců a obě jsou českými kapitálovými společnostmi, proto je podíl na zisku od daně osvobozen. 600 000 Kč by byla srážková daň 15 % (platí pro výplatu fyzické osobě), 840 000 Kč zdanění sazbou DPPO a 400 000 Kč chybně odvozuje sazbu z hranice 10 %.

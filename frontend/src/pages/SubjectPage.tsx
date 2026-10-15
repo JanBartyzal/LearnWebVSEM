@@ -2,7 +2,6 @@ import { useQuery } from '@tanstack/react-query'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import {
   Badge,
-  Body1,
   Breadcrumb,
   BreadcrumbButton,
   BreadcrumbDivider,
@@ -19,6 +18,7 @@ import {
 } from '@fluentui/react-components'
 import { BookOpenRegular, QuizNewRegular, ReadingListRegular } from '@fluentui/react-icons'
 import { api } from '../api/client.ts'
+import { Markdown } from '../components/Markdown.tsx'
 import { MasteryBar } from '../components/MasteryBar.tsx'
 import { PageState } from '../components/PageState.tsx'
 
@@ -62,9 +62,10 @@ export function SubjectPage() {
       {data && (
         <>
           <Title2 as="h1">{data.name}</Title2>
-          <Body1 as="p" className={s.goal}>
-            {data.goal}
-          </Body1>
+          {/* cíl předmětu může obsahovat Markdown (např. odstavec se studijní oporou) */}
+          <div className={s.goal}>
+            <Markdown>{data.goal}</Markdown>
+          </div>
           <div className={s.summaryRow}>
             <div className={s.summary}>
               <MasteryBar value={data.mastery} label="Zvládnutí předmětu" />

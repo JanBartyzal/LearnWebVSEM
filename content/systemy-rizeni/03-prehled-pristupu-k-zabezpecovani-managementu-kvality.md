@@ -453,9 +453,11 @@ Perspektiva životního cyklu je požadavek ISO 14001:2015, aby organizace při 
 - **vstupní environmentální přezkoumání** před první registrací,
 - prokázání **skutečného plnění právních předpisů** (nikoli jen závazku k plnění),
 - **aktivní zapojení zaměstnanců**,
-- veřejné **environmentální prohlášení** s údaji o výkonnosti (včetně tzv. klíčových ukazatelů, např. energetická a materiálová účinnost, voda, odpady, emise),
+- veřejné **environmentální prohlášení** s údaji o výkonnosti, včetně **klíčových indikátorů** (příloha IV nařízení): **energetická účinnost**, **materiálová účinnost**, **voda**, **odpady**, **biologická rozmanitost** (využívání půdy) a **emise**,
 - ověření systému a **validace prohlášení nezávislým environmentálním ověřovatelem**,
 - **registrace** u příslušného orgánu, po níž smí organizace používat **logo EMAS**.
+
+V ČR je příslušným orgánem **Ministerstvo životního prostředí**, agendu EMAS (registr, podpora organizací) vede **CENIA**, česká informační agentura životního prostředí. Registrace se obnovuje v cyklu zpravidla **3 let** (s novým ověřením systému) a environmentální prohlášení se každoročně aktualizuje; malé organizace mohou mít cyklus delší.
 
 EMAS je proto považován za náročnější a transparentnější nadstavbu ISO 14001. Zapojit se mohou podniky i veřejné instituce.
 
@@ -478,6 +480,15 @@ EMAS je proto považován za náročnější a transparentnější nadstavbu ISO
 - [ ] Certifikační orgán pro ISO 9001
 
 > Environmentální prohlášení a systém ověřuje a validuje nezávislý environmentální ověřovatel. Teprve poté může následovat registrace u příslušného orgánu.
+
+### ? Který z uvedených údajů NEPATŘÍ mezi klíčové indikátory, které organizace uvádí v environmentálním prohlášení EMAS?
+
+- [ ] Energetická účinnost
+- [ ] Biologická rozmanitost (využívání půdy)
+- [x] Spokojenost zákazníků s produkty
+- [ ] Produkce odpadů
+
+> Klíčové indikátory EMAS pokrývají energetickou a materiálovou účinnost, vodu, odpady, biologickou rozmanitost (půdu) a emise. Spokojenost zákazníků je ukazatel managementu kvality, ne environmentální výkonnosti.
 
 ## ISO 14001 × EMAS {#iso14001-vs-emas .compare}
 
@@ -513,7 +524,7 @@ EMAS obsahuje všechny požadavky ISO 14001 a doplňuje je; organizace s ISO 140
 
 ## ISO 45001: systém managementu BOZP {#iso-45001 .explain}
 
-**ISO 45001:2018** stanovuje požadavky na **systém managementu bezpečnosti a ochrany zdraví při práci** (BOZP, angl. OH&S) a je certifikovatelná. Jde o první mezinárodní normu ISO pro BOZP; **nahradila specifikaci OHSAS 18001** (vydanou BSI, vytvořenou mezinárodním konsorciem OHSAS Project Group). Má společnou strukturu s ISO 9001 a 14001 (HLS), takže se snadno integruje. Jejím účelem je **předcházet pracovním úrazům a poškození zdraví** a zajišťovat bezpečná a zdravá pracoviště. Oproti OHSAS 18001 klade větší důraz na:
+**ISO 45001:2018** stanovuje požadavky na **systém managementu bezpečnosti a ochrany zdraví při práci** (BOZP, angl. OH&S) a je certifikovatelná. Jde o první mezinárodní normu ISO pro BOZP; **nahradila specifikaci OHSAS 18001** (vydanou BSI, vytvořenou mezinárodním konsorciem OHSAS Project Group). Pro přechod certifikovaných organizací platilo tříleté přechodné období, které IAF kvůli pandemii covidu-19 prodloužilo do **září 2021**; certifikáty podle OHSAS 18001 poté pozbyly platnosti. Má společnou strukturu s ISO 9001 a 14001 (HLS), takže se snadno integruje. Jejím účelem je **předcházet pracovním úrazům a poškození zdraví** a zajišťovat bezpečná a zdravá pracoviště. Oproti OHSAS 18001 klade větší důraz na:
 
 - **kontext organizace** a odpovědnost vrcholového vedení (vedoucí roli nelze plně delegovat),
 - **konzultaci a účast pracovníků**, zejména nevedoucích,

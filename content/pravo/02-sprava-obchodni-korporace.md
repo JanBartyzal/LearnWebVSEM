@@ -183,7 +183,7 @@ Volba systému vnitřní struktury určuje, zda je vedení a kontrola oddělena 
 
 Osobní společnosti nemají valnou hromadu ani kontrolní orgán — **spravují je společníci**, kteří jsou zároveň jejich statutárním orgánem.
 
-- **V.o.s.**: statutárním orgánem jsou **všichni společníci**; společenská smlouva může určit, že jen jeden nebo někteří z nich. Všichni ručí za dluhy společnosti společně a nerozdílně celým svým majetkem, proto mají i rozhodující slovo ve vedení.
+- **V.o.s.**: statutárním orgánem jsou **všichni společníci**; společenská smlouva může určit, že jen jeden nebo někteří z nich. Všichni ručí za dluhy společnosti společně a nerozdílně celým svým majetkem, proto mají i rozhodující slovo ve vedení. Ve věcech společnosti rozhodují společníci **jednomyslně**, ledaže společenská smlouva určí jinak (např. většinou hlasů); každý společník má **jeden hlas** bez ohledu na výši vkladu (§ 105 ZOK). **Změnu společenské smlouvy** lze provést jen **dohodou všech společníků** (§ 99 ZOK).
 - **K.s.**: statutárním orgánem jsou **komplementáři** (ručí neomezeně). **Komanditisté** (ručí jen omezeně, do výše nesplaceného vkladu zapsaného v obchodním rejstříku) za společnost nejednají a obchodní vedení jim nenáleží; mají však **kontrolní práva**, např. nahlížet do účetnictví.
 
 *Příklad:* Investor vstoupí do k.s. jako komanditista, protože chce omezit své riziko. Za to se smíří s tím, že firmu řídí a podepisuje za ni jen komplementář.
@@ -205,6 +205,15 @@ Osobní společnosti nemají valnou hromadu ani kontrolní orgán — **spravuj�
 - [x] Všichni tři společníci
 
 > Ve v.o.s. jsou statutárním orgánem ze zákona všichni společníci; společenská smlouva může tuto roli omezit jen na některé z nich. Jednatel je orgán s.r.o.
+
+### ? Veřejná obchodní společnost má tři společníky s vklady 70 %, 20 % a 10 %. Společenská smlouva způsob rozhodování neupravuje. Jak se rozhoduje o věcech společnosti?
+
+- [ ] Většinou hlasů podle poměru vkladů
+- [x] Jednomyslně, každý společník má jeden hlas
+- [ ] Prostou většinou, každý společník má jeden hlas
+- [ ] Rozhoduje sám společník s největším vkladem
+
+> Ve v.o.s. se bez odchylné úpravy ve společenské smlouvě rozhoduje jednomyslně a každý společník má jeden hlas bez ohledu na vklad. Většinové hlasování musí společenská smlouva výslovně zavést.
 
 ## Orgány družstva {#druzstvo-organy .explain}
 
@@ -420,7 +429,7 @@ Zákaz konkurence brání tomu, aby osoba s přístupem k vedení a informacím 
 
 ## Smlouva o výkonu funkce {#smlouva-o-vykonu-funkce .explain}
 
-Smlouva o výkonu funkce upravuje práva a povinnosti mezi korporací a členem jejího orgánu, zejména **odměnu** a další plnění. Musí mít **písemnou formu** a schvaluje ji zpravidla orgán, který člena volí — u s.r.o. **valná hromada**. Nebyla-li smlouva schválena a není-li odměna určena jinak (např. vnitřním předpisem o odměňování), je výkon funkce zpravidla **bezplatný**. Na vztah člena orgánu ke korporaci se podle ZOK **přiměřeně použijí ustanovení OZ o příkazu**, nikoli zákoník práce — člen orgánu není „zaměstnancem" jen tím, že funkci vykonává. Smlouva **nemůže vyloučit ani omezit odpovědnost** člena orgánu za porušení péče řádného hospodáře. Plnění, která členovi nevyplývají ze zákona ani ze schválené smlouvy, lze poskytnout jen se souhlasem orgánů korporace.
+Smlouva o výkonu funkce upravuje práva a povinnosti mezi korporací a členem jejího orgánu, zejména **odměnu** a další plnění. Musí mít **písemnou formu** a schvaluje ji **orgán, který člena volí** — u jednatele s.r.o. **valná hromada**, u člena představenstva a.s., kterého volí dozorčí rada, **dozorčí rada** (§ 438 odst. 2 ZOK; volí-li představenstvo podle stanov valná hromada, schvaluje smlouvu ona). Nebyla-li smlouva schválena a není-li odměna určena jinak (např. vnitřním předpisem o odměňování), je výkon funkce zpravidla **bezplatný**. Na vztah člena orgánu ke korporaci se podle ZOK **přiměřeně použijí ustanovení OZ o příkazu**, nikoli zákoník práce — člen orgánu není „zaměstnancem" jen tím, že funkci vykonává. Smlouva **nemůže vyloučit ani omezit odpovědnost** člena orgánu za porušení péče řádného hospodáře. Plnění, která členovi nevyplývají ze zákona ani ze schválené smlouvy, lze poskytnout jen se souhlasem orgánů korporace.
 
 *Příklad:* Nový člen představenstva si vyjedná měsíční odměnu a služební auto. Aby měl na plnění jistý nárok, musí je obsahovat písemná smlouva o výkonu funkce schválená příslušným orgánem.
 
@@ -441,6 +450,15 @@ Smlouva o výkonu funkce upravuje práva a povinnosti mezi korporací a členem 
 - [ ] Výhradně stanovami společnosti
 
 > Vztah z výkonu funkce se řídí ZOK, smlouvou o výkonu funkce a přiměřeně ustanoveními OZ o příkazu. Výkon funkce statutárního orgánu není sám o sobě pracovním poměrem.
+
+### ? Akciová společnost s dualistickým systémem, ve které členy představenstva volí dozorčí rada, uzavírá s novým členem představenstva smlouvu o výkonu funkce. Který orgán smlouvu schvaluje?
+
+- [ ] Valná hromada
+- [ ] Představenstvo
+- [x] Dozorčí rada
+- [ ] Předseda představenstva
+
+> Smlouvu o výkonu funkce schvaluje orgán, který člena volí; volí-li členy představenstva dozorčí rada, schvaluje jim i smlouvu a plnění z ní. Valná hromada by smlouvu schvalovala, kdyby představenstvo podle stanov volila ona.
 
 ## Práva společníků a akcionářů {#prava-spolecniku .explain}
 

@@ -97,23 +97,23 @@ Migrace se aplikují automaticky při startu backendu. Prázdná DB se při star
 
 - [x] **Fáze 1** — kostra, Docker Compose, datový model + migrace, MD import/export/validace, výpis předmětů a témat,
       prohlížení karet, správa obsahu v UI, AI návrh tématu přes LiteLLM. Kostry všech 16 předmětů z osnov.
-- [x] Obsah pilotu — Projektový management: 9 témat, 178 karet, 320 otázek (napsáno Claudem, zrecenzováno).
+- [x] Obsah pilotu — Projektový management: 9 témat, 180 karet, 326 otázek (napsáno Claudem, zrecenzováno).
 - [x] Obsah: Manažerská ekonomie — 10 témat, 193 karet, 399 otázek (zrecenzováno).
-- [x] Obsah: Manažerská ekonomika — 9 témat, 181 karet, 387 otázek (zrecenzováno).
-- [x] Obsah: Právo — 8 témat, 161 karet, 352 otázek (právní recenze; stav po novele ZOK 2021 a spotřebitelské novele 2023).
+- [x] Obsah: Manažerská ekonomika — 9 témat, 181 karet, 388 otázek (zrecenzováno).
+- [x] Obsah: Právo — 8 témat, 163 karet, 359 otázek (právní recenze; stav po novele ZOK 2021 a spotřebitelské novele 2023).
 - [x] Obsah: Řízení lidských zdrojů — 6 témat, 130 karet, 284 otázek (zrecenzováno).
 - [x] Obsah: Strategický management — 4 témata, 99 karet, 224 otázek (zrecenzováno; rámec Hill & Jones).
 - [x] Obsah: Strategický marketing — 12 témat, 197 karet, 421 otázek (zrecenzováno; nejasné formulace osnovy v GAPS, otázky na nich nestojí).
 - [x] Obsah: Strategie podniku — 6 témat, 116 karet, 274 otázek (zrecenzováno; sladěno s Manažerskou ekonomikou).
-- [x] Obsah: ICT strategie — 11 témat, 191 karet, 380 otázek (zrecenzováno).
-- [x] Obsah: Krizový management — 9 témat, 154 karet, 314 otázek (zrecenzováno).
-- [x] Obsah: Aplikace podnikové informatiky — 12 témat, 203 karet, 393 otázek (zrecenzováno; sladěno s ICT strategií).
-- [x] Obsah: Měření firemní výkonnosti — 12 témat, 207 karet, 443 otázek (zrecenzováno; sladěno s Manažerskou ekonomikou a Strategií podniku).
-- [x] Obsah: Systémy řízení — 8 témat, 152 karet, 327 otázek (zrecenzováno; terminologie dle ČSN EN ISO 9000:2016, sladěno s Krizovým managementem a MFV).
-- [x] Obsah: Management změny — 6 témat, 164 karet, 354 otázek (zrecenzováno; sladěno s Krizovým managementem, ŘLZ a Strategickým marketingem).
-- [x] Obsah: Ekonomické a sociální inovace — 10 témat, 218 karet, 484 otázek (zrecenzováno; navazuje na Management změny 03, sladěno se Strategickým marketingem a SM).
-- [x] Obsah: Finanční řízení — 9 témat, 214 karet, 474 otázek (zrecenzováno, výpočty ověřeny skriptem; sladěno s MEK 02/04, SP 03/04 a Právem; sazby daní vždy v zadání).
-- [x] **Obsah všech 16 předmětů: 141 témat, 2 758 karet, 5 830 otázek.** Otevřené termíny viz GAPS-terminy.md — po doplnění uživatelem zapracovat.
+- [x] Obsah: ICT strategie — 11 témat, 191 karet, 385 otázek (zrecenzováno).
+- [x] Obsah: Krizový management — 9 témat, 154 karet, 315 otázek (zrecenzováno).
+- [x] Obsah: Aplikace podnikové informatiky — 12 témat, 203 karet, 395 otázek (zrecenzováno; sladěno s ICT strategií).
+- [x] Obsah: Měření firemní výkonnosti — 12 témat, 207 karet, 446 otázek (zrecenzováno; sladěno s Manažerskou ekonomikou a Strategií podniku).
+- [x] Obsah: Systémy řízení — 8 témat, 152 karet, 335 otázek (zrecenzováno; terminologie dle ČSN EN ISO 9000:2016, sladěno s Krizovým managementem a MFV).
+- [x] Obsah: Management změny — 6 témat, 164 karet, 358 otázek (zrecenzováno; sladěno s Krizovým managementem, ŘLZ a Strategickým marketingem).
+- [x] Obsah: Ekonomické a sociální inovace — 10 témat, 218 karet, 492 otázek (zrecenzováno; navazuje na Management změny 03, sladěno se Strategickým marketingem a SM).
+- [x] Obsah: Finanční řízení — 9 témat, 215 karet, 488 otázek (zrecenzováno, výpočty ověřeny skriptem; sladěno s MEK 02/04, SP 03/04 a Právem; sazby daní vždy v zadání).
+- [x] **Obsah všech 16 předmětů: 141 témat, 2 763 karet, 5 889 otázek** (po zapracování GAPS 10/2026). Otevřené termíny viz GAPS-terminy.md — po doplnění uživatelem zapracovat.
 - [x] **Fáze 2** — režim Učení (mini-kvíz po 5 kartách), Procvičování (téma/předmět, 10 otázek), `POST /api/quiz`,
       `POST /api/answers`, `POST /api/cards/{id}/learned`, `AttemptLog`, XP + úrovně v hlavičce, re-teach po 3+ chybách.
 - [ ] **Fáze 3** — denní fronta opakování, horká fronta seance, „pokračovat kde jsi skončil".

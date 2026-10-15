@@ -152,7 +152,7 @@ ROI = ziskovost tržeb · obrat aktiv. Rozšířením o finanční páku (aktiva
 
 V **maticové soustavě** se ukazatele třídí podle **dvou hledisek** současně — řádky a sloupce matice představují např. oblasti výkonnosti a typ ukazatele, případně organizační útvary. Každé pole matice obsahuje ukazatele dané kombinace. Přínosem je **kontrola vyváženosti a úplnosti**: prázdné pole ukazuje oblast, kterou podnik neměří. Vzájemné vazby mezi ukazateli matice sama nevyjadřuje.
 
-Známým příkladem je **Performance Measurement Matrix** (Keegan, Eiler a Jones, 1989), která kombinuje hlediska **nákladové × nenákladové** (finanční × nefinanční) a **interní × externí** ukazatele:
+Známým příkladem je **Performance Measurement Matrix** (Keegan, Eiler a Jones, 1989) — matice 2 × 2, která kombinuje hlediska **nákladové × nenákladové** (finanční × nefinanční) a **interní × externí** ukazatele:
 
 | | Nákladové | Nenákladové |
 |---|---|---|

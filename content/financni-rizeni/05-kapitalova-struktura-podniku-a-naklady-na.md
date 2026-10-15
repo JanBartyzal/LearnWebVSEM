@@ -365,13 +365,15 @@ Stavebnicový (build-up) model skládá náklady vlastního kapitálu z bezrizik
 
 `r_VK = r_f + přirážka za podnikatelské riziko + přirážka za finanční stabilitu + přirážka za velikost podniku + přirážka za kapitálovou strukturu`
 
-- **r_f** — bezriziková sazba (výnos dlouhodobých státních dluhopisů),
-- **podnikatelské riziko** — odvozuje se z výnosnosti aktiv; čím vyšší provozní rentabilita, tím nižší přirážka,
-- **finanční stabilita** — odvozuje se z likvidity; horší likvidita znamená vyšší přirážku,
-- **velikost podniku** — menší podnik (méně likvidní a obchodovatelné podíly) má vyšší přirážku,
-- **kapitálová struktura** — vyšší zadlužení znamená vyšší přirážku (finanční riziko vlastníků).
+v metodice MPO zapsáno `r_e = r_f + r_LA + r_POD + r_FINSTAB + r_FINSTRU`:
 
-Přirážky se určují z **účetních výkazů**, proto lze model použít i pro neobchodované podniky. Konkrétní funkce a hraniční hodnoty přirážek stanoví metodika a v čase se upravují — zde jen princip.
+- **r_f** — bezriziková sazba (výnos 10letých státních dluhopisů),
+- **r_POD — podnikatelské riziko** — odvozuje se z výnosnosti aktiv EBIT/A; čím vyšší provozní rentabilita, tím nižší přirážka,
+- **r_FINSTAB — finanční stabilita** — odvozuje se z běžné likvidity; horší likvidita znamená vyšší přirážku,
+- **r_LA — velikost podniku** — menší podnik (méně likvidní a obchodovatelné podíly) má vyšší přirážku,
+- **r_FINSTRU — kapitálová struktura** — vyšší zadlužení znamená vyšší přirážku (finanční riziko vlastníků).
+
+Přirážky se určují z **účetních výkazů**, proto lze model použít i pro neobchodované podniky. Výpočet jednotlivých přirážek podle metodiky MPO viz následující karta.
 
 *Příklad:* r_f 4 % + podnikatelské riziko 3 % + finanční stabilita 1,5 % + velikost 2 % + kapitálová struktura 2,5 % → r_VK = 13 % (ilustrativní čísla).
 
@@ -401,6 +403,43 @@ Přirážky se určují z **účetních výkazů**, proto lze model použít i p
 - [ ] Používá jen dividendy vyplacené za poslední rok
 
 > Přirážky za podnikatelské riziko, finanční stabilitu, velikost a strukturu se počítají z rozvahy a výsledovky, k nimž se přičte tržní bezriziková sazba. CAPM s vlastní betou i dividendový model potřebují tržní data o akciích.
+
+## Výpočet přirážek v modelu INFA (metodika MPO) {#infa-vypocet .explain}
+
+Podle metodiky Ministerstva průmyslu a obchodu pro finanční analýzu podnikové sféry (model Neumaierových, INFA):
+
+`r_e = r_f + r_LA + r_POD + r_FINSTAB + r_FINSTRU`
+
+- **r_f** — výnos **10letých státních dluhopisů**.
+- **r_LA** (velikost podniku) — odvozuje se z **úplatných zdrojů** `UZ = VK + bankovní úvěry + obligace`:
+  - UZ ≤ 100 mil. Kč → r_LA = **5 %**,
+  - UZ ≥ 3 mld. Kč → r_LA = **0 %**,
+  - mezi tím `r_LA = (3 − UZ)² / 168,2` (UZ v mld. Kč, výsledek jako desetinné číslo).
+- **r_POD** (podnikatelské riziko) — podle produkční síly **EBIT/A** ve srovnání s hranicí `X1 = (UZ / A) · UM`, kde UM je úroková míra cizích úplatných zdrojů; čím vyšší EBIT/A vůči X1, tím nižší přirážka, nejvýše **10 %**.
+- **r_FINSTAB** (finanční stabilita) — podle **běžné likvidity** ve srovnání s hraničními hodnotami **XL1** a **XL2** (mezi nimi kvadratická interpolace); horší likvidita → vyšší přirážka, nejvýše **10 %**.
+- **r_FINSTRU** (kapitálová struktura) — `r_FINSTRU = r_e − WACC`, tj. o kolik náklady vlastního kapitálu převyšují průměrné náklady kapitálu kvůli zadlužení; strop **10 %**.
+
+Hraniční hodnoty a přesný průběh funkcí pro r_POD a r_FINSTAB stanoví metodika MPO a průběžně je aktualizuje; výpočet proto vždy vychází z její aktuální verze.
+
+*Příklad:* UZ = 1,5 mld. Kč → r_LA = (3 − 1,5)² / 168,2 = 2,25 / 168,2 ≈ 0,0134, tj. 1,34 %.
+
+### ? Podle metodiky MPO (model INFA) se přirážka za velikost podniku počítá pro úplatné zdroje UZ mezi 100 mil. a 3 mld. Kč jako r_LA = (3 − UZ)² / 168,2, kde UZ je v mld. Kč; pro UZ ≤ 100 mil. Kč činí 5 % a pro UZ ≥ 3 mld. Kč 0 %. Jaká je r_LA podniku s úplatnými zdroji 1 mld. Kč?
+
+- [ ] 5,00 %
+- [ ] 1,19 %
+- [x] 2,38 %
+- [ ] 0,00 %
+
+> r_LA = (3 − 1)² / 168,2 = 4 / 168,2 ≈ 0,0238, tj. 2,38 %. 1,19 % vznikne bez umocnění (2 / 168,2), 5 % platí jen pro UZ do 100 mil. Kč a 0 % od 3 mld. Kč.
+
+### ? Bezriziková sazba (výnos 10letých státních dluhopisů) je 3,8 %, úplatné zdroje podniku činí 2 mld. Kč (r_LA = (3 − UZ)² / 168,2, UZ v mld. Kč), přirážka za podnikatelské riziko 4,0 %, za finanční stabilitu 1,2 % a za finanční strukturu 2,5 %. Jaké jsou náklady vlastního kapitálu podle modelu INFA (zaokrouhleno na desetiny procenta)?
+
+- [ ] 11,5 %
+- [ ] 9,6 %
+- [ ] 16,5 %
+- [x] 12,1 %
+
+> r_LA = (3 − 2)² / 168,2 ≈ 0,0059, tj. 0,59 %; r_e = 3,8 + 0,59 + 4,0 + 1,2 + 2,5 ≈ 12,1 %. 11,5 % vynechává přirážku za velikost, 16,5 % použije maximální přirážku 5 % určenou jen malým podnikům a 9,6 % vynechává přirážku za finanční strukturu — odpovídá tak WACC (r_FINSTRU = r_e − WACC).
 
 ## WACC — tržní, účetní a cílové váhy {#wacc-vahy .compare}
 

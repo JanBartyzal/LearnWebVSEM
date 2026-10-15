@@ -580,11 +580,24 @@ Díky těmto vazbám lze soustavu nerovností číst jako zjednodušenou pyramid
 
 ## Ekonomický normál {#ekonomicky-normal .explain}
 
-**Ekonomický normál** rozšiřuje soustavu nerovností na více ukazatelů: jde o **normativně stanovené (žádoucí) pořadí temp růstu** vybraných ukazatelů, s nímž se srovnává skutečné pořadí dosažené podnikem. Konkrétní výběr ukazatelů se liší podle autora a účelu analýzy, normál však musí být vnitřně logický — každá dvojice sousedních ukazatelů odpovídá žádoucímu vývoji určitého poměrového ukazatele.
+**Ekonomický normál** rozšiřuje soustavu nerovností na více ukazatelů: jde o **normativně stanovené (žádoucí) pořadí temp růstu** vybraných ukazatelů, s nímž se srovnává skutečné pořadí dosažené podnikem. Normál musí být vnitřně logický — každá dvojice sousedních ukazatelů odpovídá žádoucímu vývoji určitého poměrového ukazatele.
 
-Hodnocení: čím více relací normálu je ve skutečnosti splněno, tím více se vývoj podniku blíží žádoucímu stavu; porušené relace ukazují, kde hledat příčiny (nákladovost, využití majetku, produktivita, mzdový vývoj).
+**Soustava podle Sedláčka** (indexy = meziroční tempa růstu, I = Uₜ / Uₜ₋₁):
 
-*Příklad (ilustrativní normál):* I(zisk) > I(tržby) > I(aktiva) > 1 a zároveň I(tržby) > I(mzdové náklady) > I(počet pracovníků). Druhá řada znamená klesající mzdovou náročnost tržeb a současně rostoucí průměrnou mzdu.
+`I(EAT) > I(EBT) > I(EBIT) > I(tržby) > I(aktiva)`
+
+| Relace | Splnění znamená, že roste… | tj. |
+|---|---|---|
+| I(EAT) > I(EBT) | EAT / EBT | klesá daňové zatížení zisku |
+| I(EBT) > I(EBIT) | EBT / EBIT | klesá úrokové zatížení (nákladové úroky rostou pomaleji než EBIT) |
+| I(EBIT) > I(tržby) | EBIT / tržby | roste provozní rentabilita tržeb (klesá nákladovost) |
+| I(tržby) > I(aktiva) | tržby / aktiva | roste obrat aktiv (intenzivnější využití majetku) |
+
+Zisk tedy má růst rychleji než tržby a tržby rychleji než aktiva. Relace odpovídají článkům rozšířeného rozkladu rentability aktiv `EAT / A = (EAT / EBT) · (EBT / EBIT) · (EBIT / T) · (T / A)`, takže při splnění celé soustavy roste ROA.
+
+Hodnocení: čím více relací normálu je ve skutečnosti splněno, tím více se vývoj podniku blíží žádoucímu stavu; porušené relace ukazují, kde hledat příčiny. Normál lze podle účelu rozšířit o další ukazatele, např. I(tržby) > I(mzdové náklady) > I(počet pracovníků) — klesající mzdová náročnost tržeb a současně rostoucí průměrná mzda.
+
+*Příklad:* EAT 1,15; EBT 1,13; EBIT 1,10; tržby 1,06; aktiva 1,04 → všechny čtyři relace jsou splněny, normál je dodržen.
 
 ### ? Co se rozumí ekonomickým normálem při hodnocení výkonnosti podniku?
 
@@ -595,7 +608,7 @@ Hodnocení: čím více relací normálu je ve skutečnosti splněno, tím více
 
 > Ekonomický normál je normativní uspořádání indexů růstu ukazatelů; skutečné pořadí se s ním porovnává a porušené relace ukazují problémové oblasti. Oborové průměry a doporučené hodnoty hodnotí úroveň, ne dynamiku.
 
-### ? Součástí normálu je nerovnost I(mzdové náklady) > I(počet pracovníků). Co splnění této relace znamená?
+### ? Ekonomický normál bývá rozšířen o nerovnost I(mzdové náklady) > I(počet pracovníků). Co splnění této relace znamená?
 
 - [ ] Klesá podíl mzdových nákladů na tržbách
 - [ ] Roste produktivita práce podniku
@@ -603,6 +616,15 @@ Hodnocení: čím více relací normálu je ve skutečnosti splněno, tím více
 - [ ] Roste počet pracovníků rychleji než mzdy
 
 > Průměrná mzda = mzdové náklady / počet pracovníků; roste právě tehdy, když mzdové náklady rostou rychleji než počet pracovníků. O produktivitě ani o podílu mezd na tržbách tato dvojice bez údaje o tržbách nic neříká.
+
+### ? Meziroční indexy podniku: EAT 1,14; EBT 1,10; EBIT 1,12; tržby 1,07; aktiva 1,04. Která relace ekonomického normálu I(EAT) > I(EBT) > I(EBIT) > I(tržby) > I(aktiva) je porušena a co to znamená?
+
+- [ ] I(tržby) > I(aktiva) — obrat aktiv klesá
+- [ ] I(EAT) > I(EBT) — roste daňové zatížení zisku
+- [x] I(EBT) > I(EBIT) — roste úrokové zatížení zisku
+- [ ] Žádná — normál je splněn ve všech relacích
+
+> EBT roste pomaleji než EBIT (1,10 < 1,12), index EBT / EBIT = 1,10 / 1,12 ≈ 0,98 — nákladové úroky ukrajují z provozního zisku větší podíl. Ostatní relace platí: 1,14 > 1,10 (daňové zatížení klesá), 1,12 > 1,07 (provozní rentabilita tržeb roste) a 1,07 > 1,04 (obrat aktiv roste).
 
 ## Výhody a omezení klasických modelů {#omezeni-klasickych-modelu .compare}
 

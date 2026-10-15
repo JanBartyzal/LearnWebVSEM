@@ -573,8 +573,8 @@ Spolupráce firem s univerzitami a výzkumnými organizacemi (případně s veř
 
 - **smluvní výzkum** — firma si výzkum objedná a **plně zaplatí**, výsledky zpravidla patří jí; výzkumná organizace poskytuje službu za tržní cenu;
 - **kolaborativní (společný) výzkum** — partneři **sdílejí náklady, rizika i výsledky**, často s veřejnou podporou (např. projekty aplikovaného výzkumu TA ČR); práva k výsledkům upravuje smlouva;
-- **inovační vouchery** — malá veřejná podpora (poukázka), za kterou si malý či střední podnik **nakoupí odbornou službu** od výzkumné organizace; snižují bariéru prvního kontaktu (vypisují je např. některé kraje);
-- **centra kompetence** — dlouhodobá konsorcia výzkumných organizací a firem v perspektivních oborech, financovaná kombinací veřejných a soukromých zdrojů (v ČR program Centra kompetence TA ČR);
+- **inovační vouchery** — malá veřejná podpora (poukázka), za kterou si malý či střední podnik **nakoupí odbornou službu** od výzkumné organizace; snižují bariéru prvního kontaktu (na národní úrovni je vypisuje MPO jako výzvu OP TAK, kterou administruje Agentura pro podnikání a inovace; vypisují je i některé kraje);
+- **centra kompetence** — dlouhodobá konsorcia výzkumných organizací a firem v perspektivních oborech, financovaná kombinací veřejných a soukromých zdrojů (v ČR program Centra kompetence TA ČR); aplikovaný výzkum ve spolupráci firem a výzkumných organizací TA ČR dále podporuje např. programem **SIGMA** (2022–2029);
 - dále **licence**, **sdílení výzkumné infrastruktury** a **mobilita pracovníků** (stáže, společní doktorandi).
 
 Při spolupráci veřejného, soukromého a neziskového sektoru na sociálních problémech se uplatňují kombinované modely — partnerství veřejného a soukromého sektoru (PPP) nebo dluhopisy se sociálním dopadem.
@@ -695,7 +695,7 @@ Zadávací řízení, které spojuje vývoj i následný nákup v jednom, zavedl
 
 **Nepřímá podpora** nevybírá konkrétní projekty, ale **zlepšuje podmínky** pro všechny inovující firmy — nejčastěji přes **daňový systém**:
 
-- **odpočet nákladů na výzkum a vývoj** od základu daně (v ČR podle zákona o daních z příjmů) — náklady na VaV jsou daňově uznatelné a navíc se od základu daně odečtou podruhé, takže daň klesne o další (náklady × sazba daně); odečítá se 100 % způsobilých výdajů, u meziročního navýšení výdajů 110 %; neuplatněný odpočet lze převést nejvýše do 3 následujících zdaňovacích období;
+- **odpočet na podporu výzkumu a vývoje** od základu daně (v ČR podle zákona o daních z příjmů, § 34) — náklady na VaV jsou daňově uznatelné a navíc se způsobilé výdaje od základu daně odečtou ještě jednou, takže daň klesne o další (odpočet × sazba daně). **Od 1. 1. 2026** (zák. č. 360/2025 Sb.) se odečítá **150 % způsobilých výdajů do 50 mil. Kč** a **100 % z části nad 50 mil. Kč**; neuplatněný odpočet lze převést **až do 5 následujících zdaňovacích období**. Do roku 2025 se odečítalo 100 % výdajů a 110 % u jejich meziročního přírůstku, s převodem nejvýše do 3 období;
 - **daňové zvýhodnění příjmů z duševního vlastnictví** (patent box, innovation box v některých zemích EU);
 - **zrychlené odpisy** investic do nových technologií;
 - daňové pobídky pro investory do začínajících firem.
@@ -704,16 +704,16 @@ Zadávací řízení, které spojuje vývoj i následný nákup v jednom, zavedl
 
 **Přímá × nepřímá podpora:** dotace jsou výběrové (projekty volí poskytovatel), poskytují se předem a jsou dostupné i ztrátovým firmám; daňové nástroje jsou plošné, projekt si firma volí sama a administrativa je nižší, využijí je ale hlavně **ziskové firmy** a hrozí podpora výzkumu, který by proběhl i bez ní (efekt mrtvé váhy).
 
-*Příklad:* Firma vynaloží 4 mil. Kč na projekt VaV splňující podmínky odpočtu; při sazbě daně 21 % jí odpočet ušetří navíc 4 × 0,21 = 0,84 mil. Kč daně.
+*Příklad:* Firma vynaloží v roce 2026 na projekt VaV splňující podmínky odpočtu 4 mil. Kč; odečte 150 % = 6 mil. Kč a při sazbě daně 21 % jí odpočet ušetří navíc 6 × 0,21 = 1,26 mil. Kč daně.
 
-### ? Zisková firma vynaloží 6 mil. Kč na projekt VaV, který splňuje podmínky odpočtu od základu daně; sazba daně z příjmů je 21 %. O kolik odpočet sníží její daň NAVÍC oproti situaci, kdy by náklady byly jen daňově uznatelné?
+### ? Zisková firma vynaloží v roce 2026 na projekt VaV 6 mil. Kč způsobilých výdajů. Odpočet na VaV činí 150 % výdajů (do 50 mil. Kč), sazba daně z příjmů je 21 %. O kolik odpočet sníží její daň NAVÍC oproti situaci, kdy by náklady byly jen daňově uznatelné?
 
-- [ ] 2,52 mil. Kč
-- [x] 1,26 mil. Kč
-- [ ] 0,63 mil. Kč
-- [ ] 6 mil. Kč
+- [ ] 3,15 mil. Kč
+- [x] 1,89 mil. Kč
+- [ ] 1,26 mil. Kč
+- [ ] 9 mil. Kč
 
-> Odpočet sníží základ daně o dalších 6 mil. Kč, daň tedy klesne o 6 × 0,21 = 1,26 mil. Kč. Částka 2,52 mil. Kč by zahrnovala i běžnou daňovou uznatelnost nákladů.
+> Odpočet sníží základ daně o 150 % × 6 = 9 mil. Kč, daň tedy klesne o 9 × 0,21 = 1,89 mil. Kč. Částka 1,26 mil. Kč odpovídá odpočtu 100 % (úprava do roku 2025), 3,15 mil. Kč by zahrnovala i běžnou daňovou uznatelnost nákladů a 9 mil. Kč je samotný odpočet, ne úspora daně.
 
 ### ? Proč daňový odpočet nákladů na VaV pomáhá začínajícímu ztrátovému startupu jen málo?
 
@@ -722,4 +722,13 @@ Zadávací řízení, které spojuje vývoj i následný nákup v jednom, zavedl
 - [ ] Protože se odpočet týká jen nákupu hotových licencí
 - [x] Protože bez kladného základu daně nemá od čeho odečítat
 
-> Daňová úleva se projeví jen při zisku, tedy kladném základu daně. Neuplatněný odpočet lze převést nejvýše do 3 následujících zdaňovacích období — startup bez zisku ho ale často nevyužije. Ztrátovým firmám v rané fázi proto víc pomohou přímé nástroje — granty, seed fondy, záruky.
+> Daňová úleva se projeví jen při zisku, tedy kladném základu daně. Neuplatněný odpočet lze od roku 2026 převést až do 5 následujících zdaňovacích období — startup, který ani pak nedosáhne zisku, ho ale nevyužije. Ztrátovým firmám v rané fázi proto víc pomohou přímé nástroje — granty, seed fondy, záruky.
+
+### ? Firma má v roce 2026 způsobilé výdaje na VaV ve výši 80 mil. Kč. Odpočet činí 150 % výdajů do 50 mil. Kč a 100 % z části nad 50 mil. Kč. Jak vysoký odpočet od základu daně uplatní?
+
+- [ ] 120 mil. Kč
+- [ ] 80 mil. Kč
+- [x] 105 mil. Kč
+- [ ] 95 mil. Kč
+
+> Z prvních 50 mil. Kč se odečte 150 % = 75 mil. Kč, ze zbývajících 30 mil. Kč 100 % = 30 mil. Kč; celkem 105 mil. Kč. 120 mil. Kč by bylo 150 % z celé částky, 95 mil. Kč vzniká záměnou obou pásem.

@@ -392,6 +392,35 @@ Procentuální metoda hodnotí postup projektu podle **procenta dokončení** (%
 
 > 480 / 1 200 = 0,4 = 40 %; plán byl 50 %, projekt je tedy o 10 procentních bodů pozadu.
 
+## Metoda SSD (Structure–Status–Deviation) {#ssd .explain}
+
+Metoda **SSD** (Structure – Status – Deviation, tj. struktura – stav – odchylka) vyhodnocuje stav projektu podle **stavu jednotlivých činností ke dni kontroly**. Je vhodná pro **středně rozsáhlé projekty**. Postup:
+
+1. **Struktura** — vyjde se ze seznamu činností projektu (z WBS a harmonogramu).
+2. **Stav** — u každé činnosti se ke dni kontroly určí plánovaný a skutečný stav: **nezačala / probíhá / ukončena** (bodově 0 / 1 / 2).
+3. **Odchylka** — porovnáním skutečného stavu s plánovaným vznikne odchylka v rozmezí **−2 až +2** (záporná = skluz, 0 = podle plánu, kladná = předstih). U nákladů se odchylka hodnotí jen třístupňově (−1 / 0 / +1).
+4. **Vyhodnocení** — součtem se vyjádří **procentní stav projektu**: součet bodů skutečných stavů / (2 × počet činností) × 100 %; stejně spočtený plánovaný stav ukáže, o kolik je projekt pozadu či napřed.
+
+*Příklad:* Projekt má 5 činností. Podle plánu mají být ke dni kontroly A a B ukončeny, C a D probíhat a E nezačatá: 2 + 2 + 1 + 1 + 0 = 6 bodů z 10 = 60 %. Skutečně je A ukončena, B a C probíhají, D a E nezačaly: 2 + 1 + 1 + 0 + 0 = 4 body = 40 %. Odchylky činností jsou 0, −1, 0, −1, 0 (součet −2) — projekt má skluz 20 procentních bodů.
+
+### ? Při vyhodnocení stavu projektu metodou SSD měla být činnost ke dni kontroly podle plánu ukončena, ale dosud nezačala. Jakou má odchylku?
+
+- [ ] −1
+- [ ] +2
+- [x] −2
+- [ ] 0
+
+> Odchylka v SSD se pohybuje od −2 do +2. Činnost, která měla být ukončena (nejvyšší stav), a přitom nezačala (nejnižší stav), má maximální skluz −2.
+
+### ? Metoda SSD, stavy činností: nezačala = 0, probíhá = 1, ukončena = 2 body. Podle plánu mají být ke dni kontroly A a B ukončeny, C a D probíhat a E nezačatá. Skutečně je A ukončena, B probíhá, C ukončena, D a E nezačaly. Jaký je skutečný procentní stav projektu a součet odchylek?
+
+- [ ] 60 %, součet odchylek 0
+- [x] 50 %, součet odchylek −1
+- [ ] 50 %, součet odchylek +1
+- [ ] 40 %, součet odchylek −2
+
+> Skutečnost: 2 + 1 + 2 + 0 + 0 = 5 bodů z 10 = 50 % (plán 6 bodů = 60 %). Odchylky: A 0, B −1, C +1, D −1, E 0, součet −1 — projekt je mírně pozadu.
+
 ## Metoda dosažené hodnoty (EVM) — základní veličiny {#evm-veliciny .explain}
 
 Metoda dosažené hodnoty (Earned Value Management, EVM) propojuje rozsah, čas a náklady. K datu kontroly porovnává tři veličiny vyjádřené v penězích:

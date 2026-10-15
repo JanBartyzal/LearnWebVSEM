@@ -200,7 +200,7 @@ Dále existuje např. **daň z hazardních her** a od roku 2024 **dorovnávací 
 
 ## Daň z příjmů fyzických osob u OSVČ {#dpfo-osvc .explain}
 
-Daň z příjmů fyzických osob se počítá z **dílčích základů daně** podle druhu příjmu: ze závislé činnosti (§ 6 ZDP), ze **samostatné činnosti** (§ 7), z kapitálového majetku (§ 8), z nájmu (§ 9) a z ostatních příjmů (§ 10). Příjmy z podnikání OSVČ (živnost, svobodné povolání, zemědělská výroba) patří mezi příjmy ze samostatné činnosti. Dílčí základ = **příjmy − výdaje** vynaložené na jejich dosažení, zajištění a udržení; OSVČ si volí, zda uplatní **skutečné výdaje**, nebo **výdaje procentem z příjmů** (paušál). Dílčí základy se sečtou, odečtou se nezdanitelné části, vypočte se daň (u FO v posledních letech se dvěma sazbami podle výše příjmu) a odečtou se slevy. Zdaňovacím obdobím je **kalendářní rok**; OSVČ podává daňové přiznání a poté i **přehledy pro pojistné**.
+Daň z příjmů fyzických osob se počítá z **dílčích základů daně** podle druhu příjmu: ze závislé činnosti (§ 6 ZDP), ze **samostatné činnosti** (§ 7), z kapitálového majetku (§ 8), z nájmu (§ 9) a z ostatních příjmů (§ 10). Příjmy z podnikání OSVČ (živnost, svobodné povolání, zemědělská výroba) patří mezi příjmy ze samostatné činnosti. Dílčí základ = **příjmy − výdaje** vynaložené na jejich dosažení, zajištění a udržení; OSVČ si volí, zda uplatní **skutečné výdaje**, nebo **výdaje procentem z příjmů** (paušál). Dílčí základy se sečtou, odečtou se nezdanitelné části, vypočte se daň (u FO v posledních letech se dvěma sazbami podle výše příjmu — **stav 2026: 15 %**, nad roční práh **1 762 812 Kč 23 %**; čísla se mění, vždy ověř aktuální znění) a odečtou se slevy. Zdaňovacím obdobím je **kalendářní rok**; OSVČ podává daňové přiznání a poté i **přehledy pro pojistné**.
 
 *Příklad:* Grafička pracuje na poloviční úvazek a k tomu podniká na živnostenský list. Ve svém daňovém přiznání sečte dílčí základ ze závislé činnosti a dílčí základ ze samostatné činnosti.
 
@@ -225,6 +225,8 @@ Daň z příjmů fyzických osob se počítá z **dílčích základů daně** p
 ## Skutečné výdaje × výdajové paušály {#vydaje-skutecne-pausal .compare}
 
 V paušálu jsou zahrnuty **všechny** výdaje — vedle něj už nelze uplatnit žádné další skutečné výdaje. Procenta i horní limity paušálů zákon v minulosti několikrát měnil; obecně mají vyšší procento řemeslné živnosti a zemědělství, nižší ostatní živnosti a svobodná povolání.
+
+**Stav 2026** (čísla se mění, vždy ověř aktuální znění zákona): **80 %** z příjmů (strop **1,6 mil. Kč**) — řemeslné živnosti a zemědělská výroba; **60 %** (strop **1,2 mil. Kč**) — ostatní živnosti; **40 %** (strop **0,8 mil. Kč**) — svobodná povolání a jiné podnikání; **30 %** (strop **0,6 mil. Kč**) — příjmy z nájmu.
 
 | | Skutečné (prokázané) výdaje | Výdaje procentem z příjmů (paušál) |
 |---|---|---|
@@ -254,7 +256,7 @@ V paušálu jsou zahrnuty **všechny** výdaje — vedle něj už nelze uplatnit
 
 ## Paušální daň {#pausalni-dan .explain}
 
-**Paušální režim** (od roku 2021) je dobrovolná možnost pro menší OSVČ. Poplatník platí **jednu měsíční platbu**, která zahrnuje **daň z příjmů, sociální pojistné i zdravotní pojistné**. Výměnou za to **nepodává daňové přiznání** ani přehledy pro správu sociálního zabezpečení a zdravotní pojišťovnu. Do režimu se vstupuje oznámením finančnímu úřadu (zpravidla na začátku roku) při splnění podmínek — zejména příjmy ze samostatné činnosti do zákonného limitu a OSVČ **nesmí být plátcem DPH**. Výše plateb, limity i počet pásem se od zavedení měnily, je proto nutné ověřit aktuální stav.
+**Paušální režim** (od roku 2021) je dobrovolná možnost pro menší OSVČ. Poplatník platí **jednu měsíční platbu**, která zahrnuje **daň z příjmů, sociální pojistné i zdravotní pojistné**. Výměnou za to **nepodává daňové přiznání** ani přehledy pro správu sociálního zabezpečení a zdravotní pojišťovnu. Do režimu se vstupuje oznámením finančnímu úřadu (zpravidla na začátku roku) při splnění podmínek — zejména příjmy ze samostatné činnosti do zákonného limitu a OSVČ **nesmí být plátcem DPH**. Výše plateb, limity i počet pásem se od zavedení měnily, je proto nutné ověřit aktuální stav. **Stav 2026:** od července 2026 činí měsíční platba ve třech pásmech **9 162 Kč / 16 745 Kč / 27 139 Kč**.
 
 *Příklad:* Překladatelka s nízkými náklady a stabilními příjmy vstoupí do paušálního režimu. Místo přiznání a dvou přehledů jen každý měsíc posílá finančnímu úřadu jednu platbu.
 
@@ -312,6 +314,8 @@ Poplatníkem daně z příjmů právnických osob jsou zejména **obchodní korp
 ## DPH — princip a plátce {#dph-princip .explain}
 
 DPH je **všeobecná nepřímá daň ze spotřeby**, harmonizovaná v rámci EU. Daní se každý stupeň výroby a obchodu, ale vždy jen **přidaná hodnota**: plátce přizná **daň na výstupu** z toho, co prodá, a odečte **daň na vstupu** z toho, co nakoupil pro svou ekonomickou činnost. Je-li výsledek kladný, jde o **vlastní daňovou povinnost** (doplácí), je-li záporný, o **nadměrný odpočet** (rozdíl se mu zpravidla vrací). Podnikatel se sídlem v ČR se plátcem stává **ze zákona**, když jeho obrat překročí **zákonný limit** (pravidla posuzování obratu i výše limitu se v posledních letech měnily), a musí se včas přihlásit k registraci u finančního úřadu. Registrovat se lze i **dobrovolně**. Plátce podává přiznání za měsíc nebo čtvrtletí, a to **elektronicky**, spolu s **kontrolním hlášením**.
+
+**Stav 2026** (čísla se mění, vždy ověř aktuální znění zákona): sazby DPH **21 %** (základní) a **12 %** (snížená). Kdo za kalendářní rok překročí obrat **2 mil. Kč**, stává se plátcem od **1. 1. následujícího roku**; kdo v průběhu roku překročí **2 536 500 Kč**, stává se plátcem **hned** (dnem následujícím po překročení).
 
 *Příklad:* Truhlář (plátce) nakoupí dřevo za 1 000 Kč + 210 Kč DPH a prodá stůl za 3 000 Kč + 630 Kč DPH. Finančnímu úřadu odvede 630 − 210 = 420 Kč, tedy daň jen z přidané hodnoty 2 000 Kč.
 
@@ -524,7 +528,7 @@ Podnikatel vede buď **účetnictví** podle zákona o účetnictví (č. 563/19
 
 ## Pojistné OSVČ {#pojistne-osvc .explain}
 
-Vedle daně z příjmů platí OSVČ **pojistné na sociální zabezpečení** (důchodové pojištění a příspěvek na státní politiku zaměstnanosti; **nemocenské pojištění je pro OSVČ dobrovolné**) a **pojistné na veřejné zdravotní pojištění**. Sociální pojistné spravuje **okresní správa sociálního zabezpečení**, zdravotní pojistné **zdravotní pojišťovna** — nikoli finanční úřad. Vyměřovacím základem je část zisku ze samostatné činnosti, nejméně však **minimální vyměřovací základ**; během roku se platí měsíční **zálohy**, po skončení roku OSVČ podá oběma institucím **přehled o příjmech a výdajích** a vyrovná rozdíl. Rozlišuje se činnost **hlavní** a **vedlejší** (např. při souběžném zaměstnání, studiu nebo pobírání důchodu): u vedlejší činnosti se sociální pojistné platí až při překročení zákonné rozhodné částky. Procenta, minimální zálohy a limity se mění obvykle každý rok.
+Vedle daně z příjmů platí OSVČ **pojistné na sociální zabezpečení** (důchodové pojištění a příspěvek na státní politiku zaměstnanosti; **nemocenské pojištění je pro OSVČ dobrovolné**) a **pojistné na veřejné zdravotní pojištění**. Sociální pojistné spravuje **okresní správa sociálního zabezpečení**, zdravotní pojistné **zdravotní pojišťovna** — nikoli finanční úřad. Vyměřovacím základem je část zisku ze samostatné činnosti, nejméně však **minimální vyměřovací základ**; během roku se platí měsíční **zálohy**, po skončení roku OSVČ podá oběma institucím **přehled o příjmech a výdajích** a vyrovná rozdíl. Rozlišuje se činnost **hlavní** a **vedlejší** (např. při souběžném zaměstnání, studiu nebo pobírání důchodu): u vedlejší činnosti se sociální pojistné platí až při překročení zákonné rozhodné částky. Procenta, minimální zálohy a limity se mění obvykle každý rok. **Stav 2026:** minimální měsíční zálohy OSVČ s hlavní činností činí od července 2026 **5 005 Kč** na sociální pojištění a **3 306 Kč** na zdravotní pojištění.
 
 *Příklad:* Zaměstnanec, který si přivydělává jako fotograf, vykonává vedlejší činnost. Při nízkém zisku nemusí sociální pojistné z podnikání platit vůbec.
 

@@ -369,7 +369,7 @@ Carnall v průběhu cyklu sleduje **sebeúctu** (self-esteem) a **výkon** — v
 
 ## Vývoj vnímání změny {#vyvoj-vnimani-zmeny .explain}
 
-I změna, kterou lidé **sami chtějí** (nový projekt, povýšení, systém, na který se těšili), prochází emočním cyklem. Kelley a Conner (1979) ho popisují v pěti fázích:
+I změna, kterou lidé **sami chtějí** (nový projekt, povýšení, systém, na který se těšili), prochází emočním cyklem. Kelley a Conner (*The Emotional Cycle of Change*, 1979) ho popisují v pěti fázích:
 
 1. **neinformovaný optimismus** — nadšení bez znalosti obtíží;
 2. **informovaný pesimismus** — s prvními problémy přichází pochybnost; hrozí, že se lidé „odhlásí" (otevřeně, nebo potichu přestanou změnu podporovat);

@@ -400,7 +400,7 @@ Auditor nemůže v omezeném čase prověřit všechny záznamy a činnosti, pro
 
 ## Klasifikace zjištění z auditu {#klasifikace-zjisteni .compare}
 
-Zjištění vyjadřuje shodu nebo neshodu; v praxi certifikačních orgánů i interních auditů se dále třídí:
+Zjištění vyjadřuje shodu nebo neshodu. Norma pro certifikační orgány **ISO/IEC 17021-1** definuje **závažnou** (major) a **méně závažnou** (minor) neshodu; pozorování a příležitost ke zlepšení norma nedefinuje — jde o ustálenou praxi certifikačních orgánů i interních auditů:
 
 | Zjištění | Charakteristika | Příklad |
 |---|---|---|
@@ -478,7 +478,7 @@ Certifikace systému managementu je dobrovolné **posouzení shody třetí stran
 3. **Audit 1. stupně** — posouzení **připravenosti**: dokumentované informace, porozumění normě, provedené interní audity a přezkoumání vedením.
 4. **Audit 2. stupně** — ověření **zavedení a efektivnosti** systému v praxi.
 5. **Rozhodnutí o certifikaci** — přijímá ho certifikační orgán prostřednictvím osoby, která se **auditu neúčastnila**; k hlavním neshodám musí certifikační orgán před rozhodnutím přezkoumat a přijmout navrženou nápravu a nápravná opatření (případně ověřit jejich realizaci).
-6. **Certifikát** — platí **3 roky**; během nich probíhají **dozorové audity** (zpravidla jednou ročně, v menším rozsahu).
+6. **Certifikát** — platí **3 roky**; během nich probíhají **dozorové audity** v menším rozsahu — **nejméně jednou za kalendářní rok** (kromě roku recertifikace), přičemž **první dozorový audit** musí proběhnout **do 12 měsíců od rozhodnutí o certifikaci** (ISO/IEC 17021-1).
 7. **Recertifikační audit** před koncem platnosti → nový tříletý cyklus.
 
 *Příklad:* Strojírenská firma si vybere akreditovaný certifikační orgán, v lednu projde auditem 1. stupně, v březnu auditem 2. stupně a v dubnu získá certifikát ISO 9001 platný 3 roky. Zhruba po 12 a 24 měsících ji čekají dozorové audity a před vypršením platnosti certifikátu recertifikační audit, který zahájí další tříletý cyklus.

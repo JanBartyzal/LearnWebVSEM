@@ -129,7 +129,7 @@ V ČR se právo na digitální služby promítlo do zákona o právu na digitál
 - [ ] Agendové informační systémy
 - [ ] Spisová služba
 - [x] Ekonomické informační systémy
-- [ ] Sdílené centrální služby eGovernmentu
+- [ ] Portály veřejné správy
 
 > Rozpočet, účetnictví, majetek a mzdy úřadu pokrývají ekonomické IS. Agendové IS slouží k výkonu veřejné správy vůči občanům a firmám.
 
@@ -297,7 +297,7 @@ Převedení dokumentu z **listinné podoby do elektronické nebo naopak** tak, a
 
 ## Datové schránky {#datove-schranky .explain}
 
-**Datová schránka** je elektronické úložiště určené k **doručování dokumentů orgány veřejné moci** a k provádění úkonů vůči nim. Provozuje se v **informačním systému datových schránek (ISDS)**. Dokument dodaný úřadem do schránky má účinky **doručení do vlastních rukou**; úkon, který oprávněná osoba učiní ze své schránky vůči úřadu, má zpravidla stejné účinky jako písemný podepsaný úkon. Povinně ji mají zřízenou orgány veřejné moci a právnické osoby; okruh povinných subjektů se novelami rozšiřoval (např. na podnikající fyzické osoby), proto je třeba ověřit aktuální právní stav. Nepodnikající fyzické osoby ji mohou mít na žádost. Mezi soukromými subjekty lze posílat i **poštovní datové zprávy**.
+**Datová schránka** je elektronické úložiště určené k **doručování dokumentů orgány veřejné moci** a k provádění úkonů vůči nim. Provozuje se v **informačním systému datových schránek (ISDS)**. Dokument dodaný úřadem do schránky má účinky **doručení do vlastních rukou**; úkon, který oprávněná osoba učiní ze své schránky vůči úřadu, má zpravidla stejné účinky jako písemný podepsaný úkon. Ze zákona (bez žádosti) se zřizuje **orgánům veřejné moci**, **všem právnickým osobám** a od 1. 1. 2023 i **podnikajícím fyzickým osobám** (novela zákona č. 300/2008 Sb. provedená zákonem č. 261/2021 Sb.). **Nepodnikající fyzické osoby** ji mají jen **dobrovolně**, na vlastní žádost. Mezi soukromými subjekty lze posílat i **poštovní datové zprávy**.
 
 *Příklad:* Finanční úřad pošle firmě výzvu do datové schránky. Účetní se přihlásí, výzvu otevře a odpověď odešle zpět stejnou cestou — bez pošty a bez ověřeného podpisu.
 
@@ -318,6 +318,15 @@ Převedení dokumentu z **listinné podoby do elektronické nebo naopak** tak, a
 - [ ] Datová schránka nemá omezenou velikost zprávy
 
 > Datová schránka zajišťuje prokazatelné doručení s účinky doručení do vlastních rukou. Běžný e-mail takové právní účinky nemá.
+
+### ? Kdo z uvedených NEMÁ datovou schránku zřízenou povinně ze zákona, ale jen na vlastní žádost?
+
+- [ ] Živnostník podnikající na základě živnostenského oprávnění
+- [ ] Společnost s ručením omezeným
+- [ ] Spolek zapsaný ve spolkovém rejstříku
+- [x] Zaměstnanec, který nepodniká
+
+> Povinně se datová schránka zřizuje orgánům veřejné moci, všem právnickým osobám (včetně spolků) a od 1. 1. 2023 i podnikajícím fyzickým osobám. Nepodnikající fyzická osoba ji má jen dobrovolně na žádost.
 
 ## Fikce doručení {#fikce-doruceni .term}
 

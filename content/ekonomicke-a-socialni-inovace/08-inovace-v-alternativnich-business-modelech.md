@@ -35,7 +35,7 @@ Sociální (neziskové) podnikání a podnikatelství, společenská odpovědnos
 V Česku se vymezení sociálního podniku opírá o principy, které formulovala tematická síť **TESSEA**. Sociální podnik má přinášet čtyři druhy prospěchu:
 
 - **sociální prospěch** — veřejně prospěšný cíl zakotvený v dokumentech podniku, činnost prospěšná společnosti nebo znevýhodněné skupině, účast zaměstnanců a členů na rozhodování,
-- **ekonomický prospěch** — alespoň minimální podíl tržeb z prodeje výrobků a služeb na výnosech, zisk přednostně na rozvoj podniku a veřejně prospěšné cíle, samostatnost (autonomie) v rozhodování a řízení vůči externím zakladatelům, schopnost zvládat ekonomická rizika,
+- **ekonomický prospěch** — **nejméně 30 % tržeb z vlastní činnosti** (prodeje výrobků a služeb) na celkových výnosech, **nejméně 51 % zisku se reinvestuje** do rozvoje podniku nebo do veřejně prospěšných cílů, **nezávislost** (autonomie) rozhodování a řízení na externích zakladatelích, zejména na veřejné správě, schopnost zvládat ekonomická rizika,
 - **environmentální prospěch** — zohledňování dopadů výroby a spotřeby na životní prostředí,
 - **lokální prospěch** — přednostní uspokojování místních potřeb, využívání místních zdrojů a spolupráce s místními aktéry.
 
@@ -53,15 +53,26 @@ V Česku se vymezení sociálního podniku opírá o principy, které formuloval
 ### ? Který znak patří podle principů TESSEA k EKONOMICKÉMU prospěchu sociálního podniku?
 
 - [ ] Zaměstnanci se podílejí na rozhodování o směřování podniku
-- [x] Alespoň část výnosů tvoří tržby z prodeje výrobků a služeb
+- [x] Nejméně 30 % výnosů tvoří tržby z vlastní činnosti podniku
 - [ ] Podnik přednostně využívá místní zdroje a dodavatele
 - [ ] Podnik omezuje dopady své výroby na životní prostředí
 
-> Ekonomický prospěch znamená, že podnik má tržby z prodeje výrobků a služeb, se ziskem nakládá ve prospěch rozvoje a poslání a rozhoduje samostatně. Účast zaměstnanců na rozhodování patří k sociálnímu prospěchu, místní zdroje k lokálnímu.
+> Ekonomický prospěch znamená, že nejméně 30 % výnosů tvoří tržby z prodeje výrobků a služeb, nejméně 51 % zisku se reinvestuje do rozvoje a poslání a podnik rozhoduje nezávisle na veřejné správě. Účast zaměstnanců na rozhodování patří k sociálnímu prospěchu, místní zdroje k lokálnímu.
+
+### ? Jak mají sociální podniky podle principů TESSEA nakládat se ziskem?
+
+- [ ] Celý zisk se musí každý rok odvést zřizovateli
+- [ ] Zisk se smí použít jen na výplatu podílů zakladatelům
+- [x] Nejméně 51 % zisku se reinvestuje do podniku či poslání
+- [ ] Nejméně 90 % zisku se rozdělí mezi zaměstnance
+
+> TESSEA požaduje, aby se nejméně 51 % zisku reinvestovalo do rozvoje sociálního podniku nebo do naplňování veřejně prospěšných cílů. Zisk je prostředkem poslání, nikoli zdrojem výplat vlastníkům či zřizovateli.
 
 ## Integrační sociální podnik {#integracni-socialni-podnik .term}
 
-**Integrační sociální podnik** (work integration social enterprise, WISE) je sociální podnik, jehož cílem je **zaměstnávání a sociální začleňování osob znevýhodněných na trhu práce** — lidí se zdravotním postižením, dlouhodobě nezaměstnaných, lidí po výkonu trestu, mladých bez praxe a dalších. V pojetí TESSEA tvoří tyto osoby nejméně **30 %** zaměstnanců a podnik jim vedle práce poskytuje podporu rozvoje pracovních a sociálních kompetencí, často s cílem přechodu na běžný trh práce. Ostatní sociální podniky naplňují jiný veřejně prospěšný cíl, např. služby komunitě nebo ochranu životního prostředí.
+**Integrační sociální podnik** (work integration social enterprise, WISE) je sociální podnik, jehož cílem je **zaměstnávání a sociální začleňování osob znevýhodněných na trhu práce** — lidí se zdravotním postižením, dlouhodobě nezaměstnaných, lidí po výkonu trestu, mladých bez praxe a dalších. V pojetí TESSEA tvoří tyto osoby více než **30 %** zaměstnanců a podnik jim vedle práce poskytuje podporu rozvoje pracovních a sociálních kompetencí, často s cílem přechodu na běžný trh práce. Ostatní sociální podniky naplňují jiný veřejně prospěšný cíl, např. služby komunitě nebo ochranu životního prostředí.
+
+**Zákonná úprava v ČR:** od **1. 1. 2025** platí zákon č. 468/2024 Sb., **o integračním sociálním podniku**. Status integračního sociálního podniku přiznává na žádost **Ministerstvo práce a sociálních věcí (MPSV)**; podnik musí zaměstnávat **nejméně 30 % osob se specifickými potřebami** (počítá se průměrný čtvrtletní přepočtený počet zaměstnanců). Zákon se týká jen integračních sociálních podniků; pro sociální podniky obecně zůstávají východiskem principy TESSEA.
 
 ### ? Sociální podnik provozuje prádelnu, v níž polovinu zaměstnanců tvoří lidé po výkonu trestu a dlouhodobě nezaměstnaní; postupně je připravuje na práci u běžných zaměstnavatelů. O jaký typ sociálního podniku jde?
 
@@ -79,7 +90,16 @@ V Česku se vymezení sociálního podniku opírá o principy, které formuloval
 - [ ] 50 %
 - [ ] 75 %
 
-> Podle principů TESSEA tvoří osoby znevýhodněné na trhu práce nejméně 30 % zaměstnanců integračního sociálního podniku. Podnik jim navíc poskytuje podporu rozvoje kompetencí.
+> Podle principů TESSEA tvoří osoby znevýhodněné na trhu práce více než 30 % zaměstnanců integračního sociálního podniku; stejnou hranici (nejméně 30 % osob se specifickými potřebami) stanoví od roku 2025 i zákon o integračním sociálním podniku. Podnik jim navíc poskytuje podporu rozvoje kompetencí.
+
+### ? Firma chce od roku 2025 získat oficiální status integračního sociálního podniku podle nového českého zákona. Kdo jí ho přiznává?
+
+- [ ] Síť sociálních podniků TESSEA
+- [ ] Úřad práce podle sídla firmy
+- [ ] Krajský úřad podle sídla firmy
+- [x] Ministerstvo práce a sociálních věcí
+
+> Podle zákona o integračním sociálním podniku (účinný od 1. 1. 2025) přiznává status na žádost MPSV. Podmínkou je mj. zaměstnávat nejméně 30 % osob se specifickými potřebami. TESSEA formulovala principy, status však neuděluje.
 
 ## Sociální podnikatel {#socialni-podnikatel .term}
 

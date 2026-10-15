@@ -492,6 +492,30 @@ Rezervy kryjí dopady rizik v rozpočtu a harmonogramu.
 
 > Neidentifikovaná rizika („neznámé neznámé") kryje manažerská rezerva, s níž disponuje vedení. Rezerva na nepředvídané události je určena pro známá rizika z registru.
 
+## Systém včasného varování (TWS) {#tws .term}
+
+**TWS** (Timely Warning System) je při monitorování rizik systém **signálů včasného varování**: pro rizika se předem stanoví signály, podle nichž se pozná, že riziko nastává nebo se blíží (navazují na spouštěče rizik v registru). Při **naplnění signálu** následuje **interní komunikace** (informování odpovědných osob) a **realizace předem připravených opatření**. V kontrole projektu se TWS uplatňuje jako jedna z metod kontroly (viz téma Reporting).
+
+*Příklad:* Pro riziko zpoždění dodávky je signálem včasného varování zmeškání průběžného termínu dodavatele. Když nastane, projektový manažer informuje vlastníka rizika a spustí připravené opatření — objednávku u záložního dodavatele.
+
+### ? Co v řízení rizik projektu znamená zkratka TWS?
+
+- [ ] Total Work Schedule — souhrnný harmonogram prací
+- [x] Timely Warning System — systém včasného varování
+- [ ] Team Work Structure — struktura projektového týmu
+- [ ] Threat Weighting Score — vážené skóre hrozeb
+
+> TWS (Timely Warning System) je systém signálů včasného varování, které upozorní, že riziko nastává nebo se blíží, a spustí připravenou reakci.
+
+### ? Při monitorování rizik se naplní předem stanovený signál systému včasného varování (TWS). Co má následovat?
+
+- [ ] Uzavření rizika v registru jako vyřešeného
+- [ ] Odklad reakce do příští pravidelné stavové zprávy
+- [ ] Vyřazení rizika z kvantitativní analýzy rizik
+- [x] Interní komunikace a provedení připravených opatření
+
+> Smyslem TWS je reagovat včas: při naplnění signálu se informují odpovědné osoby a realizují se opatření, která byla pro tento případ připravena předem.
+
 ## Problémy a nedostatky procesu řízení rizik {#problemy-rizeni-rizik .explain}
 
 Řízení rizik v praxi často neselhává na technikách, ale na přístupu:

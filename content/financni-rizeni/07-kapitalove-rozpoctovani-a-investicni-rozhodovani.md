@@ -558,26 +558,31 @@ Nevyčerpaný zbytek rozpočtu se považuje za investovaný s NPV = 0 (např. na
 
 ## Komerční životaschopnost a studie proveditelnosti {#feasibility-study .explain}
 
-**Studie proveditelnosti** (feasibility study) vzniká v předinvestiční fázi a posuzuje, zda je projekt realizovatelný a **komerčně životaschopný** (commercial viability) — zda se uplatní na trhu a zaplatí investorovi i věřitelům. Obvyklé části (výčet se u autorů liší):
+**Studie proveditelnosti** (feasibility study) vzniká v předinvestiční fázi a posuzuje, zda je projekt realizovatelný a **komerčně životaschopný** (commercial viability) — zda se uplatní na trhu a zaplatí investorovi i věřitelům. Standardní strukturu stanoví metodika **UNIDO** (Behrens & Hawranek: *Manual for the Preparation of Industrial Feasibility Studies*, 1991); části na sebe navazují v pořadí:
 
-- **tržní (obchodní)** — poptávka, konkurence, ceny, odbytové cesty, odhad tržeb,
-- **technická** — technologie, kapacita, lokalita, dodávky surovin a energií, harmonogram,
-- **organizační a právní** — řízení projektu, lidé, povolení, regulace, dopad na životní prostředí,
-- **finanční** — kapitálový výdaj, zdroje financování, peněžní toky, NPV, IRR, schopnost splácet dluh a **finanční udržitelnost** (projekt nesmí v žádném roce zůstat bez peněz),
-- **ekonomická (socioekonomická)** — přínosy a náklady pro společnost, hlavně u veřejných a dotovaných projektů.
+1. **trh** — analýza trhu a marketingová koncepce: poptávka, konkurence, ceny, odbytové cesty, odhad tržeb a z něj kapacita,
+2. **vstupy** — suroviny, materiály, energie a jejich dodavatelé,
+3. **lokalita** — umístění, pozemek, infrastruktura a dopady na životní prostředí,
+4. **technické řešení** — technologie, zařízení, stavby,
+5. **organizace** — uspořádání podniku a režijní náklady,
+6. **lidské zdroje** — potřeba a dostupnost pracovníků, jejich náklady a zaškolení,
+7. **harmonogram realizace** — plán a rozpočet realizace projektu,
+8. **finanční hodnocení** — kapitálový výdaj, zdroje financování, peněžní toky, NPV, IRR, schopnost splácet dluh a **finanční udržitelnost** (projekt nesmí v žádném roce zůstat bez peněz).
+
+Finanční hodnocení je na konci, protože přebírá čísla ze všech předchozích částí. U veřejných a dotovaných projektů se doplňuje **ekonomická (socioekonomická) analýza** přínosů a nákladů pro společnost podle metodik EU (viz finanční × ekonomická efektivnost).
 
 Projekt je komerčně životaschopný, je-li tržně i technicky proveditelný, finančně efektivní (NPV > 0) a po celou dobu likvidní.
 
-*Příklad:* Studie pro novou pražírnu kávy ověří poptávku kaváren v regionu (tržní část), dostupnost technologie a prostor (technická), hygienická povolení (právní) a peněžní toky včetně splátek úvěru (finanční).
+*Příklad:* Studie pro novou pražírnu kávy ověří poptávku kaváren v regionu (trh), dodávky zelené kávy (vstupy), prostory a hygienické podmínky provozu (lokalita), pražicí technologii (technické řešení), obsazení provozu (organizace a lidské zdroje), termíny spuštění (harmonogram) a nakonec peněžní toky včetně splátek úvěru (finanční hodnocení).
 
 ### ? Které otázce se věnuje tržní část studie proveditelnosti?
 
 - [ ] Zda je zvolená technologie dostupná a spolehlivá
 - [x] Zda bude o výrobek poptávka za plánovanou cenu
 - [ ] Zda peněžní toky pokryjí splátky investičního úvěru
-- [ ] Zda projekt získá stavební a hygienická povolení
+- [ ] Kde bude provoz umístěn a jak ovlivní okolí
 
-> Tržní část odhaduje poptávku, konkurenci a dosažitelné ceny — vychází z ní odhad tržeb pro finanční část. Technologie patří do technické části, splátky do finanční a povolení do právní.
+> Tržní část odhaduje poptávku, konkurenci a dosažitelné ceny — vychází z ní odhad tržeb pro finanční část. Technologie patří do technického řešení, splátky do finančního hodnocení a umístění s dopady na prostředí do části o lokalitě.
 
 ### ? Projekt má kladnou NPV, ale ve 2. a 3. roce by kumulované peněžní toky po splátkách úvěru byly záporné a podnik nemá jiné volné zdroje. Co ze studie proveditelnosti plyne?
 
@@ -588,17 +593,29 @@ Projekt je komerčně životaschopný, je-li tržně i technicky proveditelný, 
 
 > Kladná NPV ukazuje efektivnost, projekt však musí být i likvidní — v žádném roce nesmí chybět peníze. Řešením je např. odklad splátek, delší splatnost úvěru nebo vyšší podíl vlastního kapitálu.
 
+### ? Části studie proveditelnosti podle metodiky UNIDO (Behrens & Hawranek) jsou řazeny v logickém sledu, v němž každá navazuje na předchozí. Která z uvedených částí je zařazena až na konec, protože přebírá výsledky všech ostatních?
+
+- [ ] Analýza trhu a marketingová koncepce
+- [ ] Volba lokality a dopady na životní prostředí
+- [ ] Suroviny, energie a další vstupy
+- [x] Finanční analýza a hodnocení investice
+
+> Finanční hodnocení skládá kapitálové výdaje, provozní náklady a tržby z předchozích částí do peněžních toků a počítá z nich NPV, IRR a finanční udržitelnost. Analýza trhu je naopak na začátku, protože z odhadu poptávky vychází kapacita i ostatní části.
+
 ## Finanční a ekonomická efektivnost investic {#financni-ekonomicka-efektivnost .compare}
 
-U projektů s dopady na okolí (infrastruktura, veřejné a dotované projekty) se rozlišuje dvojí hodnocení, typicky v rámci analýzy nákladů a přínosů (cost-benefit analysis, CBA):
+U projektů s dopady na okolí (infrastruktura, veřejné a dotované projekty) se rozlišuje dvojí hodnocení v rámci analýzy nákladů a přínosů (cost-benefit analysis, CBA). Postup vychází z metodik EU (průvodce CBA Evropské komise — DG REGIO, iniciativa JASPERS):
 
 | | Finanční efektivnost (finanční analýza) | Ekonomická (socioekonomická) efektivnost |
 |---|---|---|
 | Z čího pohledu | investora, vlastníka, provozovatele | společnosti jako celku |
 | Co se započítává | peněžní příjmy a výdaje projektu | všechny přínosy a náklady pro společnost včetně **externalit** (úspora času, zdraví, emise, hluk) |
-| Ceny | tržní ceny | upravené (stínové) ceny, bez transferů, jako jsou daně a dotace |
-| Ukazatele | finanční NPV, IRR, PI | ekonomická NPV (ENPV), ekonomické IRR (EIRR), poměr přínosů a nákladů (B/C) |
+| Ceny | tržní ceny | **stínové ceny** (skutečné společenské náklady obětované příležitosti), bez transferů, jako jsou daně a dotace |
+| Diskontní sazba | finanční diskontní sazba (náklad obětované příležitosti kapitálu investora) | **společenská diskontní sazba** |
+| Ukazatele | finanční čistá současná hodnota **FNPV**, finanční míra výnosnosti **FRR** | ekonomická čistá současná hodnota **ENPV**, ekonomická míra výnosnosti **ERR** (též EIRR), poměr přínosů a nákladů (B/C) |
 | Odpovídá na otázku | vyplatí se projekt investorovi? | je projekt prospěšný pro společnost? |
+
+Ekonomická analýza navazuje na finanční: vychází z jejích peněžních toků, které převede na stínové ceny, vyloučí transfery a doplní externality.
 
 Veřejný projekt může mít zápornou finanční NPV (např. nezpoplatněný obchvat), ale kladnou ekonomickou NPV — pak má smysl jeho financování z veřejných zdrojů. V podnikové literatuře se pojmem „ekonomická efektivnost investic" často označuje i samotné hodnocení výnosnosti podnikové investice metodami NPV, IRR a PI; je proto třeba uvést, v jakém smyslu se používá.
 
@@ -618,7 +635,16 @@ Veřejný projekt může mít zápornou finanční NPV (např. nezpoplatněný o
 - [ ] Pouze dotace přijaté od státu a z fondů EU
 - [x] Externality, např. dopady na zdraví a životní prostředí
 
-> Ekonomická analýza hodnotí přínosy a náklady pro celou společnost včetně nepeněžních externalit oceněných stínovými cenami; transfery, jako jsou daně a dotace, z ní naopak vylučuje.
+> Ekonomická analýza hodnotí přínosy a náklady pro celou společnost včetně nepeněžních externalit oceněných stínovými cenami; transfery, jako jsou daně a dotace, z ní naopak vylučuje. Peněžní toky provozovatele v tržních cenách jsou předmětem finanční analýzy (FNPV, FRR).
+
+### ? Jakou sazbou se podle metodik EU pro analýzu nákladů a přínosů diskontují přínosy a náklady v ekonomické (socioekonomické) analýze projektu?
+
+- [ ] Náklady vlastního kapitálu investora
+- [x] Společenskou diskontní sazbou
+- [ ] Úrokovou sazbou úvěru na projekt
+- [ ] Finanční mírou výnosnosti FRR
+
+> V ekonomické analýze se počítají ENPV a ERR se společenskou diskontní sazbou, která vyjadřuje pohled společnosti na časovou hodnotu přínosů. Náklad kapitálu investora patří k finanční analýze, úroky z úvěru se do peněžních toků projektu nezapočítávají a FRR je výsledný ukazatel finanční analýzy, ne diskontní sazba.
 
 ## Reálné opce {#realne-opce .explain}
 
@@ -629,18 +655,20 @@ Klasická NPV předpokládá, že se projekt realizuje podle pevného plánu. Ma
 - **opce opustit** — při neúspěchu projekt ukončit a majetek prodat,
 - **opce přepnout** — změnit vstupy nebo výstupy (např. kotel na dvě paliva).
 
-`rozšířená (strategická) NPV = klasická NPV + hodnota reálných opcí`. Opce má hodnotu díky asymetrii — využije se jen tehdy, když se to vyplatí. Proto **hodnota opce roste s nejistotou** a i projekt se zápornou klasickou NPV může být přijatelný. Oceňuje se rozhodovacím stromem nebo modely oceňování opcí (binomický model, Black–Scholes) — zde jen principem.
+`rozšířená (strategická) NPV = klasická NPV + hodnota reálných opcí`. Opce má hodnotu díky asymetrii — využije se jen tehdy, když se to vyplatí. Proto **hodnota opce roste s nejistotou** a i projekt se zápornou klasickou NPV může být přijatelný.
+
+**Ocenění:** standardem je **binomický model s rizikově neutrálními pravděpodobnostmi**, případně **Black–Scholesův model** (v české literatuře např. Scholleová: *Hodnota flexibility*, 2007). Pro pochopení principu se používá **zjednodušení** — rozhodovací strom, v němž se očekávané hodnoty se subjektivními pravděpodobnostmi diskontují zvolenou sazbou; takový výpočet ukáže logiku opce, ale není korektním tržním oceněním (riziko projektu se s opcí mění, takže jedna diskontní sazba nesedí).
 
 *Příklad:* Řetězec otevře jednu prodejnu v novém městě s klasickou NPV −2 mil. Kč; při úspěchu může otevřít dalších pět. Je-li hodnota této opce rozšířit 5 mil. Kč, rozšířená NPV je +3 mil. Kč a pilot má smysl.
 
-### ? Projekt vyžaduje dnes 1 000 tis. Kč. Za rok bude mít s pravděpodobností 0,5 hodnotu 1 500 a s pravděpodobností 0,5 jen 600 tis. Kč. Podnik může projekt za rok ukončit a majetek prodat za 800 tis. Kč. Očekávané hodnoty diskontujte sazbou 10 %. Jaká je hodnota opce opustit projekt?
+### ? Projekt vyžaduje dnes 1 000 tis. Kč. Za rok bude mít s pravděpodobností 0,5 hodnotu 1 500 a s pravděpodobností 0,5 jen 600 tis. Kč. Podnik může projekt za rok ukončit a majetek prodat za 800 tis. Kč. Použijte zjednodušený rozhodovací strom: očekávané hodnoty diskontujte sazbou 10 %. Jaká je hodnota opce opustit projekt?
 
 - [ ] 200,0 tis. Kč
 - [ ] 45,5 tis. Kč
 - [ ] 100,0 tis. Kč
 - [x] 90,9 tis. Kč
 
-> Bez opce: NPV = (0,5 · 1 500 + 0,5 · 600)/1,1 − 1 000 = −45,5. S opcí se ve špatném stavu majetek prodá za 800: NPV = (0,5 · 1 500 + 0,5 · 800)/1,1 − 1 000 = +45,5. Hodnota opce = 45,5 − (−45,5) = 90,9 tis. Kč. Hodnota 200 je nevážený a nediskontovaný rozdíl, 100 nediskontovaný a 45,5 je NPV s opcí.
+> Bez opce: NPV = (0,5 · 1 500 + 0,5 · 600)/1,1 − 1 000 = −45,5. S opcí se ve špatném stavu majetek prodá za 800: NPV = (0,5 · 1 500 + 0,5 · 800)/1,1 − 1 000 = +45,5. Hodnota opce = 45,5 − (−45,5) = 90,9 tis. Kč. Hodnota 200 je nevážený a nediskontovaný rozdíl, 100 nediskontovaný a 45,5 je NPV s opcí. Jde o zjednodušení pro pochopení principu; korektní ocenění by použilo binomický model s rizikově neutrálními pravděpodobnostmi.
 
 ### ? Developer koupí pozemek, ale stavbu bytového domu zahájí, až bude jasnější vývoj cen bytů a úrokových sazeb. Jakou reálnou opci využívá?
 

@@ -149,6 +149,8 @@ EU je celní unií s jednotným vnitřním trhem; země eurozóny tvoří i měn
 
 S rostoucí angažovaností firmy v zahraničí roste **kontrola** nad marketingem, ale také **náklady a riziko**; firmy proto často postupují od exportu k investicím (postupná internacionalizace).
 
+V anotaci předmětu odpovídá této posloupnosti řada **programovaná distribuce – spojování – přebírání – zahraniční investice**: smluvně řízená distribuce přes místní partnery → spojení sil s partnerem (společný podnik, strategická aliance) → převzetí existující firmy (akvizice, M&A) → vlastní přímá zahraniční investice (FDI).
+
 | Forma | Vložený kapitál | Kontrola nad marketingem | Riziko | Pružnost odchodu |
 |---|---|---|---|---|
 | **Export** (nepřímý, přímý) | nízký | nízká až střední | nízké | vysoká |
@@ -266,7 +268,7 @@ Smluvní formy vstupu bez vlastní investice do zahraničního podniku.
 
 ## Společný podnik (joint venture) {#spolecny-podnik .term}
 
-V osnově „spojování" — zde chápáno jako **spojení sil firem** formou společných podniků a strategických aliancí (zkratka „INV" v osnově není vysvětlena). **Společný podnik** je nová společnost s vlastní právní subjektivitou, kterou **společně vlastní** dva nebo více partnerů (často zahraniční firma a místní partner) a kteří sdílejí kapitál, řízení, zisk i riziko. Místní partner přináší znalost trhu, distribuci a kontakty; v některých zemích je účast místního partnera vyžadována zákonem. Nevýhodou je sdílená kontrola, možné konflikty partnerů a riziko úniku know-how.
+V osnově „spojování (INV)". Anotace předmětu řadí formy vstupu na zahraniční trh do posloupnosti **programovaná distribuce – spojování – přebírání – zahraniční investice**; spojování je v ní stupeň mezi smluvní distribucí a převzetím firmy (akvizicí) — **spojení sil s partnerem** formou **společného podniku** (joint venture) nebo **strategické aliance**. Zkratka „INV" znamená nejspíše *investice* (vstup formou investice, zde společné s partnerem). **Společný podnik** je nová společnost s vlastní právní subjektivitou, kterou **společně vlastní** dva nebo více partnerů (často zahraniční firma a místní partner) a kteří sdílejí kapitál, řízení, zisk i riziko. Místní partner přináší znalost trhu, distribuci a kontakty; v některých zemích je účast místního partnera vyžadována zákonem. Nevýhodou je sdílená kontrola, možné konflikty partnerů a riziko úniku know-how.
 
 ### ? Německý výrobce a indická firma založí v Indii novou společnost, v níž každý vlastní 50 %; Němci dodají technologii, indický partner distribuční síť. O jakou formu vstupu jde?
 

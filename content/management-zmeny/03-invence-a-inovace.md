@@ -172,7 +172,7 @@ Zdroje řadí podle **klesající spolehlivosti a předvídatelnosti**: neoček�
 
 ## Průmyslová práva v ČR — přehled {#ochrana-prehled .compare}
 
-Průmyslová práva chrání výsledky tvůrčí činnosti využitelné v hospodářství. Vznikají **udělením nebo zápisem** u **Úřadu průmyslového vlastnictví (ÚPV)**, jsou **výlučná** (majitel může ostatním zakázat užívání, poskytnout licenci nebo právo převést) a **teritoriální** — platí jen v ČR. Pro zahraničí slouží např. evropský patent (Evropský patentový úřad), ochranná známka EU (EUIPO) nebo mezinárodní přihlášky přes WIPO.
+Průmyslová práva chrání výsledky tvůrčí činnosti využitelné v hospodářství. Vznikají **udělením nebo zápisem** u **Úřadu průmyslového vlastnictví (ÚPV)**, jsou **výlučná** (majitel může ostatním zakázat užívání, poskytnout licenci nebo právo převést) a **teritoriální** — platí jen v ČR. Výjimkou jsou **označení původu a zeměpisná označení**: národní zápis byl v roce 2025 zrušen a chrání se jen unijním zápisem, ÚPV přijímá žádosti v jeho národní fázi. Pro zahraničí slouží např. evropský patent (Evropský patentový úřad), ochranná známka EU (EUIPO) nebo mezinárodní přihlášky přes WIPO.
 
 | Právo | Co chrání | Hlavní podmínky | Doba ochrany |
 |---|---|---|---|
@@ -180,7 +180,7 @@ Průmyslová práva chrání výsledky tvůrčí činnosti využitelné v hospod
 | **Užitný vzor** | technické řešení (ne způsob výroby) | novost, přesah pouhé odborné dovednosti, průmyslová využitelnost | 4 roky + 2× prodloužení o 3 roky, **max. 10 let** |
 | **Průmyslový vzor** | vzhled výrobku nebo jeho části | novost, individuální povaha | 5 let, prodlužování po 5 letech **až na 25 let** |
 | **Ochranná známka** | označení odlišující výrobky či služby | rozlišovací způsobilost | 10 let, **opakovaně obnovitelná** o dalších 10 let |
-| **Označení původu, zeměpisné označení** | název oblasti užívaný pro výrobky z ní | vazba vlastností výrobku na oblast | časově neomezená (dokud trvají podmínky) |
+| **Označení původu, zeměpisné označení** | název oblasti užívaný pro výrobky z ní; od 2025 jen **unijní ochrana** (žádost přes ÚPV, zápis na úrovni EU) | vazba vlastností výrobku na oblast | časově neomezená (dokud trvají podmínky) |
 | **Topografie polovodičových výrobků** | prostorové uspořádání vrstev čipu | výsledek tvůrčí činnosti, není v oboru běžná | 10 let od konce roku prvního obchodního využití nebo podání přihlášky (podle toho, co nastane dříve) |
 
 ### ? Firma podala přihlášku užitného vzoru v březnu 2024 a chce ho prodlužovat, dokud to zákon dovolí. Do kdy může ochrana nejdéle trvat?
@@ -212,7 +212,7 @@ Průmyslová práva chrání výsledky tvůrčí činnosti využitelné v hospod
 
 ## Úřad průmyslového vlastnictví (ÚPV) {#upv .term}
 
-**ÚPV** je ústřední orgán státní správy ČR pro oblast průmyslového vlastnictví (sídlo v Praze). Přijímá a prozkoumává přihlášky, **uděluje patenty** a **zapisuje** užitné vzory, průmyslové vzory, ochranné známky, označení původu a zeměpisná označení i topografie; vede jejich **rejstříky a veřejné databáze**, vydává Věstník a poskytuje informační služby (rešerše). **Nespravuje autorské právo** — to vzniká bez registrace — a o sporech z porušení práv nerozhoduje; ty řeší soudy.
+**ÚPV** je ústřední orgán státní správy ČR pro oblast průmyslového vlastnictví (sídlo v Praze). Přijímá a prozkoumává přihlášky, **uděluje patenty** a **zapisuje** užitné vzory, průmyslové vzory, ochranné známky i topografie; u označení původu a zeměpisných označení (od 2025 jen unijní zápis) přijímá žádosti v národní fázi. Vede jejich **rejstříky a veřejné databáze**, vydává Věstník a poskytuje informační služby (rešerše). **Nespravuje autorské právo** — to vzniká bez registrace — a o sporech z porušení práv nerozhoduje; ty řeší soudy.
 
 ### ? Spisovatel chce u Úřadu průmyslového vlastnictví zaregistrovat svůj román, aby byl chráněn proti kopírování. Co je pravda?
 
@@ -255,7 +255,7 @@ Za vynález se nepovažují zejména **objevy, vědecké teorie, matematické me
 
 ## Zaměstnanecký vynález {#zamestnanecky-vynalez .term}
 
-Vytvoří-li zaměstnanec vynález při plnění úkolů z pracovního poměru, **právo na patent přechází na zaměstnavatele** (pokud se nedohodnou jinak). Původce musí zaměstnavatele o vynálezu **bez odkladu písemně informovat**; neuplatní-li zaměstnavatel právo ve lhůtě 3 měsíců, vrací se původci. Původce, jehož vynález zaměstnavatel uplatní, má **právo na přiměřenou odměnu** podle přínosu vynálezu. Obdobně se řeší užitné a průmyslové vzory — pro řízení inovací v organizaci je proto důležité mít jasná pravidla oznamování a odměňování.
+Vytvoří-li zaměstnanec vynález při plnění úkolů z pracovního poměru, **právo na patent přechází na zaměstnavatele** (pokud se nedohodnou jinak). Původce musí zaměstnavatele o vynálezu **bez odkladu písemně vyrozumět**; neuplatní-li zaměstnavatel právo **do 3 měsíců od vyrozumění**, vrací se původci. Původce, jehož vynález zaměstnavatel uplatní, má **právo na přiměřenou odměnu** podle přínosu vynálezu; je-li odměna ve **zjevném nepoměru** k pozdějšímu přínosu, má právo na **dodatečné vypořádání** (§ 9 zák. č. 527/1990 Sb.). Obdobný režim — vyrozumění, 3 měsíce na uplatnění, přiměřená odměna i dodatečné vypořádání — platí pro zaměstnanecké užitné vzory a podle zákona o průmyslových vzorech (č. 207/2000 Sb.) i pro **zaměstnanecké průmyslové vzory**. Pro řízení inovací v organizaci je proto důležité mít jasná pravidla oznamování a odměňování.
 
 ### ? Vývojář firmy v rámci svých pracovních úkolů vynalezne nový typ ventilu. Jak se podle českého práva zpravidla řeší práva k vynálezu?
 
@@ -266,9 +266,27 @@ Vytvoří-li zaměstnanec vynález při plnění úkolů z pracovního poměru, 
 
 > U zaměstnaneckého vynálezu přechází právo na patent na zaměstnavatele, původce má ale právo na přiměřenou odměnu. Jiné uspořádání je možné jen dohodou.
 
+### ? Konstruktérka v rámci pracovních úkolů vytvoří vynález a 1. března o něm písemně vyrozumí zaměstnavatele. Ten do konce července nijak nereaguje. Co platí podle českého práva?
+
+- [ ] Právo zůstává zaměstnavateli bez ohledu na lhůtu
+- [ ] Vynález se stává volným a smí ho užít kdokoli
+- [x] Právo se vrátilo původkyni, lhůta 3 měsíců uplynula
+- [ ] Zaměstnavatel má na uplatnění práva lhůtu 1 roku
+
+> Zaměstnavatel může právo k zaměstnaneckému vynálezu uplatnit do 3 měsíců od vyrozumění. Lhůta uplynula 1. června, a protože ji nevyužil, právo na patent se vrátilo původkyni.
+
+### ? Designér firmy navrhne v pracovním poměru vzhled nového výrobku a zaměstnavatel právo k průmyslovému vzoru uplatní. Výrobek se později prodává mnohem lépe, než se při určení odměny čekalo. Co designérovi náleží?
+
+- [x] Dodatečné vypořádání při zjevném nepoměru odměny
+- [ ] Nic, u průmyslového vzoru odměna zaměstnanci nenáleží
+- [ ] Automaticky polovina zisku z prodeje výrobku
+- [ ] Právo vzor odkoupit zpět za symbolickou cenu
+
+> U zaměstnaneckého průmyslového vzoru platí obdobný režim jako u vynálezu: přiměřená odměna a při zjevném nepoměru k pozdějšímu přínosu dodatečné vypořádání. Pevný podíl na zisku zákon nestanoví.
+
 ## Užitný vzor {#uzitny-vzor .term}
 
-Užitný vzor („malý patent") chrání **technické řešení**, které je **nové**, **přesahuje rámec pouhé odborné dovednosti** a je **průmyslově využitelné**. Nelze jím chránit **způsoby výroby** ani pracovní postupy. ÚPV jej zapisuje **bez věcného průzkumu** novosti a tvůrčí úrovně, takže ochrana je **rychlá a levná**, ale méně jistá — kdokoli může podat návrh na výmaz. Ochrana trvá **4 roky** od podání přihlášky a lze ji **dvakrát prodloužit o 3 roky** (nejvýše 10 let). Zveřejnění řešení samotným původcem nejdéle **6 měsíců** před podáním přihlášky novosti neškodí.
+Užitný vzor („malý patent") chrání **technické řešení**, které je **nové**, **přesahuje rámec pouhé odborné dovednosti** a je **průmyslově využitelné**. Nelze jím chránit **způsoby výroby** ani pracovní postupy. ÚPV jej zapisuje **bez věcného průzkumu** novosti a tvůrčí úrovně, takže ochrana je **rychlá a levná**, ale méně jistá — kdokoli může podat návrh na výmaz. Ochrana trvá **4 roky** od podání přihlášky a lze ji **dvakrát prodloužit o 3 roky** (nejvýše 10 let). Novosti neškodí zveřejnění řešení přihlašovatelem (nebo jeho právním předchůdcem, typicky původcem) v posledních **6 měsících před podáním přihlášky** — takové zveřejnění se do stavu techniky nepočítá (zák. č. 478/1992 Sb.).
 
 ### ? Firma vyvinula vylepšený držák nářadí s krátkým životním cyklem a potřebuje ochranu rychle a s nízkými náklady. Co je pro ni nejvhodnější?
 
@@ -287,6 +305,15 @@ Užitný vzor („malý patent") chrání **technické řešení**, které je **
 - [x] Nový způsob tepelného zpracování oceli
 
 > Užitný vzor nechrání způsoby výroby ani pracovní postupy; ty lze chránit jen patentem. Konstrukce a uspořádání výrobků užitným vzorem chránit lze.
+
+### ? Firma představila nový držák na veletrhu v lednu a v dubnu téhož roku podala přihlášku užitného vzoru. Brání jí vlastní předvedení na veletrhu v ochraně?
+
+- [ ] Ano, každé zveřejnění před podáním vylučuje novost
+- [ ] Ne, u užitného vzoru se novost vůbec nezkoumá
+- [ ] Ano, výjimka platí jen pro zveřejnění do 1 měsíce
+- [x] Ne, zveřejnění přihlašovatelem do 6 měsíců neškodí
+
+> Do stavu techniky se u užitného vzoru nezahrnuje zveřejnění, které uskutečnil přihlašovatel (nebo jeho právní předchůdce) v posledních 6 měsících před podáním přihlášky. Novost je podmínkou ochrany, ÚPV ji jen věcně nezkoumá při zápisu.
 
 ## Patent × užitný vzor {#patent-vs-uzitny-vzor .compare}
 
@@ -368,6 +395,8 @@ Ochranná známka je **označení** — slova, jména, barvy, kresby, písmena, 
 
 Obě chrání **název oblasti** (místa, regionu) užívaný pro výrobky, jejichž vlastnosti souvisejí s místem původu. Ochrana je **časově neomezená** a označení **nepatří jedné firmě** — smí je užívat každý výrobce z oblasti, který splní stanovené podmínky (nelze je převést ani licencovat).
 
+**Od roku 2025 jen unijní ochrana:** zákon č. 277/2025 Sb. (účinnost 20. 8. 2025) zrušil národní zápis označení původu a zeměpisných označení do rejstříku ÚPV. Názvy se chrání jen **zápisem na úrovni EU** — zemědělské produkty a potraviny podle nařízení (EU) 2024/1143, **řemeslné a průmyslové výrobky** (např. sklo, porcelán, krajky) podle nařízení (EU) 2023/2411 od 1. 12. 2025. **ÚPV** přijímá žádosti a posuzuje je v **národní fázi** unijního zápisu; o zápisu se rozhoduje na úrovni EU.
+
 | | Označení původu | Zeměpisné označení |
 |---|---|---|
 | Vazba na oblast | kvalita nebo vlastnosti jsou dány **výhradně nebo převážně** zvláštním zeměpisným prostředím (přírodní a lidské faktory) | určitá kvalita, **pověst** nebo jiná vlastnost je **přičitatelná** zeměpisnému původu |
@@ -391,6 +420,15 @@ Obě chrání **název oblasti** (místa, regionu) užívaný pro výrobky, jeji
 - [ ] Chrání vzhled výrobku, nikoli jeho název
 
 > Označení původu a zeměpisné označení jsou kolektivní práva — nepatří jedné firmě a užívat je smí každý, kdo v oblasti splní podmínky. Ochranná známka naopak patří konkrétnímu majiteli.
+
+### ? Sdružení sklářů z jednoho regionu chce v roce 2026 chránit tradiční název svých výrobků jako zeměpisné označení. Jak postupuje?
+
+- [ ] Nechá název zapsat jen do národního rejstříku ÚPV
+- [x] Podá žádost přes ÚPV, zapisuje se na úrovni EU
+- [ ] Podá přihlášku u Evropského patentového úřadu
+- [ ] Ochrana vznikne sama bez jakéhokoli zápisu
+
+> Od roku 2025 je národní zápis zrušen a označení původu i zeměpisná označení se chrání jen unijním zápisem; řemeslné a průmyslové výrobky od 1. 12. 2025 podle nařízení (EU) 2023/2411. ÚPV přijímá žádost a vede národní fázi řízení. Evropský patentový úřad uděluje patenty.
 
 ## Patent × obchodní tajemství × autorské právo {#ochrana-alternativy .compare}
 
@@ -687,10 +725,12 @@ Veřejnou podporu upravuje **zákon o podpoře výzkumu, experimentálního výv
 - **Rada pro výzkum, vývoj a inovace (RVVI)** — odborný a poradní orgán vlády; připravuje národní politiku VaVaI, návrh výdajů státního rozpočtu na VaVaI a hodnocení výsledků.
 - **Grantová agentura ČR (GA ČR)** — účelová podpora **základního výzkumu**.
 - **Technologická agentura ČR (TA ČR)** — podpora **aplikovaného výzkumu, experimentálního vývoje a inovací**, často ve spolupráci firem s výzkumnými organizacemi.
-- **ministerstva** jako poskytovatelé podpory a **operační programy** financované z fondů EU (podnikové inovace v gesci Ministerstva průmyslu a obchodu).
+- **ministerstva** jako poskytovatelé podpory a **operační programy** financované z fondů EU (podnikové inovace v gesci Ministerstva průmyslu a obchodu — OP TAK, který pro firmy administruje **Agentura pro podnikání a inovace, API**).
 - **CzechInvest** — agentura MPO pro podporu podnikání a investic (investiční pobídky, podpora inovativních firem a startupů).
 
-Strategický rámec tvoří **národní inovační strategie** (Inovační strategie ČR 2019–2030) a národní politika VaVaI. Firmy mohou využít i **nepřímou podporu** — odpočet nákladů na výzkum a vývoj od základu daně — a inovační infrastrukturu (vědeckotechnické parky, podnikatelské inkubátory, centra transferu technologií na univerzitách).
+Strategický rámec tvoří **národní inovační strategie** (Inovační strategie ČR 2019–2030) a národní politika VaVaI. Firmy mohou využít i **nepřímou podporu** — **odpočet na podporu výzkumu a vývoje** od základu daně (zákon o daních z příjmů, § 34) — a inovační infrastrukturu (vědeckotechnické parky, podnikatelské inkubátory, centra transferu technologií na univerzitách).
+
+**Odpočet na VaV (stav 2026):** do roku 2025 se odečítalo **100 % způsobilých výdajů** a u meziročního přírůstku výdajů **110 %**. Od 1. 1. 2026 (zák. č. 360/2025 Sb.) se odečítá **150 % výdajů do 50 mil. Kč** a **100 % z části nad 50 mil. Kč**; neuplatněný odpočet lze převést **až do 5 následujících zdaňovacích období**.
 
 *Příklad:* Strojírenská firma a technická univerzita společně vyvíjejí nový senzor a ucházejí se o podporu aplikovaného výzkumu u TA ČR; univerzitní tým zároveň zkoumá fyzikální podstatu jevu v grantu GA ČR.
 

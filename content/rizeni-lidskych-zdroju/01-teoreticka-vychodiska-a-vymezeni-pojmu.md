@@ -452,6 +452,8 @@ HR benchmarking je **systematické porovnání HR ukazatelů a postupů s jiným
 
 Postup: výběr oblasti a ukazatelů → výběr srovnávacích partnerů → sběr dat → analýza rozdílů a jejich **příčin** → opatření a sledování. Klíčová je **srovnatelnost** (stejné definice a metodika, podobná velikost a obor) a ohled na kontext — převzít cizí postup bez úprav odporuje principu best fit.
 
+Příkladem pojmenovaného srovnávacího modelu je přístup **J. Fitz-enze** a **Saratoga Institute** (dnes PwC Saratoga): **human capital scorecard** s databází srovnatelně definovaných ukazatelů, které hodnotí HR činnosti pěti indexy — **náklady**, **čas**, **objem**, **chyby** (kvalita) a **reakce lidí** (spokojenost zákazníků HR).
+
 *Příklad:* Výrobní firma porovná dobu obsazení pozic s oborovou studií a zjistí, že zaostává u techniků. Příčinou je zdlouhavé schvalování, ne nízké mzdy.
 
 ### ? Banka porovnává dobu obsazení pozic mezi svými regionálními pobočkami. O jaký typ benchmarkingu jde?

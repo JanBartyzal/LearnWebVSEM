@@ -8,34 +8,45 @@ order: 9
 
 Nová a tradiční měřítka efektivnosti a produktivity podniku, faktory tvorby ekonomické přidané hodnoty EVA, analýza výsledků podnikové činnosti, celková produktivita a parciální produktivity výrobních faktorů.
 
-## Hospodárnost, efektivnost a účinnost (3E) {#tri-e .compare}
+## Hospodárnost, efektivnost a účelnost (3E) {#tri-e .compare}
 
-Koncept 3E (economy, efficiency, effectiveness) hodnotí využití zdrojů ze tří hledisek. České překlady nejsou jednotné (effectiveness se překládá jako „účinnost" i „účelnost"; ve veřejné finanční kontrole se používá trojice hospodárnost – efektivnost – účelnost).
+Koncept 3E (economy, efficiency, effectiveness) hodnotí využití prostředků ze tří hledisek. České vymezení všech tří pojmů dává zákon o finanční kontrole (č. 320/2001 Sb.): **hospodárnost** (economy), **efektivnost** (efficiency) a **účelnost** (effectiveness).
 
-| | Hospodárnost (economy) | Efektivnost (efficiency) | Účinnost, účelnost (effectiveness) |
+| | Hospodárnost (economy) | Efektivnost (efficiency) | Účelnost (effectiveness) |
 |---|---|---|---|
+| Vymezení podle zákona o finanční kontrole | použití prostředků k zajištění úkolů s co nejnižším vynaložením prostředků při dodržení odpovídající kvality | dosažení nejvyššího možného rozsahu, kvality a přínosu plněných úkolů ve srovnání s vynaloženými prostředky | použití prostředků, které zajistí optimální míru dosažení cílů při plnění stanovených úkolů |
 | Klíčová otázka | Za kolik zdroje pořizujeme? | Jak dobře měníme vstupy na výstupy? | Plníme stanovené cíle? |
-| Co měří | minimalizaci vynaložených prostředků při zachování požadované kvality | poměr výstupů a vstupů | míru dosažení cílů (zamýšlených výsledků) |
 | Heslo (P. F. Drucker) | — | „dělat věci správně" | „dělat správné věci" |
 | Příklad | nákup materiálu v požadované kvalitě za nejnižší cenu | počet výrobků na hodinu práce | dosažený tržní podíl proti cílovému |
 
-### ? Podnik dosáhl plánovaného tržního podílu, ale díky výrazně vyšším výdajům na reklamu, než bylo nutné. Které hledisko 3E bylo splněno?
+**Pozor na terminologii:** norma ČSN EN ISO 9000 (management kvality) překládá effectiveness jako **efektivnost** (míra dosažení plánovaných výsledků) a efficiency jako **účinnost** (vztah výsledku a použitých zdrojů); pro effectiveness se v literatuře objevuje i výraz „účinnost". Obě pojetí koexistují — v ekonomii a veřejné finanční kontrole platí trojice hospodárnost – efektivnost – účelnost, v systémech managementu kvality terminologie ISO 9000. Proto je dobré uvádět i anglický termín.
+
+### ? Podnik dosáhl plánovaného tržního podílu, ale díky výrazně vyšším výdajům na reklamu, než bylo nutné. Které hledisko 3E (v terminologii zákona o finanční kontrole) bylo splněno?
 
 - [ ] Hospodárnost (economy)
 - [ ] Efektivnost (efficiency)
-- [x] Účinnost (effectiveness)
+- [x] Účelnost (effectiveness)
 - [ ] Hospodárnost i efektivnost
 
-> Cíl (tržní podíl) byl dosažen, takže je splněna účinnost. Zdroje ale byly vynaloženy draze a v nepříznivém poměru k výsledku, hospodárnost ani efektivnost tedy splněny nebyly.
+> Cíl (tržní podíl) byl dosažen, takže je splněna účelnost (effectiveness). Zdroje ale byly vynaloženy draze a v nepříznivém poměru k výsledku, hospodárnost ani efektivnost (efficiency) tedy splněny nebyly.
 
-### ? Které vymezení odpovídá efektivnosti (efficiency) ve smyslu „dělat věci správně"?
+### ? Které vymezení odpovídá v konceptu 3E efektivnosti (efficiency), tj. „dělat věci správně"?
 
 - [x] Poměr dosažených výstupů k vynaloženým vstupům
-- [ ] Míra splnění strategických cílů podniku
-- [ ] Pořízení vstupů v požadované kvalitě za nejnižší možnou cenu
+- [ ] Míra dosažení stanovených cílů podniku
+- [ ] Pořízení vstupů v požadované kvalitě za nejnižší cenu
 - [ ] Soulad činnosti podniku s jeho posláním
 
-> Efektivnost je vztah výstupů a vstupů. Míra splnění cílů je účinnost (effectiveness), nízká cena vstupů je hospodárnost (economy).
+> Efektivnost (efficiency) je vztah výstupů a vstupů. Míra dosažení cílů je účelnost (effectiveness), nízká cena vstupů při zachování kvality je hospodárnost (economy).
+
+### ? Zákon o finanční kontrole označuje míru dosažení cílů (effectiveness) jako účelnost. Jaký český termín pro effectiveness používá norma ČSN EN ISO 9000?
+
+- [ ] Účinnost
+- [x] Efektivnost
+- [ ] Hospodárnost
+- [ ] Výkonnost
+
+> ISO 9000 překládá effectiveness jako efektivnost a efficiency jako účinnost. V konceptu 3E podle zákona o finanční kontrole je naopak efektivnost = efficiency a effectiveness = účelnost; obě pojetí koexistují.
 
 ## Výkonnost podniku {#vykonnost-podniku .term}
 

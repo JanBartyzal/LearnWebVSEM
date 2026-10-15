@@ -83,7 +83,7 @@ Megatrendy se navzájem posilují (stárnutí + digitalizace → péče na dálk
 
 ## Společenské výzvy Horizontu 2020 {#horizont-2020-vyzvy .explain}
 
-**Horizont 2020** byl rámcový program EU pro výzkum a inovace na období 2014–2020. Stál na třech prioritách (pilířích): vynikající věda, vedoucí postavení průmyslu a **společenské výzvy**. Pilíř společenských výzev zahrnoval sedm oblastí:
+**Horizont 2020** byl rámcový program EU pro výzkum a inovace na období 2014–2020. Stál na třech prioritách (pilířích): vynikající věda, vedoucí postavení průmyslu a **společenské výzvy**. Pilíř společenských výzev zahrnoval sedm oblastí (české názvy podle osnovy; oficiální překlad se může lišit):
 
 1. Zdraví, demografické změny a dobré životní podmínky
 2. Potravinové zabezpečení, udržitelné zemědělství a lesnictví, výzkum moří a vnitrozemských vod a biohospodářství
@@ -93,7 +93,13 @@ Megatrendy se navzájem posilují (stárnutí + digitalizace → péče na dálk
 6. Evropa v měnícím se světě — inkluzivní, inovativní a reflektující společnosti
 7. Bezpečné společnosti — ochrana svobody a bezpečnosti Evropy a jejích občanů
 
-Nástupcem je **Horizont Evropa** (2021–2027). Výzvy přeskupil do šesti tematických **klastrů** pilíře Globální výzvy a konkurenceschopnost evropského průmyslu a zavedl pět **misí EU** — časově ohraničených a měřitelných cílů: adaptace na změnu klimatu, rakovina, oceány a vody, klimaticky neutrální a inteligentní města, půda.
+Nástupcem je **Horizont Evropa** (2021–2027), který stojí na **třech pilířích**:
+
+1. **Vynikající věda**,
+2. **Globální výzvy a konkurenceschopnost evropského průmyslu** — do jeho **šesti tematických klastrů** přeskupil dřívější společenské výzvy,
+3. **Inovativní Evropa**.
+
+Nově zavedl pět **misí EU** — časově ohraničených a měřitelných cílů: adaptace na změnu klimatu; rakovina; obnova oceánů a vod; klimaticky neutrální (a inteligentní) města; půda.
 
 *Příklad:* Univerzita a výrobce baterií podají společný projekt na úložiště elektřiny pro domácnosti — v Horizontu 2020 by spadal do výzvy bezpečná, čistá a účinná energie.
 

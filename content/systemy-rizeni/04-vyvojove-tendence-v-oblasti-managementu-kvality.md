@@ -159,7 +159,7 @@ ISO 9001 požaduje, aby organizace **řídila externě poskytované procesy, pro
 
 ## IATF 16949 {#iatf-16949 .term}
 
-**IATF 16949:2016** je standard požadavků na **systém managementu kvality v automobilovém průmyslu**, vydaný sdružením výrobců **IATF** (International Automotive Task Force); nahradil dřívější ISO/TS 16949. Není samostatný — **doplňuje ISO 9001:2015** o odvětvové požadavky (např. specifické požadavky zákazníků, řízení dodavatelského řetězce, prevence vad). V praxi se s ním pojí tzv. **základní nástroje** (core tools): APQP (plánování kvality produktu), PPAP (schvalování dílů do sériové výroby), FMEA, MSA (analýza systému měření) a SPC (statistická regulace procesu).
+**IATF 16949:2016** je standard požadavků na **systém managementu kvality v automobilovém průmyslu**, vydaný sdružením výrobců **IATF** (International Automotive Task Force); nahradil dřívější ISO/TS 16949. Není samostatný — **doplňuje ISO 9001:2015** o odvětvové požadavky (např. specifické požadavky zákazníků, řízení dodavatelského řetězce, prevence vad). Norma vyžaduje používání tzv. **základních nástrojů** (core tools), popsaných v referenčních manuálech AIAG: **APQP** (pokročilé plánování kvality produktu), **PPAP** (schvalování dílů do sériové výroby), **FMEA** (analýza možných vad a jejich důsledků), **MSA** (analýza systému měření) a **SPC** (statistická regulace procesu).
 
 ### ? Které tvrzení o IATF 16949 je správné?
 
@@ -170,7 +170,7 @@ ISO 9001 požaduje, aby organizace **řídila externě poskytované procesy, pro
 
 > IATF 16949 se uplatňuje společně s ISO 9001 a přidává požadavky odvětví automotive. Systém dodavatelů automobilek se podle ní certifikuje.
 
-### ? Který z uvedených postupů NEPATŘÍ mezi tzv. základní nástroje (core tools) spojované s IATF 16949?
+### ? Který z uvedených postupů NEPATŘÍ mezi tzv. základní nástroje (core tools), které vyžaduje IATF 16949?
 
 - [ ] FMEA — analýza možných vad a jejich důsledků
 - [ ] PPAP — schvalovací proces dílu do sériové výroby
@@ -281,7 +281,7 @@ Proces může být efektivní, a přesto neúčinný (cíl splní za cenu nadmě
 
 ## Ukazatele environmentální výkonnosti a BOZP {#ukazatele-env-bozp .explain}
 
-V environmentu se výkonnost měří **absolutními** ukazateli (celkové emise, množství odpadu) a hlavně **relativními** ukazateli vztaženými k objemu činnosti (např. spotřeba energie nebo vody na jednotku produkce, podíl recyklovaného odpadu), které umožní srovnání v čase i při změně objemu výroby. V BOZP se úrazovost přepočítává na odpracovaný čas — často jako **četnost úrazů s pracovní neschopností na 1 milion odpracovaných hodin** (LTIFR, lost time injury frequency rate): `LTIFR = počet úrazů s pracovní neschopností · 1 000 000 / odpracované hodiny`. Přepočet dovoluje srovnávat závody různé velikosti.
+V environmentu se výkonnost měří **absolutními** ukazateli (celkové emise, množství odpadu) a hlavně **relativními** ukazateli vztaženými k objemu činnosti (např. spotřeba energie nebo vody na jednotku produkce, podíl recyklovaného odpadu), které umožní srovnání v čase i při změně objemu výroby. V BOZP se úrazovost přepočítává na odpracovaný čas — často jako **četnost úrazů s pracovní neschopností na 1 milion odpracovaných hodin** (LTIFR, lost time injury frequency rate): `LTIFR = počet úrazů s pracovní neschopností · 1 000 000 / odpracované hodiny`. Přepočet dovoluje srovnávat závody různé velikosti. Mezinárodně se používá základ 1 000 000 hodin, v USA (OSHA, ukazatele TRIR a LTIR) 200 000 hodin — proto je třeba vždy uvést, na jaký základ je ukazatel přepočten.
 
 *Příklad:* Závod vyrobil 50 000 t produktu a spotřeboval 10 000 MWh energie — měrná spotřeba je 0,2 MWh/t. Při růstu výroby se celková spotřeba zvýší, ale ukazatel na tunu ukáže, zda se energetická náročnost skutečně zlepšuje.
 
@@ -327,7 +327,7 @@ V environmentu se výkonnost měří **absolutními** ukazateli (celkové emise,
 
 ## Model PAF — kategorie nákladů na kvalitu {#model-paf .compare}
 
-Model **PAF** (prevention – appraisal – failure) člení náklady na kvalitu do čtyř kategorií:
+Model **PAF** (prevention – appraisal – failure) člení náklady na kvalitu do čtyř kategorií. Členění na prevenci, hodnocení a selhání (vady) se obvykle připisuje **A. V. Feigenbaumovi** (1956):
 
 | Kategorie | Skupina | Podstata | Příklady |
 |---|---|---|---|
@@ -400,7 +400,7 @@ Celkové náklady na kvalitu: `COQ = prevence + hodnocení + interní vady + ext
 
 ## „Kvalita je zadarmo" a optimum nákladů na kvalitu {#kvalita-je-zadarmo .explain}
 
-**Philip B. Crosby** (kniha *Quality Is Free*, 1979) tvrdil, že kvalita sama nic nestojí — **penězi se platí za nekvalitu**. Rozlišoval **cenu shody** (price of conformance, POC — prevence a hodnocení) a **cenu neshody** (price of nonconformance, PONC — vše, co vzniká, když se věci neudělají správně napoprvé) a za **měřítko kvality** považoval právě cenu neshody. Investice do prevence se vrátí úsporou na vadách. **Klasický model** optima nákladů na kvalitu předpokládal, že minimum celkových nákladů leží při určitém „přijatelném" podílu vad, protože další prevence a kontrola se prodražují. **Moderní pohled** (prevence, nulové vady, zlepšování procesů) ukazuje, že s lepšími procesy se optimum posouvá k **téměř 100% shodě**, protože náklady na vady — zejména skryté (ztráta zákazníků, pověsti) — jsou vyšší, než se dříve počítalo.
+**Philip B. Crosby** (kniha *Quality Is Free*, 1979) tvrdil, že kvalita sama nic nestojí — **penězi se platí za nekvalitu**. Rozlišoval **cenu shody** (price of conformance, POC — prevence a hodnocení) a **cenu neshody** (price of nonconformance, PONC — vše, co vzniká, když se věci neudělají správně napoprvé) a za **měřítko kvality** považoval právě cenu neshody. Investice do prevence se vrátí úsporou na vadách. **Klasický model** optima nákladů na kvalitu (popularizovaný zejména J. M. Juranem a F. M. Grynou) předpokládal, že minimum celkových nákladů leží při určitém „přijatelném" podílu vad, protože další prevence a kontrola se prodražují. **Moderní pohled** (prevence, nulové vady, zlepšování procesů) ukazuje, že s lepšími procesy se optimum posouvá k **téměř 100% shodě**, protože náklady na vady — zejména skryté (ztráta zákazníků, pověsti) — jsou vyšší, než se dříve počítalo.
 
 *Příklad:* Firma přesune část rozpočtu z výstupní kontroly do školení a FMEA; za dva roky klesnou celkové náklady na kvalitu, přestože se výdaje na prevenci zdvojnásobily.
 
@@ -435,6 +435,8 @@ Celkové náklady na kvalitu: `COQ = prevence + hodnocení + interní vady + ext
 
 **ISO/IEC 27001** je mezinárodní norma požadavků na **systém managementu bezpečnosti informací** (ISMS, information security management system), aktuálně ve vydání z roku 2022. Má stejnou společnou strukturu jako ISO 9001, 14001 a 45001 (lze ji proto integrovat do IMS) a je **certifikovatelná**. Jádrem je **řízení rizik bezpečnosti informací**: organizace identifikuje rizika pro důvěrnost, integritu a dostupnost informací, vybere opatření a výběr zdůvodní v **prohlášení o aplikovatelnosti** (SoA, statement of applicability). Podrobný návod k opatřením dává ISO/IEC 27002.
 
+Norma je **dobrovolná**; vedle ní stojí **povinná regulace**: směrnice EU **NIS2** a v ČR nový **zákon č. 264/2025 Sb., o kybernetické bezpečnosti** (účinnost 1. 11. 2025, nahradil zákon č. 181/2014 Sb.), který ukládá regulovaným subjektům povinnosti v řízení kybernetických rizik a hlášení incidentů a zdůrazňuje odpovědnost vedení. Zavedený ISMS podle ISO/IEC 27001 plnění těchto povinností usnadňuje, ale automaticky je nenahrazuje.
+
 ### ? Co je předmětem normy ISO/IEC 27001?
 
 - [ ] Požadavky na environmentální management v informatice
@@ -452,6 +454,15 @@ Celkové náklady na kvalitu: `COQ = prevence + hodnocení + interní vady + ext
 - [ ] Protože neobsahuje žádné požadavky na řízení rizik
 
 > Normy systémů managementu ISO používají společnou strukturu (HLS / Annex SL), takže kontext, vedení, plánování, podpora, hodnocení výkonnosti a zlepšování se dají řešit společně.
+
+### ? Jaký je vztah normy ISO/IEC 27001 a zákona o kybernetické bezpečnosti, který v ČR převádí směrnici NIS2?
+
+- [ ] Zákon ukládá všem firmám povinnou certifikaci podle ISO/IEC 27001
+- [x] Norma je dobrovolná, zákon ukládá povinnosti regulovaným subjektům
+- [ ] Norma i zákon jsou dobrovolné a liší se jen rozsahem opatření
+- [ ] Zákon platí jen pro státní správu, norma jen pro soukromé firmy
+
+> Certifikace podle ISO/IEC 27001 je dobrovolné rozhodnutí organizace, kdežto zákon o kybernetické bezpečnosti (NIS2) stanoví povinnosti subjektům, na které se vztahuje — veřejným i soukromým. Zavedený ISMS pomáhá povinnosti plnit, certifikaci však zákon obecně nevyžaduje.
 
 ## Důvěrnost, integrita a dostupnost {#cia-triada .compare}
 
@@ -513,7 +524,7 @@ Velikost rizika se posuzuje kombinací **pravděpodobnosti** a **dopadu** (obecn
 
 ## Opatření k eliminaci bezpečnostních hrozeb {#opatreni-bezpecnosti .explain}
 
-Rizika se ošetřují výběrem **opatření** (controls). ISO/IEC 27001:2022 uvádí v **příloze A** referenční seznam opatření ve čtyřech skupinách: **organizační** (politiky, řízení aktiv, vztahy s dodavateli, řízení incidentů, kontinuita), **personální** (prověření, školení a povědomí, povinnost mlčenlivosti), **fyzická** (zabezpečení prostor, vstupů, zařízení) a **technologická** (řízení přístupu, šifrování, zálohování, ochrana proti malwaru, logování a monitorování). Podle účinku se opatření dělí na **preventivní** (zabrání incidentu), **detekční** (odhalí ho) a **nápravná** (omezí následky a obnoví stav). Riziko lze zcela **odstranit** jen zřídka, např. vyřazením nepotřebného aktiva nebo služby (odstranění zdroje rizika); obvykle se riziko snižuje na přijatelnou úroveň, případně sdílí (pojištění, outsourcing) nebo vědomě akceptuje. Zásadní roli hraje **lidský faktor** — školení proti phishingu a sociálnímu inženýrství.
+Rizika se ošetřují výběrem **opatření** (controls). ISO/IEC 27001:2022 uvádí v **příloze A** referenční seznam **93 opatření** ve čtyřech tématech — **37 organizačních, 8 personálních (lidé), 14 fyzických a 34 technologických**: **organizační** (politiky, řízení aktiv, vztahy s dodavateli, řízení incidentů, kontinuita), **personální** (prověření, školení a povědomí, povinnost mlčenlivosti), **fyzická** (zabezpečení prostor, vstupů, zařízení) a **technologická** (řízení přístupu, šifrování, zálohování, ochrana proti malwaru, logování a monitorování). Podle účinku se opatření dělí na **preventivní** (zabrání incidentu), **detekční** (odhalí ho) a **nápravná** (omezí následky a obnoví stav). Riziko lze zcela **odstranit** jen zřídka, např. vyřazením nepotřebného aktiva nebo služby (odstranění zdroje rizika); obvykle se riziko snižuje na přijatelnou úroveň, případně sdílí (pojištění, outsourcing) nebo vědomě akceptuje. Zásadní roli hraje **lidský faktor** — školení proti phishingu a sociálnímu inženýrství.
 
 *Příklad:* Proti ransomwaru firma kombinuje preventivní opatření (školení, aktualizace, filtrování e-mailů), detekční (antivirus, monitorování sítě) a nápravná (offline zálohy a plán obnovy).
 

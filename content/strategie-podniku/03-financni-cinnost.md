@@ -359,7 +359,7 @@ Oba nástroje mění pohledávky na peníze před jejich splatností — podnik 
 
 ## Struktura kapitálu {#struktura-kapitalu .explain}
 
-**Struktura kapitálu** vyjadřuje složení zdrojů financování podniku — poměr vlastního a cizího kapitálu a dlouhodobých a krátkodobých zdrojů. Část literatury (např. Synek, Kislingerová) rozlišuje **finanční strukturu** (složení všech pasiv) a **kapitálovou strukturu** v užším smyslu (složení dlouhodobého kapitálu); běžně se ale termín kapitálová struktura používá i pro celá pasiva. Měří se ukazateli zadluženosti: **celková zadluženost** = cizí zdroje / A, **koeficient samofinancování** = VK / A, **míra zadluženosti VK** = cizí zdroje / VK. Volbu struktury ovlivňují zejména:
+**Struktura kapitálu** vyjadřuje složení zdrojů financování podniku — poměr vlastního a cizího kapitálu a dlouhodobých a krátkodobých zdrojů. Část literatury (např. Synek, Kislingerová) rozlišuje **finanční strukturu** (složení všech pasiv) a **kapitálovou strukturu** v užším smyslu (složení dlouhodobého kapitálu, tj. VK + dlouhodobé cizí zdroje); běžně se ale termín kapitálová struktura používá i pro celá pasiva. Měří se ukazateli zadluženosti: **celková zadluženost** = cizí zdroje / A, **koeficient samofinancování** = VK / A, **míra zadluženosti VK** = cizí zdroje / VK. Volbu struktury ovlivňují zejména:
 
 - **náklady kapitálu** — cizí kapitál je levnější a přináší daňový štít (WACC),
 - **riziko** — stabilita tržeb a peněžních toků, schopnost platit fixní úroky a splátky,

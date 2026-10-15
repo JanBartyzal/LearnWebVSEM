@@ -179,7 +179,7 @@ Hodnoty ukazatelů se zařadí do pěti tříd:
 | CF v % tržeb | > 10 % | > 8 % | > 5 % | > 0 % | záporné |
 | ROA | > 15 % | > 12 % | > 8 % | > 0 % | záporná |
 
-Třídám se přiřadí body (stupnice se v literatuře liší, např. 0–4 nebo 1–5), spočte se průměr za **finanční stabilitu** (ukazatele 1 a 2), průměr za **výnosovou situaci** (3 a 4) a jejich průměr dá **celkové hodnocení**. Tím model vyvažuje kapitálovou sílu s výkonností.
+Třídám se přiřadí body — stupnice se v literatuře liší: Kralicek v originále známkuje 1–5 (1 = nejlepší), české adaptace bodují 0–4 (více bodů = lepší). Spočte se průměr za **finanční stabilitu** (ukazatele 1 a 2), průměr za **výnosovou situaci** (3 a 4) a jejich průměr dá **celkové hodnocení**. Tím model vyvažuje kapitálovou sílu s výkonností.
 
 *Příklad:* kvóta VK 25 % (velmi dobrý), doba splácení 6 let (dobrý), CF v % tržeb 6 % (dobrý), ROA 13 % (velmi dobrý) — stabilita i výnosová situace jsou mezi „velmi dobrou" a „dobrou" úrovní.
 
@@ -360,7 +360,7 @@ Na původním vzorku Altmanův model správně zařadil zhruba **95 % podniků j
 
 > Tamariho model hodnotí ukazatele relativně — podle toho, do kterého pásma (např. kvartilu) odvětvových hodnot podnik spadá. Násobení koeficienty je princip diskriminačních funkcí (Altman).
 
-### ? Podnik získal v Tamariho modelu vysoký počet bodů blízko maxima 100. Jak výsledek interpretujete?
+### ? Podnik získal v Tamariho modelu vysoký počet bodů, blízký maximu stupnice. Jak výsledek interpretujete?
 
 - [x] Podnik má nízké riziko a vysokou bonitu ve srovnání s odvětvím
 - [ ] Podnik má vysoké riziko finanční tísně

@@ -87,8 +87,8 @@ Totéž odvětví se může v čase posouvat — v raných fázích svého vývo
 
 **Odvětvový inovační systém** (sectoral system of innovation and production; **F. Malerba**, 2002) tvoří skupina produktů určených pro specifické užití a aktéři, kteří se tržními i netržními interakcemi podílejí na jejich vytváření, výrobě a prodeji. Má tři stavební bloky:
 
-1. **znalosti a technologie** — znalostní báze odvětví, klíčové technologie, vstupy a poptávka,
-2. **aktéři a sítě** — firmy (výrobci, dodavatelé, uživatelé) i netržní organizace (univerzity, výzkumné organizace, finanční instituce, vládní agentury, odborová a technická sdružení) a jejich vztahy — spolupráce, konkurence, výměna znalostí,
+1. **znalosti, technologie, vstupy a poptávka** — znalostní báze odvětví, základní technologie, vstupy a **poptávka** (potřeby a požadavky uživatelů) a vazby a komplementarity mezi nimi; Malerba řadí poptávku výslovně k technologiím a vstupům,
+2. **aktéři a sítě** — firmy (výrobci, dodavatelé), **uživatelé a zákazníci jako konkrétní subjekty** i netržní organizace (univerzity, výzkumné organizace, finanční instituce, vládní agentury, odborová a technická sdružení) a jejich vztahy — spolupráce, konkurence, výměna znalostí,
 3. **instituce** — normy, pravidla, zákony, standardy a regulace, které ovlivňují chování aktérů.
 
 Systém se vyvíjí **koevolucí** těchto prvků. Jeho hranice jsou dány produkty a technologiemi, nikoli státem, a často přesahují hranice zemí. Technologický režim je charakteristikou znalostní báze odvětvového systému.
@@ -97,10 +97,10 @@ Systém se vyvíjí **koevolucí** těchto prvků. Jeho hranice jsou dány produ
 
 ### ? Při analýze inovací v evropském automobilovém průmyslu zkoumáte emisní normy EU a technické standardy nabíjecích konektorů. Který stavební blok odvětvového inovačního systému analyzujete?
 
-- [ ] Znalostní bázi a technologie
+- [ ] Znalosti, technologie a poptávku
 - [x] Instituce a regulační rámec
 - [ ] Aktéry a vztahy mezi nimi
-- [ ] Poptávku a vstupy odvětví
+- [ ] Regionální inovační strategii
 
 > Normy, standardy, zákony a regulace patří mezi instituce — „pravidla hry", která ovlivňují chování firem i směr inovací. Aktéry jsou firmy a organizace, znalostní báze zahrnuje technologie a know-how.
 
@@ -112,6 +112,15 @@ Systém se vyvíjí **koevolucí** těchto prvků. Jeho hranice jsou dány produ
 - [ ] Členství firem v oborovém svazu
 
 > Odvětvový systém se vymezuje skupinou produktů pro specifické užití a technologiemi, na kterých stojí; proto může přesahovat hranice států. Státem je vymezen národní, územím regionální inovační systém.
+
+### ? Jak F. Malerba v odvětvovém inovačním systému zařazuje poptávku a uživatele produktů?
+
+- [ ] Obojí řadí výhradně mezi instituce odvětví
+- [x] Poptávku k bloku technologií, uživatele k aktérům
+- [ ] Poptávku chápe jako vnější faktor mimo systém
+- [ ] Uživatele vyřazuje, systém tvoří jen výrobci
+
+> Malerba řadí poptávku výslovně do bloku „technologie, vstupy a poptávka"; uživatelé jako konkrétní subjekty (firmy, spotřebitelé) jsou aktéři systému. Instituce tvoří normy a pravidla, nikoli poptávka.
 
 ## Národní × odvětvový × regionální inovační systém {#typy-inovacnich-systemu .compare}
 
@@ -298,7 +307,9 @@ Typickými příklady jsou **parní stroj, elektřina a ICT** (polovodiče, inte
 - fotonika,
 - pokročilé výrobní technologie.
 
-KETs jsou **znalostně náročné** — spojené s vysokou intenzitou VaV, rychlými inovačními cykly, vysokými kapitálovými výdaji a vysoce kvalifikovanou prací — a **multidisciplinární**. Důvodem jejich podpory v politice EU je zjištění, že Evropa je silná ve výzkumu, ale méně úspěšná v převedení jeho výsledků do výroby a na trh („údolí smrti", téma 4). Seznam byl později upravován.
+KETs jsou **znalostně náročné** — spojené s vysokou intenzitou VaV, rychlými inovačními cykly, vysokými kapitálovými výdaji a vysoce kvalifikovanou prací — a **multidisciplinární**. Důvodem jejich podpory v politice EU je zjištění, že Evropa je silná ve výzkumu, ale méně úspěšná v převedení jeho výsledků do výroby a na trh („údolí smrti", téma 4).
+
+**Revize 2018:** seznam byl aktualizován na šest skupin — **pokročilé výrobní technologie**, **pokročilé materiály a nanotechnologie**, **technologie věd o živé přírodě** (life-science), **mikro- a nanoelektronika a fotonika**, **umělá inteligence** a **digitální bezpečnost a konektivita**. Oproti roku 2009 se tak sloučily příbuzné obory a nově přibyly digitální technologie.
 
 *Příklad:* Pokročilé materiály, např. lehké kompozity, umožňují inovace současně v letectví, automobilovém průmyslu, sportovním vybavení i stavebnictví.
 
@@ -320,13 +331,22 @@ KETs jsou **znalostně náročné** — spojené s vysokou intenzitou VaV, rychl
 
 > KETs jsou základem inovací produktů, procesů a služeb napříč ekonomikou — od automobilů přes zdravotnictví po energetiku. Proto mají strategický význam pro konkurenceschopnost průmyslu EU.
 
+### ? Která oblast přibyla mezi klíčové umožňující technologie (KETs) až při revizi seznamu v roce 2018 a v původní šestici z roku 2009 nebyla?
+
+- [ ] Fotonika
+- [ ] Pokročilé materiály
+- [x] Umělá inteligence
+- [ ] Mikro- a nanoelektronika
+
+> Revize z roku 2018 doplnila digitální technologie — umělou inteligenci a digitální bezpečnost a konektivitu. Fotonika, pokročilé materiály i mikro- a nanoelektronika patřily už do původní šestice, při revizi se jen sloučily s příbuznými obory.
+
 ## GPT × KETs × odvětvové technologie {#umoznujici-vs-odvetvove .compare}
 
 Umožňující technologie tvoří platformu, na které stavějí inovace v mnoha odvětvích; průmyslové (odvětvové) technologie řeší specifické úlohy jednoho odvětví:
 
 | | GPT | KETs | Průmyslové / odvětvové technologie |
 |---|---|---|---|
-| Původ pojmu | ekonomie a hospodářské dějiny (Bresnahan & Trajtenberg) | průmyslová a výzkumná politika EU (Evropská komise, 2009) | běžné technické a odvětvové členění |
+| Původ pojmu | ekonomie a hospodářské dějiny (Bresnahan & Trajtenberg) | průmyslová a výzkumná politika EU (Evropská komise, 2009; revize 2018) | běžné technické a odvětvové členění |
 | Rozsah použití | celá ekonomika, po desítky let | mnoho odvětví | jedno odvětví nebo úzká skupina odvětví |
 | Role | spouští dlouhodobé vlny růstu | priorita podpory VaV a průmyslu | zdokonaluje výrobu a produkty odvětví |
 | Příklady | parní stroj, elektřina, ICT | nanotechnologie, fotonika, pokročilé materiály | technologie kvašení piva, válcování plechu, tkaní |
@@ -427,7 +447,7 @@ Produkce zahrnuje i nakoupené meziprodukty, je proto vyšší než přidaná ho
 
 ## Kreativní × adaptivní odezva (Schumpeter) {#kreativni-adaptivni-odezva .compare}
 
-J. A. Schumpeter v článku *The Creative Response in Economic History* (1947) rozlišil dva způsoby, jak ekonomika, odvětví nebo firma reagují na změnu podmínek (např. růst poptávky či populace):
+J. A. Schumpeter v článku *The Creative Response in Economic History* (Journal of Economic History 7/2, 1947, s. 149–159) rozlišil dva způsoby, jak ekonomika, odvětví nebo firma reagují na změnu podmínek (např. růst poptávky či populace):
 
 | | Adaptivní odezva (adaptive response) | Kreativní odezva (creative response) |
 |---|---|---|

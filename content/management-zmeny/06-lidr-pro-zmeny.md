@@ -104,7 +104,7 @@ Ve stabilním prostředí převažuje potřeba managementu, v období změny ros
 
 ## Přeřízené a podvedené organizace {#preridene-a-podvedene .explain}
 
-Kotter (*Leading Change*, 1996) uvádí, že většina firem je **„přeřízená a podvedená"** (overmanaged and underled): mají dostatek manažerských dovedností, ale málo leadershipu. Ve 20. století firmy rostly ve **stabilnějším prostředí**, kde stačilo spolehlivě řídit provoz; manažery vychovávaly a povyšovaly za manažerské výkony a kultura odměňující opatrnost a řád leadership potlačovala. Když se tempo změn prostředí zrychlilo, firmy se pokoušejí řídit **transformace převážně manažerskými prostředky** (plány, rozpočty, kontrola) a selhávají. Kotter odhaduje, že úspěšná transformace stojí zhruba ze **70–90 % na leadershipu** a jen z 10–30 % na managementu.
+Kotter (*Leading Change*, 1996) uvádí, že většina firem je **„přeřízená a podvedená"** (overmanaged and underled): mají dostatek manažerských dovedností, ale málo leadershipu. Ve 20. století firmy rostly ve **stabilnějším prostředí**, kde stačilo spolehlivě řídit provoz; manažery vychovávaly a povyšovaly za manažerské výkony a kultura odměňující opatrnost a řád leadership potlačovala. Když se tempo změn prostředí zrychlilo, firmy se pokoušejí řídit **transformace převážně manažerskými prostředky** (plány, rozpočty, kontrola) a selhávají. Kotter odhaduje, že úspěšná transformace stojí zhruba ze **70–90 % na leadershipu** a jen z 10–30 % na managementu (*Leading Change*, 1996: „70 to 90 percent leadership and only 10 to 30 percent management").
 
 *Příklad:* Firma vyhlásí „transformaci" a připraví detailní harmonogram s rozpočtem, ale nikdo lidem nevysvětlí, proč je změna nutná a kam firma směřuje; projekt se po roce rozpadne.
 

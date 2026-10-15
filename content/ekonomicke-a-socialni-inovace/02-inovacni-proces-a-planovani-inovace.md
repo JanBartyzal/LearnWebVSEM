@@ -10,7 +10,7 @@ Fáze inovačního cyklu (hledání příležitostí, formulace řešení, zaved
 
 ## Fáze inovačního cyklu (Tidd & Bessant) {#inovacni-cyklus .explain}
 
-Tidd a Bessant (*Managing Innovation*) chápou inovaci jako **řízený, opakující se proces** se čtyřmi fázemi:
+Tidd a Bessant (*Managing Innovation*, 5. a 6. vydání) chápou inovaci jako **řízený, opakující se proces** se čtyřmi fázemi:
 
 1. **Hledání (search)** — sledování prostředí a zachycení signálů o příležitostech i hrozbách (nové technologie, potřeby zákazníků, regulace, konkurence).
 2. **Výběr (select)** — strategické rozhodnutí, které podněty bude firma rozvíjet, s ohledem na strategii, vlastní znalosti a omezené zdroje.
@@ -445,7 +445,7 @@ Christopher Freeman (*The Economics of Industrial Innovation*, 1974; pozdější
 | **Imitativní** | následovat lídry s větším odstupem | licence a převzaté know-how, nákladová výhoda (levnější práce, chráněný trh) |
 | **Závislá** | podřízená role vůči silnější firmě; inovuje na její požadavek | subdodavatelé a pobočky, minimální vlastní VaV |
 | **Tradiční** | výrobek se téměř nemění, protože to trh nežádá | řemeslná a tradiční odvětví |
-| **Oportunistická** | využití specifické mezery na trhu (niche) | podnikavost, rychlé rozpoznání příležitosti, často bez vlastního VaV |
+| **Oportunistická** (v originále opportunist (niche) strategy) | využití specifické mezery na trhu (niche) | podnikavost, rychlé rozpoznání příležitosti, často bez vlastního VaV |
 
 ### ? Subdodavatel komponent pro automobilky mění své výrobky jen tehdy, když mu odběratel předá novou specifikaci. Jakou inovační strategii podle Freemana uplatňuje?
 

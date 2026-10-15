@@ -352,6 +352,8 @@ Plánovací úlohy v SEM pracují **ve stejných dimenzích a hierarchiích jako
 
 ## Návrh a specifikace aplikace SEM {#specifikace-sem .explain}
 
+SEM (Strategic Enterprise Management) je třída aplikací pro podporu strategického řízení; jejím etalonem je **SAP SEM** s komponentami BPS, BIC, BCS, CPM a SRM. Obsahově dnes SEM splývá s aplikacemi **CPM/EPM**, takže specifikace se v praxi týká i řešení s tímto označením.
+
 Specifikace aplikace SEM vychází z **potřeb řízení**, nikoli z dat, která jsou zrovna k dispozici. Typicky zahrnuje:
 
 1. analýzu **procesů strategického řízení** a rozhodovacích rolí (kdo rozhoduje, o čem a jak často),

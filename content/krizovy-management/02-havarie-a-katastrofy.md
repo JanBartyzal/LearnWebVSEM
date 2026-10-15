@@ -268,7 +268,7 @@ Objekt skupiny **B** má větší množství nebezpečných látek, a proto př�
 | Množství nebezpečných látek | nad nižším limitem | nad vyšším limitem |
 | Hlavní dokument provozovatele | bezpečnostní program prevence závažné havárie | bezpečnostní zpráva |
 | Vnitřní havarijní plán | samostatně se nevyžaduje | zpracovává provozovatel |
-| Vnější havarijní plán a zóna havarijního plánování | zpravidla ne | ano, zajišťuje veřejná správa kraje |
+| Vnější havarijní plán a zóna havarijního plánování | zpravidla ne | ano — zónu stanoví krajský úřad, plán zpracuje HZS kraje |
 
 ### ? Provozovatel skladu chemikálií byl zařazen do skupiny B. Co musí na rozdíl od objektu skupiny A zpracovat?
 
@@ -295,9 +295,11 @@ Havarijní plán stanoví postup při vzniku havárie. Vnitřní a vnější pl�
 | | Vnitřní havarijní plán | Vnější havarijní plán |
 |---|---|---|
 | Území | areál objektu | okolí objektu — zóna havarijního plánování |
-| Zpracovává | provozovatel | veřejná správa kraje (hasičský záchranný sbor kraje) s využitím podkladů provozovatele |
+| Zpracovává | provozovatel | **hasičský záchranný sbor (HZS) kraje** s využitím podkladů provozovatele |
 | Obsah | vyhlášení poplachu, odstavení technologie, zásah podnikových sil, svolání, spolupráce s IZS | varování, ukrytí a evakuace obyvatel, nasazení složek IZS v okolí |
 | Cíl | zvládnout havárii v objektu a omezit její šíření | chránit obyvatele a životní prostředí mimo areál |
+
+Vnější havarijní plán se zpracovává pro **zónu havarijního plánování**, kterou stanoví **krajský úřad**; krajský úřad také zajišťuje **projednání návrhu vnějšího havarijního plánu s veřejností** (zákon č. 224/2015 Sb., o prevenci závažných havárií, § 28–29).
 
 ### ? Kdo zpracovává vnitřní havarijní plán objektu s nebezpečnými látkami?
 
@@ -306,7 +308,7 @@ Havarijní plán stanoví postup při vzniku havárie. Vnitřní a vnější pl�
 - [ ] Ministerstvo vnitra
 - [ ] Policie České republiky
 
-> Vnitřní havarijní plán řeší postup uvnitř areálu, a proto jej zpracovává provozovatel. Vnější havarijní plán pro okolí zajišťuje veřejná správa kraje.
+> Vnitřní havarijní plán řeší postup uvnitř areálu, a proto jej zpracovává provozovatel. Vnější havarijní plán pro okolí zpracovává hasičský záchranný sbor kraje.
 
 ### ? Která opatření jsou typickým obsahem vnějšího havarijního plánu?
 
@@ -316,6 +318,15 @@ Havarijní plán stanoví postup při vzniku havárie. Vnitřní a vnější pl�
 - [x] Varování a evakuace obyvatel v okolí objektu
 
 > Vnější havarijní plán chrání obyvatele a prostředí v zóně havarijního plánování mimo areál — varování, ukrytí, evakuace. Postupy uvnitř areálu patří do vnitřního havarijního plánu.
+
+### ? Jak jsou podle zákona o prevenci závažných havárií rozděleny úkoly při přípravě vnějšího havarijního plánu?
+
+- [ ] Krajský úřad plán zpracuje, HZS kraje stanoví zónu havarijního plánování
+- [ ] Provozovatel plán zpracuje, obecní úřad stanoví zónu havarijního plánování
+- [x] HZS kraje plán zpracuje, krajský úřad stanoví zónu havarijního plánování
+- [ ] Ministerstvo vnitra plán zpracuje i stanoví zónu havarijního plánování
+
+> Vnější havarijní plán zpracovává hasičský záchranný sbor kraje (s využitím podkladů provozovatele). Krajský úřad stanoví zónu havarijního plánování a zajišťuje projednání návrhu plánu s veřejností.
 
 ## Integrovaný záchranný systém (IZS) {#izs .explain}
 

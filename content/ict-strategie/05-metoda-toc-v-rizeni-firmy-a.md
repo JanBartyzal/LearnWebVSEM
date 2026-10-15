@@ -490,6 +490,16 @@ TOC lze použít při **specifikaci funkcionality analytických aplikací** (BI,
 - simulace „co když" — změna sortimentu, pozvednutí omezení, přijetí zakázky;
 - přehled stavu zásobníků a evidence příčin průniků.
 
+Česká literatura (Basl a kol.) uvádí tyto hlavní oblasti uplatnění TOC v IS/ICT:
+
+| Nástroj TOC | Uplatnění v IS/ICT |
+|---|---|
+| **Drum–Buffer–Rope** | plánování a řízení výroby v systémech **APS** a **SCM** |
+| **Kritický řetězec** (Critical Chain) | řízení projektů, včetně projektů IS/ICT a jejich portfolia |
+| **Myšlenkové procesy** (Thinking Process — CRT, FRT) | analýza problémů firmy a formulace požadavků před projektem IS (CRT), ověření navrhovaného řešení (FRT) |
+| **Necessary but not Sufficient** | hodnocení přínosu ERP — technologie přinese efekt jen se změnou pravidel |
+| **Průtokové ukazatele** (T, I, OE) | manažerský reporting a analytické aplikace místo plných nákladů na kus |
+
 *Příklad:* Obchodník posuzuje zakázku se slevou; aplikace ukáže, o kolik zakázka změní T a OE a kolik minut omezení spotřebuje.
 
 ### ? Firma navrhuje manažerský reporting podle TOC. Který požadavek NEODPOVÍDÁ principům TOC?
@@ -510,6 +520,15 @@ TOC lze použít při **specifikaci funkcionality analytických aplikací** (BI,
 
 > Změna T = 200 × (700 − 450) = 50 000 Kč, OE se nemění, takže čistý zisk vzroste o 50 000 Kč. Plné náklady obsahují rozpočtené OE, které se přijetím zakázky nezmění, a proto vedou k chybnému odmítnutí.
 
+### ? Které přiřazení nástroje teorie omezení (TOC) k jeho typickému uplatnění v IS/ICT je správné?
+
+- [ ] Drum–Buffer–Rope — návrh struktury datového skladu
+- [ ] Strom současné reality — výpočet průtoku T v reportingu
+- [x] Kritický řetězec — řízení projektů IS/ICT
+- [ ] Necessary but not Sufficient — plánování výroby v APS
+
+> Kritický řetězec je TOC pro řízení projektů. DBR se implementuje v plánovacích systémech APS/SCM, strom současné reality slouží k analýze problémů a „Necessary but not Sufficient" k hodnocení přínosu ERP a dalších technologií.
+
 ## Požadavky na IS pro řízení výroby podle TOC {#toc-is-rizeni-vyroby .explain}
 
 Při implementaci TOC v projektu IS pro **řízení výroby** je třeba formulovat požadavky na data, funkce i organizaci:
@@ -518,8 +537,9 @@ Při implementaci TOC v projektu IS pro **řízení výroby** je třeba formulov
 - **plán bubnu s konečnou kapacitou** jen na omezení; ostatní pracoviště se detailně neplánují, ale podřizují;
 - **uvolňování materiálu podle lana** (plán bubnu minus délka zásobníku);
 - **řízení zásobníků** (barevné zóny) jako hlavní dispečerský nástroj;
-- vazba na **ERP**: klasické MRP plánuje s neomezenou kapacitou, proto se DBR řeší funkcí ERP nebo specializovaným plánovacím systémem (APS);
-- **změna měřítek výkonnosti** a školení — bez změny pravidel software sám nestačí.
+- vazba na **ERP**: klasické MRP plánuje s neomezenou kapacitou, proto se DBR implementuje v systémech pokročilého plánování **APS** (Advanced Planning and Scheduling) a řízení dodavatelského řetězce **SCM**, nebo v rozšiřující funkci ERP;
+- **průtokové ukazatele** (T, I, OE, průtok na jednotku omezení) ve vyhodnocení výroby místo vytížení a nákladů na kus;
+- **změna měřítek výkonnosti** a pravidel — podle Goldrattovy teze „Necessary but not Sufficient" je ERP nutnou, ale ne postačující podmínkou přínosu; bez změny pravidel software sám nestačí.
 
 *Příklad:* Strojírenská firma při zavádění plánovacího modulu nejdřív vyčistí technologické postupy, určí úzké místo (obráběcí centrum) a zruší prémie mistrů za vytížení ostatních strojů.
 
@@ -540,3 +560,12 @@ Při implementaci TOC v projektu IS pro **řízení výroby** je třeba formulov
 - [ ] Přehled stavu zásobníků v barevných zónách
 
 > DBR plánuje detailně jen omezení a ostatní pracoviště mu podřizuje; snaha o maximální vytížení všech pracovišť vede k růstu rozpracované výroby. Ostatní požadavky jsou typické prvky DBR.
+
+### ? Ve kterém typu podnikových aplikací se plánování podle Drum–Buffer–Rope (DBR) typicky implementuje?
+
+- [ ] V systémech řízení vztahů se zákazníky (CRM)
+- [x] V plánovacích systémech APS a SCM
+- [ ] V systémech správy podnikového obsahu (ECM)
+- [ ] V systémech pro e-learning (LMS)
+
+> DBR vyžaduje plánování úzkého místa s konečnou kapacitou, což klasické MRP v ERP neumí; implementuje se proto v systémech APS a SCM (případně v rozšíření ERP). CRM, ECM ani LMS výrobu neplánují.

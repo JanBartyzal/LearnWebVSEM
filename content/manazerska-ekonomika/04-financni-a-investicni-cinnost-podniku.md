@@ -275,7 +275,7 @@ Bilanční pravidla jsou doporučení pro zdravou strukturu financování (vztah
 |---|---|---|
 | **Zlaté bilanční pravidlo** | dlouhodobý majetek se má krýt dlouhodobým kapitálem a krátkodobý majetek krátkodobým kapitálem — doba vázanosti majetku má odpovídat splatnosti zdrojů | dlouhodobý majetek ≤ VK + dlouhodobé cizí zdroje |
 | **Pravidlo vyrovnání rizika** | vlastní kapitál má být alespoň v rovnováze s cizím kapitálem | VK ≥ CK (poměr alespoň 1 : 1) |
-| **Pari pravidlo** | dlouhodobý (stálý) majetek se má krýt především vlastním kapitálem | dlouhodobý majetek / VK ≈ 1 |
+| **Pari pravidlo** | vlastní kapitál má krýt dlouhodobý (stálý) majetek jen zčásti — k jeho financování se účelně využívá i dlouhodobý cizí kapitál | VK ≤ dlouhodobý majetek; rovnost (DM / VK = 1) je jen krajní případ |
 | **Růstové pravidlo** | tempo růstu investic nemá trvale předbíhat tempo růstu tržeb | růst investic ≤ růst tržeb |
 
 Jde o orientační zásady, ne zákonné povinnosti; jejich přísnost závisí na odvětví a fázi rozvoje podniku.
@@ -305,7 +305,7 @@ Jde o orientační zásady, ne zákonné povinnosti; jejich přísnost závisí 
 - [ ] Pravidlo vyrovnání rizika
 - [ ] Pravidlo sladění tržeb a nákladů
 
-> Pari pravidlo doporučuje krýt dlouhodobý majetek vlastním kapitálem. Zlaté pravidlo porovnává dlouhodobý majetek s celým dlouhodobým kapitálem, pravidlo vyrovnání rizika VK s CK.
+> Pari pravidlo říká, že vlastní kapitál má krýt dlouhodobý majetek jen zčásti (VK ≤ DM), protože se účelně využívá i dlouhodobý cizí kapitál. Zlaté pravidlo porovnává dlouhodobý majetek s celým dlouhodobým kapitálem, pravidlo vyrovnání rizika VK s CK.
 
 ## Zlaté bilanční pravidlo, podkapitalizace a překapitalizace {#zlate-pravidlo .explain}
 

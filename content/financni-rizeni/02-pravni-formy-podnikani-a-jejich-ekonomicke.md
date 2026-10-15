@@ -288,11 +288,16 @@ U v.o.s. a komplementářů k.s. jde o **jednu úroveň** zdanění (daňová tr
 Základem je **zisk ze samostatné činnosti** = příjmy − výdaje (skutečné, nebo procentem z příjmů; výdajové paušály a paušální daň viz Právo, Daně a finance).
 
 - **DPFO** — 15 %, nad 36násobkem průměrné mzdy 23 % (stav od 2024); daň se snižuje o slevy, např. na poplatníka.
-- **Pojistné** — sociální i zdravotní se platí z **vyměřovacího základu, který tvoří zákonem stanovený podíl zisku**, nejméně však z minimálního vyměřovacího základu. U hlavní činnosti se proto **minimální zálohy** platí i při nízkém zisku nebo ztrátě. Vlastní pojistné **není daňovým výdajem** OSVČ — daň se počítá z celého zisku.
+- **Pojistné** — sociální i zdravotní se platí z **vyměřovacího základu, který tvoří zákonem stanovený podíl daňového základu (zisku)**, nejméně však z minimálního vyměřovacího základu. Stav 2026:
+  - **sociální pojištění** — vyměřovací základ **55 %** daňového základu, sazba **29,2 %**,
+  - **zdravotní pojištění** — vyměřovací základ **50 %** daňového základu, sazba **13,5 %**,
+  - **minimální měsíční zálohy** u hlavní činnosti (od 7/2026) **5 005 Kč** na sociální a **3 306 Kč** na zdravotní pojištění — platí se i při nízkém zisku nebo ztrátě.
 
-Ekonomické důsledky: zisk se zdaní a „zpojistní" **v roce vzniku**, i když ho podnikatel reinvestuje; skutečně vysoké výdaje snižují daň i pojistné; nízký zisk zatěžují minimální zálohy relativně hodně. Pojistné zakládá nárok na důchod a další dávky, nejde tedy o čistou ztrátu.
+  Vlastní pojistné **není daňovým výdajem** OSVČ — daň se počítá z celého zisku.
 
-*Příklad:* Při zisku 1 mil. Kč, DPFO 15 % a pojistném modelově 20 % zisku zaplatí OSVČ 150 000 Kč daně a 200 000 Kč pojistného; zbude jí 650 000 Kč (slevy zanedbány).
+Ekonomické důsledky: zisk se zdaní a „zpojistní" **v roce vzniku**, i když ho podnikatel reinvestuje; skutečně vysoké výdaje snižují daň i pojistné; nízký zisk zatěžují minimální zálohy relativně hodně. Pojistné zakládá nárok na důchod a další dávky, nejde tedy o čistou ztrátu. Mezi minimálním a maximálním vyměřovacím základem odpovídá pojistné přibližně `0,55 · 29,2 % + 0,50 · 13,5 % ≈ 22,8 %` zisku; v modelových výpočtech se často zjednodušuje na kulatý podíl zisku (např. 20 %).
+
+*Příklad:* Při zisku 1 mil. Kč, DPFO 15 % a pojistném modelově 20 % zisku zaplatí OSVČ 150 000 Kč daně a 200 000 Kč pojistného; zbude jí 650 000 Kč (slevy zanedbány). Podle sazeb 2026 by pojistné činilo přibližně 228 000 Kč a OSVČ by zbylo asi 622 000 Kč.
 
 ### ? OSVČ má zisk 800 000 Kč. Předpokládejte DPFO 15 % ze zisku a pojistné modelově 20 % zisku, které NENÍ daňovým výdajem; slevy na dani zanedbejte. Jaký je její čistý příjem?
 
@@ -301,7 +306,7 @@ Ekonomické důsledky: zisk se zdaní a „zpojistní" **v roce vzniku**, i kdy�
 - [x] 520 000 Kč
 - [ ] 640 000 Kč
 
-> Daň 800 000 · 0,15 = 120 000 Kč, pojistné 800 000 · 0,20 = 160 000 Kč, čistý příjem 800 000 − 280 000 = 520 000 Kč. 544 000 Kč vznikne chybným odečtením pojistného od základu daně, 680 000 Kč zapomenutím pojistného a 640 000 Kč zapomenutím daně.
+> Daň 800 000 · 0,15 = 120 000 Kč, pojistné 800 000 · 0,20 = 160 000 Kč, čistý příjem 800 000 − 280 000 = 520 000 Kč. 544 000 Kč vznikne chybným odečtením pojistného od základu daně, 680 000 Kč zapomenutím pojistného a 640 000 Kč zapomenutím daně. Pro srovnání se skutečností (stav 2026): sociální pojistné 55 % · 29,2 % a zdravotní 50 % · 13,5 % daňového základu dávají přibližně 22,8 % zisku, tj. asi 182 500 Kč, a čistý příjem by byl asi 497 500 Kč; základ daně pojistné ani tak nesnižuje (jde o přiblížení mezi minimálním a maximálním vyměřovacím základem).
 
 ### ? OSVČ s hlavní samostatnou činností vykáže za rok daňovou ztrátu. Co platí o jejím pojistném?
 
@@ -318,7 +323,7 @@ Zisk s.r.o., a.s. i družstva se zdaní **dvakrát**: nejprve **DPPO** u společ
 
 `t_ef = t_PO + t_S · (1 − t_PO) = 1 − (1 − t_PO) · (1 − t_S)`
 
-Při DPPO 21 % a srážkové dani 15 %: 21 % + 15 % · 0,79 = **32,85 %**; z každé koruny zisku zbude vlastníkovi 0,6715 Kč. Chybou je prosté sečtení sazeb (36 %) — srážková daň se počítá jen ze zisku po DPPO. Srážková daň je u FO **konečná**: podíl na zisku se už nezahrnuje do základu DPFO a neplatí se z něj pojistné. Mezi korporacemi se další úroveň zdanění zpravidla odstraňuje **osvobozením podílů na zisku** vyplácených mateřské společnosti (při splnění podmínek, typicky podíl alespoň 10 % držený nejméně 12 měsíců).
+Při DPPO 21 % a srážkové dani 15 %: 21 % + 15 % · 0,79 = **32,85 %**; z každé koruny zisku zbude vlastníkovi 0,6715 Kč. Chybou je prosté sečtení sazeb (36 %) — srážková daň se počítá jen ze zisku po DPPO. Srážková daň je u FO **konečná**: podíl na zisku se už nezahrnuje do základu DPFO a neplatí se z něj pojistné. Mezi korporacemi se další úroveň zdanění odstraňuje **osvobozením podílů na zisku** vyplácených mateřské společnosti. Zákonné podmínky (§ 19 ZDP): mateřská společnost drží **alespoň 10 %** základního kapitálu dceřiné společnosti **nepřetržitě nejméně 12 měsíců** (dobu lze splnit i dodatečně, po výplatě), obě společnosti mají právní formu uvedenou ve **směrnici 2011/96/EU** o mateřských a dceřiných společnostech a jsou daňovými rezidenty členských států EU (včetně ČR).
 
 *Příklad:* EBT 1 mil. Kč → DPPO 210 000 Kč → EAT 790 000 Kč → srážková daň 118 500 Kč → společník čistě obdrží 671 500 Kč.
 
@@ -375,12 +380,12 @@ Druhá úroveň zdanění kapitálové společnosti vzniká **až výplatou** po
 
 ## Zdanění osobních společností {#zdaneni-osobnich-spolecnosti .explain}
 
-**Veřejná obchodní společnost** je daňově **transparentní**: její zisk se rozdělí mezi společníky podle společenské smlouvy a každý ho zdaní sám — společník-FO jako příjem ze samostatné činnosti a platí z něj pojistné jako OSVČ, společník-PO v rámci DPPO. Zisk se daní **jen jednou**, ale společníkovi vzniká daň i z podílu, který mu nebyl fyzicky vyplacen.
+**Veřejná obchodní společnost** je daňově **transparentní**: její základ daně se rozdělí mezi společníky podle společenské smlouvy a každý ho zdaní sám — společník-FO jako příjem ze samostatné činnosti a platí z něj pojistné jako OSVČ, společník-PO v rámci DPPO. Zisk se daní **jen jednou**, a to v roce vzniku: společník zdaní **přidělený podíl na základu daně i tehdy, když mu nebyl vyplacen**, a pozdější výplata už se nedaní. **Daňová ztráta** se mezi společníky dělí stejně jako zisk — každý si svůj podíl na ztrátě uplatní ve svém přiznání.
 
 **Komanditní společnost** je **hybrid**:
 
-- podíl na zisku připadající **komplementářům** zdaňují komplementáři (stejně jako společníci v.o.s.);
-- zbytek zisku, který náleží společnosti a z něhož se vyplácejí **komanditisté**, zdaní k.s. **DPPO** a výplata komanditistovi-FO podléhá **srážkové dani** — komanditisté tak nesou ekonomické dvojí zdanění jako společníci s.r.o.
+- podíl na základu daně (zisku i ztrátě) připadající **komplementářům** zdaňují komplementáři stejně jako společníci v.o.s. — i nevyplacený;
+- zbytek základu daně, který náleží společnosti a z něhož se vyplácejí **komanditisté**, zdaní k.s. **DPPO** (21 %) a vyplacený podíl komanditisty-FO podléhá **srážkové dani 15 %** — komanditisté tak nesou ekonomické dvojí zdanění jako společníci s.r.o.
 
 Poměr rozdělení zisku ve společenské smlouvě tedy mění i celkovou daňovou zátěž (pravidla rozdělení zisku — téma Rozdělování hospodářského výsledku).
 
@@ -404,14 +409,23 @@ Poměr rozdělení zisku ve společenské smlouvě tedy mění i celkovou daňov
 
 > Zisk pro komanditisty se nejprve zdaní DPPO u k.s. a při výplatě komanditistovi-FO srážkovou daní. Komplementáři zdaňují svůj podíl jen jednou, ve svém přiznání.
 
+### ? Společníku v.o.s. (fyzické osobě) připadá podle společenské smlouvy za rok 2025 podíl na základu daně společnosti 400 000 Kč. Společníci se dohodli, že zisk zatím ponechají ve společnosti a vyplatí si ho až v roce 2027. Jak se tento podíl zdaní?
+
+- [ ] Až v roce 2027, kdy bude podíl skutečně vyplacen
+- [ ] V roce 2025 daní z příjmů PO a v roce 2027 srážkovou daní
+- [x] Za rok 2025 v přiznání společníka; výplata se už nedaní
+- [ ] Nezdaní se vůbec, protože v.o.s. je daňově transparentní
+
+> V.o.s. je daňově transparentní: společník zdaní svůj přidělený podíl na základu daně v roce jeho vzniku, i když mu nebyl vyplacen, a pozdější výplata už zdanění nepodléhá. DPPO ani srážková daň se u společníků v.o.s. neuplatní; transparentnost neznamená osvobození, jen přesun zdanění na společníky.
+
 ## Modelové srovnání OSVČ × společník s.r.o. {#osvc-vs-sro .explain}
 
 Srovnání čistého příjmu podnikatele při **stejném zisku Z** před zdaněním, který si vlastník celý vybere:
 
-- **OSVČ:** `čistý příjem = Z · (1 − t_FO − p)`, kde p je pojistné jako podíl zisku (modelový předpoklad — skutečná výše závisí na vyměřovacím základu a sazbách);
+- **OSVČ:** `čistý příjem = Z · (1 − t_FO − p)`, kde p je pojistné jako podíl zisku (modelový předpoklad — skutečná výše závisí na vyměřovacím základu a sazbách; při stavu 2026, tj. sociálním pojištění 29,2 % z 55 % a zdravotním 13,5 % z 50 % daňového základu, vychází mezi minimálním a maximálním vyměřovacím základem p ≈ 22,8 %);
 - **s.r.o., zisk vyplacen jako podíl na zisku:** `čistý příjem = Z · (1 − t_PO) · (1 − t_S)`, tj. Z · 0,6715 při 21 % a 15 %.
 
-Při DPFO 15 % je s.r.o. výhodnější, jen pokud p > 17,85 %. Do rozhodnutí však patří i **vyšší administrativní náklady s.r.o.** (snižují Z), výdajové paušály a paušální daň OSVČ, slevy na dani, strop sociálního pojistného, 23% sazba u vysokých příjmů a **mimofinanční hlediska** — společník, který bere jen podíl na zisku, si neplatí důchodové ani nemocenské pojištění, naopak získává omezené ručení. Výsledek je citlivý na aktuální sazby, proto je třeba srovnání přepočítat při každé změně zákona.
+Při DPFO 15 % je s.r.o. výhodnější, jen pokud p > 17,85 % — při skutečných sazbách (p ≈ 22,8 %) tedy samotné odvody hovoří spíše pro s.r.o. Do rozhodnutí však patří i **vyšší administrativní náklady s.r.o.** (snižují Z), výdajové paušály a paušální daň OSVČ, slevy na dani, strop sociálního pojistného, 23% sazba u vysokých příjmů a **mimofinanční hlediska** — společník, který bere jen podíl na zisku, si neplatí důchodové ani nemocenské pojištění, naopak získává omezené ručení. Výsledek je citlivý na aktuální sazby, proto je třeba srovnání přepočítat při každé změně zákona.
 
 *Příklad:* Z = 1 mil. Kč, DPFO 15 %, pojistné modelově 20 % zisku → OSVČ 650 000 Kč; s.r.o. 1 000 000 · 0,79 · 0,85 = 671 500 Kč, rozdíl 21 500 Kč ve prospěch s.r.o. před započtením vyšších nákladů na účetnictví.
 
@@ -447,7 +461,8 @@ Při DPFO 15 % je s.r.o. výhodnější, jen pokud p > 17,85 %. Do rozhodnutí v
 Společník, který je zároveň jednatelem s.r.o., může ze společnosti čerpat:
 
 - **odměnu za výkon funkce** (nebo mzdu) — pro společnost **daňově uznatelný náklad** (snižuje DPPO), ale zatížená **pojistným** placeným společností i jednatelem a **DPFO** jako příjem ze závislé činnosti;
-- **podíl na zisku** — vyplácí se ze zisku po DPPO, podléhá srážkové dani 15 % a **neplatí se z něj pojistné**.
+- **podíl na zisku** — vyplácí se ze zisku po DPPO, podléhá srážkové dani 15 % a **neplatí se z něj pojistné**;
+- **úrok ze zápůjčky**, kterou společník společnosti poskytl — pro společnost uznatelný náklad jen v mezích pravidel **nízké kapitalizace** a **ceny obvyklé**; společník-FO ho zdaní jako **příjem z kapitálového majetku** (§ 8 ZDP) ve svém přiznání sazbou 15 %, resp. 23 % (srážková daň se neuplatní), a **pojistné se z něj neplatí**.
 
 Při sazbách od roku 2024 a hrubé odměně pod hranicí 23% sazby: z 1 338 Kč nákladu společnosti na odměnu (hrubá 1 000 Kč) zbude jednateli 1 000 − 116 − 150 = **734 Kč** (54,9 %, slevy zanedbány), ze stejných 1 338 Kč zisku vyplacených jako podíl na zisku asi **898 Kč** (67,15 %). Proto se v praxi často kombinuje nižší odměna se zbytkem formou podílu na zisku. Omezení: podíl na zisku lze vyplatit jen ze schváleného zisku a při splnění zákonných testů (téma Rozdělování hospodářského výsledku); odměna zakládá nárok na důchod a nemocenské a pravidelný příjem se lépe dokládá např. při žádosti o hypotéku. Odměna musí mít oporu ve schválené smlouvě o výkonu funkce (Právo, Správa obchodní korporace).
 
@@ -490,16 +505,16 @@ Daňový systém není ke zdrojům neutrální. **Úroky** jsou (v mezích záko
 
 U **leasingu** jsou nákladem nájemce leasingové splátky místo odpisů a úroků; volba mezi leasingem a úvěrem se rozhoduje porovnáním současné hodnoty výdajů po zdanění (Strategie podniku, Investiční činnost).
 
-*Příklad:* Společník může do s.r.o. vložit peníze jako příplatek do vlastního kapitálu, nebo jí je půjčit. Úrok ze zápůjčky sníží DPPO společnosti; výnos z příplatku může dostat jen jako podíl na zisku zdaněný dvakrát.
+*Příklad:* Společník může do s.r.o. vložit peníze jako příplatek do vlastního kapitálu, nebo jí je půjčit. Úrok ze zápůjčky sníží DPPO společnosti (v mezích nízké kapitalizace a ceny obvyklé); společník-FO ho zdaní jako příjem z kapitálového majetku ve svém přiznání sazbou 15 %, resp. 23 %, bez pojistného. Výnos z příplatku může dostat jen jako podíl na zisku zdaněný dvakrát.
 
-### ? Společník může financovat vlastní s.r.o. zápůjčkou, nebo vkladem do vlastního kapitálu. Ročně mu chce společnost poskytnout výnos z provozního zisku 80 000 Kč. Úrok je pro společnost plně daňově uznatelný a společník ho zdaní sazbou 15 %; podíl na zisku podléhá DPPO 21 % a srážkové dani 15 %. Kolik čistého společník získá v obou variantách?
+### ? Společník (fyzická osoba) může financovat vlastní s.r.o. zápůjčkou, nebo vkladem do vlastního kapitálu. Ročně mu chce společnost poskytnout výnos z provozního zisku 80 000 Kč. Úrok odpovídá ceně obvyklé a nepřekračuje limity nízké kapitalizace, je proto pro společnost plně daňově uznatelný; společník je v pásmu 15% sazby a úrok zdaní ve svém daňovém přiznání. Podíl na zisku podléhá DPPO 21 % a srážkové dani 15 %. Kolik čistého společník získá v obou variantách?
 
 - [ ] Úrok 53 720 Kč, podíl na zisku 53 720 Kč
 - [ ] Úrok 68 000 Kč, podíl na zisku 63 200 Kč
 - [x] Úrok 68 000 Kč, podíl na zisku 53 720 Kč
 - [ ] Úrok 80 000 Kč, podíl na zisku 53 720 Kč
 
-> Úrok sníží základ DPPO na nulu, společník zaplatí 80 000 · 0,15 = 12 000 Kč a získá 68 000 Kč. Podíl na zisku: 80 000 · 0,79 · 0,85 = 53 720 Kč. Rozdíl 14 280 Kč odpovídá daňovému štítu 16 800 Kč po srážkové dani; 63 200 Kč vznikne zapomenutím srážkové daně, 80 000 Kč zapomenutím daně u společníka.
+> Úrok sníží základ DPPO na nulu, společník ho přizná jako příjem z kapitálového majetku (bez srážkové daně a bez pojistného), zaplatí 80 000 · 0,15 = 12 000 Kč a získá 68 000 Kč. Podíl na zisku: 80 000 · 0,79 · 0,85 = 53 720 Kč. Rozdíl 14 280 Kč odpovídá daňovému štítu 16 800 Kč po srážkové dani; 63 200 Kč vznikne zapomenutím srážkové daně, 80 000 Kč zapomenutím daně u společníka.
 
 ### ? Podnik je dlouhodobě ve ztrátě a zvažuje úvěr místo navýšení vlastního kapitálu, aby využil daňový štít z úroků. Co platí?
 
@@ -512,15 +527,17 @@ U **leasingu** jsou nákladem nájemce leasingové splátky místo odpisů a úr
 
 ## Omezení daňové uznatelnosti úroků {#omezeni-uznatelnosti-uroku .explain}
 
-Aby podniky nepřesouvaly zisk do daňově uznatelných úroků (typicky ke spojeným osobám nebo do zemí s nižším zdaněním), zákon o daních z příjmů uznatelnost úroků omezuje. Principy (konkrétní poměry a limity je nutné ověřit v aktuálním znění zákona):
+Aby podniky nepřesouvaly zisk do daňově uznatelných úroků (typicky ke spojeným osobám nebo do zemí s nižším zdaněním), zákon o daních z příjmů uznatelnost úroků omezuje:
 
-- **nízká kapitalizace** (thin capitalization) — úroky z úvěrů a zápůjček od **spojených osob** jsou neuznatelné v části, v níž tyto dluhy přesahují zákonem stanovený násobek vlastního kapitálu dlužníka; neuznatelné jsou také úroky, jejichž výše závisí na zisku dlužníka (participační financování);
-- **nadměrné výpůjční výdaje** — pravidlo převzaté z evropské směrnice proti vyhýbání se daňovým povinnostem (ATAD): čisté výpůjční výdaje (úroky a obdobné výdaje po odečtení úrokových výnosů) jsou uznatelné jen do stanoveného podílu na daňově upraveném zisku před úroky, daněmi a odpisy (EBITDA); do zákonem stanovené absolutní částky se omezení neuplatní;
-- **převodní ceny** — úrok mezi spojenými osobami musí odpovídat tomu, co by si sjednaly nezávislé strany (princip tržního odstupu, arm's length).
+- **nízká kapitalizace** (thin capitalization; § 25 odst. 1 písm. w) ZDP) — úroky z úvěrů a zápůjček od **spojených osob** jsou neuznatelné v části, v níž tyto dluhy přesahují **4násobek vlastního kapitálu** dlužníka (u bank a pojišťoven **6násobek**); úvěry od nezávislých bank se do testu nezapočítávají. Neuznatelné jsou také úroky, jejichž výše závisí na zisku dlužníka (participační financování);
+- **nadměrné výpůjční výdaje** (§ 23e ZDP) — pravidlo převzaté z evropské směrnice proti vyhýbání se daňovým povinnostem (ATAD): čisté výpůjční výdaje (úroky a obdobné výdaje po odečtení úrokových výnosů) jsou uznatelné jen do **vyšší z částek 30 % daňové EBITDA a 80 mil. Kč**; vyloučený přebytek lze **uplatnit v dalších zdaňovacích obdobích**, pokud tam limit vystačí;
+- **převodní ceny** — úrok mezi spojenými osobami musí odpovídat tomu, co by si sjednaly nezávislé strany (cena obvyklá, princip tržního odstupu, arm's length).
 
-Důsledek pro finanční řízení: daňový štít nelze libovolně „nafukovat" — financování dceřiných společností dluhem od mateřské je nutné plánovat i z daňového hlediska.
+`limit čistých výpůjčních výdajů = max(0,3 · daňová EBITDA; 80 mil. Kč)`
 
-*Příklad:* Mateřská firma financuje dceřinou s.r.o. s vlastním kapitálem 1 mil. Kč zápůjčkou 50 mil. Kč místo vkladu. Úroky z části dluhu nad hranicí nízké kapitalizace si dcera do daňových nákladů neuplatní a daňový štít je menší, než skupina čekala.
+Důsledek pro finanční řízení: daňový štít nelze libovolně „nafukovat" — financování dceřiných společností dluhem od mateřské je nutné plánovat i z daňového hlediska. Limit 80 mil. Kč je nastaven tak, že pravidlo nadměrných výpůjčních výdajů dopadá hlavně na velké, silně zadlužené podniky; nízká kapitalizace se týká i malých firem financovaných vlastníky.
+
+*Příklad:* Mateřská firma financuje dceřinou s.r.o. s vlastním kapitálem 1 mil. Kč zápůjčkou 50 mil. Kč místo vkladu. Hranice nízké kapitalizace je 4 · 1 = 4 mil. Kč, takže úroky ze 46 mil. Kč dluhu (92 % úroků) si dcera do daňových nákladů neuplatní a daňový štít je mnohem menší, než skupina čekala.
 
 ### ? Mateřská společnost financuje dceřinou s.r.o. převážně zápůjčkou, která mnohonásobně převyšuje vlastní kapitál dcery. Proč dcera NEMUSÍ mít všechny úroky daňově uznatelné?
 
@@ -529,7 +546,7 @@ Důsledek pro finanční řízení: daňový štít nelze libovolně „nafukova
 - [ ] Zápůjčka od mateřské firmy se daní jako dividenda
 - [ ] Dceřiná společnost nesmí mít žádný cizí kapitál
 
-> Pravidla nízké kapitalizace omezují uznatelnost úroků z dluhů vůči spojeným osobám, pokud dluh přesahuje stanovený násobek vlastního kapitálu. Úroky do tohoto limitu, sjednané za tržních podmínek, uznatelné jsou.
+> Pravidla nízké kapitalizace omezují uznatelnost úroků z dluhů vůči spojeným osobám v části, v níž dluh přesahuje 4násobek vlastního kapitálu (u bank a pojišťoven 6násobek). Úroky do tohoto limitu, sjednané za tržních podmínek, uznatelné jsou.
 
 ### ? Na co se zaměřuje pravidlo pro nadměrné výpůjční výdaje převzaté ze směrnice EU (ATAD)?
 
@@ -538,7 +555,16 @@ Důsledek pro finanční řízení: daňový štít nelze libovolně „nafukova
 - [x] Omezuje uznatelnost čistých úroků podle EBITDA
 - [ ] Stanoví nejvyšší povolenou úrokovou sazbu
 
-> Čisté výpůjční výdaje jsou uznatelné jen do zákonem stanoveného podílu na daňově upravené EBITDA; pod absolutním limitem se omezení neuplatní. Pravidlo nezakazuje úvěry ani neurčuje sazby, jen omezuje daňový štít vysoce zadlužených firem.
+> Čisté výpůjční výdaje jsou uznatelné jen do vyšší z částek 30 % daňové EBITDA a 80 mil. Kč; přebytek lze uplatnit v dalších obdobích. Pravidlo nezakazuje úvěry ani neurčuje sazby, jen omezuje daňový štít vysoce zadlužených firem.
+
+### ? Velký podnik má daňovou EBITDA 400 mil. Kč a čisté výpůjční výdaje (úroky po odečtení úrokových výnosů) 150 mil. Kč. Uznatelné jsou čisté výpůjční výdaje jen do vyšší z částek 30 % daňové EBITDA a 80 mil. Kč. Jaká část výpůjčních výdajů je v tomto roce daňově neuznatelná?
+
+- [ ] 0 Kč
+- [ ] 70 mil. Kč
+- [x] 30 mil. Kč
+- [ ] 120 mil. Kč
+
+> Limit = max(0,3 · 400; 80) = max(120; 80) = 120 mil. Kč, neuznatelný přebytek 150 − 120 = 30 mil. Kč; podnik ho může uplatnit v dalších obdobích, pokud mu tam limit vystačí. 70 mil. Kč vznikne použitím limitu 80 mil. Kč místo vyššího z obou, 0 Kč sečtením obou limitů (200 mil. Kč) a 120 mil. Kč je uznatelná, nikoli neuznatelná část.
 
 ## Odpisový daňový štít {#odpisovy-danovy-stit .explain}
 

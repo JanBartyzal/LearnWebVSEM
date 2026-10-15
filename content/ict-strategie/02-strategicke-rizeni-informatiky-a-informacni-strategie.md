@@ -71,36 +71,43 @@ Informační strategie má zajistit, aby investice do informatiky **přinášely
 
 ## Struktura informační strategie {#struktura-informacni-strategie .explain}
 
-Struktura se v literatuře liší; typický obsah (např. podle Voříška) zahrnuje:
+Podle Voříška tvoří dokument informační strategie **shrnutí** (stručný přehled závěrů pro vedení firmy), **čtyři hlavní oddíly** a **přílohy** (podrobné podklady analýz a návrhů):
 
-1. **globální cíle IS/ICT** a jejich vazbu na cíle firmy,
-2. **kritické faktory úspěchu** dosažení těchto cílů,
-3. **principy (zásady)** řešení a provozu IS/ICT,
-4. **globální architekturu** IS/ICT — cílový stav aplikací, dat a technologií,
-5. **rozvojové projekty** vedoucí k cílovému stavu,
-6. **zdroje** — lidské, finanční a technické, včetně způsobu jejich zajištění (vlastní × externí).
+1. **Východiska a cíle zpracování** — proč a pro koho se strategie zpracovává, vazba na podnikovou strategii a její cíle, rozsah a časový horizont.
+2. **Analýza současného stavu IS/IT** — stav aplikací, dat, technologií, organizace a zdrojů informatiky, jejich silné a slabé stránky a klíčové problémy.
+3. **Návrh cílového stavu IS/IT** — **globální architektura** (globální cíle IS/ICT, kritické faktory úspěchu, principy řešení, celková struktura aplikací, dat a technologií) doplněná **dílčími pohledy** na cílový stav (Voříšek jich uvádí osm).
+4. **Způsob transformace** — jak se ze současného stavu dostat do cílového: **rozvojové projekty** a jejich harmonogram, **zdroje** (lidské, finanční, technické; vlastní × externí) a rizika.
 
-Strategie tedy říká, **kam** se jde (cíle, architektura), **za jakých podmínek** (faktory úspěchu, principy) a **jak a čím** (projekty, zdroje).
+Strategie tedy říká, **kde jsme** (analýza), **kam** jdeme (cílový stav) a **jak a čím** se tam dostaneme (transformace).
 
-*Příklad:* Výrobní firma si stanoví cíl „online přehled o stavu zakázek pro zákazníky", jako kritický faktor kvalitu dat z výroby, princip „standardní software před vlastním vývojem", v architektuře zákaznický portál napojený na ERP, projekt implementace portálu a rozpočet na dva roky.
+*Příklad:* Výrobní firma v analýze zjistí, že zákazníci nemají přehled o stavu zakázek. V cílovém stavu stanoví cíl „online přehled o stavu zakázek pro zákazníky", kritický faktor kvalita dat z výroby, princip „standardní software před vlastním vývojem" a v architektuře zákaznický portál napojený na ERP; ve způsobu transformace naplánuje projekt implementace portálu s rozpočtem na dva roky.
 
-### ? Která část informační strategie popisuje cílový stav aplikací, dat a technologií?
+### ? Ve kterém oddílu informační strategie (podle Voříška) je popsána globální architektura, tj. cílová podoba aplikací, dat a technologií?
 
-- [ ] Kritické faktory úspěchu
-- [ ] Principy řešení IS/ICT
-- [ ] Zdroje informatiky
-- [x] Globální architektura IS/ICT
+- [ ] Východiska a cíle zpracování
+- [ ] Analýza současného stavu IS/IT
+- [ ] Způsob transformace
+- [x] Návrh cílového stavu IS/IT
 
-> Globální architektura popisuje cílovou podobu informačního systému — aplikace, data a technologie i jejich vazby. Projekty pak vedou od současného stavu k této architektuře.
+> Globální architektura je jádrem návrhu cílového stavu IS/IT a doplňují ji dílčí pohledy. Analýza popisuje dnešní stav a způsob transformace cestu ze současného do cílového stavu.
 
 ### ? Která položka typicky NEPATŘÍ do informační strategie?
 
 - [ ] Portfolio rozvojových projektů IS/ICT
 - [x] Návod k obsluze obrazovek aplikace
-- [ ] Kritické faktory úspěchu cílů IS/ICT
+- [ ] Analýza současného stavu IS/IT
 - [ ] Zajištění lidských a finančních zdrojů
 
-> Informační strategie je koncepční dokument (cíle, faktory úspěchu, principy, architektura, projekty, zdroje). Podrobný uživatelský návod k obsluze aplikace patří do provozní dokumentace.
+> Informační strategie je koncepční dokument (východiska, analýza současného stavu, cílový stav s globální architekturou, způsob transformace s projekty a zdroji). Podrobný uživatelský návod k obsluze aplikace patří do provozní dokumentace.
+
+### ? Do kterého oddílu informační strategie (podle Voříška) patří portfolio rozvojových projektů s harmonogramem a zajištěním zdrojů?
+
+- [ ] Analýza současného stavu IS/IT
+- [x] Způsob transformace
+- [ ] Návrh cílového stavu IS/IT
+- [ ] Východiska a cíle zpracování
+
+> Způsob transformace popisuje, jak se ze současného stavu dostat do cílového — tedy projekty, jejich pořadí a potřebné zdroje. Cílový stav říká, kam se jde, ne jak se tam dostat.
 
 ## Kritické faktory úspěchu {#kriticke-faktory-uspechu .term}
 
@@ -411,7 +418,21 @@ Dvě časté formy elektronické spolupráce s obchodními partnery.
 
 ## Model MBI {#model-mbi .term}
 
-MBI (Management of Business Informatics) je **referenční model řízení podnikové informatiky** vyvinutý na VŠE v Praze (Voříšek a kol.). Popisuje **úlohy řízení informatiky** — od strategického řízení přes řízení projektů a služeb až po řízení zdrojů a vztahů s byznysem a dodavateli — a k úlohám uvádí např. cíle, vstupy a výstupy, role a metriky. Firmám slouží jako vodítko pro nastavení vlastního řízení informatiky.
+MBI (Management of Business Informatics) je **referenční model řízení podnikové informatiky** vyvinutý na VŠE v Praze (Voříšek, Pour, Buchalcevová a kol.). Popisuje **úlohy řízení informatiky** — od strategického řízení přes řízení projektů a služeb až po řízení zdrojů a vztahů s byznysem a dodavateli. Firmám slouží jako vodítko pro nastavení vlastního řízení informatiky.
+
+Obsah modelu je uspořádán hierarchicky: **doména řízení → skupina úloh → úloha**. Základní jednotkou je **úloha**; na ni se vážou další objekty modelu:
+
+| Objekt | Co k úloze popisuje |
+|---|---|
+| Dokumenty | vstupy a výstupy úlohy |
+| Scénáře | typické situace řízení informatiky, v nichž se úloha (spolu s dalšími) uplatní |
+| Aplikace | softwarová podpora úlohy |
+| Metriky | ukazatele pro měření výkonu a výsledků úlohy |
+| Metody | metody a postupy použitelné při řešení úlohy |
+| Role | kdo se na úloze podílí a s jakou odpovědností |
+| Faktory | charakteristiky firmy a jejího okolí, které ovlivňují, jak se úloha v konkrétní firmě řeší |
+
+Model byl publikován na portálu mbi.vse.cz, který dnes nahradil portál **MBI-AF**.
 
 ### ? Co je model MBI?
 
@@ -421,3 +442,21 @@ MBI (Management of Business Informatics) je **referenční model řízení podni
 - [ ] Standard pro formát zpráv elektronické výměny dat
 
 > MBI (Management of Business Informatics) je referenční model, který popisuje úlohy řízení podnikové informatiky a jejich náležitosti. Nejde o normu bezpečnosti ani o standard výměny dat.
+
+### ? Jak je hierarchicky uspořádán obsah referenčního modelu řízení informatiky MBI?
+
+- [ ] Proces → aktivita → kontrolní cíl
+- [x] Doména řízení → skupina úloh → úloha
+- [ ] Vrstva architektury → služba → komponenta
+- [ ] Projekt → fáze → pracovní balík
+
+> MBI člení řízení informatiky do domén řízení, ty do skupin úloh a skupiny do jednotlivých úloh. Členění na procesy a kontrolní cíle připomíná COBIT, vrstvy a komponenty architekturu IS.
+
+### ? Ke kterému prvku referenčního modelu MBI se vážou dokumenty, scénáře, aplikace, metriky, metody, role a faktory?
+
+- [ ] K doméně řízení
+- [ ] K firmě jako celku
+- [ ] Ke skupině úloh
+- [x] K jednotlivé úloze
+
+> Základní jednotkou modelu MBI je úloha řízení informatiky; k ní se připojují vstupní a výstupní dokumenty, scénáře, aplikace, metriky, metody, role a faktory. Domény a skupiny úloh slouží k uspořádání úloh.

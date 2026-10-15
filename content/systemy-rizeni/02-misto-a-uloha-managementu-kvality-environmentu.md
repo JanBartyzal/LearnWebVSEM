@@ -138,6 +138,8 @@ Technické normy (v ČR **ČSN**, včetně převzatých evropských a mezinárod
 
 Legislativa EU i ČR stanoví, že na trh smějí být uváděny **pouze bezpečné výrobky** — takové, které při běžném nebo rozumně předvídatelném použití nepředstavují pro spotřebitele žádné nebo jen minimální přijatelné riziko. Tato **obecná povinnost** platí i pro výrobky, na které se nevztahují zvláštní technické předpisy. Výrobce musí výrobek navrhnout bezpečně, opatřit ho informacemi a varováními a při zjištění nebezpečí přijmout nápravná opatření (stažení z trhu, **stažení od spotřebitelů**). Povinnosti mají i **dovozci a distributoři** — nesmějí dodávat výrobky, o nichž vědí, že jsou nebezpečné. Dozor vykonávají orgány dozoru nad trhem (v ČR např. Česká obchodní inspekce) a nebezpečné výrobky se hlásí v unijním systému rychlého varování (**Safety Gate**, dříve RAPEX).
 
+Právní rámec: od 13. 12. 2024 se použije **nařízení EU 2023/988 o obecné bezpečnosti výrobků (GPSR)**; v ČR je adaptuje **zákon č. 387/2024 Sb., o obecné bezpečnosti výrobků** (účinnost 13. 12. 2024), který zrušil a nahradil dosavadní zákon č. 102/2001 Sb.
+
 *Příklad:* Výrobce zjistí, že u části dodaných rychlovarných konvic hrozí přehřátí kabelu. Musí informovat dozorový orgán, varovat spotřebitele a konvice stáhnout, i když jinak splňují všechny technické normy.
 
 ### ? Výrobce zjistí, že jeho výrobek již prodaný spotřebitelům může způsobit úraz. Co musí udělat?
@@ -247,7 +249,7 @@ Obě situace se v praxi zaměňují, ale jde o odlišné právní instituty.
 
 ## Posuzování vlivů na životní prostředí (EIA) {#eia .term}
 
-EIA (Environmental Impact Assessment) je proces, v němž se **před povolením záměru** (stavby, činnosti, technologie — např. dálnice, průmyslový závod, skládka) zjišťují, popisují a hodnotí jeho **předpokládané vlivy na životní prostředí** a veřejné zdraví a posuzují se varianty a opatření ke zmírnění dopadů. Součástí je **zapojení veřejnosti** a dotčených úřadů. Výsledné stanovisko příslušného úřadu je podkladem pro navazující povolovací řízení. Obdobné posuzování koncepcí (plánů, programů) se označuje **SEA**.
+EIA (Environmental Impact Assessment) je proces, v němž se **před povolením záměru** (stavby, činnosti, technologie — např. dálnice, průmyslový závod, skládka) zjišťují, popisují a hodnotí jeho **předpokládané vlivy na životní prostředí** a veřejné zdraví a posuzují se varianty a opatření ke zmírnění dopadů. Součástí je **zapojení veřejnosti** a dotčených úřadů. Výstupem je **závazné stanovisko** příslušného úřadu (krajský úřad nebo MŽP), které je podkladem pro navazující povolovací řízení a jehož podmínky musí povolení respektovat; formu závazného stanoviska má od novely zákona č. 100/2001 Sb. účinné od 1. 4. 2015, platnost je zpravidla **7 let**. Obdobné posuzování koncepcí (plánů, programů) se označuje **SEA**.
 
 ### ? Kdy se provádí posuzování vlivů záměru na životní prostředí (EIA)?
 
@@ -266,6 +268,15 @@ EIA (Environmental Impact Assessment) je proces, v němž se **před povolením 
 - [x] EIA posuzuje záměry, SEA koncepce
 
 > EIA se týká konkrétních záměrů (staveb, zařízení), SEA koncepcí, tedy strategických plánů a programů. Obě jsou zákonné postupy s účastí veřejnosti.
+
+### ? Jakou povahu má v ČR výstup procesu posuzování vlivů záměru na životní prostředí (EIA)?
+
+- [x] Závazné stanovisko pro navazující povolovací řízení
+- [ ] Nezávazné doporučení určené jen investorovi záměru
+- [ ] Certifikát shody s normou ISO 14001 pro provozovatele
+- [ ] Integrované povolení provozu velkého zařízení
+
+> Od novely zákona o posuzování vlivů na životní prostředí (2015) vydává úřad závazné stanovisko, jehož podmínky musí navazující povolení respektovat; platí zpravidla 7 let. Integrované povolení patří k IPPC, certifikát ISO 14001 vydává certifikační orgán.
 
 ## Integrovaná prevence a omezování znečištění (IPPC) {#ippc .explain}
 
@@ -322,7 +333,7 @@ Základní povinnosti zaměstnavatele stanoví **zákoník práce** a souvisejí
 - **vyhledávat nebezpečné činitele** a procesy, **vyhodnocovat rizika** a přijímat opatření k jejich odstranění či omezení,
 - zajistit zaměstnancům **školení a informace** o předpisech BOZP a rizicích jejich práce (při nástupu, při změně práce, opakovaně),
 - poskytovat **OOPP**, zajistit **pracovnělékařské služby**, vést **evidenci úrazů** a objasňovat jejich příčiny,
-- zajistit plnění úkolů prevence rizik odborně způsobilou osobou (OZO), pokud tuto způsobilost nemá sám.
+- zajistit plnění úkolů prevence rizik **odborně způsobilou osobou (OZO)** podle počtu zaměstnanců (zák. č. 309/2006 Sb.): **do 25 zaměstnanců** je může plnit sám zaměstnavatel, má-li potřebné znalosti; **26–500 zaměstnanců** sám, je-li odborně způsobilý, jinak prostřednictvím OZO; **nad 500 zaměstnanců** vždy prostřednictvím OZO.
 
 Náklady na zajištění BOZP **nesmí přenášet na zaměstnance**. Dodržování kontroluje **Státní úřad inspekce práce** s oblastními inspektoráty práce.
 
@@ -379,7 +390,9 @@ OOPP jsou prostředky, které **chrání zaměstnance před riziky**, jež **nel
 
 ## Pracovnělékařské služby a evidence úrazů {#lekarske-sluzby-urazy .explain}
 
-Zaměstnavatel musí zajistit **pracovnělékařské služby** — smluvního poskytovatele, který provádí **pracovnělékařské prohlídky** (vstupní před nástupem, periodické, mimořádné, výstupní), posuzuje **zdravotní způsobilost k práci**, dohlíží na pracoviště a radí v ochraně zdraví. Zaměstnavatel nesmí zaměstnance nechat vykonávat práci, k níž je zdravotně nezpůsobilý. Dále vede **evidenci pracovních úrazů** (kniha úrazů) a u závažnějších úrazů (s pracovní neschopností delší než 3 kalendářní dny nebo smrtelných) sepisuje **záznam o úrazu**, závažné úrazy ohlašuje stanoveným orgánům. Každý úraz musí **objasnit** a přijmout opatření proti opakování.
+Zaměstnavatel musí zajistit **pracovnělékařské služby** — smluvního poskytovatele, který provádí **pracovnělékařské prohlídky** (vstupní před nástupem, periodické, mimořádné, výstupní), posuzuje **zdravotní způsobilost k práci**, dohlíží na pracoviště a radí v ochraně zdraví. Zaměstnavatel nesmí zaměstnance nechat vykonávat práci, k níž je zdravotně nezpůsobilý. Dále vede **evidenci pracovních úrazů** (kniha úrazů) a u závažnějších úrazů (s pracovní neschopností delší než 3 kalendářní dny nebo smrtelných) sepisuje **záznam o úrazu** (§ 105 zákoníku práce), závažné úrazy ohlašuje stanoveným orgánům.
+
+**Kdo hradí vstupní prohlídku** (zák. č. 373/2011 Sb., o specifických zdravotních službách): zpravidla **uchazeč o zaměstnání**; zaměstnavatel ji hradí, pokud s uchazečem pracovněprávní vztah **vznikne** nebo se tak dohodnou, a u uchazeče o **noční práci vždy**. Každý úraz musí **objasnit** a přijmout opatření proti opakování.
 
 *Příklad:* Řidiči vysokozdvižného vozíku zjistí lékař při periodické prohlídce zhoršení zraku. Zaměstnavatel jej do vyřešení převede na jinou práci, protože k řízení vozíku není zdravotně způsobilý.
 
@@ -400,6 +413,15 @@ Zaměstnavatel musí zajistit **pracovnělékařské služby** — smluvního po
 - [ ] Aby úraz nemusel zapisovat do evidence
 
 > Objasnění příčin slouží prevenci — zaměstnavatel z něj vyvozuje opatření, aby se podobný úraz neopakoval. Evidenci a ohlášení tím nenahrazuje.
+
+### ? Uchazeč o práci na denní směny absolvuje vstupní pracovnělékařskou prohlídku, pracovní poměr ale nakonec nevznikne a o úhradě se strany nedohodly. Kdo prohlídku hradí?
+
+- [ ] Budoucí zaměstnavatel, protože prohlídku vyžadoval
+- [ ] Zdravotní pojišťovna uchazeče z veřejného pojištění
+- [ ] Poskytovatel pracovnělékařských služeb ze svých nákladů
+- [x] Uchazeč sám, protože pracovní poměr nevznikl
+
+> Vstupní prohlídku hradí uchazeč o zaměstnání; zaměstnavatel ji uhradí, pokud pracovněprávní vztah vznikne nebo se tak dohodnou. Výjimkou je uchazeč o noční práci — tomu prohlídku hradí zaměstnavatel vždy.
 
 ## Povinnosti a odpovědnost zaměstnance v BOZP {#povinnosti-zamestnance .explain}
 

@@ -127,6 +127,8 @@ Kritéria pro jednotlivé barvy musí být předem definovaná (např. skluz do 
 
 Kontrola projektu nespočívá jen v konstatování odchylek, ale ve **včasném zachycení varovných signálů** (early warning signs), dokud je ještě možné reagovat. Předem se stanoví sledované ukazatele, jejich **prahové hodnoty (tolerance)** a postup při jejich dosažení — kdo je informován a kdo rozhoduje (eskalace). Typickými signály jsou opakovaně nesplněné dílčí termíny, rostoucí počet otevřených problémů, nárůst požadavků na změnu, přetížení klíčových lidí nebo dlouhodobě nepříznivý trend nákladů.
 
+Studijní texty VŠEM tento přístup řadí k metodám kontroly jako **TWS** (Timely Warning System — systém včasného varování): při naplnění předem stanoveného signálu následuje interní komunikace a realizace připravených opatření (podrobněji v tématu Řízení rizik).
+
 *Příklad:* Tým třetí týden po sobě nedokončí naplánované úkoly sprintu. Ačkoli milník ještě neprošel, manažer to vyhodnotí jako varovný signál a začne s nápravou dřív, než skluz dopadne na termín.
 
 ### ? Co je hlavní výhodou systému varovných signálů s předem stanovenými prahovými hodnotami?

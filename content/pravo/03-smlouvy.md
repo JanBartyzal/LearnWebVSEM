@@ -245,7 +245,7 @@ OP šetří čas při hromadném uzavírání smluv; riziko však nese ten, kdo 
 
 ## Forma smlouvy {#forma-smlouvy .explain}
 
-Platí **zásada bezformálnosti**: smlouvu lze uzavřít v jakékoli formě (ústně, e-mailem, i jednáním), pokud určitou formu **nestanoví zákon nebo neujednají strany**. **Písemnou formu** vyžaduje zákon např. pro převod nebo zřízení věcného práva k nemovité věci, pro prohlášení ručitele, záruční listinu u finanční záruky a pro uznání dluhu; přísnější formu **veřejné listiny (notářského zápisu)** např. pro společenskou smlouvu s.r.o. Písemná forma je zachována i při jednání **elektronickými prostředky**, které umožňují zachytit obsah a určit jednající osobu. Projeví-li strany vůli uzavřít smlouvu v určité formě, **má se za to, že nechtějí být vázány, dokud forma nebude dodržena**. Nedodržení předepsané formy způsobuje **neplatnost**, pokud se vada formy nezhojí.
+Platí **zásada bezformálnosti**: smlouvu lze uzavřít v jakékoli formě (ústně, e-mailem, i jednáním), pokud určitou formu **nestanoví zákon nebo neujednají strany**. **Písemnou formu** vyžaduje zákon např. pro převod nebo zřízení věcného práva k nemovité věci, pro prohlášení ručitele, záruční listinu u finanční záruky a pro uznání dluhu; přísnější formu **veřejné listiny (notářského zápisu)** např. pro společenskou smlouvu s.r.o. Písemná forma je zachována i při jednání **elektronickými prostředky**, které umožňují zachytit obsah a určit jednající osobu. Projeví-li strany vůli uzavřít smlouvu v určité formě, **má se za to, že nechtějí být vázány, dokud forma nebude dodržena**. Nedodržení předepsané formy způsobuje **neplatnost**, pokud se vada formy nezhojí — zásadně **relativní**.
 
 *Příklad:* Firmy si ve smlouvě o dílo sjednají, že změny lze dělat jen písemným dodatkem. Když se stavbyvedoucí pak jen telefonicky domluví na vícepracích, hrozí spor, zda byla změna platně sjednána — proto je vhodné každou změnu písemně potvrdit.
 
@@ -275,6 +275,30 @@ Platí **zásada bezformálnosti**: smlouvu lze uzavřít v jakékoli formě (ú
 - [x] Má se za to, že strany smlouvou zatím vázány nejsou
 
 > Projeví-li strany vůli uzavřít smlouvu v určité formě, má se za to, že bez dodržení této formy nechtějí být vázány. Smlouva tedy zatím nevznikla.
+
+## Neplatnost pro nedodržení formy {#neplatnost-vada-formy .explain}
+
+Není-li právní jednání učiněno ve formě **stanovené zákonem** nebo **ujednané stranami**, je **neplatné, pokud se vada nezhojí** (strany ji odstraní, např. dodatečným podpisem písemné smlouvy). Podle OZ a judikatury Nejvyššího soudu jde **zásadně o relativní neplatnost** (§ 582 a § 586 OZ): smlouva se považuje za platnou, dokud se neplatnosti **nedovolá osoba, kterou forma chrání**. **Absolutní** neplatnost nastane jen výjimečně — pokud by nedodržení formy **zjevně narušovalo veřejný pořádek** (§ 588 OZ). U formy **ujednané stranami** navíc platí, že její nedostatek **nelze namítnout, bylo-li již plněno** (§ 582 odst. 2 OZ) — kdo smlouvu bez dohodnuté formy sám plnil nebo plnění přijal, nemůže se pak formou vyvazovat.
+
+*Příklad:* Firmy si sjednaly, že smlouvu o dílo lze měnit jen písemně. Stavbyvedoucí se ústně domluví na vícepracích, zhotovitel je provede a objednatel je převezme i zaplatí. Později objednatel tvrdí, že změna je neplatná pro nedostatek písemné formy — tuto námitku už vznést nemůže.
+
+### ? Smlouva, pro kterou zákon vyžaduje písemnou formu, byla uzavřena jen ústně. Vada formy se nezhojila a veřejný pořádek zjevně narušen není. Jaký druh neplatnosti zpravidla nastává?
+
+- [ ] Absolutní neplatnost, k níž soud přihlédne i bez návrhu
+- [x] Relativní neplatnost, které se musí dovolat chráněná osoba
+- [ ] Zdánlivé právní jednání, k němuž se vůbec nepřihlíží
+- [ ] Žádná, ústní forma zákonnou písemnou formu nahrazuje
+
+> Nedodržení formy způsobuje podle OZ a judikatury zásadně relativní neplatnost — dokud se jí chráněná osoba nedovolá, hledí se na smlouvu jako na platnou. Absolutní neplatnost by nastala jen při zjevném narušení veřejného pořádku.
+
+### ? Dvě firmy si ujednaly, že smlouvu o dílo lze měnit jen písemným dodatkem. Pak se ústně dohodly na vícepracích, zhotovitel je provedl a objednatel je převzal a zaplatil. Může objednatel nyní namítnout neplatnost změny pro nedostatek písemné formy?
+
+- [ ] Ano, bez písemného dodatku je změna vždy absolutně neplatná
+- [ ] Ano, ujednaná forma má přednost před následným chováním stran
+- [ ] Ne, ale jen pokud vícepráce nepřesáhly 10 % ceny díla
+- [x] Ne, nedostatek ujednané formy nelze namítnout, bylo-li již plněno
+
+> U formy ujednané stranami OZ nedovoluje namítat její nedostatek, jestliže už bylo plněno. Strany, které změnu bez písemného dodatku samy provedly a zaplatily, se jí nemohou dodatečně vyvazovat.
 
 ## Neplatnost a zdánlivé právní jednání {#neplatnost .compare}
 

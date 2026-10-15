@@ -650,12 +650,14 @@ Všechny formáty fungují jen tehdy, když je předem jasné, **co se stane s v
 
 ## Workplace innovation (inovace na pracovišti) {#workplace-innovation .explain}
 
-**Workplace innovation** označuje inovace v **organizaci práce, řízení a pracovních vztazích**, které zároveň zlepšují **výkonnost organizace** i **kvalitu pracovního života** zaměstnanců (dvojí cíl). Na úrovni EU ji podporuje síť **EUWIN** (European Workplace Innovation Network, zřízená Evropskou komisí v roce 2013) a zkoumá ji **Eurofound** (Evropská nadace pro zlepšení životních a pracovních podmínek). Definice se v literatuře liší; typicky se uvádějí tyto oblasti:
+**Workplace innovation** označuje inovace v **organizaci práce, řízení a pracovních vztazích**, které zároveň zlepšují **výkonnost organizace** i **kvalitu pracovního života** zaměstnanců (dvojí cíl). Na úrovni EU ji podporuje síť **EUWIN** (European Workplace Innovation Network, zřízená Evropskou komisí v roce 2013) a zkoumá ji **Eurofound** (Evropská nadace pro zlepšení životních a pracovních podmínek). Definice se v literatuře liší; EUWIN (P. Totterdill) ji popisuje modelem **„Fifth Element"** se čtyřmi prvky:
 
-- **obohacená práce a autonomní (samořízené) týmy** — lidé mají vliv na to, jak práci vykonávají,
-- **ploché a pružné struktury** a postupy, které odstraňují zbytečné bariéry,
-- **zaměstnanci řízené zlepšování a inovace** (employee-driven innovation),
-- **zapojení zaměstnanců do rozhodování** a jejich „hlas" (employee voice), sdílené vedení.
+1. **návrh práce a organizace práce** (Job Design and Work Organisation) — obohacená práce, autonomní (samořízené) týmy, lidé mají vliv na to, jak práci vykonávají,
+2. **struktury a systémy** (Structures and Systems) — ploché a pružné struktury, postupy a systémy (např. odměňování), které odstraňují zbytečné bariéry,
+3. **učení, reflexe a inovace** (Learning, Reflection and Innovation) — prostor k učení a zaměstnanci řízené zlepšování a inovace (employee-driven innovation),
+4. **partnerství na pracovišti** (Workplace Partnership) — zapojení zaměstnanců a jejich zástupců do rozhodování, jejich „hlas" (employee voice), spolupráce vedení se zaměstnanci.
+
+**Pátým elementem** je jejich **kombinace** — teprve vzájemně provázané prvky přinášejí trvale vyšší výkonnost i lepší kvalitu pracovního života; izolované opatření v jedné oblasti tento efekt nemá.
 
 Na rozdíl od zavádění technologie shora jde o **participativní** změnu, kterou zaměstnanci spoluvytvářejí; technologie je prostředkem, ne cílem.
 
@@ -679,11 +681,11 @@ Na rozdíl od zavádění technologie shora jde o **participativní** změnu, kt
 
 > Workplace innovation stojí na zapojení zaměstnanců a usiluje o výkonnost i kvalitu pracovního života. Technologická změna shora, která pracovní podmínky zhorší, tento dvojí cíl nesplňuje.
 
-### ? Ve výrobním závodě si týmy dělníků samy rozdělují úkoly, střídají se na pozicích a plánují směny bez mistra. Kterou oblast workplace innovation to ilustruje především?
+### ? Ve výrobním závodě si týmy dělníků samy rozdělují úkoly, střídají se na pozicích a plánují směny bez mistra. Který prvek workplace innovation podle modelu „Fifth Element" (EUWIN) to ilustruje především?
 
 - [ ] Outsourcing podpůrných činností
 - [ ] Automatizaci a robotizaci výroby
-- [x] Autonomní týmy a obohacenou práci
+- [x] Návrh práce a organizaci práce
 - [ ] Centralizované řízení výkonu práce
 
-> Samořízené týmy, které mají vliv na to, jak práci vykonávají, patří k jádru workplace innovation. Outsourcing, automatizace ani centralizace samy o sobě participaci nepřinášejí.
+> Samořízené týmy a obohacená práce, kdy lidé mají vliv na to, jak práci vykonávají, patří k prvku návrh práce a organizace práce (Job Design and Work Organisation). Outsourcing, automatizace ani centralizace samy o sobě participaci nepřinášejí.

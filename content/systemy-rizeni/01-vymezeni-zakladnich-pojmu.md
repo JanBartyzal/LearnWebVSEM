@@ -250,7 +250,12 @@ Na zjištěnou neshodu se reaguje dvojím způsobem (ISO 9000):
 
 ## Nehoda, incident a skoronehoda {#nehoda-skoronehoda .term}
 
-**Nehoda** je nežádoucí, neplánovaná událost, která vede ke škodě — ke zranění či jinému poškození zdraví, ke škodě na majetku nebo na prostředí. ISO 45001 používá širší pojem **incident**: událost vyplývající z práce nebo vzniklá v jejím průběhu, která by mohla vést nebo vede ke zranění a poškození zdraví. ISO 45001 v poznámce označuje incident se zraněním jako „**nehodu**" (accident) — jde o užší význam než obecná nehoda, která může znamenat i jen škodu na majetku či prostředí. Incident bez zranění, který k němu ale mohl vést, je **skoronehoda** (near miss). Evidence a rozbor skoronehod je cenný preventivní nástroj — odhalí příčiny dřív, než někdo přijde k úrazu.
+**Nehoda** je nežádoucí, neplánovaná událost, která vede ke škodě — ke zranění či jinému poškození zdraví, ke škodě na majetku nebo na prostředí. ISO 45001 používá širší pojem **incident**: událost vyplývající z práce nebo vzniklá v jejím průběhu, která by mohla vést nebo vede ke zranění a poškození zdraví. ISO 45001 v poznámce k definici incidentu rozlišuje:
+
+- incident, při kterém **došlo ke zranění a poškození zdraví** = **nehoda** (accident),
+- incident, při kterém ke zranění **nedošlo**, ale mohlo dojít = **skoronehoda** (near miss).
+
+Normová „nehoda" je tedy užší než nehoda v obecném smyslu, která může znamenat i jen škodu na majetku či prostředí. Evidence a rozbor skoronehod je cenný preventivní nástroj — odhalí příčiny dřív, než někdo přijde k úrazu.
 
 ### ? Z jeřábu spadne břemeno těsně vedle pracovníka, nikdo však není zraněn. Jak se tato událost v BOZP označuje?
 
@@ -269,6 +274,15 @@ Na zjištěnou neshodu se reaguje dvojím způsobem (ISO 9000):
 - [ ] Slouží k výpočtu pojistného zaměstnavatele
 
 > Skoronehody mají často stejné příčiny jako skutečné úrazy. Jejich rozbor umožní příčiny odstranit preventivně, bez škody na zdraví.
+
+### ? Jak norma ISO 45001 označuje incident, při kterém došlo ke zranění a poškození zdraví?
+
+- [ ] Skoronehoda (near miss)
+- [x] Nehoda (accident)
+- [ ] Nebezpečná situace
+- [ ] Závažná havárie
+
+> ISO 45001 dělí incidenty na nehody (došlo ke zranění a poškození zdraví) a skoronehody (ke zranění nedošlo, ale mohlo). Závažná havárie je pojem zákona o prevenci závažných havárií vázaný na objekt s nebezpečnou látkou.
 
 ## Pracovní úraz {#pracovni-uraz .term}
 
@@ -312,7 +326,7 @@ Pojmy se překrývají; liší se tím, zda a co je poškozeno, a jakou reakci u
 | Rozsah a reakce | — | od drobné škody po vážné následky | postižený zaměstnanec, šetření zaměstnavatelem | mimořádná událost vyžadující záchranné a likvidační práce (zpravidla IZS) |
 | Příklad | pád nářadí z lešení vedle pracovníka | náraz vozíku do regálu | pořezání při obsluze stroje | únik čpavku z chladicího zařízení |
 
-Havárie se nevymezuje rozsahem — podle rozsahu se odlišuje **katastrofa** (mimořádná událost přesahující možnosti běžně dostupných sil a prostředků). **Závažná havárie** je zvláštní případ havárie v objektu s nebezpečnými látkami (legislativa SEVESO); podrobně je rozebírá krizový management.
+Havárie se nevymezuje rozsahem — podle rozsahu se odlišuje **katastrofa** (mimořádná událost přesahující možnosti běžně dostupných sil a prostředků). **Závažná havárie** je zákonem vymezený zvláštní případ (zák. č. 224/2015 Sb., o prevenci závažných havárií, převádí směrnici SEVESO III): **mimořádná, částečně nebo zcela neovladatelná, časově a prostorově ohraničená událost** (např. závažný únik, požár nebo výbuch), která vznikla v souvislosti s užíváním **objektu, v němž je umístěna nebezpečná látka**, a vedla nebo mohla vést k vážnému ohrožení zdraví lidí, životního prostředí nebo majetku. Podrobně ji rozebírá krizový management.
 
 ### ? V chladírně masokombinátu unikne čpavek, ohrozí zaměstnance i obyvatele okolních domů a zasahují hasiči. Jak událost nejlépe označit?
 
@@ -452,7 +466,9 @@ Metrologie je **věda o měření a jeho aplikaci**. Pro systémy řízení je k
 | Podstata | stanovení vztahu mezi hodnotami ukazovanými měřidlem a hodnotami etalonu (včetně nejistoty měření) | úřední potvrzení, že měřidlo má požadované metrologické vlastnosti |
 | Výsledek | kalibrační list s odchylkami a nejistotou; o vyhovění rozhoduje uživatel podle svých kritérií | vyhovuje / nevyhovuje; úřední značka nebo ověřovací list s platností na dobu stanovenou předpisem |
 | Povinnost | u ostatních pracovních měřidel podle potřeby organizace (požadavky ISO 9001, zákazníka) | povinné u **stanovených měřidel** — např. měřidla pro obchodní styk (váhy v obchodě, vodoměry, elektroměry) |
-| Provádí | kalibrační laboratoř (akreditovaná nebo vlastní) | ČMI nebo autorizované metrologické středisko |
+| Provádí | kalibrační laboratoř (akreditovaná nebo vlastní) | Český metrologický institut (ČMI) nebo autorizované metrologické středisko (AMS) |
+
+Právní rámec tvoří **zákon č. 505/1990 Sb., o metrologii**, který rozlišuje kategorie měřidel: **etalony**, **stanovená měřidla**, **pracovní měřidla nestanovená** a **certifikované referenční materiály**. Úřední ověření se týká stanovených měřidel; pracovní měřidla nestanovená se kalibrují podle potřeby organizace.
 
 ### ? Firma nechá v kalibrační laboratoři porovnat posuvné měřítko z výroby s etalonem a dostane list s naměřenými odchylkami a nejistotou. Co proběhlo?
 
@@ -471,6 +487,15 @@ Metrologie je **věda o měření a jeho aplikaci**. Pro systémy řízení je k
 - [ ] Validaci váhy u jejího výrobce
 
 > Váha používaná v obchodním styku je stanoveným měřidlem a musí být úředně ověřena. Kalibrace podle uvážení postačí jen u měřidel, která stanovená nejsou.
+
+### ? Kdo smí provést úřední ověření stanoveného měřidla, např. vodoměru?
+
+- [ ] Kterákoli akreditovaná kalibrační laboratoř
+- [ ] Certifikační orgán pro systémy managementu
+- [x] ČMI nebo autorizované metrologické středisko
+- [ ] Výrobce měřidla v rámci výstupní kontroly
+
+> Ověření stanovených měřidel provádí podle zákona o metrologii Český metrologický institut nebo autorizované metrologické středisko. Akreditovaná laboratoř měřidlo kalibruje, ale úřední ověření nevydává; certifikační orgán posuzuje systémy managementu, ne měřidla.
 
 ## Zákazník a orientace na zákazníka {#orientace-na-zakaznika .explain}
 

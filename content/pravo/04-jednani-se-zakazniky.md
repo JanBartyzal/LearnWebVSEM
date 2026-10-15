@@ -206,6 +206,32 @@ Smlouva uzavřená se spotřebitelem **při současné fyzické přítomnosti st
 
 > U distanční smlouvy (e-shop) a běžné smlouvy mimo obchodní prostory je lhůta 14 dní. Od 6. 1. 2023 se prodlužuje na 30 dní u smlouvy uzavřené při neobjednané návštěvě podnikatele a na zájezdu pořádaném podnikatelem za účelem propagace nebo prodeje (předváděcí akce).
 
+## Platby na předváděcích akcích a při podomním prodeji {#platby-predvadeci-akce .explain}
+
+**Obecný zákaz** přijmout od spotřebitele platbu při podomním prodeji nebo jinde mimo obchodní prostory v českém právu **neexistuje**. Zákon o ochraně spotřebitele obsahuje zvláštní pravidlo jen pro **organizované (předváděcí) akce**, tj. akce a zájezdy pořádané podnikatelem za účelem propagace nebo prodeje zboží či služeb: podnikatel na nich **nesmí požadovat ani přijmout** od spotřebitele **plnění** (platbu, zálohu) **do 7 dnů od uzavření smlouvy**.
+
+U podomního prodeje tedy spotřebitel na místě zaplatit může; chrání ho hlavně **právo odstoupit bez udání důvodu**, které u smluv uzavřených při **neobjednané návštěvě podnikatele** a na **zájezdu (výletu) pořádaném podnikatelem** činí od 6. 1. 2023 **30 dní** (jinak 14 dní).
+
+*Příklad:* Na předváděcí akci, kam firma seniory zdarma dovezla autobusem, podepíše senior smlouvu na masážní křeslo. Prodejce nesmí na místě vybrat zálohu ani kupní cenu — zaplatit lze nejdříve po 7 dnech od uzavření smlouvy a senior má navíc 30 dní na odstoupení.
+
+### ? Spotřebitel podepíše na předváděcí akci pořádané podnikatelem smlouvu na koupi matrace. Prodejce po něm chce ještě na místě zaplatit zálohu. Je to přípustné?
+
+- [ ] Ano, záloha je přípustná do výše poloviny ceny
+- [x] Ne, plnění nesmí požadovat ani přijmout do 7 dnů od uzavření smlouvy
+- [ ] Ano, spotřebitel má stejně právo od smlouvy odstoupit
+- [ ] Ne, na předváděcích akcích nelze kupní smlouvu vůbec uzavřít
+
+> Na organizovaných (předváděcích) akcích zákon o ochraně spotřebitele zakazuje požadovat i přijmout plnění dříve než po 7 dnech od uzavření smlouvy. Smlouvu samotnou uzavřít lze a spotřebitel od ní může jako od smlouvy uzavřené mimo obchodní prostory odstoupit bez udání důvodu.
+
+### ? Neobjednaný podomní prodejce nabídne spotřebiteli čističku vzduchu a ten ji na místě koupí a hned zaplatí. Co platí podle českého práva?
+
+- [ ] Platba je neplatná, protože při podomním prodeji je přijetí platby obecně zakázáno
+- [ ] Smlouva je neplatná, podomní prodej je v ČR zakázán
+- [x] Platba je přípustná, spotřebitel ale může do 30 dní odstoupit bez udání důvodu
+- [ ] Platba je přípustná a od smlouvy už odstoupit nelze
+
+> Obecný zákaz platby při podomním prodeji neexistuje — sedmidenní zákaz plnění platí jen na organizovaných předváděcích akcích. Při neobjednané návštěvě podnikatele však činí lhůta pro odstoupení bez udání důvodu 30 dní.
+
 ## Odstoupení od smlouvy do 14 dnů {#odstoupeni-14-dni .explain}
 
 U distanční smlouvy a smlouvy uzavřené mimo obchodní prostory může spotřebitel **odstoupit do 14 dnů bez udání důvodu a bez sankce**. Od 6. 1. 2023 činí lhůta **30 dní**, byla-li smlouva uzavřena při **neobjednané návštěvě podnikatele** u spotřebitele nebo na **zájezdu pořádaném podnikatelem za účelem propagace nebo prodeje** (předváděcí akce). Lhůta běží:
@@ -502,6 +528,8 @@ Zákon o ochraně spotřebitele zakazuje **nekalé obchodní praktiky**. Praktik
 
 Ochranu soutěžitelů mezi sebou řeší nekalá soutěž v OZ (téma 5).
 
+Od **6. 1. 2023** má spotřebitel vedle veřejnoprávního dozoru ČOI i **soukromoprávní nárok**: od smlouvy uzavřené pod vlivem nekalé obchodní praktiky může **odstoupit do 90 dnů od jejího uzavření**, nebo požadovat **přiměřené snížení ceny**. Odstoupení je **vyloučeno**, bylo-li by **nepřiměřené povaze a závažnosti** použité praktiky.
+
 *Příklad:* E-shop zobrazuje odpočet „nabídka končí za 10 minut", který se po obnovení stránky spustí znovu. Jde o klamavou praktiku z černé listiny, za kterou hrozí pokuta od ČOI.
 
 ### ? Kdy je obchodní praktika vůči spotřebiteli nekalá podle obecné definice zákona o ochraně spotřebitele?
@@ -521,6 +549,15 @@ Ochranu soutěžitelů mezi sebou řeší nekalá soutěž v OZ (téma 5).
 - [ ] Je to v pořádku, pokud je zboží skutečně kvalitní
 
 > Falešné recenze vydávané za názory spotřebitelů patří mezi praktiky, které jsou nekalé vždy. Kvalita zboží na tom nic nemění.
+
+### ? Spotřebitel uzavřel smlouvu pod vlivem nekalé obchodní praktiky prodejce. Jaký soukromoprávní prostředek mu dává zákon o ochraně spotřebitele od roku 2023?
+
+- [ ] Žádný, může jen podat podnět ČOI a smlouva zůstává bez dalšího platná
+- [ ] Odstoupit do 14 dnů od uzavření smlouvy, sleva z ceny nepřichází v úvahu
+- [ ] Odstoupit od smlouvy kdykoli bez časového omezení
+- [x] Odstoupit do 90 dnů od uzavření smlouvy, nebo žádat přiměřenou slevu
+
+> Od 6. 1. 2023 může spotřebitel od smlouvy ovlivněné nekalou praktikou odstoupit do 90 dnů od jejího uzavření, nebo žádat přiměřené snížení ceny. Odstoupení je vyloučeno, bylo-li by nepřiměřené povaze a závažnosti praktiky; pokuta od ČOI je samostatný veřejnoprávní postih.
 
 ## Klamavé vs. agresivní obchodní praktiky {#klamave-vs-agresivni .compare}
 

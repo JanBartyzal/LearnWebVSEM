@@ -211,7 +211,7 @@ Zmrazení je třetí fáze Lewinova modelu: **ukotvení nového stavu**, aby se 
 
 ## Carnallův model řízení změny {#carnall-model .explain}
 
-Colin Carnall (*Managing Change in Organizations*) vychází z toho, že úspěch změny závisí na **dovednostech managementu ve třech oblastech**, které se navzájem ovlivňují:
+Colin Carnall (*Managing Change in Organizations*; 6. vydání 2014 spolu s R. T. Byem) vychází z toho, že úspěch změny závisí na **dovednostech managementu ve třech oblastech**, které se navzájem ovlivňují:
 
 1. **řízení přechodu** (managing transitions) — rozhodování o změně, plánování a organizace jejího průběhu, podpora lidí při zvládání změny;
 2. **práce s organizační kulturou** (dealing with organisational cultures) — porozumět kultuře, „vyjednávat" s ní a postupně ji přizpůsobovat, místo aby se změna prosazovala proti ní;
@@ -501,7 +501,7 @@ Kroky 1–4 „rozmrazují" zaběhnutý stav, kroky 5–7 zavádějí nové post
 
 ## Pocit naléhavosti: identifikace problému a příležitosti {#nalehavost .explain}
 
-Prvním krokem Kotterova modelu je **vytvořit pocit (vědomí) naléhavosti** (sense of urgency) — dostatečně rozšířené přesvědčení, že dosavadní stav je neudržitelný a změna musí začít hned. Hlavním nepřítelem je **samolibost** (complacency): pohodlí z minulých úspěchů, interní měřítka výkonu, nedostatek zpětné vazby z trhu. Naléhavost se buduje **identifikací problému a příležitosti** — rozborem trhu a konkurence, otevřeným pojmenováním skutečných i hrozících krizí, ale i **velkých příležitostí**, které firma nevyužívá. Pomáhá zveřejnit data o spokojenosti zákazníků a výkonu proti konkurenci, nastavit náročné cíle nebo vystavit manažery přímé kritice zákazníků. Kotter uvádí, že naléhavost je dostatečná, když je zhruba **tři čtvrtiny manažerů** upřímně přesvědčeny, že pokračovat postaru je nepřijatelné. Naléhavost není panika — energii je třeba nasměrovat k cíli.
+Prvním krokem Kotterova modelu je **vytvořit pocit (vědomí) naléhavosti** (sense of urgency) — dostatečně rozšířené přesvědčení, že dosavadní stav je neudržitelný a změna musí začít hned. Hlavním nepřítelem je **samolibost** (complacency): pohodlí z minulých úspěchů, interní měřítka výkonu, nedostatek zpětné vazby z trhu. Naléhavost se buduje **identifikací problému a příležitosti** — rozborem trhu a konkurence, otevřeným pojmenováním skutečných i hrozících krizí, ale i **velkých příležitostí**, které firma nevyužívá. Pomáhá zveřejnit data o spokojenosti zákazníků a výkonu proti konkurenci, nastavit náročné cíle nebo vystavit manažery přímé kritice zákazníků. Kotter uvádí, že naléhavost je dostatečná, když je zhruba **tři čtvrtiny manažerů** upřímně přesvědčeny, že pokračovat postaru je nepřijatelné (HBR 1995: „about 75 % of a company's management is honestly convinced that business-as-usual is totally unacceptable"). Naléhavost není panika — energii je třeba nasměrovat k cíli.
 
 *Příklad:* Generální ředitel firmy se stabilními zisky pozve na poradu vedení tři ztracené zákazníky, kteří vysvětlí, proč odešli ke konkurenci, a předloží srovnání, podle něhož konkurence uvádí nové produkty dvakrát rychleji.
 

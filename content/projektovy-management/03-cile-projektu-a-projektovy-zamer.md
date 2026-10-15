@@ -6,7 +6,7 @@ name: "Cíle projektu a projektový záměr"
 order: 3
 ---
 
-Definice projektových cílů. Kontext strategie organizace. Cíle projektu (SMART) a přístup k projektu. Model procesu vzniku projektu. Záměr (Scope) jako pojem v PMBoK. Procesy dle PMBoK. Záměr (Scope) jako pojem v ISO 1006. Procesy dle ISO 10006. Specifikace projektového záměru. Business Case projektu.
+Definice projektových cílů. Kontext strategie organizace. Cíle projektu (SMART) a přístup k projektu. Model procesu vzniku projektu. Záměr (Scope) jako pojem v PMBoK. Procesy dle PMBoK. Záměr (Scope) jako pojem v ISO 10006. Procesy dle ISO 10006. Specifikace projektového záměru. Business Case projektu.
 
 ## Cíl projektu {#cil-projektu .term}
 
@@ -76,6 +76,8 @@ Kritéria **SMART** slouží ke správné formulaci cílů. Cíl má být:
 
 Výklad písmen A a R se v literatuře liší, podstata je však stejná: podle cíle musí jít jednoznačně posoudit, zda a kdy byl splněn.
 
+Studijní texty VŠEM používají rozšíření **SMART/i/** (SMARTI): písmeno **I — integrated** znamená, že cíl je **integrovaný do strategie organizace** (projekt tak přispívá k jejím strategickým cílům). Jiné zdroje vykládají „I" odlišně.
+
 *Příklad:* Místo „zlepšit zákaznickou podporu" je SMART cíl „do 30. 6. 2027 zkrátit průměrnou dobu vyřízení požadavku ze 48 na 24 hodin při stávajícím počtu pracovníků".
 
 ### ? Který cíl nejlépe splňuje kritéria SMART?
@@ -95,6 +97,15 @@ Výklad písmen A a R se v literatuře liší, podstata je však stejná: podle 
 - [x] Time-bound (časově vymezený)
 
 > Cíl je konkrétní i měřitelný, chybí mu však termín, do kdy má být snížení dosaženo.
+
+### ? Co podle studijních textů VŠEM znamená písmeno I v rozšíření SMARTI (SMART/i/)?
+
+- [x] Integrated — cíl je integrovaný do strategie organizace
+- [ ] Inspiring — cíl motivuje a inspiruje celý projektový tým
+- [ ] Independent — cíl je nezávislý na ostatních projektech
+- [ ] Innovative — cíl přináší organizaci technologickou novinku
+
+> V pojetí VŠEM znamená „i" integrated: cíl projektu má být začleněn do strategie organizace a podporovat její strategické cíle.
 
 ## Přístup k projektu podle jasnosti cílů {#pristup-k-projektu .compare}
 
@@ -264,7 +275,7 @@ Vedle skupin procesů člení PMBOK Guide (6. vydání) procesy do **10 oblastí
 
 > Ověření rozsahu je formální převzetí dokončených výstupů zákazníkem nebo sponzorem, jeho výsledkem jsou akceptované výstupy.
 
-## PMBOK 6. a 7. vydání {#pmbok-6-vs-7 .compare}
+## PMBOK 6., 7. a 8. vydání {#pmbok-6-vs-7 .compare}
 
 Sedmé vydání PMBOK Guide (2021) opustilo procesní strukturu a přešlo na principy a výkonnostní domény:
 
@@ -274,6 +285,8 @@ Sedmé vydání PMBOK Guide (2021) opustilo procesní strukturu a přešlo na pr
 | Struktura | 5 skupin procesů, 10 oblastí znalostí, 49 procesů | 12 principů, 8 výkonnostních domén |
 | Domény / oblasti | integrace, rozsah, harmonogram, náklady, kvalita… | zúčastněné strany, tým, přístup k vývoji a životní cyklus, plánování, projektová práce, dodání, měření, nejistota |
 | Přístupy | převážně prediktivní, s přihlédnutím k agilnímu | rovnocenně prediktivní, adaptivní i hybridní |
+
+Od listopadu 2025 je aktuální **8. vydání** PMBOK Guide: stojí na **6 principech** a **7 výkonnostních doménách** a nově se věnuje i umělé inteligenci (AI) v řízení projektů. Ze kterého vydání vychází výuka, upřesní přednáška.
 
 ### ? Kolik výkonnostních domén (performance domains) zavedlo 7. vydání PMBOK Guide?
 
@@ -292,6 +305,15 @@ Sedmé vydání PMBOK Guide (2021) opustilo procesní strukturu a přešlo na pr
 - [x] Popisuje 6. vydání, 7. stojí na principech a doménách
 
 > Pět skupin procesů a deset oblastí znalostí je struktura 6. vydání. Sedmé vydání (2021) ji nahradilo 12 principy a 8 výkonnostními doménami.
+
+### ? Které vydání PMBOK Guide je aktuální od listopadu 2025?
+
+- [ ] 7. vydání s 12 principy a 8 výkonnostními doménami
+- [ ] 8. vydání s 12 principy a 8 výkonnostními doménami
+- [x] 8. vydání s 6 principy a 7 výkonnostními doménami
+- [ ] 6. vydání s 5 skupinami procesů a 10 oblastmi znalostí
+
+> Od listopadu 2025 platí 8. vydání, které stojí na 6 principech a 7 výkonnostních doménách. Dvanáct principů a osm domén má 7. vydání (2021), pět skupin procesů a deset oblastí znalostí 6. vydání (2017).
 
 ## Rozsah (Scope) jako pojem v ISO 10006 {#scope-iso-10006 .term}
 

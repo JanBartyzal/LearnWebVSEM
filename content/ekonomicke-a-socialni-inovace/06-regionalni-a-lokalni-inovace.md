@@ -439,7 +439,7 @@ Hranice mezi pojmy nejsou ostré a v praxi se často zaměňují.
 5. **mix nástrojů** — akční plán (roadmapa) s programy, rozpočtem a odpovědnostmi;
 6. **monitoring a hodnocení** — indikátory, průběžné vyhodnocování a aktualizace.
 
-Strategie je **opakující se proces**, ne jednorázový dokument. V ČR na národní RIS3 strategii navazují krajské RIS3 strategie, které kraje připravují s regionálními partnery.
+Strategie je **opakující se proces**, ne jednorázový dokument. V ČR je pro období 2021–2027 zastřešujícím dokumentem **Národní výzkumná a inovační strategie pro inteligentní specializaci ČR (Národní RIS3 strategie) 2021–2027**, kterou vláda schválila v lednu 2021 a jejímž správcem je **Ministerstvo průmyslu a obchodu** (ris3.gov.cz). Krajskou dimenzi tvoří **krajské přílohy (karty)**, které kraje připravují s regionálními partnery.
 
 *Příklad:* Kraj z analýzy zjistí silné zastoupení optiky a strojírenství, s univerzitou a firmami se shodne na vizi, zvolí dvě domény specializace, vypíše na ně grantové programy a jejich přínos každý rok vyhodnotí.
 
@@ -461,6 +461,15 @@ Strategie je **opakující se proces**, ne jednorázový dokument. V ČR na nár
 
 > Aktéři mimo úřad znají trhy, technologie a potřeby regionu a bez jejich zapojení by strategie zůstala „na papíře". Sdílené řízení (governance) zvyšuje kvalitu priorit i ochotu strategii realizovat.
 
+### ? Jak je v ČR v období 2021–2027 uspořádána strategie inteligentní specializace (RIS3)?
+
+- [ ] Každý kraj má samostatnou strategii bez národního rámce
+- [ ] Strategii pro ČR zpracovala a schválila Evropská komise
+- [ ] Strategie se v ČR po roce 2020 už nezpracovává vůbec
+- [x] Národní RIS3 strategie (MPO) doplněná krajskými přílohami
+
+> Zastřešující je Národní RIS3 strategie 2021–2027, schválená vládou v lednu 2021, jejímž správcem je MPO; krajskou dimenzi tvoří krajské přílohy. Existence strategie je v kohezní politice 2021–2027 základní podmínkou čerpání na výzkum a inovace.
+
 ## Chytrá specializace (RIS3) {#chytra-specializace .explain}
 
 **Chytrá specializace** (smart specialisation; v ČR oficiálně **inteligentní specializace**) je přístup k inovační politice, podle něhož má region nebo země soustředit omezené zdroje na **několik prioritních oblastí**, v nichž má **konkurenční potenciál** vycházející z vlastních znalostí a podnikové základny. Koncept formulovali D. **Foray**, P. A. **David** a B. **Hall** (2009) v expertní skupině Evropské komise. Hlavní principy:
@@ -470,7 +479,7 @@ Strategie je **opakující se proces**, ne jednorázový dokument. V ČR na nár
 - **kritické množství** kapacit a propojení s jinými regiony a hodnotovými řetězci;
 - priority se neurčují jen shora, ale **procesem podnikatelského objevování**.
 
-Strategie RIS3 byla v kohezní politice EU 2014–2020 **předběžnou podmínkou** (ex-ante kondicionalitou) podpory výzkumu a inovací z evropských fondů; v období 2021–2027 je tzv. základní (umožňující) podmínkou.
+Strategie RIS3 byla v kohezní politice EU 2014–2020 **předběžnou podmínkou** (ex-ante kondicionalitou) podpory výzkumu a inovací z evropských fondů; v období 2021–2027 je tzv. **základní podmínkou** (enabling condition) podle nařízení (EU) 2021/1060 o společných ustanoveních pro fondy.
 
 *Příklad:* Kraj s tradicí sklářství a strojírenství nevolí obecně „průmysl", ale doménu „pokročilé materiály a povrchové úpravy pro optiku", kde se znalosti obou oborů potkávají.
 
