@@ -111,11 +111,13 @@ Migrace se aplikují automaticky při startu backendu. Prázdná DB se při star
 - [x] Obsah: Měření firemní výkonnosti — 12 témat, 207 karet, 443 otázek (zrecenzováno; sladěno s Manažerskou ekonomikou a Strategií podniku).
 - [x] Obsah: Systémy řízení — 8 témat, 152 karet, 327 otázek (zrecenzováno; terminologie dle ČSN EN ISO 9000:2016, sladěno s Krizovým managementem a MFV).
 - [x] Obsah: Management změny — 6 témat, 164 karet, 354 otázek (zrecenzováno; sladěno s Krizovým managementem, ŘLZ a Strategickým marketingem).
-- [ ] Obsah zbylých 2 předmětů. Otevřené termíny všech předmětů viz GAPS-terminy.md.
+- [x] Obsah: Ekonomické a sociální inovace — 10 témat, 218 karet, 484 otázek (zrecenzováno; navazuje na Management změny 03, sladěno se Strategickým marketingem a SM).
+- [x] Obsah: Finanční řízení — 9 témat, 214 karet, 474 otázek (zrecenzováno, výpočty ověřeny skriptem; sladěno s MEK 02/04, SP 03/04 a Právem; sazby daní vždy v zadání).
+- [x] **Obsah všech 16 předmětů: 141 témat, 2 758 karet, 5 830 otázek.** Otevřené termíny viz GAPS-terminy.md — po doplnění uživatelem zapracovat.
 - [x] **Fáze 2** — režim Učení (mini-kvíz po 5 kartách), Procvičování (téma/předmět, 10 otázek), `POST /api/quiz`,
       `POST /api/answers`, `POST /api/cards/{id}/learned`, `AttemptLog`, XP + úrovně v hlavičce, re-teach po 3+ chybách.
 - [ ] **Fáze 3** — denní fronta opakování, horká fronta seance, „pokračovat kde jsi skončil".
 - [ ] **Fáze 4** — simulace zkoušky, statistiky, streak, odznaky, úrovně.
-- [ ] **Fáze 5** — obsah zbylých předmětů, UX ladění, PWA.
+- [ ] **Fáze 5** — zapracování GAPS, UX ladění, PWA.
 
 Každá fáze končí funkčním stavem po `docker compose up`. Nové chování enginu vždy s unit testy.

@@ -248,6 +248,72 @@ Lewin a Kotter jsou sladění s Krizovým managementem 09 a Řízením lidských
 | 🟡 | **Situační vedení** | `06-…` → `{#situacni-vedeni}` | Jen původní model Herseyho & Blancharda (připravenost R1–R4; telling / selling / participating / delegating). Učí přednáška tento, nebo Blanchardův SLII (D1–D4)? | |
 | 🟡 | **Coping cycle — průběh výkonu** | `04-lide-ve-zmene` → `{#coping-cycle}` | Sebeúcta se podle Carnalla obrací s odpoutáním; výkon může mít minimum až na začátku adaptace — ověřit | |
 
+## Ekonomické a sociální inovace
+
+Pojmy z Managementu změny 03 (invence × inovace, Schumpeter, Oslo Manual, techniky kreativity, průmyslová ochrana) se tu jen odkazují. CSR je sladěné se Strategickým marketingem 03 a Manažerskou ekonomikou 01, klastry se Strategickým managementem 03.
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| ⬜ | **Učebnice předmětu** | celý předmět | Z jaké literatury kurz vychází (Tidd & Bessant? česká skripta?) | |
+| 🟡 | **Berkhoutův model cyklické inovace** | `01-inovace-jako-system…` → `{#berkhout-cim}` | České názvy čtyř oblastí jsou vlastní překlad; dílčí cykly vynechány. Jak model vykládá přednáška? | |
+| 🟡 | **Kondratěvovy vlny — datace** | `01-…` → `{#kondratevovy-vlny}` | Podle Freemana & Louçã; jiní autoři řadí technologie do vln jinak | |
+| 🟡 | **Sektory Frascati — ústavy AV ČR** | `01-…` → `{#inovacni-sektory}` | Zařazení do vládního sektoru podle praxe ČSÚ — ověřit | |
+| 🟡 | **Tidd & Bessant — 4. fáze cyklu** | `02-inovacni-proces…` → `{#inovacni-cyklus}` | Uvedeno „získání hodnoty" (dle osnovy); některá vydání mají „učení". Které vydání? | |
+| 🟡 | **Kumarových 7 módů — české názvy** | `02-…` → `{#kumar-7-modu}`, `{#kumar-metody}` | České názvy nejsou ustálené; přiřazení metod k módům z paměti | |
+| 🟡 | **„Institucionalizace inovace"** (osnova téma 2) | `02-…` → `{#institucionalizace}` | Vyloženo jako ochrana + komercionalizace; ustálená definice neznámá | |
+| 🟡 | **Freemanovy inovační strategie** | `02-…` → `{#freeman-strategie}` | Šestá strategie „oportunistická", jinde „niche" | |
+| 🟡 | **Workplace innovation** | `03-inovacni-kapacita` → `{#workplace-innovation}` | Definice se liší; čtyři oblasti obecně, ne oficiální model EUWIN | |
+| 🟡 | **Role inovačního týmu (Roberts & Fusfeld)** | `03-…` → `{#klicove-role}` | Názvy rolí z paměti, české označení neustálené | |
+| 🟡 | **Spin-off × spin-out** | `04-financovani-inovaci` → `{#spin-off-spin-out}` | Rozlišení nejednotné; drženo pojetí podle vazby na mateřskou organizaci. Jak vymezuje přednáška? | |
+| 🟡 | **Fáze rizikového kapitálu** | `04-…` → `{#faze-vc}` | Hranice a názvy fází se liší (seed / start-up / raná / expanzní / překlenovací) | |
+| ⬜ | **České nástroje financování inovací** | `04-…` → `{#mezisektorova-spoluprace}` | Inovační vouchery, Centra kompetence TA ČR jen obecně; seed / koinvestiční fondy a Národní rozvojová banka vynechány — učí se konkrétní programy? | |
+| 🟡 | **„Kreativní × adaptivní podnikání"** (osnova téma 5) | `05-technologicke-rezimy…` → `{#kreativni-adaptivni-odezva}` | Vyloženo přes Schumpetera 1947 (creative × adaptive response). Myslí přednáška toto? | |
+| 🟡 | **„Průmyslové technologie"** a **KETs** | `05-…` → `{#umoznujici-vs-odvetvove}`, `{#kets}` | Chápáno jako odvětvově specifické technologie; KETs jen původních 6 (2009), pozdější revize vynechána | |
+| 🟡 | **Lokální podnikatelský systém** | `06-regionalni-a-lokalni-inovace` → `{#lokalni-podnikatelsky-system}` | Bez ustálené definice; vyloženo přes průmyslový distrikt (Marshall, Becattini) | |
+| 🟡 | **Krajské RIS3 v ČR a RIS3 v kohezní politice 2021–2027** | `06-…` → `{#regionalni-inovacni-strategie}`, `{#chytra-specializace}` | Uspořádání po roce 2021 a český název „základní podmínky" neověřeny | |
+| 🟡 | **Typy sociálních inovací** a **inovační intenzita** | `07-socialni-inovace` → `{#typy-bepa}`, `{#intenzita}` | Drženy tři perspektivy BEPA; zdroj členění intenzity v osnově neznámý | |
+| 🟡 | **Formy podpory sociálních inovací** | `07-…` → `{#formy-podpory}` | ESF+ / EaSI / OP Zaměstnanost plus jen principem | |
+| 🟡 | **Integrační sociální podnik — 30 %** | `08-inovace-v-alternativnich…` → `{#integracni-socialni-podnik}` | Hranice 30 % znevýhodněných zaměstnanců podle TESSEA; platí i v aktuálních kritériích? Stojí na ní otázka | |
+| ⬜ | **Zákon o (integračních) sociálních podnicích v ČR** | vynecháno | Patrně přijat 2024 (status od MPSV) — ověřit, od kdy platí a jaký práh znevýhodněných zaměstnanců stanoví | |
+| 🟡 | **Principy sociálního podniku (TESSEA)** | `08-…` → `{#principy-socialniho-podniku}` | Přesné znění ekonomického prospěchu (podíl tržeb, autonomie, zvládání rizik; placený zaměstnanec je spíš kritérium EMES) ověřit | |
+| 🟡 | **Horizont Evropa — klastry a mise; české názvy výzev H2020** | `09-inovacni-reseni…` → `{#horizont-2020-vyzvy}` | Jen počty a příklady; názvy výzev podle osnovy, oficiální překlad se může lišit | |
+| 🟡 | **EIS — hranice skupin** | `10-inovace-v-socioekonomickem…` → `{#eis}` | 125 / 100 / 70 % podle metodiky od 2021; dřívější hranice neuvedeny | |
+| 🟡 | **Generace inovační politiky** | `10-…` → `{#generace-politiky}` | Sladěno se Schot & Steinmueller (2018) jen přibližně | |
+| 🟡 | **Pasti resilience** a **regionální resilience** | `10-…` → `{#pasti-resilience}`, `{#resilience}` | Past chudoby × rigidity podle Hollinga a Carpentera & Brocka; vymezení se liší | |
+| 🟡 | **MAS a CLLD v ČR** | `10-…` → `{#leader-clld}` | Jen pravidla EU; pravidlo 49 % výslovně v nařízení 2014–2020, pro 2021+ jen „žádná skupina neovládá" — drží ho standardy MAS v ČR? | |
+| 🟡 | **Odvětvový inovační systém — bloky** | `05-…` → `{#odvetvovy-inovacni-system}` | Malerba řadí poptávku (uživatele) spíš k aktérům než ke znalostem; otázky na tom nestojí | |
+
+## Finanční řízení
+
+Značení a definice jsou sladěné s Manažerskou ekonomikou 02 a 04, Strategií podniku 03 a 04, MFV 04 a 06 a Právem 01, 02 a 08. Daňové sazby jsou vždy uvedené v zadání otázky (stav od 2024).
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| ⬜ | **Učebnice předmětu** | celý předmět | Valach, Kislingerová, nebo jiná? | |
+| 🟡 | **Druhy finančního managementu** | `01-uvod-do-financi-podniku` → `{#druhy-fm}` | Členění podle subjektu (podnikový / osobní / veřejný) a horizontu — které členění používá přednáška? | |
+| 🟡 | **Konvence 360 dní, RPSN** | `01-…` → `{#jednoduche-slozene}`, `{#efektivni-sazba}` | PRIBOR ACT/360 jako obvyklá konvence; RPSN jen principem | |
+| ⬜ | **Pojistné OSVČ** | `02-pravni-formy…` → `{#zdaneni-osvc}`, `{#osvc-vs-sro}` | Jen princip; v otázkách modelově „20 % zisku". Mají se učit skutečné vyměřovací základy a sazby? | |
+| 🟡 | **Nízká kapitalizace a nadměrné výpůjční výdaje** | `02-…` → `{#omezeni-uznatelnosti-uroku}` | Jen princip; násobek dluhu vůči VK, podíl na daňové EBITDA a práh neuvedeny | |
+| 🟡 | **Daňová transparentnost v.o.s. a k.s.** | `02-…` → `{#zdaneni-osobnich-spolecnosti}` | Daň z nevyplaceného podílu ověřit; přenos ztráty na společníky vynechán | |
+| 🟡 | **Osvobození podílů na zisku mateřské společnosti** | `02-…` → `{#ekonomicke-dvoji-zdaneni}`; `09-…` → `{#srazkova-dan}` | „10 %, 12 měsíců" jen jako typické podmínky | |
+| 🟡 | **Zásady finančního plánování, metody sestavování** | `03-financni-planovani` → `{#zasady-planovani}`, `{#metody-sestavovani}`, `{#smer-sestavovani}` | Výčet zásad se liší; „priorita peněžních toků", „zkušenostní metody" a „protiproudý postup" — pojetí přednášky? | |
+| 🟡 | **Kapacitní efekt odpisů (Lohmann–Ruchti)** | `04-financovani-podniku` → `{#kapacitni-efekt-odpisu}` | Strop 2n/(n+1) odvozen pro ustálený stav s lineárními odpisy — ověřit | |
+| 🟡 | **Aproximace YTM** | `04-…` → `{#ytm}` | Použit jmenovatel (N + P)/2; učebnice uvádějí i jiné aproximace | |
+| ⬜ | **Limitní zadlužení** | `05-kapitalova-struktura…` → `{#limitni-zadluzeni}` | Dvě pojetí: rentabilitní (mezní sazba < EBIT/A) a únosnost EBIT / (k · i). Jak ho počítá přednáška? | |
+| ⬜ | **Stavebnicový model INFA** | `05-…` → `{#stavebnicovy-model}` | Jen princip (r_f + přirážky); konkrétní funkce a hraniční hodnoty neuvedeny — učí se výpočet? | |
+| 🟡 | **Ziskový účinek finanční páky** | `05-…` → `{#ziskovy-ucinek-paky}` | Definice (EBT/EBIT) · (A/VK) s prahem 1 — ověřit, že kurz nepoužívá jinou variantu | |
+| 🟡 | **Funkce a principy krátkodobého FM** | `06-kratkodoby-financni-management` → `{#funkce-a-cile}`, `{#principy}` | Osnova je nerozvádí; výčet se v literatuře liší | |
+| 🟡 | **Finanční × ekonomická efektivnost, feasibility study** | `07-kapitalove-rozpoctovani…` → `{#financni-ekonomicka-efektivnost}`, `{#feasibility-study}` | Podnikové hodnocení, nebo socioekonomické (CBA — ENPV, EIRR)? Členění studie není jednotné | |
+| 🟡 | **Funkce dlouhodobého FM** | `07-…` → `{#funkce-dlouhodobeho-fm}` | Výčet funkcí se u autorů liší | |
+| 🟡 | **Reálné opce — ocenění** | `07-…` → `{#realne-opce}` | Příklad diskontuje očekávané hodnoty rozhodovacím stromem (10 %), ne rizikově neutrálně — odpovídá výkladu přednášky? | |
+| 🟡 | **Udržitelné tempo růstu — vzorec** | `08-rust-firmy…` → `{#g-pojeti}`, `{#g-vypocet}` | Zvolen Higgins (ROE z počátečního VK); druhá podoba z konečného VK je na kartě. Kterou používá přednáška? | |
+| 🟡 | **PVGO a hodnota podle generátorů hodnoty** | `08-…` → `{#pvgo}`, `{#rust-a-hodnota}` | Mimo literaturu předmětu — učí se? | |
+| 🟡 | **Družstvo — rozdělení zisku a nedělitelný fond** | `09-rozdelovani…` → `{#rozdeleni-druzstvo}`, `{#fondy-ze-zisku}` | Musí stanovy rozdělení připustit? Pro která družstva je nedělitelný fond povinný a v jaké výši? | |
+| 🟡 | **k.s. — podíl komanditistů** | `09-…` → `{#rozdeleni-ks}` | Podle sjednaných, nebo splacených vkladů? Dělení ztráty vynecháno | |
+| 🟡 | **Zálohy na podíl na zisku, tantiémy, rozhodný den** | `09-…` → `{#zalohy-na-zisk}`, `{#tantiemy}`, `{#data-vyplaty}` | Limity po novele 2021, podmínky přiznání tantiém (stanovy × smlouva o výkonu funkce) a lhůty jen principem | |
+| 🟡 | **Fond při držení vlastních akcií** | `09-…` → `{#fondy-ze-zisku}`, `{#zpetny-odkup}` | Ukládá ZOK nerozdělitelný fond, drží-li a.s. vlastní akcie? | |
+| 🟡 | **Úrok ze zápůjčky od společníka** | `02-…` → `{#odmena-vs-podil-na-zisku}` | V otázce modelově „zdaní 15 %"; ve skutečnosti příjem v přiznání (i 23 %) a riziko nízké kapitalizace | |
+
 ## Vyřešeno
 
 _(zatím nic)_
