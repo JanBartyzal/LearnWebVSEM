@@ -17,6 +17,8 @@ import { api } from '../api/client.ts'
 import { FlashCard } from '../components/FlashCard.tsx'
 import { ignoreShortcut } from '../components/keyboard.ts'
 import { PageState } from '../components/PageState.tsx'
+import { useDocumentTitle } from '../components/useDocumentTitle.ts'
+import { useCrumbStyles } from '../components/crumbs.ts'
 
 const useStyles = makeStyles({
   viewer: { maxWidth: '720px', marginInline: 'auto', marginTop: tokens.spacingVerticalL },
@@ -31,10 +33,12 @@ const useStyles = makeStyles({
 
 /** Volné prohlížení karet tématu — bez zápisu pokroku (učení s pokrokem je LearnPage). */
 export function TopicPage() {
+  const crumbs = useCrumbStyles()
   const s = useStyles()
   const navigate = useNavigate()
   const id = Number(useParams().id)
   const { data, isLoading, error } = useQuery({ queryKey: ['topic', id], queryFn: () => api.topic(id) })
+  useDocumentTitle(data?.name)
 
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
@@ -65,9 +69,11 @@ export function TopicPage() {
 
   return (
     <>
-      <Breadcrumb>
+      <Breadcrumb className={crumbs.wrap}>
         <BreadcrumbItem>
-          <BreadcrumbButton onClick={() => navigate('/')}>Předměty</BreadcrumbButton>
+          <BreadcrumbButton onClick={() => navigate(data ? `/?oblast=${data.areaSlug}` : '/')}>
+          {data?.areaName ?? 'Předměty'}
+        </BreadcrumbButton>
         </BreadcrumbItem>
         <BreadcrumbDivider />
         <BreadcrumbItem>

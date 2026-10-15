@@ -2,13 +2,33 @@ namespace LearnWeb.Api.Data;
 
 // ---------- Obsah (importovaný z MD) ----------
 
-public class Subject
+/// <summary>Oblast — hlavní záložka (VŠEM, TOGAF, ArchiMate, PRINCE2…), sdružuje předměty / kurzy.</summary>
+public class Area
 {
     public int Id { get; set; }
     public required string Slug { get; set; }
     public required string Name { get; set; }
+    public string Description { get; set; } = "";
+    public int Order { get; set; }
+    public DateTime UpdatedAt { get; set; }
+    public List<Subject> Subjects { get; set; } = [];
+}
+
+public class Subject
+{
+    public int Id { get; set; }
+    public int AreaId { get; set; }
+    public Area Area { get; set; } = null!;
+    public required string Slug { get; set; }
+    public required string Name { get; set; }
     public string Goal { get; set; } = "";
     public int Order { get; set; }
+
+    /// <summary>Formát zkoušky nanečisto podle certifikace; null = výchozí formát (20–30 otázek, hranice 85 %).</summary>
+    public int? ExamQuestions { get; set; }
+    public int? ExamMinutes { get; set; }
+    public int? ExamPassPercent { get; set; }
+
     public DateTime UpdatedAt { get; set; }
     public List<Topic> Topics { get; set; } = [];
 }
@@ -104,6 +124,23 @@ public class ExamResult
     /// <summary>JSON: rozpad výsledku po tématech.</summary>
     public string Breakdown { get; set; } = "[]";
     public DateTime StartedAt { get; set; }
+    public DateTime FinishedAt { get; set; }
+}
+
+/// <summary>
+/// Dokončená seance (Učení, Procvičování, Opakování, Zkouška) — zdroj série dnů a kalendáře aktivity.
+/// Počty jsou jen informativní; statistiky úspěšnosti se počítají z AttemptLog. Nikdy se nemaže.
+/// </summary>
+public class StudySession
+{
+    public long Id { get; set; }
+    public int UserId { get; set; } = 1;
+    public StudyMode Mode { get; set; }
+    public int? SubjectId { get; set; }
+    public int? TopicId { get; set; }
+    public int Answered { get; set; }
+    public int Correct { get; set; }
+    public int Learned { get; set; }
     public DateTime FinishedAt { get; set; }
 }
 

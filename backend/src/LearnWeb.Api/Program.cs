@@ -18,6 +18,7 @@ builder.Services.AddDbContext<LearnWebDbContext>(o => o
 builder.Services.AddSingleton(TimeProvider.System);
 builder.Services.AddSingleton<IRepetitionStrategy, LeitnerStrategy>();
 builder.Services.AddScoped<StudyService>();
+builder.Services.AddScoped<StatsService>();
 builder.Services.AddScoped<ContentImporter>();
 builder.Services.AddScoped<ContentExporter>();
 builder.Services.AddScoped<ContentDraftService>();

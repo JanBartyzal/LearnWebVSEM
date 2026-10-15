@@ -23,6 +23,7 @@ export function ImportReportView({ report }: { report: ImportReport }) {
   const errors = report.issues.filter((i) => i.isError)
   const c = report.counts
   const summary =
+    `Oblasti: +${c.areasCreated} nových, ${c.areasUpdated} změněných · ` +
     `Předměty: +${c.subjectsCreated} nových, ${c.subjectsUpdated} změněných · ` +
     `Témata: +${c.topicsCreated}, ${c.topicsUpdated} změněných · ` +
     `Karty: +${c.cardsCreated}, ${c.cardsUpdated} změněných, ${c.cardsArchived} archivovaných · ` +

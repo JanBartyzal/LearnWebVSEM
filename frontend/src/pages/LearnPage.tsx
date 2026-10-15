@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { useNavigate, useParams } from 'react-router-dom'
 import {
@@ -9,6 +9,7 @@ import {
   Button,
   Caption1,
   makeStyles,
+  mergeClasses,
   MessageBar,
   MessageBarBody,
   ProgressBar,
@@ -19,11 +20,15 @@ import {
 import { ArrowLeftRegular, ArrowRightRegular, ArrowSyncRegular } from '@fluentui/react-icons'
 import { api } from '../api/client.ts'
 import type { QuizQuestion, TopicDetail } from '../api/types.ts'
+import { useCompleteSession } from '../components/achievements.tsx'
 import { FlashCard } from '../components/FlashCard.tsx'
 import { ignoreShortcut } from '../components/keyboard.ts'
 import { PageState } from '../components/PageState.tsx'
+import { useStickyActions } from '../components/motion.ts'
+import { useDocumentTitle } from '../components/useDocumentTitle.ts'
 import { QuestionCard } from '../components/QuestionCard.tsx'
 import { SessionSummary } from '../components/SessionSummary.tsx'
+import { useCrumbStyles } from '../components/crumbs.ts'
 
 /** Po kolika kartách přijde kontrolní mini-kvíz (BA §2.2 B: rytmus „nauč se → ověř"). */
 const BLOCK_SIZE = 5
@@ -54,6 +59,8 @@ export function LearnPage() {
     refetchOnWindowFocus: false,
   })
 
+  useDocumentTitle(data ? `Učení — ${data.name}` : 'Učení')
+
   return (
     <>
       <TopicBreadcrumb topic={data} />
@@ -64,11 +71,14 @@ export function LearnPage() {
 }
 
 function TopicBreadcrumb({ topic }: { topic?: TopicDetail }) {
+  const crumbs = useCrumbStyles()
   const navigate = useNavigate()
   return (
-    <Breadcrumb>
+    <Breadcrumb className={crumbs.wrap}>
       <BreadcrumbItem>
-        <BreadcrumbButton onClick={() => navigate('/')}>Předměty</BreadcrumbButton>
+        <BreadcrumbButton onClick={() => navigate(topic ? `/?oblast=${topic.areaSlug}` : '/')}>
+          {topic?.areaName ?? 'Předměty'}
+        </BreadcrumbButton>
       </BreadcrumbItem>
       <BreadcrumbDivider />
       <BreadcrumbItem>
@@ -86,6 +96,7 @@ function TopicBreadcrumb({ topic }: { topic?: TopicDetail }) {
 
 function LearnSession({ topic }: { topic: TopicDetail }) {
   const s = useStyles()
+  const sticky = useStickyActions()
   const navigate = useNavigate()
   const qc = useQueryClient()
   const cards = topic.cards
@@ -103,6 +114,20 @@ function LearnSession({ topic }: { topic: TopicDetail }) {
   const card = cards[index]
   const isLast = index >= cards.length - 1
 
+  // Nová karta nebo fáze → začít nahoře (na mobilu bývá předchozí karta odrolovaná).
+  useEffect(() => {
+    window.scrollTo({ top: 0 })
+  }, [index, phase, quizIndex])
+
+  // Konec seance Učení → záznam do série dní a vyhodnocení odznaků (jen jednou).
+  const completeSession = useCompleteSession()
+  const recorded = useRef(false)
+  useEffect(() => {
+    if (phase !== 'summary' || recorded.current) return
+    recorded.current = true
+    void completeSession({ mode: 'Learn', topicId: topic.id, learned: session.learned, answered: session.answered, correct: session.correct })
+  }, [completeSession, phase, session, topic.id])
+
   const finishBlock = useMutation({
     mutationFn: (cardIds: number[]) => api.quiz({ cardIds, mode: 'Learn', count: Math.min(QUIZ_SIZE, cardIds.length) }),
     onSuccess: (questions) => {
@@ -118,6 +143,7 @@ function LearnSession({ topic }: { topic: TopicDetail }) {
     onSuccess: (r) => {
       setSession((x) => ({ ...x, learned: x.learned + 1, xp: x.xp + r.xpGained, topicCompleted: x.topicCompleted || r.topicCompleted }))
       qc.invalidateQueries({ queryKey: ['stats'] })
+      qc.invalidateQueries({ queryKey: ['continue'] })
     },
   })
 
@@ -239,8 +265,10 @@ function LearnSession({ topic }: { topic: TopicDetail }) {
       <ProgressBar className={s.progress} value={(index + 1) / cards.length} thickness="large"
         aria-label={`Karta ${index + 1} z ${cards.length}`} />
       <FlashCard type={card.type} front={card.front} back={card.back} flipped={flipped}
-        onFlip={() => setFlipped((f) => !f)} position={`${index + 1} / ${cards.length}`} />
-      <div className={s.nav}>
+        onFlip={() => setFlipped((f) => !f)} position={`${index + 1} / ${cards.length}`}
+        onSwipeLeft={() => (card.type === 'term' && !flipped ? setFlipped(true) : understood())}
+        onSwipeRight={back} />
+      <div className={mergeClasses(s.nav, sticky.bar)}>
         <Button icon={<ArrowLeftRegular />} disabled={index === 0} onClick={back}>
           Zpět
         </Button>

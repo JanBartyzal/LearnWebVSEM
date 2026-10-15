@@ -51,6 +51,22 @@ public class LeitnerStrategyTests
     }
 
     [Fact]
+    public void Exam_correct_on_unseen_card_does_not_mark_it_learned_but_mistake_enters_review()
+    {
+        var correct = new CardProgress { Box = 1, DueDate = Today };
+        _s.OnAnswered(correct, StudyMode.Exam, true, Today, Now);
+        Assert.Null(correct.SeenAt);
+        Assert.Equal(1, correct.CorrectCount);
+
+        var wrong = new CardProgress { Box = 1, DueDate = Today };
+        _s.OnAnswered(wrong, StudyMode.Exam, false, Today, Now);
+        Assert.Null(wrong.SeenAt);
+        Assert.Equal((1, Today.AddDays(1), 1), (wrong.Box, wrong.DueDate, wrong.WrongCount));
+        Assert.True(ReviewQueue.InPool(wrong));
+        Assert.False(ReviewQueue.InPool(correct));
+    }
+
+    [Fact]
     public void Topic_mastery_weights_boxes_and_counts_unseen_cards_as_zero()
     {
         // (1.0 + 0.8 + 0.6 + 0) / 5 karet; pátá karta ještě nebyla probrána

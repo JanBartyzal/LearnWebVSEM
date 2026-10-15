@@ -1,5 +1,13 @@
 import type {
   AnswerResult,
+  AreaSummary,
+  ContinueInfo,
+  ExamOutcome,
+  ExamPaper,
+  ReviewSummary,
+  SessionOutcome,
+  StatsOverview,
+  SubjectStats,
   ImportHistoryItem,
   LearnedResult,
   QuizQuestion,
@@ -43,16 +51,43 @@ const json = (body: unknown): RequestInit => ({
 })
 
 export const api = {
+  areas: () => request<AreaSummary[]>('/api/areas'),
   subjects: () => request<SubjectSummary[]>('/api/subjects'),
   subject: (slug: string) => request<SubjectDetail>(`/api/subjects/${encodeURIComponent(slug)}`),
   topic: (id: number) => request<TopicDetail>(`/api/topics/${id}`),
 
-  quiz: (params: { topicId?: number; subjectSlug?: string; cardIds?: number[]; mode: StudyMode; count: number }) =>
-    request<QuizQuestion[]>('/api/quiz', json(params)),
-  answer: (questionId: number, selectedIndex: number, mode: StudyMode) =>
-    request<AnswerResult>('/api/answers', json({ questionId, selectedIndex, mode })),
+  quiz: (params: {
+    topicId?: number
+    subjectSlug?: string
+    cardIds?: number[]
+    mode: StudyMode
+    count: number
+    excludeQuestionIds?: number[]
+  }) => request<QuizQuestion[]>('/api/quiz', json(params)),
+  /** `repeat` = kolikrát se karta v seanci už vrátila z horké fronty (0 = první pokus). */
+  answer: (questionId: number, selectedIndex: number, mode: StudyMode, repeat = 0) =>
+    request<AnswerResult>('/api/answers', json({ questionId, selectedIndex, mode, repeat })),
   learned: (cardId: number) => request<LearnedResult>(`/api/cards/${cardId}/learned`, { method: 'POST' }),
   stats: () => request<StatsSummary>('/api/stats/summary'),
+
+  reviewSummary: () => request<ReviewSummary>('/api/review/summary'),
+  review: (params: { subjectSlug?: string; ignoreDailyLimit?: boolean }) =>
+    request<QuizQuestion[]>('/api/review', json(params)),
+  continueInfo: () => request<ContinueInfo | null>('/api/continue'),
+
+  composeExam: (subjectSlug: string, count: number) => request<ExamPaper>('/api/exams', json({ subjectSlug, count })),
+  submitExam: (subjectSlug: string, startedAt: string, answers: { questionId: number; selectedIndex: number | null }[]) =>
+    request<ExamOutcome>('/api/exams/submit', json({ subjectSlug, startedAt, answers })),
+  completeSession: (body: {
+    mode: Exclude<StudyMode, 'Exam'>
+    subjectSlug?: string
+    topicId?: number
+    answered?: number
+    correct?: number
+    learned?: number
+  }) => request<SessionOutcome>('/api/sessions', json(body)),
+  statsOverview: () => request<StatsOverview>('/api/stats/overview'),
+  subjectStats: (slug: string) => request<SubjectStats>(`/api/stats/subjects/${encodeURIComponent(slug)}`),
 
   importFiles: (files: File[], dryRun: boolean) => {
     const form = new FormData()

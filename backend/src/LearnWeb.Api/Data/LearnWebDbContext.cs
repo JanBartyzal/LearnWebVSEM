@@ -4,6 +4,7 @@ namespace LearnWeb.Api.Data;
 
 public class LearnWebDbContext(DbContextOptions<LearnWebDbContext> options) : DbContext(options)
 {
+    public DbSet<Area> Areas => Set<Area>();
     public DbSet<Subject> Subjects => Set<Subject>();
     public DbSet<Topic> Topics => Set<Topic>();
     public DbSet<Card> Cards => Set<Card>();
@@ -12,12 +13,21 @@ public class LearnWebDbContext(DbContextOptions<LearnWebDbContext> options) : Db
     public DbSet<AttemptLog> AttemptLogs => Set<AttemptLog>();
     public DbSet<ExamResult> ExamResults => Set<ExamResult>();
     public DbSet<UserStats> UserStats => Set<UserStats>();
+    public DbSet<StudySession> StudySessions => Set<StudySession>();
     public DbSet<ContentImport> ContentImports => Set<ContentImport>();
 
     protected override void OnModelCreating(ModelBuilder b)
     {
+        b.Entity<Area>(e =>
+        {
+            e.HasIndex(x => x.Slug).IsUnique();
+            e.Property(x => x.Slug).HasMaxLength(100);
+            e.Property(x => x.Name).HasMaxLength(300);
+        });
+
         b.Entity<Subject>(e =>
         {
+            e.HasOne(x => x.Area).WithMany(a => a.Subjects).OnDelete(DeleteBehavior.Restrict);
             e.HasIndex(x => x.Slug).IsUnique();
             e.Property(x => x.Slug).HasMaxLength(100);
             e.Property(x => x.Name).HasMaxLength(300);
@@ -53,7 +63,17 @@ public class LearnWebDbContext(DbContextOptions<LearnWebDbContext> options) : Db
             e.HasOne(x => x.Question).WithMany().OnDelete(DeleteBehavior.Restrict);
         });
 
-        b.Entity<ExamResult>(e => e.Property(x => x.Breakdown).HasColumnType("jsonb"));
+        b.Entity<ExamResult>(e =>
+        {
+            e.Property(x => x.Breakdown).HasColumnType("jsonb");
+            e.HasIndex(x => new { x.UserId, x.SubjectId, x.FinishedAt });
+        });
+
+        b.Entity<StudySession>(e =>
+        {
+            e.Property(x => x.Mode).HasConversion<string>().HasMaxLength(20);
+            e.HasIndex(x => new { x.UserId, x.FinishedAt });
+        });
 
         b.Entity<UserStats>(e =>
         {

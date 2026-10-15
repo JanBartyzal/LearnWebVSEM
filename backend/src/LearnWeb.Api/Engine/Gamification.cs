@@ -9,8 +9,16 @@ public static class Gamification
     public const int XpTopicCompleted = 50;
     public const int XpExamPassed = 200;
 
+    public const int ExamPassPercent = 85;
+
     public static int XpForAnswer(Data.StudyMode mode, bool isCorrect) =>
         !isCorrect ? 0 : mode == Data.StudyMode.Review ? XpCorrectReview : XpCorrectAnswer;
+
+    /// <summary>
+    /// Bonus za simulaci zkoušky (BA §2.4: ≥ 85 % → +200 XP), navíc k XP za správné odpovědi.
+    /// Certifikační kurzy mají vlastní hranici úspěchu (např. 60 %) — bonus dostane, kdo by zkoušku složil.
+    /// </summary>
+    public static int XpForExam(int percent, int passPercent = ExamPassPercent) => percent >= passPercent ? XpExamPassed : 0;
 
     /// <summary>Celkové XP potřebné k dosažení úrovně: 100 · (n−1)² (1 → 0, 2 → 100, 3 → 400, 4 → 900…).</summary>
     public static int XpForLevel(int level) => 100 * (level - 1) * (level - 1);

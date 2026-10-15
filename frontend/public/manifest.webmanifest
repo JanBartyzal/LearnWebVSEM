@@ -1,0 +1,23 @@
+{
+  "name": "LearnWeb — příprava na zkoušky VŠEM",
+  "short_name": "LearnWeb",
+  "description": "Výukové karty, testové otázky a opakování podle Leitnera pro předměty VŠEM.",
+  "lang": "cs",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0f6cbd",
+  "categories": ["education"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Dnešní opakování", "short_name": "Opakování", "url": "/opakovani", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Statistiky", "url": "/statistiky", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

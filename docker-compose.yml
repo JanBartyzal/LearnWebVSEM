@@ -28,6 +28,8 @@ services:
       ConnectionStrings__LearnWeb: "Host=db;Port=5432;Database=learnweb;Username=learnweb;Password=${POSTGRES_PASSWORD:-learnweb};GSS Encryption Mode=Disable"
       Content__Directory: /content
       Content__SeedOnEmptyDatabase: "true"
+      # „Dnes" pro Leitnerovu splatnost a denní limit opakování se počítá v místním čase studenta.
+      TZ: ${TZ:-Europe/Prague}
       Llm__BaseUrl: http://litellm:4000/v1
       Llm__ApiKey: ${LITELLM_MASTER_KEY:-sk-learnweb-local}
       Llm__Model: ${LLM_MODEL:-content-default}

@@ -23,6 +23,50 @@ namespace LearnWeb.Api.Data.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("LearnWeb.Api.Data.Area", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("description");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("character varying(300)")
+                        .HasColumnName("name");
+
+                    b.Property<int>("Order")
+                        .HasColumnType("integer")
+                        .HasColumnName("order");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)")
+                        .HasColumnName("slug");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("updated_at");
+
+                    b.HasKey("Id")
+                        .HasName("pk_areas");
+
+                    b.HasIndex("Slug")
+                        .IsUnique()
+                        .HasDatabaseName("ix_areas_slug");
+
+                    b.ToTable("areas", (string)null);
+                });
+
             modelBuilder.Entity("LearnWeb.Api.Data.AttemptLog", b =>
                 {
                     b.Property<long>("Id")
@@ -255,6 +299,9 @@ namespace LearnWeb.Api.Data.Migrations
                     b.HasIndex("SubjectId")
                         .HasDatabaseName("ix_exam_results_subject_id");
 
+                    b.HasIndex("UserId", "SubjectId", "FinishedAt")
+                        .HasDatabaseName("ix_exam_results_user_id_subject_id_finished_at");
+
                     b.ToTable("exam_results", (string)null);
                 });
 
@@ -308,6 +355,58 @@ namespace LearnWeb.Api.Data.Migrations
                     b.ToTable("questions", (string)null);
                 });
 
+            modelBuilder.Entity("LearnWeb.Api.Data.StudySession", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
+
+                    b.Property<int>("Answered")
+                        .HasColumnType("integer")
+                        .HasColumnName("answered");
+
+                    b.Property<int>("Correct")
+                        .HasColumnType("integer")
+                        .HasColumnName("correct");
+
+                    b.Property<DateTime>("FinishedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("finished_at");
+
+                    b.Property<int>("Learned")
+                        .HasColumnType("integer")
+                        .HasColumnName("learned");
+
+                    b.Property<string>("Mode")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)")
+                        .HasColumnName("mode");
+
+                    b.Property<int?>("SubjectId")
+                        .HasColumnType("integer")
+                        .HasColumnName("subject_id");
+
+                    b.Property<int?>("TopicId")
+                        .HasColumnType("integer")
+                        .HasColumnName("topic_id");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Id")
+                        .HasName("pk_study_sessions");
+
+                    b.HasIndex("UserId", "FinishedAt")
+                        .HasDatabaseName("ix_study_sessions_user_id_finished_at");
+
+                    b.ToTable("study_sessions", (string)null);
+                });
+
             modelBuilder.Entity("LearnWeb.Api.Data.Subject", b =>
                 {
                     b.Property<int>("Id")
@@ -316,6 +415,22 @@ namespace LearnWeb.Api.Data.Migrations
                         .HasColumnName("id");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AreaId")
+                        .HasColumnType("integer")
+                        .HasColumnName("area_id");
+
+                    b.Property<int?>("ExamMinutes")
+                        .HasColumnType("integer")
+                        .HasColumnName("exam_minutes");
+
+                    b.Property<int?>("ExamPassPercent")
+                        .HasColumnType("integer")
+                        .HasColumnName("exam_pass_percent");
+
+                    b.Property<int?>("ExamQuestions")
+                        .HasColumnType("integer")
+                        .HasColumnName("exam_questions");
 
                     b.Property<string>("Goal")
                         .IsRequired()
@@ -344,6 +459,9 @@ namespace LearnWeb.Api.Data.Migrations
 
                     b.HasKey("Id")
                         .HasName("pk_subjects");
+
+                    b.HasIndex("AreaId")
+                        .HasDatabaseName("ix_subjects_area_id");
 
                     b.HasIndex("Slug")
                         .IsUnique()
@@ -489,6 +607,18 @@ namespace LearnWeb.Api.Data.Migrations
                     b.Navigation("Card");
                 });
 
+            modelBuilder.Entity("LearnWeb.Api.Data.Subject", b =>
+                {
+                    b.HasOne("LearnWeb.Api.Data.Area", "Area")
+                        .WithMany("Subjects")
+                        .HasForeignKey("AreaId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_subjects_areas_area_id");
+
+                    b.Navigation("Area");
+                });
+
             modelBuilder.Entity("LearnWeb.Api.Data.Topic", b =>
                 {
                     b.HasOne("LearnWeb.Api.Data.Subject", "Subject")
@@ -499,6 +629,11 @@ namespace LearnWeb.Api.Data.Migrations
                         .HasConstraintName("fk_topics_subjects_subject_id");
 
                     b.Navigation("Subject");
+                });
+
+            modelBuilder.Entity("LearnWeb.Api.Data.Area", b =>
+                {
+                    b.Navigation("Subjects");
                 });
 
             modelBuilder.Entity("LearnWeb.Api.Data.Card", b =>

@@ -29,6 +29,7 @@ import {
 import { api } from '../api/client.ts'
 import type { ImportReport } from '../api/types.ts'
 import { ImportReportView } from '../components/ImportReportView.tsx'
+import { useDocumentTitle } from '../components/useDocumentTitle.ts'
 
 const useStyles = makeStyles({
   sections: { display: 'flex', flexDirection: 'column', gap: tokens.spacingVerticalL, marginTop: tokens.spacingVerticalL },
@@ -40,6 +41,7 @@ const useStyles = makeStyles({
 })
 
 export function ContentPage() {
+  useDocumentTitle('Správa obsahu')
   const s = useStyles()
   return (
     <>

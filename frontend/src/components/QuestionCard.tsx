@@ -18,6 +18,7 @@ import { api } from '../api/client.ts'
 import type { AnswerResult, QuizQuestion, StudyMode } from '../api/types.ts'
 import { FlashCard } from './FlashCard.tsx'
 import { ignoreShortcut } from './keyboard.ts'
+import { useMotion, useStickyActions } from './motion.ts'
 
 const useStyles = makeStyles({
   root: { display: 'flex', flexDirection: 'column', gap: tokens.spacingVerticalM },
@@ -56,6 +57,8 @@ interface Props {
   mode: StudyMode
   /** Např. „Otázka 3 / 10" */
   position?: string
+  /** Kolikrát se karta v seanci už vrátila z horké fronty (0 = první pokus) */
+  repeat?: number
   onAnswered?: (result: AnswerResult) => void
   onNext: () => void
   nextLabel?: string
@@ -65,18 +68,22 @@ interface Props {
  * MCQ otázka s okamžitou zpětnou vazbou. Ovládání: 1–4 výběr, Enter = další.
  * Správnost se nikdy nesděluje jen barvou (ikona + text).
  */
-export function QuestionCard({ question, mode, position, onAnswered, onNext, nextLabel = 'Další' }: Props) {
+export function QuestionCard({ question, mode, position, repeat = 0, onAnswered, onNext, nextLabel = 'Další' }: Props) {
   const s = useStyles()
+  const motion = useMotion()
+  const sticky = useStickyActions()
   const qc = useQueryClient()
   const [selected, setSelected] = useState<number | null>(null)
   const [showCard, setShowCard] = useState(false)
   const nextButton = useRef<HTMLButtonElement>(null)
 
   const answer = useMutation({
-    mutationFn: (index: number) => api.answer(question.questionId, index, mode),
+    mutationFn: (index: number) => api.answer(question.questionId, index, mode, repeat),
     onSuccess: (r) => {
       if (r.reteach) setShowCard(true)
       qc.invalidateQueries({ queryKey: ['stats'] })
+      qc.invalidateQueries({ queryKey: ['review-summary'] })
+      qc.invalidateQueries({ queryKey: ['continue'] })
       onAnswered?.(r)
     },
   })
@@ -114,6 +121,11 @@ export function QuestionCard({ question, mode, position, onAnswered, onNext, nex
       <Card className={s.card}>
         <div className={s.meta}>
           <Caption1>{question.topicName}</Caption1>
+          {repeat > 0 && (
+            <Badge appearance="tint" color="warning">
+              Opakování chyby
+            </Badge>
+          )}
           {position && <Caption1>{position}</Caption1>}
         </div>
         <Text as="h2" size={500} weight="semibold">
@@ -126,7 +138,7 @@ export function QuestionCard({ question, mode, position, onAnswered, onNext, nex
             return (
               <Button
                 key={o.index}
-                className={mergeClasses(s.option, isCorrect && s.correct, isWrongPick && s.wrong)}
+                className={mergeClasses(s.option, isCorrect && s.correct, isCorrect && motion.pop, isWrongPick && s.wrong, isWrongPick && motion.shake)}
                 disabled={selected !== null && !isCorrect && !isWrongPick}
                 aria-pressed={o.index === selected}
                 onClick={() => choose(o.index)}
@@ -157,9 +169,15 @@ export function QuestionCard({ question, mode, position, onAnswered, onNext, nex
 
       {result && (
         <>
-          <MessageBar intent={result.isCorrect ? 'success' : 'warning'}>
+          <MessageBar intent={result.isCorrect ? 'success' : 'warning'} className={motion.reveal}>
             <MessageBarBody>
-              <MessageBarTitle>{result.isCorrect ? 'Správně!' : 'Tentokrát ne — nevadí, karta se ti vrátí.'}</MessageBarTitle>
+              <MessageBarTitle>
+                {result.isCorrect
+                  ? 'Správně!'
+                  : result.requeue
+                    ? 'Tentokrát ne — nevadí, ještě dnes se k ní na konci vrátíme.'
+                    : 'Tentokrát ne — nevadí, karta se ti vrátí v opakování.'}
+              </MessageBarTitle>
               {result.explanation}
             </MessageBarBody>
           </MessageBar>
@@ -169,11 +187,11 @@ export function QuestionCard({ question, mode, position, onAnswered, onNext, nex
           {showCard && (
             <FlashCard type={result.card.type} front={result.card.front} back={result.card.back} flipped onFlip={() => {}} />
           )}
-          <div className={s.footer}>
+          <div className={mergeClasses(s.footer, sticky.bar)}>
             <Button appearance="subtle" onClick={() => setShowCard((v) => !v)}>
               {showCard ? 'Skrýt kartu' : 'Zobrazit kartu'}
             </Button>
-            {result.xpGained > 0 && <Badge appearance="tint" color="success">+{result.xpGained} XP</Badge>}
+            {result.xpGained > 0 && <Badge appearance="tint" color="success" className={motion.pop}>+{result.xpGained} XP</Badge>}
             <Button ref={nextButton} appearance="primary" onClick={onNext}>
               {nextLabel} (Enter)
             </Button>

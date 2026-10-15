@@ -199,3 +199,16 @@ Značení a definice jsou sladěné s Manažerskou ekonomikou 02 a 04, Strategi�
 | 🟡 | **Funkce dlouhodobého FM** | `07-…` → `{#funkce-dlouhodobeho-fm}` | Výčet funkcí se u autorů liší | Rešerše: potvrzeno, že výčty se u autorů liší; konkrétní pojetí zůstává na skriptech |
 | 🟡 | **Udržitelné tempo růstu — vzorec** | `08-rust-firmy…` → `{#g-pojeti}`, `{#g-vypocet}` | Zvolen Higgins (ROE z počátečního VK); druhá podoba z konečného VK je na kartě. Kterou používá přednáška? | Rešerše: g = ROE·b doloženo všeobecně; rozlišení počáteční × konečný VK (g = ROE·b/(1−ROE·b)) se ve zdrojích výslovně neřeší — obě podoby jsou standard, volba zůstává na skriptech |
 | 🟡 | **PVGO a hodnota podle generátorů hodnoty** | `08-…` → `{#pvgo}`, `{#rust-a-hodnota}` | Mimo literaturu předmětu — učí se? | Rešerše: PVGO doloženo (Brealey & Myers, kap. 4: P₀ = EPS₁/r + PVGO; záporné PVGO = trh čeká hodnotu ničící investice) — výklad karty má oporu; zda je v rozsahu kurzu, potvrdí přednáška |
+
+## Certifikace — formát zkoušek (TOGAF, ArchiMate, PRINCE2)
+
+Formát zkoušky nanečisto je v `_predmet.md` (`exam_questions`, `exam_minutes`, `exam_pass`). Hodnoty jsou podle mých znalostí, z oficiálních stránek certifikačních orgánů neověřené — prosím zkontroluj a případně oprav.
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| 🟡 | **TOGAF EA Foundation — formát** | `togaf/togaf-foundation/_predmet.md` | Nastaveno 40 otázek, 60 min, hranice 60 %. Ověřit pro TOGAF Standard 10. vydání | |
+| 🟡 | **TOGAF EA Practitioner — formát** | `togaf/togaf-practitioner/_predmet.md` | Nastaveno 8 scénářových otázek, 90 min, 60 %. Skutečná zkouška boduje odstupňovaně (5/3/1/0 bodů za odpověď) a je s otevřenou knihou — aplikace hodnotí jen správně/špatně | |
+| 🟡 | **ArchiMate 3 Foundation — formát** | `archimate/archimate-foundation/_predmet.md` | Nastaveno 40 otázek, 60 min, 60 % | |
+| 🟡 | **ArchiMate 3 Practitioner — formát** | `archimate/archimate-practitioner/_predmet.md` | Nastaveno 8 scénářových otázek, 90 min, 70 % (odstupňované bodování jako u TOGAF Practitioner) | |
+| 🟡 | **PRINCE2 7 Foundation — formát** | `prince2/prince2-foundation/_predmet.md` | Nastaveno 60 otázek, 60 min, 60 % (36/60) | |
+| 🟡 | **PRINCE2 7 Practitioner — formát** | `prince2/prince2-practitioner/_predmet.md` | Nastaveno 70 otázek, 150 min, 60 % (42/70), otevřená příručka | |

@@ -40,7 +40,9 @@ public sealed class LeitnerStrategy : IRepetitionStrategy
 
     public void OnAnswered(CardProgress p, StudyMode mode, bool isCorrect, DateOnly today, DateTime now)
     {
-        p.SeenAt ??= now;
+        // Zkouška nanečisto pokrývá celý sylabus, ale kartu tím „neprobírá" — Učení ji nepřeskočí a „pokračovat"
+        // se neřídí tématy ze zkoušky. Chyba ji přesto zařadí do opakování (BA §2.2 E): fronta bere i karty s chybou.
+        if (mode != StudyMode.Exam) p.SeenAt ??= now;
         p.LastResult = isCorrect;
 
         if (!isCorrect)

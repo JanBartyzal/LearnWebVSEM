@@ -12,14 +12,28 @@ public static class MarkdownContentWriter
 {
     private static readonly JsonSerializerOptions YamlString = new() { Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
 
+    public const string AreaFileName = "_oblast.md";
     public const string SubjectFileName = "_predmet.md";
 
     public static string TopicFileName(int order, string slug) => $"{order:00}-{slug}.md";
 
+    public static string Write(AreaDocument a)
+    {
+        var sb = new StringBuilder();
+        Frontmatter(sb, ("kind", "area"), ("slug", a.Slug), ("name", Quote(a.Name)), ("order", a.Order.ToString()));
+        if (a.Description.Length > 0) sb.Append('\n').Append(a.Description).Append('\n');
+        return sb.ToString();
+    }
+
     public static string Write(SubjectDocument s)
     {
         var sb = new StringBuilder();
-        Frontmatter(sb, ("kind", "subject"), ("slug", s.Slug), ("name", Quote(s.Name)), ("order", s.Order.ToString()));
+        var fields = new List<(string Key, string Value)>
+            { ("kind", "subject"), ("area", s.AreaSlug), ("slug", s.Slug), ("name", Quote(s.Name)), ("order", s.Order.ToString()) };
+        if (s.Exam is { } e)
+            fields.AddRange([("exam_questions", e.Questions.ToString()), ("exam_minutes", e.Minutes.ToString()),
+                ("exam_pass", e.PassPercent.ToString())]);
+        Frontmatter(sb, [.. fields]);
         if (s.Goal.Length > 0) sb.Append('\n').Append(s.Goal).Append('\n');
         return sb.ToString();
     }

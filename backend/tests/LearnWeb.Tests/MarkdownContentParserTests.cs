@@ -77,6 +77,46 @@ public class MarkdownContentParserTests
 
         var s = Assert.IsType<SubjectDocument>(r.Document);
         Assert.Equal(("pravo", "Právo", 5, "Cíl předmětu."), (s.Slug, s.Name, s.Order, s.Goal));
+        Assert.Equal(SubjectDocument.DefaultArea, s.AreaSlug);
+        Assert.Null(s.Exam);
+    }
+
+    [Fact]
+    public void Parses_area_and_certification_subject()
+    {
+        var area = Assert.IsType<AreaDocument>(MarkdownContentParser.Parse("_oblast.md",
+            "---\nkind: area\nslug: togaf\nname: TOGAF\norder: 2\n---\n\nPopis oblasti.\n").Document);
+        Assert.Equal(("togaf", "TOGAF", 2, "Popis oblasti."), (area.Slug, area.Name, area.Order, area.Description));
+
+        var s = Assert.IsType<SubjectDocument>(MarkdownContentParser.Parse("_predmet.md",
+            "---\nkind: subject\narea: togaf\nslug: togaf-foundation\nname: TOGAF Foundation\norder: 1\n" +
+            "exam_questions: 40\nexam_minutes: 60\nexam_pass: 60\n---\n\nCíl.\n").Document);
+        Assert.Equal("togaf", s.AreaSlug);
+        Assert.Equal(new ExamFormat(40, 60, 60), s.Exam);
+    }
+
+    [Theory]
+    [InlineData("exam_questions: 40\nexam_minutes: 60\n", "všechna pole")]
+    [InlineData("exam_questions: 2\nexam_minutes: 60\nexam_pass: 60\n", "'exam_questions' musí být celé číslo 5–100")]
+    [InlineData("exam_questions: 40\nexam_minutes: 60\nexam_pass: 120\n", "'exam_pass' musí být celé číslo 1–100")]
+    [InlineData("area: TOGAF\n", "Pole 'area'")]
+    public void Reports_invalid_subject_fields(string extra, string expectedMessage)
+    {
+        var r = MarkdownContentParser.Parse("_predmet.md", $"---\nkind: subject\nslug: s\nname: S\norder: 1\n{extra}---\n\nCíl.\n");
+
+        Assert.Null(r.Document);
+        Assert.Contains(r.Issues, i => i.IsError && i.Message.Contains(expectedMessage));
+    }
+
+    [Fact]
+    public void Area_and_subject_round_trip()
+    {
+        var area = new AreaDocument("_oblast.md", "prince2", "PRINCE2: \"7. vydání\"", 4, "Popis.\n\nDruhý odstavec.");
+        Assert.Equal(area, MarkdownContentParser.Parse(area.FileName, MarkdownContentWriter.Write(area)).Document);
+
+        var subject = new SubjectDocument("_predmet.md", "prince2-foundation", "PRINCE2 Foundation", 1, "Cíl.", "prince2",
+            new ExamFormat(60, 60, 60));
+        Assert.Equal(subject, MarkdownContentParser.Parse(subject.FileName, MarkdownContentWriter.Write(subject)).Document);
     }
 
     [Theory]

@@ -92,10 +92,11 @@ public static partial class MarkdownContentParser
 
         ContentDocument? doc = kind switch
         {
+            "area" => ParseArea(),
             "subject" => ParseSubject(),
             "topic" => ParseTopic(),
             "" => null,
-            _ => Fail($"Neznámý 'kind: {kind}' — povoleno je 'subject' nebo 'topic'."),
+            _ => Fail($"Neznámý 'kind: {kind}' — povoleno je 'area', 'subject' nebo 'topic'."),
         };
 
         return new ParseResult(issues.Any(i => i.IsError) ? null : doc, issues);
@@ -106,17 +107,53 @@ public static partial class MarkdownContentParser
             return null;
         }
 
-        SubjectDocument ParseSubject()
+        AreaDocument ParseArea()
         {
             var slug = RequiredSlug("slug");
             var name = Required("name");
             var order = RequiredOrder();
             for (var i = bodyStart; i < lines.Length; i++)
                 if (lines[i].StartsWith("## "))
+                    Error(i + 1, "Soubor oblasti nesmí obsahovat karty — patří do souborů témat.");
+            return new AreaDocument(fileName, slug, name, order, string.Join('\n', lines[bodyStart..]).Trim());
+        }
+
+        SubjectDocument ParseSubject()
+        {
+            var slug = RequiredSlug("slug");
+            var name = Required("name");
+            var order = RequiredOrder();
+            var area = Str("area");
+            if (string.IsNullOrEmpty(area)) area = SubjectDocument.DefaultArea;
+            else if (!SlugRegex().IsMatch(area))
+                Error(start + 1, $"Pole 'area' musí obsahovat jen malá písmena bez diakritiky, číslice a pomlčky (je '{area}').");
+            var exam = ParseExam();
+            for (var i = bodyStart; i < lines.Length; i++)
+                if (lines[i].StartsWith("## "))
                     Error(i + 1, "Soubor předmětu nesmí obsahovat karty — patří do souborů témat.");
             var goal = string.Join('\n', lines[bodyStart..]).Trim();
             if (goal.Length == 0) Warn(bodyStart, "Předmět nemá popsaný cíl.");
-            return new SubjectDocument(fileName, slug, name, order, goal);
+            return new SubjectDocument(fileName, slug, name, order, goal, area, exam);
+        }
+
+        // exam_questions / exam_minutes / exam_pass — buď všechna tři, nebo žádné.
+        ExamFormat? ParseExam()
+        {
+            var raw = new[] { "exam_questions", "exam_minutes", "exam_pass" }.Select(k => (Key: k, Value: Str(k))).ToList();
+            if (raw.All(r => string.IsNullOrEmpty(r.Value))) return null;
+            if (raw.Any(r => string.IsNullOrEmpty(r.Value)))
+            {
+                Error(start + 1, "Formát zkoušky vyžaduje všechna pole 'exam_questions', 'exam_minutes' a 'exam_pass'.");
+                return null;
+            }
+            int Range(string key, string value, int min, int max)
+            {
+                if (int.TryParse(value, out var n) && n >= min && n <= max) return n;
+                Error(start + 1, $"Pole '{key}' musí být celé číslo {min}–{max} (je '{value}').");
+                return 0;
+            }
+            return new ExamFormat(Range("exam_questions", raw[0].Value!, 5, 100), Range("exam_minutes", raw[1].Value!, 5, 300),
+                Range("exam_pass", raw[2].Value!, 1, 100));
         }
 
         TopicDocument ParseTopic()

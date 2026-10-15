@@ -9,6 +9,8 @@ public sealed record ContentFile(string Name, string Text);
 
 public sealed class ImportCounts
 {
+    public int AreasCreated { get; set; }
+    public int AreasUpdated { get; set; }
     public int SubjectsCreated { get; set; }
     public int SubjectsUpdated { get; set; }
     public int TopicsCreated { get; set; }
@@ -21,7 +23,7 @@ public sealed class ImportCounts
     public int QuestionsArchived { get; set; }
 
     public override string ToString() =>
-        $"předměty +{SubjectsCreated}/~{SubjectsUpdated}, témata +{TopicsCreated}/~{TopicsUpdated}, " +
+        $"oblasti +{AreasCreated}/~{AreasUpdated}, předměty +{SubjectsCreated}/~{SubjectsUpdated}, témata +{TopicsCreated}/~{TopicsUpdated}, " +
         $"karty +{CardsCreated}/~{CardsUpdated}/-{CardsArchived}, otázky +{QuestionsCreated}/~{QuestionsUpdated}/-{QuestionsArchived}";
 }
 
@@ -75,9 +77,12 @@ public sealed class ContentImporter(LearnWebDbContext db, TimeProvider clock)
             if (r.Document is not null) docs.Add(r.Document);
         }
 
+        var areas = docs.OfType<AreaDocument>().ToList();
         var subjects = docs.OfType<SubjectDocument>().ToList();
         var topics = docs.OfType<TopicDocument>().ToList();
 
+        foreach (var dup in areas.GroupBy(a => a.Slug).Where(g => g.Count() > 1))
+            issues.Add(new ContentIssue(dup.Last().FileName, 1, $"Oblast '{dup.Key}' je v importu vícekrát."));
         foreach (var dup in subjects.GroupBy(s => s.Slug).Where(g => g.Count() > 1))
             issues.Add(new ContentIssue(dup.Last().FileName, 1, $"Předmět '{dup.Key}' je v importu vícekrát."));
         foreach (var dup in topics.GroupBy(t => (t.SubjectSlug, t.Slug)).Where(g => g.Count() > 1))
@@ -90,14 +95,43 @@ public sealed class ContentImporter(LearnWebDbContext db, TimeProvider clock)
             issues.Add(new ContentIssue(t.FileName, 1,
                 $"Předmět '{t.SubjectSlug}' neexistuje — nahrajte i jeho soubor _predmet.md."));
 
+        var areaSlugs = areas.Select(a => a.Slug).Concat(subjects.Select(s => s.AreaSlug)).Distinct().ToList();
+        var existingAreas = await db.Areas.Where(a => areaSlugs.Contains(a.Slug)).ToDictionaryAsync(a => a.Slug, ct);
+        foreach (var s in subjects.Where(s => !existingAreas.ContainsKey(s.AreaSlug) && areas.All(a => a.Slug != s.AreaSlug)))
+            issues.Add(new ContentIssue(s.FileName, 1,
+                $"Oblast '{s.AreaSlug}' neexistuje — nahrajte i její soubor _oblast.md."));
+
         if (issues.Any(i => i.IsError))
             return new ImportReport(false, dryRun, files.Count, issues, counts);
 
         var now = clock.GetUtcNow().UtcDateTime;
         await using var tx = await db.Database.BeginTransactionAsync(ct);
 
+        foreach (var a in areas)
+        {
+            if (!existingAreas.TryGetValue(a.Slug, out var area))
+            {
+                area = new Area { Slug = a.Slug, Name = a.Name };
+                db.Areas.Add(area);
+                existingAreas[a.Slug] = area;
+                counts.AreasCreated++;
+            }
+            else if (area.Name != a.Name || area.Description != a.Description || area.Order != a.Order)
+            {
+                counts.AreasUpdated++;
+            }
+            else continue;
+
+            area.Name = a.Name;
+            area.Description = a.Description;
+            area.Order = a.Order;
+            area.UpdatedAt = now;
+        }
+        await db.SaveChangesAsync(ct);
+
         foreach (var s in subjects)
         {
+            var area = existingAreas[s.AreaSlug];
             if (!existing.TryGetValue(s.Slug, out var entity))
             {
                 entity = new Subject { Slug = s.Slug, Name = s.Name };
@@ -105,15 +139,21 @@ public sealed class ContentImporter(LearnWebDbContext db, TimeProvider clock)
                 existing[s.Slug] = entity;
                 counts.SubjectsCreated++;
             }
-            else if (entity.Name != s.Name || entity.Goal != s.Goal || entity.Order != s.Order)
+            else if (entity.Name != s.Name || entity.Goal != s.Goal || entity.Order != s.Order || entity.AreaId != area.Id
+                     || entity.ExamQuestions != s.Exam?.Questions || entity.ExamMinutes != s.Exam?.Minutes
+                     || entity.ExamPassPercent != s.Exam?.PassPercent)
             {
                 counts.SubjectsUpdated++;
             }
             else continue;
 
+            entity.Area = area;
             entity.Name = s.Name;
             entity.Goal = s.Goal;
             entity.Order = s.Order;
+            entity.ExamQuestions = s.Exam?.Questions;
+            entity.ExamMinutes = s.Exam?.Minutes;
+            entity.ExamPassPercent = s.Exam?.PassPercent;
             entity.UpdatedAt = now;
         }
         await db.SaveChangesAsync(ct);

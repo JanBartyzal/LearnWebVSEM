@@ -8,3 +8,11 @@ body,
 body {
   -webkit-font-smoothing: antialiased;
 }
+
+/* Odkazy (i react-router Link) v barvách Fluent tématu — čitelné ve světlém i tmavém režimu. */
+a {
+  color: var(--colorBrandForegroundLink);
+}
+a:hover {
+  color: var(--colorBrandForegroundLinkHover);
+}

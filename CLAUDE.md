@@ -1,7 +1,8 @@
 # LearnWeb — instrukce pro Claude
 
-Webová aplikace pro přípravu studenta VŠEM na zkoušky: výukové karty → testové otázky (MCQ) → adaptivní
-opakování (Leitner), hravou formou. Zadání a funkční návrh: [docs/business-analyza-a-navrh.md](docs/business-analyza-a-navrh.md)
+Webová aplikace pro přípravu na zkoušky: výukové karty → testové otázky (MCQ) → adaptivní opakování (Leitner),
+hravou formou. Obsah je rozdělený do **oblastí** (hlavní záložky): **VŠEM** (16 magisterských předmětů) a certifikace
+**TOGAF**, **ArchiMate**, **PRINCE2** (kurzy Foundation a Practitioner). Zadání a funkční návrh: [docs/business-analyza-a-navrh.md](docs/business-analyza-a-navrh.md)
 (§1–2 platí; **technické rozhodnutí v §3 nahrazuje tento soubor**). Osnovy předmětů: `docs/vsem/`.
 
 ## Stack (závazný)
@@ -33,7 +34,10 @@ Nepřidávat jiné UI knihovny (Tailwind, MUI, shadcn…) ani jiný state manage
 3. **Obsah: PostgreSQL = pravda, MD = záloha a vstup.** Formát MD je specifikován v [content/README.md](content/README.md).
    - Import (`ContentImporter`) je atomický, idempotentní upsert; chyby hlásí jako `soubor:řádek: zpráva`; podporuje dry run.
    - **Nic se nemaže** — karty/otázky, které zmizí ze souboru, se archivují (`IsArchived`), aby se neztratil progress.
-   - Identita: předmět = `slug`, téma = (`subject`, `slug`), karta = klíč `{#klic}`, otázka = pořadí v kartě.
+   - Identita: oblast = `slug`, předmět = `slug` (jedinečný napříč oblastmi), téma = (`subject`, `slug`), karta = klíč
+     `{#klic}`, otázka = pořadí v kartě. Předmět se k oblasti váže polem `area` v `_predmet.md`.
+   - Certifikační kurzy mají v `_predmet.md` formát zkoušky (`exam_questions/minutes/pass`); obsah česky s oficiálními
+     anglickými pojmy, vlastní formulace (nepřebírat text standardů ani oficiální zkouškové otázky).
    - Export (`ContentExporter` + `MarkdownContentWriter`) musí být bezztrátový — test round-tripu to hlídá.
    - Při změně formátu upravit **zároveň** parser, writer, `content/README.md`, prompt `Llm/Prompts/topic-draft.md` a testy.
 4. **Stav studenta:** všechny progress tabulky mají `UserId` (MVP = 1, bez autentizace). `AttemptLog` se nikdy nemaže
@@ -52,18 +56,31 @@ backend/
     Program.cs              # DI, migrace + seed prázdné DB z /content při startu
     Data/                   # entity, DbContext (snake_case), Migrations/
     Content/                # MD parser/writer, import, export (ZIP)
-    Engine/                 # Leitner, mastery, výběr otázek (50/30/20), XP a úrovně — čisté funkce
-    Study/                  # StudyService: kvízy, vyhodnocení odpovědí, probrání karty, XP
+    Engine/                 # Leitner, mastery, výběr otázek (50/30/20), denní fronta opakování (ReviewQueue),
+                            #   horká fronta (HotQueue), ContinueRule, zkouška (ExamComposer/ExamScoring),
+                            #   série dní (Streak), odznaky (Badges), XP a úrovně — čisté funkce
+    Study/                  # StudyService (+ .Progress.cs): kvízy, odpovědi, probrání karty, zkouška, seance, odznaky, XP;
+                            #   StatsService (jen čtení), ProgressQueries (sdílené dotazy)
     Llm/                    # LiteLLM klient, návrhy obsahu, Prompts/*.md (embedded)
     Endpoints/              # minimal API: StudyEndpoints (/api/subjects, /api/topics, /api/quiz, /api/answers,
-                            #   /api/cards/{id}/learned, /api/stats/summary), ContentEndpoints (/api/content/*)
+                            #   /api/cards/{id}/learned, /api/stats/summary, /api/review[/summary], /api/continue,
+                            #   /api/exams[/submit], /api/sessions, /api/stats/overview, /api/stats/subjects/{slug}),
+                            #   ContentEndpoints (/api/content/*)
   tests/LearnWeb.Tests/     # xUnit: parser, round-trip, validita content/, engine, výběr otázek, XP
 frontend/
   src/api/                  # client.ts + types.ts (zrcadlí DTO z backend/Endpoints)
-  src/components/           # FlashCard, QuestionCard (klávesy 1–4/Enter), SessionSummary, keyboard.ts…
-  src/pages/                # Home, Subject, Learn (/uceni/:id), Quiz (/procvicovani?tema=|predmet=), Topic (prohlížení), Content
-  nginx.conf                # SPA fallback + proxy /api → backend:8080
+  src/components/           # FlashCard, QuestionCard (klávesy 1–4/Enter), PracticeSession (horká fronta), ContinueCard,
+                            #   charts.tsx (SVG grafy, barvy = tokeny tématu v ThemeProvider), achievements.tsx (odznaky,
+                            #   záznam seance), motion.ts (animace + lepicí lišta akcí na mobilu), pwa.tsx/pwaInstall.ts,
+                            #   crumbs.ts, useDocumentTitle, SessionSummary, keyboard.ts…
+  src/pages/                # Home, Subject, Learn (/uceni/:id), Quiz (/procvicovani?tema=|predmet=),
+                            #   Review (/opakovani?predmet=), Exam (/zkouska/:slug), Stats (/statistiky?predmet=),
+                            #   Topic (prohlížení), Content
+  public/                   # PWA: manifest.webmanifest, sw.js (cachuje jen kostru aplikace, /api nikdy), icons/
+  nginx.conf                # SPA fallback + proxy /api → backend:8080; sw.js/manifest/index.html bez cache
 content/                    # MD záloha obsahu (bind-mount do backendu jako /content:ro)
+  <oblast>/_oblast.md       #   vsem/, togaf/, archimate/, prince2/ — každá oblast: _oblast.md + složky předmětů
+  <oblast>/<předmět>/       #   _predmet.md + NN-tema.md
 litellm/config.yaml         # aliasy modelů → Kilo Gateway
 docs/                       # zadání, BA dokument, osnovy VŠEM
 ```
@@ -116,8 +133,29 @@ Migrace se aplikují automaticky při startu backendu. Prázdná DB se při star
 - [x] **Obsah všech 16 předmětů: 141 témat, 2 763 karet, 5 889 otázek** (po zapracování GAPS 10/2026). Otevřené termíny viz GAPS-terminy.md — po doplnění uživatelem zapracovat.
 - [x] **Fáze 2** — režim Učení (mini-kvíz po 5 kartách), Procvičování (téma/předmět, 10 otázek), `POST /api/quiz`,
       `POST /api/answers`, `POST /api/cards/{id}/learned`, `AttemptLog`, XP + úrovně v hlavičce, re-teach po 3+ chybách.
-- [ ] **Fáze 3** — denní fronta opakování, horká fronta seance, „pokračovat kde jsi skončil".
-- [ ] **Fáze 4** — simulace zkoušky, statistiky, streak, odznaky, úrovně.
-- [ ] **Fáze 5** — zapracování GAPS, UX ladění, PWA.
+- [x] **Fáze 3** — denní fronta opakování (splatné karty, nejdřív chybované; limit 20 karet/předmět/den, seance 20,
+      limit lze vědomě překročit), horká fronta seance (chyba se vrátí na konec seance max. 2×, s jinou otázkou;
+      opakování chyby kartu jen ověří, krabici neposune), „pokračovat kde jsi skončil", CTA na domovské stránce,
+      počet k opakování v hlavičce. „Dnes" = místní čas backendu (`TZ`, výchozí Europe/Prague).
+- [x] **Fáze 4** — zkouška nanečisto (20/25/30 otázek úměrně tématům, volitelný limit 1 min/otázka, bez průběžné
+      zpětné vazby, vyhodnocení s rozpadem po tématech; ≥ 85 % +200 XP; zkouška kartu „neprobírá", chyby jdou do
+      opakování), `StudySession` (dokončené seance → série dní), statistiky (kalendář, odznaky, mastery témat,
+      úspěšnost 30 dní, nejčastější chyby, historie zkoušek), 5 odznaků z BA, série v hlavičce. Grafy vlastní SVG
+      (bez knihoven), barvy ověřené validátorem palet pro světlý i tmavý režim.
+- [x] **Fáze 5 — PWA a UX:** manifest + ikony (i maskovatelná, Apple), vlastní service worker (jen kostra aplikace),
+      „Přidat na plochu", upozornění offline; animace (odhalení karty, zpětná vazba; vypnuté při prefers-reduced-motion),
+      na mobilu lepicí lišta hlavní akce a přejetí prstem v Učení, průběh v Procvičování/Opakování, názvy stránek,
+      doporučené téma podle sylabu, zalamovaná drobečková navigace (žádné vodorovné přetečení na 390 px).
+- [ ] **Fáze 5 — GAPS:** zbylé položky GAPS-terminy.md čekají na skripta VŠEM / zápisky z přednášek.
+
+### Certifikační oblasti (TOGAF, ArchiMate, PRINCE2)
+
+- [x] **Struktura** — entita `Area` + `Subject.AreaId` (migrace `AddAreas` přesunula 16 předmětů pod VŠEM), `kind: area`,
+      formát zkoušky podle certifikace, hlavní záložky na domovské stránce, drobečky Oblast › Předmět › Téma.
+      Kostry: togaf-foundation (10 témat), togaf-practitioner (8), archimate-foundation (10), archimate-practitioner (8),
+      prince2-foundation (13), prince2-practitioner (8) — zatím bez karet.
+- [ ] Obsah: TOGAF (Foundation + Practitioner).
+- [ ] Obsah: ArchiMate (Foundation + Practitioner).
+- [ ] Obsah: PRINCE2 (Foundation + Practitioner).
 
 Každá fáze končí funkčním stavem po `docker compose up`. Nové chování enginu vždy s unit testy.
