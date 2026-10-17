@@ -154,8 +154,12 @@ Migrace se aplikují automaticky při startu backendu. Prázdná DB se při star
       formát zkoušky podle certifikace, hlavní záložky na domovské stránce, drobečky Oblast › Předmět › Téma.
       Kostry: togaf-foundation (10 témat), togaf-practitioner (8), archimate-foundation (10), archimate-practitioner (8),
       prince2-foundation (13), prince2-practitioner (8) — zatím bez karet.
-- [ ] Obsah: TOGAF (Foundation + Practitioner).
-- [ ] Obsah: ArchiMate (Foundation + Practitioner).
+- [x] Obsah: TOGAF (TOGAF Standard 10. vydání) — Foundation 10 témat, 217 karet, 457 otázek; Practitioner 8 témat,
+      126 karet, 285 scénářových otázek (zrecenzováno; názvy sjednoceny na 9.2/10: iterace Architecture Context/Definition/
+      Transition Planning/Governance, Standards Library, Implementation Factor Catalog; rozdíly 9.2 × 10 v GAPS).
+- [x] Obsah: ArchiMate (specifikace 3.2) — Foundation 10 témat, 212 karet, 463 otázek; Practitioner 8 témat, 128 karet,
+      290 scénářových otázek (zrecenzováno; fragmenty modelu jednotným textovým zápisem `Název (Typ) —vztah→ Název (Typ)`,
+      distraktory nesmí být odvozeně platné vztahy; nejistá povolenost vztahů v GAPS).
 - [ ] Obsah: PRINCE2 (Foundation + Practitioner).
 
 Každá fáze končí funkčním stavem po `docker compose up`. Nové chování enginu vždy s unit testy.

@@ -212,3 +212,52 @@ Formát zkoušky nanečisto je v `_predmet.md` (`exam_questions`, `exam_minutes`
 | 🟡 | **ArchiMate 3 Practitioner — formát** | `archimate/archimate-practitioner/_predmet.md` | Nastaveno 8 scénářových otázek, 90 min, 70 % (odstupňované bodování jako u TOGAF Practitioner) | |
 | 🟡 | **PRINCE2 7 Foundation — formát** | `prince2/prince2-foundation/_predmet.md` | Nastaveno 60 otázek, 60 min, 60 % (36/60) | |
 | 🟡 | **PRINCE2 7 Practitioner — formát** | `prince2/prince2-practitioner/_predmet.md` | Nastaveno 70 otázek, 150 min, 60 % (42/70), otevřená příručka | |
+
+## TOGAF — rozdíly mezi vydáními 9.2 a 10
+
+Obsah obou kurzů vychází z TOGAF Standardu 10. vydání (2022). Recenze ověřila fakta proti 9.2 a 10. Následující body
+v 10. vydání jednoznačně doložit nešlo — v obsahu jsou proto formulované opatrně a žádná otázka nestojí na sporné
+variantě. Stačí potvrdit z textu standardu (např. z licence The Open Group nebo z akreditovaného kurzu).
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| 🟡 | **Názvy iterací ADM** | `togaf-foundation/02-adm-prehled` → `{#iteracni-cykly}`; `togaf-practitioner/01-prizpusobeni-adm` → `{#typy-iteraci}` | Použito Architecture Context / Definition / Transition Planning / Governance (9.2+); v 9.1 Architecture Capability / Development. Potvrdit, že 10. vydání nic nemění | |
+| 🟡 | **Standards Library × Standards Information Base** | `togaf-foundation/08-enterprise-continuum` → `{#standards-library}` | Použito Standards Library (9.2); SIB je název z 9.1. Potvrdit název části Architecture Repository v 10. vydání | |
+| 🟡 | **Implementation Factor Catalog** | `togaf-foundation/05-faze-e-f`, `10-techniky-adm`; `togaf-practitioner/03`, `05` → `{#implementation-factors}` | Použito Implementation Factor Catalog (9.2); v 9.1 Implementation Factor Assessment and Deduction matrix. Potvrdit v 10. vydání | |
+| 🟡 | **Business Scenarios jako Series Guide** | `togaf-foundation/01-zakladni-pojmy`, `10-techniky-adm` | V 10. vydání jsou podle všeho mimo Fundamental Content (Series Guide); otázka o Fundamental Content proto stojí na Business Capabilities | |
+| 🟡 | **Draft Architecture Definition Document ve Phase A** | `togaf-foundation/03-preliminary-a` → `{#phase-a-vystupy}` | Že draft ADD vzniká ve Phase A, je doloženo z 9.2; verze dokumentů (v0.1 atd.) se neuvádějí | |
+| 🟡 | **Zařazení technik a průvodců** | `togaf-foundation/09-governance-kapabilita`, `10-techniky-adm` | Zda Architecture Skills Framework, ACMM, Capability-Based Planning a Architecture Patterns jsou v 10. vydání ve Fundamental Content, nebo v Series Guides — karty umístění netvrdí | |
+| 🟡 | **Enterprise Continuum — úrovně** | `togaf-foundation/08-enterprise-continuum` | Zda 10. vydání dál podrobně popisuje čtyři úrovně (Foundation, Common Systems, Industry, Organization-Specific) se stejnými názvy — celé téma na tom stojí | |
+| 🟡 | **Content Metamodel — seskupení entit** | `togaf-foundation/07-obsah-architektury` → `{#core-entity}` | Seskupení (Motivation × Principles, Vision and Requirements) je podle 9.2; 10. vydání mohlo metamodel přeskupit | |
+| 🟡 | **Katalog artefaktů** | `togaf-foundation/07`; `togaf-practitioner/05`, `08` | Zda podrobný seznam artefaktů (Benefits diagram, Project Context, Business Footprint, Data Security diagram…) zůstal ve Fundamental Content, nebo se přesunul do Series Guide | |
+| 🟡 | **Čtyři účely architektury** | `togaf-practitioner/01-prizpusobeni-adm` → `{#ucel-architektury}` | Strategy / Portfolio / Project / Solution Delivery — Fundamental Content, nebo jen Series Guide? | |
+| 🟡 | **Dimenze schopnosti v Capability-Based Planning** | `togaf-practitioner/08-obsah-ve-scenarich` → `{#cbp-prirustky}` | Výčet „lidé, procesy, informace, technologie" je zjednodušení; otázka na přesném výčtu nestojí | |
+| 🟡 | **Velikost Architecture Board** | `togaf-practitioner/02-kapabilita-v-praxi` | Doporučení „4–5 stálých členů, nejvýš 10" je z 9.2 — potvrdit v 10. vydání | |
+
+## ArchiMate — povolenost vztahů a rozdíly 3.1 × 3.2
+
+Obsah obou kurzů vychází ze specifikace ArchiMate 3.2 (2022). Povolenost vztahů tvrdí jen u jasných, běžně používaných
+kombinací. Následující body bez tabulek vztahů (příloha specifikace) jednoznačně ověřit nešlo — v obsahu jsou proto
+formulované opatrně nebo vynechané a otázky na nich nestojí (výjimky jsou označené). Stačí potvrdit ze specifikace
+nebo z akreditovaného kurzu.
+
+| Stav | Termín | Kde (soubor → karta) | Co chybí | Doplnění |
+|---|---|---|---|---|
+| 🟡 | **Principle —realization→ Goal** | `archimate-practitioner/05-strategie-a-motivace-praxe` → `{#motivacni-retezec}` | **Otázka „Ředitel IT vyhlásil zásadu…" na vztahu stojí.** Foundation 08 typ vztahu nepojmenovává. Ověřit v tabulce vztahů 3.2 | |
+| 🟡 | **Odvozování dynamických vztahů** | `archimate-foundation/03-vztahy` → `{#odvozeni-zavislosti}`, `{#valid-vs-potential}` | Použito jen: Triggering/Flow mezi chováním lze zobrazit mezi aktivní strukturou přiřazenou assignmentem. Přesné znění pravidel (valid × potential) ve 3.2, řetězení triggering/flow | |
+| 🟡 | **Course of Action — aspekt a vztahy** | `archimate-foundation/08-strategy-motivation` → `{#course-of-action}`; `archimate-practitioner/05` | Typ vztahů ke Capability, Resource, Goal, Outcome neuveden | |
+| 🟡 | **Mezivrstvové dynamické vztahy** | `archimate-practitioner/04-napric-vrstvami` → `{#automatizace-procesu}` | Triggering/Flow mezi Application a Business behavior — v obsahu jen distraktor odmítnutý významově, ne jako zakázaný | |
+| 🟡 | **Access přes vrstvy a od aktivní struktury** | `archimate-foundation/03`, `07`; `archimate-practitioner/04` → `{#access-vrstva}` | Business Process —access→ Data Object / Artifact; access od komponenty/role učíme jako odvozenou zkratku | |
+| 🟡 | **Realizace mezi vrstvami** | `archimate-foundation/07-vazby-vrstev`; `archimate-practitioner/04` | Technologické chování / Node —realization→ aplikační chování / Application Service (3.1+?); Artifact —realization→ Business Object přímo; Application Interface —realization→ Business Interface | |
+| 🟡 | **Physical elements** | `archimate-foundation/06-technology-layer` → `{#equipment}`, `{#facility}`, `{#distribution-network}`, `{#material}` | Equipment/Facility jako specializace Node; vztah Facility–Equipment; Distribution Network —realization→ Path; zda Material zahrnuje energii | |
+| 🟡 | **Path × Node, Device × System Software** | `archimate-foundation/06`; `archimate-practitioner/03` → `{#path-network}`, `{#node-kompozit}` | Vztah Path ↔ Node (association × aggregation); Device —assignment→ System Software; System Software —assignment→ System Software | |
+| 🟡 | **Composition — jeden celek** | `archimate-foundation/03` → `{#composition}`; `archimate-practitioner/07` | Zda 3.2 výslovně říká, že část patří jen do jednoho celku (sdílený životní cyklus) | |
+| 🟡 | **Junction a vnoření** | `archimate-foundation/03` → `{#junction}`, `{#vnoreni}`; `archimate-practitioner/07` | S kterými vztahy smí být Junction; Or Junction inkluzivní × výlučné; které vztahy lze vyjádřit vnořením | |
+| 🟡 | **Collaboration a Interaction** | `archimate-foundation/04`, `05`; `archimate-practitioner/01`, `03` | Smí být interakce přiřazena více prvkům i bez Collaboration (změna 3.1 → 3.2)? | |
+| 🟡 | **Product a Contract** | `archimate-foundation/04` → `{#product}`; `archimate-practitioner/01` | Co dalšího smí Product agregovat (chování, aktivní struktura, Technology Service); composition × aggregation | |
+| 🟡 | **Value Stream** | `archimate-foundation/08` → `{#value-stream}`; `archimate-practitioner/05` → `{#value-stream-kdy}` | Zápis fází (composition), pořadí fází (triggering/flow), přiřazení Actor/Role k fázi | |
+| 🟡 | **Implementation & Migration — vztahy** | `archimate-foundation/09-implementation-migration` → `{#deliverable}`, `{#plateau}` | Deliverable —realization→ Plateau; Work Package —realization→ Core prvky; Implementation Event k Deliverable/Plateau; vazby I&M na Requirement | |
+| 🟡 | **Location, Plateau, Gap v metamodelu** | `archimate-foundation/02-struktura-jazyka` → `{#location}`; `09` → `{#prehled-prvku}` | Location jako „Other" × kompozitní prvek; Plateau jako kompozitní prvek? | |
+| 🟡 | **Profily a specializace** | `archimate-foundation/10-viewpointy` → `{#specializace}` | Pravidlo, že specializace nepřidává vztahy; druhy profilů | |
+| 🟡 | **Obsah příkladových viewpointů** | `archimate-foundation/10`; `archimate-practitioner/08` | Přesný seznam prvků (např. Project viewpoint s Implementation Event / Goal, Migration s Gaps) a stakeholdeři úrovní Details/Coherence/Overview — popsáno typicky, ne výčtem | |
+| 🟡 | **Verze a zkouška** | `archimate-foundation/01-uvod-a-pojmy` → `{#verze-standardu}` | Existuje novější verze než 3.2 a z které vychází aktuální zkouška? | |
